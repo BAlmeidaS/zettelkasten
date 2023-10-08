@@ -1,0 +1,1 @@
+another name for [[Dijkstra's algorithm]]

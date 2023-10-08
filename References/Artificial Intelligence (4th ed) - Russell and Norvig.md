@@ -15,7 +15,7 @@ https://aimacode.github.io/aima-exercises/
 - [[Best-first search]]
 - Uninformed search
 	- [[Breadth-first search]]
-	- [[Dijkstra's algorithm]] ([[Uniform-cost search]])
+	- [[Dijkstra's algorithm]] ([[Uniform-Cost search]])
 	- [[Depth-first search]]
 	- [[Iterative-deepening search]]
 	- [[Bidirectional search]]

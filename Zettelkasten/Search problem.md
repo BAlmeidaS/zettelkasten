@@ -10,3 +10,5 @@ A performance can be measured in four ways:
 - [[Cost optimality]]
 - [[Time complexity]]
 - [[Space complexity]]
+
+Search problems are over graphs, they can be 
