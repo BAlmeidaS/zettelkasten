@@ -11,7 +11,7 @@ Exercises:
 https://aimacode.github.io/aima-exercises/
 # Chapter 3 - Solving problems by searching
 
-- Divides [[search problem]]s into two types: [[Uninformed Search]] and [[Informed Search]]
+- Divides [[Search problem]]s into two types: [[Uninformed Search]] and [[Informed Search]]
 - [[Best-first search]]
 - Uninformed search
 	- [[Breadth-first search]]

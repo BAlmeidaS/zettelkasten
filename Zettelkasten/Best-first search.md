@@ -4,4 +4,4 @@ From which node, we choose a next node, by the minimum value of some evaluation 
 
 ![[Pasted image 20231008184821.png]]
 
-Note that the evaluation of the node (when it will be visited) happens on the POP not on the PUSH (Expand) -> Line 7
+[[Late Goal Test]] -> Line 7
