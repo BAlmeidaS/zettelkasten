@@ -1,0 +1,1 @@
+The algorithm is guaranteed to find a solution and if not it reports an error

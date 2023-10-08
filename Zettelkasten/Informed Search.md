@@ -1,0 +1,1 @@
+Is a set of algorithms to solve a [[search problem]]. They are informed because uses domain-specific hints about the location of the goal from the states. The hints come from [[Heuristic]]s

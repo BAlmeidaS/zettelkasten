@@ -1,8 +1,19 @@
+### Online Content
+http://aima.cs.berkeley.edu/
+
+Python code:
+https://github.com/aimacode/aima-python
+
+Pseudo code:
+http://aima.cs.berkeley.edu/algorithms.pdf
+
+Exercises:
+https://aimacode.github.io/aima-exercises/
 # Chapter 3 - Solving problems by searching
 
 - Divides [[search problem]]s into two types: [[Uninformed Search]] and [[Informed Search]]
+- [[Best-first search]]
 - Uninformed search
-	- [[Best-first search]]
 	- [[Breadth-first search]]
 	- [[Dijkstra's algorithm]] ([[Uniform-cost search]])
 	- [[Depth-first search]]

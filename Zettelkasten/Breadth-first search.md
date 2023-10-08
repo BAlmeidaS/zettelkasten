@@ -1,0 +1,2 @@
+An [[Uninformed Search]] algorithm
+
