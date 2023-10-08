@@ -1,6 +1,6 @@
 # Chapter 3 - Solving problems by searching
 
-- Divides search in two types: [[Uninformed Search]] and [[Informed Search]]
+- Divides [[search problem]]s into two types: [[Uninformed Search]] and [[Informed Search]]
 - Uninformed search
 	- [[Best-first search]]
 	- [[Breadth-first search]]
@@ -14,6 +14,6 @@
 	- [[Recursive best-first search]] ([[RBFS]])
 - [[Memory-bound searches]]
 - Heuristic performance:
-	- [[Admissible]] and [[Consistency]]
+	- [[Admissible]] and [[Consistent]]
 	- Generating heuristic from [[Relaxed problems]]
 	- [[Effective branching factor]]
