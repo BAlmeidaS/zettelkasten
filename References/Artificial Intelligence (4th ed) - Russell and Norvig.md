@@ -12,6 +12,9 @@ Chapter 3 - Solving problems by searching
 	- [[Greedy Best-first search]]
 	- [[A* search]]
 	- [[Recursive best-first search]] ([[RBFS]])
+- [[Memory-bound searches]]
 - Heuristic performance:
+	- [[Admissible]] and [[Consistency]]
 	- Generating heuristic from [[Relaxed problems]]
+	- [[Effective branching factor]]
 	 
