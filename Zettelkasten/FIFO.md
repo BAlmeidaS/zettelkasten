@@ -2,4 +2,9 @@ First In First Out
 
 A "queue" by definition
 
-![[Pasted image 20231008201221.png|500]]
+![[Pasted image 20231008201221.png|400]]
+
+| function | complexity |
+| -------- | ---------- |
+| Add      | $\Large O(1)$ |
+| Remove   | $\Large O(1)$ |

@@ -1,0 +1,1 @@
+Maximum number of successors of any node

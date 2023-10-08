@@ -11,4 +11,4 @@ A performance can be measured in four ways:
 - [[Time complexity]]
 - [[Space complexity]]
 
-Search problems are over graphs, they can be 
+In order to compute time and space complexity, search problems on AI tend to work with [[Implicit graphs]] rather than [[explicit graphs]]

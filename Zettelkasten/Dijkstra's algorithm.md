@@ -8,7 +8,8 @@ Can be implemented as a [[Best-first search]] using the [[path-cost]] as the eva
 | [[Cost optimality]]? | Yes |
 | [[Time complexity]] | $\displaystyle \Large O(b^{\lfloor1+C^\star/\epsilon\rfloor})$ |
 | [[Space complexity]] | $\displaystyle \Large O(b^{\lfloor1+C^\star/\epsilon\rfloor})$ |
-$\large b$ is the [[branch factor]]
+$\large b$ is the [[branching factor]]
 $\large C^\star$ is the cost of the optimal path
+
 
 ![[Pasted image 20231008202637.png]]
