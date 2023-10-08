@@ -1,4 +1,4 @@
-Chapter 3 - Solving problems by searching
+# Chapter 3 - Solving problems by searching
 
 - Divides search in two types: [[Uninformed Search]] and [[Informed Search]]
 - Uninformed search
@@ -17,4 +17,3 @@ Chapter 3 - Solving problems by searching
 	- [[Admissible]] and [[Consistency]]
 	- Generating heuristic from [[Relaxed problems]]
 	- [[Effective branching factor]]
-	 
