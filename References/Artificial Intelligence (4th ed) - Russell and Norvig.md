@@ -14,16 +14,17 @@ https://aimacode.github.io/aima-exercises/
 - Divides [[Search problem]]s into two types: [[Uninformed Search]] and [[Informed Search]]
 - [[Best-first search]]
 - Uninformed search
-	- [[Breadth-first search]]
+	- [[Breadth-first search - BFS]]
 	- [[Dijkstra's algorithm]] ([[Uniform-Cost search]])
-	- [[Depth-first search]]
+	- [[Depth-first search - DFS]]
 	- [[Iterative-deepening search]]
 	- [[Bidirectional search]]
 - Informed search - Heuristic search
 	- [[Greedy Best-first search]]
 	- [[A* search]]
-	- [[Recursive best-first search]] ([[RBFS]])
+	- [[Weighted A* search]]
 - [[Memory-bound searches]]
+	- [[Recursive best-first search]] ([[RBFS]])
 - [[Good heuristics in search space]]:
 	- [[Admissible Heuristic]] and [[Consistent Heuristic]]
 	- Generating heuristic from [[Relaxed problems]]

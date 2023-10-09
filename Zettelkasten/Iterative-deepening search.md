@@ -1,6 +1,6 @@
 An [[Uninformed Search]] algorithm
 
-It is an enhancement of [[Depth-first search]]. It solves the problem of completeness and cost optimally. How? Adding a depth limit to search, called $\large l$ , it goes till $\large l$ and considers that the "bottom" of the graph.
+It is an enhancement of [[Depth-first search - DFS]]. It solves the problem of completeness and cost optimally. How? Adding a depth limit to search, called $\large l$ , it goes till $\large l$ and considers that the "bottom" of the graph.
 
 It is *iterative*, because the idea is to interactively adding l + 1 and running again and again the algorithm. The top part of the search tree will be checked many times but asymptotically the big O for time complexity is the same of the DFS.
 
