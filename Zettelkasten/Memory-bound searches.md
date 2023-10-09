@@ -3,4 +3,4 @@ The main issue of [[A* search]] is that it uses a lot of memory. Memory-bound se
 Examples are:
 - [[Beam Search]]
 - [[Iterative-deepening A* search - IDA*]]
-- [[Recursive best-first search]]
+- [[Recursive best-first search - RBFS]]

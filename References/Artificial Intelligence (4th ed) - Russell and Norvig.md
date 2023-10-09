@@ -24,7 +24,8 @@ https://aimacode.github.io/aima-exercises/
 	- [[A* search]]
 	- [[Weighted A* search]]
 - [[Memory-bound searches]]
-	- [[Recursive best-first search]] ([[RBFS]])
+	- [[Recursive best-first search - RBFS]]
+	- A bidirectional heuristic search is described but I decided to not add
 - [[Good heuristics in search space]]:
 	- [[Admissible Heuristic]] and [[Consistent Heuristic]]
 	- Generating heuristic from [[Relaxed problems]]
