@@ -1,3 +1,4 @@
-created: {{date}}
+ -----
+last update: {{date:DD-MM-YYYY}}
 tags:
 

@@ -1,6 +1,6 @@
 An [[Uninformed Search]] algorithm
 
-It expands the search layer by layer. 
+It expands the search layer by layer.
 
 It expands the search contours as the perimeter of a circle. It is super memory heavy (space complexity exponential)
 
@@ -22,3 +22,7 @@ $\large d$ is the depth of the shallowest solution
 
 
 ![[Pasted image 20231008200453.png]]
+
+---
+last update: 09-10-2023
+tags:

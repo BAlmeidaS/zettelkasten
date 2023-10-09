@@ -14,3 +14,7 @@ $\large d$ is the depth of the shallowest solution
 ![[Pasted image 20231009022312.png]]
 
 ![[Pasted image 20231009022720.png]]
+
+---
+last update: 09-10-2023
+tags:

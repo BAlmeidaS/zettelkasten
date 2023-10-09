@@ -2,3 +2,7 @@ Explicit graphs defined with all the vertices and edges, like a known map. The s
 
 $|V|$  is the number of vertices
 $|E|$  is the number of edges
+
+---
+last update: 09-10-2023
+tags:

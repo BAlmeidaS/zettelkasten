@@ -1,4 +1,4 @@
-A special kind of [[List]] 
+A special kind of [[List]]
 
 First In First Out
 
@@ -10,3 +10,7 @@ A "queue" by definition
 | -------- | ---------- |
 | Add      | $\Large O(1)$ |
 | Remove   | $\Large O(1)$ |
+
+---
+last update: 09-10-2023
+tags:
