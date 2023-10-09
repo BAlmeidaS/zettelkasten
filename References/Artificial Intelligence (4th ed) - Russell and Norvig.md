@@ -24,7 +24,7 @@ https://aimacode.github.io/aima-exercises/
 	- [[A* search]]
 	- [[Recursive best-first search]] ([[RBFS]])
 - [[Memory-bound searches]]
-- Heuristic performance:
-	- [[Admissible]] and [[Consistent]]
+- [[Good heuristics in search space]]:
+	- [[Admissible Heuristic]] and [[Consistent Heuristic]]
 	- Generating heuristic from [[Relaxed problems]]
 	- [[Effective branching factor]]
