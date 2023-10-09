@@ -14,7 +14,7 @@ It uses a [[FIFO]] queue
 | [[Cost optimality]]? | Yes |
 | [[Time complexity]] | $\Large O(b^d)$ |
 | [[Space complexity]] | $\Large O(b^d)$ |
-$\large b$ is the [[branch factor]]
+$\large b$ is the [[branching factor]]
 $\large d$ is the depth of the shallowest solution
 
 
