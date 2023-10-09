@@ -2,4 +2,8 @@ A problem with less restrictions on the axis is called a relaxed problem. The st
 
 Any *optimal solution in the original problem*, is, also just a *solution in the relaxed problem*.
 
-The cost of an optimal solution to a relaxed problem is an [[Admissible Heuristic]] for the original problem
+The cost of an optimal solution to a relaxed problem is an [[Admissible Heuristic]] for the original problem.
+
+---
+last update: 09-10-2023
+tags:
