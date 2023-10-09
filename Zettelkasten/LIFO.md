@@ -1,3 +1,5 @@
+A special kind of [[List]] 
+
 Last In First Out
 
 A "stack" by definition

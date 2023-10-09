@@ -1,3 +1,5 @@
+A special kind of [[List]] 
+
 First In First Out
 
 A "queue" by definition
