@@ -1,0 +1,1 @@
+ A function that employs a practical method that is not not optimal or perfect, but can achieve good results or approximation in a search space
