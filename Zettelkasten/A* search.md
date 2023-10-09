@@ -11,16 +11,15 @@ It uses [[Priority Queue]] in its implementation
 | Criterion | BFS |
 | --------- | --- |
 | [[Completeness]]? | Yes, in finite spaces |
-| [[Cost optimality]]? | Yes, if heuristic is at least [[Admissible Heuristic]] |
-| [[Time complexity]] | $\Large O(\lvert V \rvert)$, with [[Good heuristics in search space]]: $\Large O(b*m)$|
-| [[Space complexity]] | $\Large O(\lvert V\rvert)$, with [[Good heuristics in search space]]: $\Large O(b*m)$|
+| [[Cost optimality]]? | Yes, if heuristic is [[Admissible Heuristic]] |
+| [[Time complexity]] | $\Large O(b^d)$ |
+| [[Space complexity]] | $\Large O(b^d)$ |
 $\large b$ is the [[branching factor]]
-$\large m$ is the maximum depth of the search tree
+$\large d$ is the depth of the shallowest solution
 
+With inadmissible heuristic, A* may or may not be cost-optimal - condition on last paragraph of 3.5.2 from Norvig's book.
 
-
-
-![[Pasted image 20231009093705.png]]
+![[Pasted image 20231009100751.png]]
 
 ---
 last update: 09-10-2023

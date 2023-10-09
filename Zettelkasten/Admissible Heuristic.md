@@ -1,3 +1,3 @@
-Heuristic that never overestimates the cost to reach a goal. "optimistic heuristic".
+[[Heuristic]] that never overestimates the cost to reach a goal. "optimistic heuristic".
 
-$\Large 
+$\Large Admissible\ Heuristic(n) \le Total\ Cost(from:\ n, to: goal)$
