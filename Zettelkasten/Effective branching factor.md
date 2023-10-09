@@ -11,7 +11,7 @@ The solution has two good approximations:
 if $\large b^*$ is a large value:
 $$\displaystyle \Huge b^* \approx N^{\tfrac{1}{d}}$$
 
-if $\large b^*$ is small (close to 1) - [[sum of geometric series]]
+The precise value is the [[sum of geometric series]]
 $$\displaystyle \Huge N + 1 = \dfrac{1 - (b^*)^{d+1}}{1 - b^*}$$
 
 ---
