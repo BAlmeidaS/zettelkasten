@@ -2,7 +2,7 @@
 - [[Best-first search]]
 - Uninformed search
 	- [[Breadth-first search - BFS]]
-	- [[Dijkstra's algorithm - Uniform-cost Search]] ([[Uniform-Cost search]])
+	- [[Dijkstra's algorithm - Uniform-cost Search]] 
 	- [[Depth-first search - DFS]]
 	- [[Iterative-deepening search]]
 	- [[Bidirectional search]]
