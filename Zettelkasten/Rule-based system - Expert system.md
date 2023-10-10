@@ -4,7 +4,7 @@ Expert systems are built to perform at a human expert level in a **narrow, speci
 
 They use [[Heuristic]]s to guide the reasoning and reduce search area.
 
-They are have a high [[explainability]].
+They have a high [[explainability]].
 
 Usually they have the knowledge separated from its processing (Inference engine and Knowledge base are isolated) - There are a couple of [[Chaining Inference techniques]]
 
