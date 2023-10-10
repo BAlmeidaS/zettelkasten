@@ -8,6 +8,7 @@ They have a high [[explainability]].
 
 Usually they have the knowledge separated from its processing (Inference engine and Knowledge base are isolated) - There are a couple of [[Chaining Inference techniques]]
 
+This is a common shell of a expert system:
 ![[Pasted image 20231010001057.png|600]]
 
 [[Conventional Programs vs rule-based systems]]
