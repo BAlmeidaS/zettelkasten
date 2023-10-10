@@ -13,6 +13,3 @@ A "stack" by definition
 | -------- | ---------- |
 | Add      | $\Large O(1)$ |
 | Remove   | $\Large O(1)$ |
-
----
-last update: 09-10-2023

@@ -1,5 +1,6 @@
 ---
 tags:
+  - Russel-n-Norvig-chap-3
 ---
 An [[Uninformed Search]] algorithm
 
@@ -17,6 +18,3 @@ $\large C^\star$ is the cost of the optimal path
 It uses [[Priority Queue]] in its implementation
 
 ![[Pasted image 20231008202637.png]]
-
----
-last update: 09-10-2023

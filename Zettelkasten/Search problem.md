@@ -1,3 +1,7 @@
+---
+tags:
+  - Russel-n-Norvig-chap-3
+---
 - state
 - action
 - [[Goal test]]
@@ -14,7 +18,3 @@ A performance can be measured in four ways:
 - [[Space complexity]]
 
 In order to compute time and space complexity, search problems on AI tend to work with [[Implicit graphs]] rather than [[explicit graphs]]
-
----
-last update: 09-10-2023
-tags:

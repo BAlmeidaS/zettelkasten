@@ -1,5 +1,6 @@
 ---
 tags:
+  - Russel-n-Norvig-chap-3
 ---
 [[Breadth-first search - BFS]] vs [[Depth-first search - DFS]]
 

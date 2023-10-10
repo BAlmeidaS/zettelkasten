@@ -1,5 +1,6 @@
 ---
 tags:
+  - Russel-n-Norvig-chap-3
 ---
 What [[Iterative-deepening search]] is to [[Depth-first search - DFS]], IDA* is to [[A* search]]
 

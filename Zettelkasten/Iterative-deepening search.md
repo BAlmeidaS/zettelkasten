@@ -1,5 +1,6 @@
 ---
 tags:
+  - Russel-n-Norvig-chap-3
 ---
 An [[Uninformed Search]] algorithm
 
@@ -23,6 +24,3 @@ $\large l$ is the depth limit
 ![[dfs.gif|300]]
 
 ![[Pasted image 20231009021334.png]]
-
----
-last update: 09-10-2023

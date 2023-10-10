@@ -1,5 +1,6 @@
 ---
 tags:
+  - Russel-n-Norvig-chap-3
 ---
 An [[Uninformed Search]] algorithm
 
@@ -27,6 +28,3 @@ $\large m$ is the maximum depth of the search tree
 ![[dfs.gif|300]]
 
 pseudo-code on [[Iterative-deepening search]] disregarding the $\large l$
-
----
-last update: 09-10-2023

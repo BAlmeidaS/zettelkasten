@@ -1,5 +1,6 @@
 ---
 tags:
+  - Russel-n-Norvig-chap-3
 ---
 One can say that [[Rule-based system - Expert system]] are good because:
 1. They present a *Natural knowledge representation*. Like a person will explain.

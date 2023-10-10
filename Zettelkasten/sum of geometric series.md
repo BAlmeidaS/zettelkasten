@@ -1,3 +1,6 @@
+---
+tags:
+---
 The sum of a geometric series with $\large n$-ths terms:
 
 
@@ -14,7 +17,3 @@ $$\displaystyle \Huge
 \end{cases}
 $$
 
-
----
-last update: 09-10-2023
-tags:

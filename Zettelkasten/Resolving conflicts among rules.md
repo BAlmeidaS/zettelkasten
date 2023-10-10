@@ -1,3 +1,7 @@
+---
+tags:
+  - Negnevistky-chap-2
+---
 It is common in [[Rule-based system - Expert system]] that we end up in a conflict resolution, which means, with the same input we have more than one possible outcome.
 
 ![[Pasted image 20231010020840.png|300]]

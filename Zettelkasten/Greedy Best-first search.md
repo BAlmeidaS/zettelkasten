@@ -1,5 +1,6 @@
 ---
 tags:
+  - Russel-n-Norvig-chap-3
 ---
 An [[Informed Search]] algorithm.
 
@@ -20,6 +21,3 @@ $\large m$ is the maximum depth of the search tree
 
 
 ![[Pasted image 20231009093705.png]]
-
----
-last update: 09-10-2023

@@ -1,5 +1,6 @@
 ---
 tags:
+  - Russel-n-Norvig-chap-3
 ---
 An [[Uninformed Search]] algorithm
 
@@ -25,6 +26,3 @@ $\large d$ is the depth of the shallowest solution
 
 
 ![[Pasted image 20231008200453.png]]
-
----
-last update: 09-10-2023

@@ -1,5 +1,6 @@
 ---
 tags:
+  - Russel-n-Norvig-chap-3
 ---
 Also named as $\large b^*$
 
@@ -19,7 +20,3 @@ $$\displaystyle \Huge N + 1 = \dfrac{1 - (b^*)^{d+1}}{1 - b^*}$$
 
 ---
 ref: https://stackoverflow.com/a/71515346/3692586
-
-
----
-last update: 09-10-2023

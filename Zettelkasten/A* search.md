@@ -2,8 +2,6 @@
 tags:
   - Russel-n-Norvig-chap-3
 ---
-
-
 An [[Informed Search]] algorithm.
 
 It is a [[Best-first search]] that uses as evaluation function:
@@ -26,7 +24,3 @@ $\large d$ is the depth of the shallowest solution
 With inadmissible heuristic, A* may or may not be cost-optimal - condition on last paragraph of 3.5.2 from Norvig's book.
 
 ![[Pasted image 20231009100751.png]]
-
----
-last update: 09-10-2023
-tags:

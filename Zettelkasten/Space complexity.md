@@ -1,5 +1,5 @@
-The [[Big-O]] of how much memory the algorithm uses to give an answer
-
 ---
-last update: 09-10-2023
 tags:
+  - Russel-n-Norvig-chap-3
+---
+The [[Big-O]] of how much memory the algorithm uses to give an answer

@@ -16,6 +16,3 @@ This is a common shell of a expert system:
 ![[Pasted image 20231010001057.png|600]]
 
 [[Conventional Programs vs rule-based systems]]
-
----
-last update: 10-10-2023
