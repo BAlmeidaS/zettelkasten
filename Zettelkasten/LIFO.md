@@ -1,3 +1,6 @@
+---
+tags:
+---
 A special kind of [[List]]
 
 Last In First Out
@@ -13,4 +16,3 @@ A "stack" by definition
 
 ---
 last update: 09-10-2023
-tags:

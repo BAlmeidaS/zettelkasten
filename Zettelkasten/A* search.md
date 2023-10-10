@@ -1,3 +1,9 @@
+---
+tags:
+  - Russel-n-Norvig-chap-3
+---
+
+
 An [[Informed Search]] algorithm.
 
 It is a [[Best-first search]] that uses as evaluation function:

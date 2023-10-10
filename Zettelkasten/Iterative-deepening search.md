@@ -1,3 +1,6 @@
+---
+tags:
+---
 An [[Uninformed Search]] algorithm
 
 [[Depth-first search - DFS]] with steroids!
@@ -23,4 +26,3 @@ $\large l$ is the depth limit
 
 ---
 last update: 09-10-2023
-tags:

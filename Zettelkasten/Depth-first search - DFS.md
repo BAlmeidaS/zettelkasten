@@ -1,3 +1,6 @@
+---
+tags:
+---
 An [[Uninformed Search]] algorithm
 
 It expands the search in depth till it finds the last one, than it returns for the others not explored
@@ -27,4 +30,3 @@ pseudo-code on [[Iterative-deepening search]] disregarding the $\large l$
 
 ---
 last update: 09-10-2023
-tags:

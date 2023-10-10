@@ -1,3 +1,6 @@
+---
+tags:
+---
 An [[Uninformed Search]] algorithm
 
 It expands the search layer by layer.
@@ -25,4 +28,3 @@ $\large d$ is the depth of the shallowest solution
 
 ---
 last update: 09-10-2023
-tags:

@@ -1,3 +1,7 @@
+---
+tags:
+  - Russel-n-Norvig-chap-3
+---
 An algorithm that can be [[Uninformed Search]] or [[Informed Search]]
 
 From which node, we choose a next node, by the minimum value of some evaluation function. Based on this evaluation function it will be informed or uninformed.

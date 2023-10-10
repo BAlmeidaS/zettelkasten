@@ -1,3 +1,6 @@
+---
+tags:
+---
 One can say that [[Rule-based system - Expert system]] are good because:
 1. They present a *Natural knowledge representation*. Like a person will explain.
 2. *Uniform structure*. All of them are in this IF-THEN structure, easily accessed.

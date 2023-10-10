@@ -1,3 +1,6 @@
+---
+tags:
+---
 An [[Informed Search]] algorithm.
 
 It is a [[Best-first search]] that uses as evaluation function with the heuristic:
@@ -20,4 +23,3 @@ $\large m$ is the maximum depth of the search tree
 
 ---
 last update: 09-10-2023
-tags:

@@ -1,3 +1,6 @@
+---
+tags:
+---
 A special kind of [[List]]
 
 First In First Out
@@ -13,4 +16,3 @@ A "queue" by definition
 
 ---
 last update: 09-10-2023
-tags:

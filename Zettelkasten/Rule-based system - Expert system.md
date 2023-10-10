@@ -1,3 +1,7 @@
+---
+tags:
+  - Negnevistky-chap-2
+---
 A system created with previous knowledge of "expert"s to achieve a goal. The Idea is an implementation of many "if"s representing the knowledge.
 
 Expert systems are built to perform at a human expert level in a **narrow, specialised domain**.
@@ -15,4 +19,3 @@ This is a common shell of a expert system:
 
 ---
 last update: 10-10-2023
-tags:

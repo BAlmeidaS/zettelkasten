@@ -1,3 +1,6 @@
+---
+tags:
+---
 The inference engine compares each rule stored in the database. When the IF part of the rule matches a fact, the rule is **fired** and its ACTION (THEN) is executed.
 
 Inference chain is the process to apply many rules in order to reach a conclusion.

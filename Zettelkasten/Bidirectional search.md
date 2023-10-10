@@ -1,3 +1,6 @@
+---
+tags:
+---
 An [[Uninformed Search]] algorithm
 
 The Idea is starting a search from the start and from the goal, and see when they touch each other. Usually you search in each side a [[Uninformed Search]], but you can start as well any [[Informed Search]] as well.
@@ -17,4 +20,3 @@ $\large d$ is the depth of the shallowest solution
 
 ---
 last update: 09-10-2023
-tags:

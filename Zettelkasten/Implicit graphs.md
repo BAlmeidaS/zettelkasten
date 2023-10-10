@@ -1,3 +1,6 @@
+---
+tags:
+---
 Usually in AI, graphs are represented implicitly only by its initial state, actions and transition model.
 
 Complexity will be defined in terms of:
@@ -7,4 +10,3 @@ Complexity will be defined in terms of:
 
 ---
 last update: 09-10-2023
-tags:

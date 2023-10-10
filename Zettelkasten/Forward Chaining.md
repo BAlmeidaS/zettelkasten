@@ -1,3 +1,6 @@
+---
+tags:
+---
 The data-driven reasoning.
 
 The reasoning starts from the known data and proceeds forward with that data.
