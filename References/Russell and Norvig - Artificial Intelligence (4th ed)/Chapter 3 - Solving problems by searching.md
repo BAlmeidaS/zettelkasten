@@ -17,8 +17,3 @@
 	- [[Admissible Heuristic]] and [[Consistent Heuristic]]
 	- Generating heuristic from [[Relaxed problems]]
 	- [[Effective branching factor]]
-
- 
----
-last update: 09-10-2023
-tags:
