@@ -13,6 +13,7 @@ https://aimacode.github.io/aima-exercises/
 ## Chapters
 
 [[Chapter 3 - Solving problems by searching]]
+[[Chapter 12 - Quantifying Uncertainty]]
 
 ---
 last update: 10-10-2023
