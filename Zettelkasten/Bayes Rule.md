@@ -21,6 +21,8 @@ P(b \mid a) &=& \dfrac{P(a \mid b)}{P(a)} * P(b) \\
 
 Bayes rules is derived from [[Conditional probability]]
 
+[[General Bayes rule]]
+
 ---
 
 The correct way to write in English is *Bayes' rule*

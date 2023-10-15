@@ -1,3 +1,8 @@
+---
+tags:
+  - Russel-n-Norvig-chap-12
+---
+
 Also called **unconditional**
 
 In a [[Joint Probability Distribution]] with many random variables, the probability of an event $\displaystyle \large \omega$ from one [[Random Variable]] $\displaystyle \large X_i$ happened, regardless the other random variables:
