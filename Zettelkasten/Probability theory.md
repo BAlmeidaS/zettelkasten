@@ -15,3 +15,5 @@ $$\displaystyle \Large \text{$F$ is the event space}$$
 $$\displaystyle \Huge P(\bigcup\limits^{\infty}_{i=1}E_i) = \sum^{\infty}_{i=1}P(E_i)$$
 $$\displaystyle \large \text{for 2 disjoint events:}$$
 $$\displaystyle \large \text{If $A \cap B = \emptyset$,\ \ \ then}\ \ P(A \cup B) = P(A) + P(B)$$
+
+[[Kolmogorov's axioms]]

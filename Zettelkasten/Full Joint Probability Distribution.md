@@ -1,0 +1,1 @@
+A *complete* probability model is determined by the [[Joint Probability Distribution]] for all the random variables.
