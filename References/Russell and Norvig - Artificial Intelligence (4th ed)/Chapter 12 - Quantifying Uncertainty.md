@@ -1,6 +1,5 @@
- - [[Decision theory]]:
-	 - [[Probability theory]]
-	 - [[Utility theory]]
-
+- [[Probability theory]]
+	- [[Utility theory]]
+	- [[Decision theory]]
 
  
