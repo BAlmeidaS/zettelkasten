@@ -13,4 +13,4 @@
 - [[Probabilistic Inference]]
 - [[Probability Independence]]
 - [[Conditional Independence]]
-- [[Naive Bayes]]
+- [[Naive Bayes]] -> [[Naive Bayes is overconfident]]
