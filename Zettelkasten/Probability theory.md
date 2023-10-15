@@ -2,8 +2,7 @@
 tags:
   - Russel-n-Norvig-chap-12
 ---
-
-The tools to deal with degrees of beliefs - or to the uncertain about facts
+The tool to deal with degrees of beliefs - or to the uncertain about facts
 
 Defined with 3 axioms:
 

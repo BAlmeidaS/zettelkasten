@@ -3,7 +3,7 @@
 	- [[Decision theory]]
 	- [[Prior]]
 	- [[Posterior]]
-- con
+	- [[Conditional probability]]
 - [[Bayes Rule]]
 
  

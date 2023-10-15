@@ -1,5 +1,6 @@
 ---
 tags:
+  - Russel-n-Norvig-chap-12
 ---
 The probability [[Proposition]] $\Large \omega$ given *evidence* 
 $$\Huge P(\omega \mid evidence)$$
