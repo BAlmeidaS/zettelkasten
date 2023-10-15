@@ -7,3 +7,4 @@
 - [[Bayes Rule]]
 - [[Joint Probability Distribution]]
 	- [[Full Joint Probability Distribution]]
+- [[Probabilistic Inference]]

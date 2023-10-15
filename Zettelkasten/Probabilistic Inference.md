@@ -1,0 +1,1 @@
+The computation of [[Posterior]] probabilities for *query* [[Proposition]]s given observed *evidences*

@@ -13,7 +13,7 @@ P(b \mid a) &=& factor \times P(b) \\
 &=& \dfrac{P(a \mid b)}{P(a)} * P(b) \\
 \end{eqnarray}$$
 
-To be complete, the definition is that $\large P(a\mid b)$ is the **likelihood** and $\large P(B)$ is the **marginal**
+To be complete, the definition is that $\large P(a\mid b)$ is the **likelihood** and $\large P(B)$ is the [[Marginal Probability]]
 $$\Huge \begin{eqnarray} 
 posterior &=& \dfrac{likelehood}{marginal} \times prior \\
 P(b \mid a) &=& \dfrac{P(a \mid b)}{P(a)} * P(b) \\
