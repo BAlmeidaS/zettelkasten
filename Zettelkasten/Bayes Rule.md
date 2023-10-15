@@ -10,13 +10,13 @@ $\large P(b \mid a)$ is the [[Posterior]] and It is equal the [[Prior]] $\large 
 $$\Huge \begin{eqnarray} 
 posterior &=& factor \times prior \\
 P(b \mid a) &=& factor \times P(b) \\
-&=& \dfrac{P(a \mid b)}{a} * P(b) \\
+&=& \dfrac{P(a \mid b)}{P(a)} * P(b) \\
 \end{eqnarray}$$
 
 To be complete, the definition is that $\large P(a\mid b)$ is the **likelihood** and $\large P(B)$ is the **marginal**
 $$\Huge \begin{eqnarray} 
 posterior &=& \dfrac{likelehood}{marginal} \times prior \\
-&=& \dfrac{P(a \mid b)}{a} * P(b) \\
+P(b \mid a) &=& \dfrac{P(a \mid b)}{P(a)} * P(b) \\
 \end{eqnarray}$$
 
 Bayes rules is derived from [[Conditional probability]]
