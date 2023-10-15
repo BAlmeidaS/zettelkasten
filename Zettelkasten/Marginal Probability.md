@@ -1,17 +1,23 @@
-Also called **uncoditional**
+Also called **unconditional**
 
-In a [[Joint Probability Distribution]] with many random variables, the probability of an event $\displaystyle \large \omega$ from a [[Random Variable]] $\displaystyle \large X_1$ happened, regardless the other random variables:
+In a [[Joint Probability Distribution]] with many random variables, the probability of an event $\displaystyle \large \omega$ from one [[Random Variable]] $\displaystyle \large X_i$ happened, regardless the other random variables:
 
 $$\displaystyle \Huge \begin{eqnarray}
-&P(\omega)&,\ \omega \in X_1 \\
+&P(\omega)&,\ \omega \in X_i \\
 \\
 &P(\omega)& = 
-P(\omega\mid X_{2,1}) +
-P(\omega\mid X_{2,2}) +
-\dots +
-P(\omega\mid X_{3,1}) +
-\dots
+\sum_{z}
+P(\omega, z)
 \end{eqnarray}$$
 
 This process is called **marginalisation** or **summing out**
+
+Applying [[product rule of probability]]
+$$\displaystyle \Huge \begin{eqnarray}
+&P(\omega)& = 
+\sum_{z} P(\omega, z)
+\\
+&P(\omega)& = 
+\sum_{z} P(\omega \mid z)*P(z)
+\end{eqnarray}$$
 

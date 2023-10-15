@@ -2,7 +2,6 @@
 tags:
   - Russel-n-Norvig-chap-12
 ---
-
 Conditional probability, define a [[Posterior]] as:
 
 $$\Huge P(a\land b) = P(a \mid b) * P(b) $$
