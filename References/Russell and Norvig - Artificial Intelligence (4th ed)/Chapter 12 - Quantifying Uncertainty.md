@@ -1,8 +1,9 @@
 - [[Probability theory]]
 	- [[Utility theory]]
 	- [[Decision theory]]
-	- [[Prior probabilities]]
-	- [[Posterior probabilities]]
+	- [[Prior]]
+	- [[Posterior]]
+- con
 - [[Bayes Rule]]
 
  

@@ -8,8 +8,8 @@ $$\Huge P(\omega)$$
 **They refer to a degree of certainty in propositions, without any further information (any evidence).**
 
 
-Sometimes called of *priors*
+Sometimes called of *prior*
 
 ---
 
-also check: [[Posterior probabilities]]
+also check: [[Posterior]]
