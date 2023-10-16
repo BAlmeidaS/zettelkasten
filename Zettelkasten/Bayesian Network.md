@@ -15,10 +15,10 @@ $$\displaystyle \Huge \begin{eqnarray}
 P(x_1, \dots,x_n) 
 &=& \prod^n_{i=1}P(x_i\mid parents(X_i)) \\
 \end{eqnarray}$$
-
 (Formula defined by the [[Chain Rule for Bayesian Networks]])
 (And an interesting use case in [[Calculating probability using bayes net and CPT]])
 
 Each variable is [[Conditional Independence|Conditionally Independent]] of it its non-descendants given its parents
 ![[Pasted image 20231016160013.png|300]]
 
+Finally, [[Markov Blanket]] is a property that provides an even more compact way to Bayes nets.
