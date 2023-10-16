@@ -20,5 +20,3 @@ P(x_1, \dots,x_n)
 
 Each variable is [[Conditional Independence|Conditionally Independent]] of it its non-descendants given its parents
 ![[Pasted image 20231016160013.png|300]]
-
-Finally, [[Markov Blanket]] is a property that provides an even more compact way to Bayes nets.

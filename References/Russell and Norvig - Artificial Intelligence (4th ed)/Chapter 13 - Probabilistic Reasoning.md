@@ -3,3 +3,5 @@
 	- [[Calculating probability using bayes net and CPT]]
 	- [[Bayes Net - Compactness]]
 	- [[Bayes Net preferably with causal models]]
+	- [[Markov Blanket]]
+	- [[D-separation]]
