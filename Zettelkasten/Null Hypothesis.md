@@ -1,3 +1,7 @@
+---
+tags:
+  - Statistics
+---
 In [[Statistics]], null [[Hypothesis]] means *nothing is happen* / *the world is how we expect*
 
 Contrast with [[Alternative Hypothesis]]
