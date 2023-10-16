@@ -1,0 +1,1 @@
+As the number of a [[Random Variable|Random Variables]] grows, the size of the [[Full Joint Probability Distribution]] table increases exponentially, making the model impractical or impossible to compute.
