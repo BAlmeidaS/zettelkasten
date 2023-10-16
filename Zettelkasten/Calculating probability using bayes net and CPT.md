@@ -2,10 +2,9 @@
 tags:
   - Russel-n-Norvig-chap-13
 ---
-
 If the Bayes Net contains $\displaystyle \large n$ variables, $\displaystyle \large X_1, \dots, X_n$, an entry in the [[Joint Probability Distribution]]:
 $$\displaystyle \Huge \begin{eqnarray} 
-P(x_1, \dots,x_2) &=& P(x_1\land\dots\land x_n) \\
+P(x_1, \dots,x_n) &=& P(x_1\land\dots\land x_n) \\
 &=& \prod^n_{i=1}P(x_i\mid parents(X_i)) \\
 && \text{being $parents(X_i)$ the parents defined on bayes net}
 \end{eqnarray}$$
