@@ -1,4 +1,5 @@
 - [[Bayesian Network]]
 	- [[Conditional probability table]]
 	- [[Calculating probability using bayes net and CPT]]
- 
+	- [[Bayes Net - Compactness]]
+	- [[Bayes Net preferably with causal models]]

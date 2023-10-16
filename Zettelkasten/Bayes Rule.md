@@ -1,6 +1,8 @@
 ---
 tags:
   - Russel-n-Norvig-chap-12
+aliases:
+  - Bayes' Rule
 ---
 $$\Huge P(b \mid a) = \dfrac{P(a \mid b)*P(b)}{P(a)}$$
 
@@ -22,7 +24,3 @@ P(b \mid a) &=& \dfrac{P(a \mid b)}{P(a)} * P(b) \\
 Bayes rules is derived from [[Conditional probability]]
 
 [[General Bayes rule]]
-
----
-
-The correct way to write in English is *Bayes' rule*

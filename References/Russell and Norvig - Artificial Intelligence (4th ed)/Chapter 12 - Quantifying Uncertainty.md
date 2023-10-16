@@ -8,6 +8,8 @@
 		- [[Prior]]
 		- [[Posterior]]
 		- [[Marginal Probability]]
+		- [[Causal Model]]
+		- [[Diagnostic Model]]
 	- [[Joint Probability Distribution]]
 		- [[Full Joint Probability Distribution]]
 - [[Probabilistic Inference]]

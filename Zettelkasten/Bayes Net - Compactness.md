@@ -1,3 +1,8 @@
+---
+tags:
+  - Russel-n-Norvig-chap-13
+---
+
 [[Bayesian Network|Bayes Net]] gives a way more compact structure than its cousin [[Full Joint Probability Distribution]]
 
 If we have 30 boolean variables with a $\displaystyle \large k$ of 5 (highest amount of parents of a node / branching factor).
