@@ -1,0 +1,2 @@
+- [[Bayesian Network]]
+	- [[Conditional probability table - CPT]]
