@@ -1,6 +1,8 @@
 ---
 tags:
   - Russel-n-Norvig-chap-12
+aliases:
+  - PDF
 ---
 A function that defines the probability of a **continuous** [[Random Variable]]. Theoretically, the probability of a point is zero, we define probabilities of ranges.
 

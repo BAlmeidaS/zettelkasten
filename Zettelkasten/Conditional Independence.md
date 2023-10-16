@@ -1,3 +1,8 @@
+---
+tags:
+  - Russel-n-Norvig-chap-12
+---
+
 Basically when we have *two* [[Random Variable]]s that can be considered independent **because** of a *third* variable
 
 So, maybe $\displaystyle \large X$ and $\displaystyle \large Y$ are not independent, but in light of $\displaystyle \large Z$ they become

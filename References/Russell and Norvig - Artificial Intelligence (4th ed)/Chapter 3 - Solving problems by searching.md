@@ -1,9 +1,9 @@
 - Divides [[Search problem]]s into two types: [[Uninformed Search]] and [[Informed Search]]
 - [[Best-first search]]
 - Uninformed search
-	- [[Breadth-first search - BFS]]
+	- [[Breadth-first search]]
 	- [[Dijkstra's algorithm - Uniform-cost Search]] 
-	- [[Depth-first search - DFS]]
+	- [[Depth-first search]]
 	- [[Iterative-deepening search]]
 	- [[Bidirectional search]]
 - Informed search - Heuristic search
@@ -11,7 +11,7 @@
 	- [[A* search]]
 	- [[Weighted A* search]]
 - [[Memory-bound searches]]
-	- [[Recursive best-first search - RBFS]]
+	- [[Recursive best-first search]]
 	- A bidirectional heuristic search is described but I decided to not add
 - [[Good heuristics in search space]]:
 	- [[Admissible Heuristic]] and [[Consistent Heuristic]]

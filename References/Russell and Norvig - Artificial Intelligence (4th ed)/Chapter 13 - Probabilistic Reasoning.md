@@ -1,2 +1,4 @@
 - [[Bayesian Network]]
-	- [[Conditional probability table - CPT]]
+	- [[Conditional probability table]]
+	- [[Calculating probability using bayes net and CPT]]
+ 

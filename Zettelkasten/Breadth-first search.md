@@ -1,6 +1,8 @@
 ---
 tags:
   - Russel-n-Norvig-chap-3
+aliases:
+  - BFS
 ---
 An [[Uninformed Search]] algorithm
 

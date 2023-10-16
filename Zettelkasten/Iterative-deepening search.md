@@ -4,7 +4,7 @@ tags:
 ---
 An [[Uninformed Search]] algorithm
 
-[[Depth-first search - DFS]] with steroids!
+[[Depth-first search]] with steroids!
 
 It solves the problem of completeness and cost optimally. How? Adding a depth limit to search, called $\large l$ , it goes till $\large l$ and considers that the "bottom" of the graph.
 

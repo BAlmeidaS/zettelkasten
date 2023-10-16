@@ -1,12 +1,14 @@
 ---
 tags:
   - Russel-n-Norvig-chap-3
+aliases:
+  - DFS
 ---
 An [[Uninformed Search]] algorithm
 
 It expands the search in depth till it finds the last one, than it returns for the others not explored
 
-It expands the search contours as the radius of a circle. Therefore, It uses way less memory than [[Breadth-first search - BFS]]
+It expands the search contours as the radius of a circle. Therefore, It uses way less memory than [[Breadth-first search]]
 
 Though is neither complete nor cost optimal ([[Iterative-deepening search]] fixes these):
 - It is not complete because it can end up in cycles.
