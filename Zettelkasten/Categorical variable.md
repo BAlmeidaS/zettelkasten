@@ -1,0 +1,1 @@
+A variable that contains two or more levels - like sex and color

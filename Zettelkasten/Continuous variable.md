@@ -1,0 +1,1 @@
+A variable that is a real number - like height and weight
