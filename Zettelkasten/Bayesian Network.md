@@ -20,3 +20,5 @@ P(x_1, \dots,x_n)
 [[Chain Rule for Bayesian Networks]]
 
 [[Calculating probability using bayes net and CPT]]
+
+[[Bayes Net - Compactness]]
