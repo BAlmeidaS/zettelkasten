@@ -1,3 +1,8 @@
+---
+tags:
+  - Russel-n-Norvig-chap-13
+---
+
 Considering that the nodes of the [[Bayesian Network|Bayes Net]] are in [[Topological Order]]
 $$\displaystyle \Huge \begin{eqnarray} 
 P(x_1, \dots,x_n) &=& P(x_1\land\dots\land x_n) \\
@@ -13,4 +18,6 @@ $\displaystyle \large \{1\}$: [[product rule of probability]]
   $\displaystyle \large P(x_1,\dots,x_n) = P(x_n\mid x_{n-1},\dots,x_1)P(x_{n-1},\dots,x_1)$
   
 $\displaystyle \large \{2\}$: Definition of [[Bayesian Network|Bayes Net]]
-$\displaystyle \large  P(x_1, \dots,x_n)  = \prod^n_{i=1}P(x_i\mid parents(X_i)) \\ $
+  $\displaystyle \large  P(x_1, \dots,x_n)  = \prod^n_{i=1}P(x_i\mid parents(X_i))$
+
+The $\displaystyle \large Parents(X_i)$ should contain only the nodes directly connected to $\displaystyle \large X_i$. Though the nodes are in topological order, there is no reason to consider those connected indirectly (grandparents, siblings, ...).
