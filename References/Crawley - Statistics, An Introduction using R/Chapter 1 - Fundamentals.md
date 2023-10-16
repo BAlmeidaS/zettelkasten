@@ -5,4 +5,6 @@
 	- [[Significance]]
 - [[Continuous variable]]
 - [[Categorical variable]]
-
+- [[p-value]]
+- [[Test Statistic]]
+- [[Type I error]] and [[Type II error]]
