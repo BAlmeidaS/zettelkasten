@@ -8,3 +8,4 @@
 - [[p-value]]
 - [[Test Statistic]]
 - [[Type I error]] and [[Type II error]]
+- [[Maximum Likelihood]]

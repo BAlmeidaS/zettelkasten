@@ -1,4 +1,4 @@
-The error when we *reject* the [[Null Hypothesis]], but you should not.
+The error when we *reject* the [[Null Hypothesis]] when it is true.
 
 | Null Hypothesis | Actual Situation = *TRUE* |
 | --------------- | ----------------------- |
