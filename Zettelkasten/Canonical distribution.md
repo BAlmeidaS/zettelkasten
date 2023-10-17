@@ -1,3 +1,7 @@
+---
+tags:
+  - Russel-n-Norvig-chap-13
+---
 In [[Bayesian Network|Bayes Net]] can be quite painful to define every entry on the [[Conditional probability table|CPT]]s. For many time, instead of defining the whole table, we end up defining a *pattern* which reduces the amount of information that we have to fill in on the table.
 
 This is a way to parameterise and represent probability distributions over sets of variables in a *more compact* way. The idea is using distributions as [[Gaussian]], [[Poisson]], [[Bernoulli]], ...
