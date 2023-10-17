@@ -6,6 +6,7 @@
 	- [[Markov Blanket]]
 	- [[D-separation]]
 	- [[Noisy logical relationships]]
+	- [[Hidden variables on bayes nets]]
 	- [[Bayes net with continuous variables]]
 		- [[Canonical distribution]]
 		- [[Hybrid Bayesian network]]
