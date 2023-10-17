@@ -5,5 +5,9 @@
 	- [[Bayes Net preferably with causal models]]
 	- [[Markov Blanket]]
 	- [[D-separation]]
-	- [[Canonical distribution]]
+	- [[Noisy logical relationships]]
+	- [[Bayes net with continuous variables]]
+		- [[Canonical distribution]]
+		- [[Hybrid Bayesian network]]
+ 
 	 
