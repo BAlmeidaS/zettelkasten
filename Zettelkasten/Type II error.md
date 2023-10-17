@@ -10,3 +10,6 @@ The error when we *accept* a [[Null Hypothesis]] when it is false.
 | --------------- | ------------------------ |
 | Fail to Reject  | **Type II Error**            |
 | Reject          | Correct decision         |
+
+---
+see [[Type I error]]
