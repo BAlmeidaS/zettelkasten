@@ -5,3 +5,5 @@
 	- [[Bayes Net preferably with causal models]]
 	- [[Markov Blanket]]
 	- [[D-separation]]
+	- [[Canonical distribution]]
+	 

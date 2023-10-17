@@ -1,0 +1,1 @@
+In [[Bayesian Network|Bayes Net]] can be quite painful to define every entry on the [[Conditional probability table|CPT]]s. For many time, instead of defining the whole table, we end up defining a *pattern* which reduces the amount of information that we have to fill in on the table
