@@ -4,7 +4,7 @@ tags:
 aliases:
   - Bayes Net
 ---
-Shows the dependencies among [[Random Variable]]s. The ideia is to come up with a connection that makes sense for you on the problem - [[Bayes Net preferably with causal models]] - in order to be more compact - [[Bayes Net - Compactness]]
+Shows the dependencies among [[Random Variable]]s using [[Bayes Rule]]. The ideia is to come up with a connection that makes sense for you on the problem - [[Bayes Net preferably with causal models]] - in order to be more compact - [[Bayes Net - Compactness]]
 
 **Must be** a [[DAG - Directed Acyclic Graph]], with such properties:
 1. Each node is a [[Random Variable]]
