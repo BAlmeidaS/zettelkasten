@@ -2,6 +2,8 @@
 tags:
   - Statistics
 ---
+Also called $\displaystyle \large \alpha$ error.
+
 The error when we *reject* the [[Null Hypothesis]] when it is true.
 
 | Null Hypothesis | Actual Situation = *TRUE* |

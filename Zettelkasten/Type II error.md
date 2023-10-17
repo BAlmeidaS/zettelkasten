@@ -2,6 +2,8 @@
 tags:
   - Statistics
 ---
+Also called $\displaystyle \large \beta$ error.
+
 The error when we *accept* a [[Null Hypothesis]] when it is false.
 
 | Null Hypothesis | Actual Situation = *FALSE* |

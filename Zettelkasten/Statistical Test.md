@@ -1,0 +1,1 @@
+A synonym if [[Hypothesis Test]]
