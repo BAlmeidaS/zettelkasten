@@ -18,7 +18,7 @@ It is implemented with an [[Late Goal Test]]
 
 It uses a [[LIFO]] queue
 
-| Criterion | BFS |
+| Criterion | DFS |
 | --------- | --- |
 | [[Completeness]]? | No |
 | [[Cost optimality]]? | No |

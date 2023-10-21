@@ -15,7 +15,7 @@ It uses a [[LIFO]] queue
 | Criterion | BFS |
 | --------- | --- |
 | [[Completeness]]? | Yes |
-| [[Cost optimality]]? | Yes |
+| [[Cost optimality]]? | Yes - if actions are all identical related to costs|
 | [[Time complexity]] | $\Large O(b^l)$ |
 | [[Space complexity]] | $\Large O(b*l)$ |
 $\large b$ is the [[branching factor]]
