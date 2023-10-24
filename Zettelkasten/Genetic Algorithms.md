@@ -12,9 +12,7 @@ To define a GA you must define:
 Besides that 4 [[Hyperparameters of the model|Hyperparameters]] must be defined:
 - [[Population - genetic algorithms|Population]] size
 - Number of [[Generation - Genetic Algorithms|generations]]
-- Percentage of [[Crossover]]
-- Percentage of [[Mutation]]
+- [[Crossover]] rate
+- [[Mutation]] rate
 
 Many Authors call GA (*Genetic Algorithms*) as [[Evolutionary Strategies]] and [[Genetic Programming]]. So we can understand GAs as the main branch.
-
-

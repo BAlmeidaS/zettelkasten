@@ -4,7 +4,7 @@ tags:
 ---
 The fundamental part of [[Genetic Algorithms]]
 
-There are **three genetic operators**:
+There are **three genetic operators**, to be called in this order:
 1. [[Selection]]
-1. [[Crossover]]
-1. [[Mutation]]
+2. [[Crossover]]
+3. [[Mutation]]

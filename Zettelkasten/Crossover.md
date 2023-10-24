@@ -2,7 +2,7 @@
 tags:
   - Negnevistky-chap-7
 ---
-After choosing the ones that will be used on the next generation, there is a chance - *percentage of Crossover*. That 2 of them are chosen to crossover.
+After choosing the ones that will be used on the next generation, there is a chance - *Crossover rate*. That 2 of them are chosen to crossover.
 
 Usually this **chance is between 0.6 and 0.9**
 

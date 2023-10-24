@@ -6,3 +6,4 @@ tags:
 
 A segment from parents are swapped (similarly to two-points crossover) but the rest is filled accordingly to keep the struct right.
 
+![[Pasted image 20231024180142.png|600]]
