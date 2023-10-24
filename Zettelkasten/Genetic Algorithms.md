@@ -1,4 +1,8 @@
-Algorithms inspired on Darwin evolution. The idea is the a [[Population - genetic algorithms|population]] evolves across [[Generation - Genetic Algorithms|generations]].
+---
+tags:
+  - Negnevistky-chap-7
+---
+Algorithms inspired on Darwin evolution. The idea is that a [[Population - genetic algorithms|population]] formed by [[Chromosomes]] evolves across [[Generation - Genetic Algorithms|generations]].
 
 To define a GA you must define:
 1. [[Encoding - Genetic Algorithms|Encoding]]
