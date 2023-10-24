@@ -7,4 +7,6 @@ It defines how the algorithm will select the chromosomes from one [[Generation -
 The main types of *selection* are:
 - [[Roulette Wheel Selection]]
 - [[Tournament Selection]]
-- [[Tournament Selection]]
+- [[Scaling Selection]]
+- [[Steady State Selection]]
+- [[Elitism State Selection]]
