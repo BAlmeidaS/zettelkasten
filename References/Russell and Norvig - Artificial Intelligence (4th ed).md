@@ -14,4 +14,4 @@ https://aimacode.github.io/aima-exercises/
 
 [[Chapter 3 - Solving problems by searching]]
 [[Chapter 12 - Quantifying Uncertainty]]
-[[Chapter 13 - Probabilistic Reasoning]]
+[[Chapter 13 - Probabilistic Reasoning - WIP]]

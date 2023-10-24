@@ -10,5 +10,6 @@
 	- [[Bayes net with continuous variables]]
 		- [[Canonical distribution]]
 		- [[Hybrid Bayesian network]]
- 
-	 
+
+# **STOPPED on PAGE 432**
+
