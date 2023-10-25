@@ -30,7 +30,7 @@ P(a\mid b,c,d) &=&
 
 The more variables we add as evidence, the more intractable is the formula, it end up with $\displaystyle \large O(2^n)$ combinations.
 
-Naive bayes gives us:
+Naive bayes assumes that the evidences $\displaystyle \large b,c,d$  are independents, so:
 $$\displaystyle \Huge \begin{eqnarray} 
 P(a\mid b,c,d) &=&  
 \dfrac{P(a)*P(b\mid a)*P(c\mid a)*P(d\mid a)}{P(b,c,d)}
