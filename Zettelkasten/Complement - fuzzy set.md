@@ -1,7 +1,8 @@
 ---
 tags:
+  - Negnevistky-chap-4
 ---
-*Complement* is all the area outside the [[Membership Function]]:
+*Complement* is all the area outside the membership function:
 
 $$\displaystyle \Huge \mu_{\lnot A}(x) = 1 - \mu_A(x)$$
 

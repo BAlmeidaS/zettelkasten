@@ -2,7 +2,7 @@
 tags:
   - Negnevistky-chap-4
 ---
-*Union* in fuzzy sets are the **maximum** of both [[Membership Function|membership functions]]:
+*Union* in fuzzy sets are the **maximum** of both membership functions:
 
 $$\displaystyle \Huge \begin{eqnarray} 
 \mu_{A\bigcup B} &=& max[\mu_A(x), \mu_B(x)] \\

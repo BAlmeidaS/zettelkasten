@@ -4,7 +4,9 @@ tags:
 aliases:
   - Fuzzy systems
 ---
-The idea is very similar with the [[Rule-based system - Expert system]] but the rules are defined using [[Fuzzy Sets]], in a [[Fuzzy rules vs Crisp Rules|different way]]. So it returns a not precise definition, it depends on the [[Membership Function]]. To make the proper inference, in the end the result must be [[Defuzzification]]
+The idea is create a system with *fuzzy rules*, they are based on [[Fuzzy Sets]], and they are [[Fuzzy rules vs Crisp Rules|kind of different of normal rules]] that we are used to.
+
+The idea is very similar with based rule system but the rules are defined using [[Fuzzy Sets]], in a [[Fuzzy rules vs Crisp Rules|different way]]. It returns a not precise definition, but a fuzzy definition. To make it return a *crisp* inference, in the end the result must be [[Defuzzification]]
 
 The process of such system are composed in 4 steps:
 1. [[Fuzzification]]

@@ -2,7 +2,7 @@
 tags:
   - Negnevistky-chap-4
 ---
-*Intersection* in fuzzy sets are the **minimum** of both [[Membership Function|membership functions]]:
+*Intersection* in fuzzy sets are the **minimum** of both membership functions:
 
 $$\displaystyle \Huge \begin{eqnarray} 
 \mu_{A\bigcap B} &=& min[\mu_A(x), \mu_B(x)] \\

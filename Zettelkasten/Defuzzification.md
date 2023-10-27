@@ -2,7 +2,7 @@
 tags:
   - Negnevistky-chap-4
 ---
-In this step we have one unified membership function, because everything belongs to that same fuzzy set.
+In this step we have one unique [[Membership Function]], because everything belongs to that same [[Fuzzy Sets|Fuzzy Set]].
 
 We just need to materialise this fuzzy value, to a number (*a crisp output*)
 
