@@ -1,3 +1,5 @@
-[[Fuzzy Logic]]
-[[Fuzzy Sets]]
-[[Rule fuzzy based system]]
+- [[Fuzzy Logic]]
+- [[Fuzzy Sets]]
+	- [[Membership Function]]
+	- [[Fuzzy set operations]] 
+- [[Rule fuzzy based system]]

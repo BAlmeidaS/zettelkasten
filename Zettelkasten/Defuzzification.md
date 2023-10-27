@@ -9,5 +9,5 @@ We just need to materialise this fuzzy value, to a number (*a crisp output*)
 ![[Pasted image 20231027182921.png]]
 
 Two techniques exist:
-- Centroid
-- [[Sugeno-style infere]]
+- [[Centre of gravity - COG in Membership functions]]
+- [[Sugeno-style inference]]
