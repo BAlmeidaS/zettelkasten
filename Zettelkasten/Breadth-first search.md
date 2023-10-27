@@ -17,7 +17,7 @@ It uses a [[FIFO]] queue
 | Criterion | BFS |
 | --------- | --- |
 | [[Completeness]]? | Yes |
-| [[Cost optimality]]? | Yes |
+| [[Cost optimality]]? | Yes *(If all actions are IDENTICAL)* |
 | [[Time complexity]] | $\Large O(b^d)$ |
 | [[Space complexity]] | $\Large O(b^d)$ |
 $\large b$ is the [[branching factor]]
