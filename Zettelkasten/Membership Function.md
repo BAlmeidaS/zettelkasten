@@ -12,4 +12,4 @@ It can be represented as a function, or as a table.
 ![[Pasted image 20231027175905.png|600]]
 
 *tall men function as a table
-![[Pasted image 20231027175953.png]]
+![[Pasted image 20231027175953.png|550]]
