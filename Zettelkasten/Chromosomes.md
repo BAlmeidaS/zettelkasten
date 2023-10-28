@@ -5,3 +5,5 @@ tags:
 A chromosome is an *individual* in a [[Genetic Algorithms]]. It can be a list of integers, a list of list, it depends of how you define the [[Gene]]. It will be a composition of [[Gene|Genes]] that will evolve along the GA.
 
 We want to find the *chromosome*/*individual* most capable to solve the problem.
+
+*A chromosome is a collection of elementary parts called genes.* (Negnevistky - pg 237)
