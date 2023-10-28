@@ -8,5 +8,5 @@ The main types of encodings are:
 - [[Binary Encoding]]
 - [[Symbolic Encoding]]
 - [[Real-value Encoding]]
-- [[Hererogeneous Encoding]]
+- [[Heterogeneous Encoding]]
 - [[Tree Encoding]]
