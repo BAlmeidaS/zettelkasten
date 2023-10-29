@@ -12,9 +12,9 @@ It is *iterative*, because the idea is to interactively adding l + 1 and running
 
 It uses a [[LIFO]] queue
 
-| Criterion | BFS |
+| Criterion | Iterative-deepening search |
 | --------- | --- |
-| [[Completeness]]? | Yes |
+| [[Completeness]]? | Yes - if b and the state space is finite |
 | [[Cost optimality]]? | Yes - if actions are all identical related to costs|
 | [[Time complexity]] | $\Large O(b^l)$ |
 | [[Space complexity]] | $\Large O(b*l)$ |
