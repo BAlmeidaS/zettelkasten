@@ -2,7 +2,7 @@
 tags:
   - Russel-n-Norvig-chap-23
 ---
-A type of evolution of [[Bag-of-words]] model.
+A type of evolution of [[Bag-of-words]] model and another [[Natural Language Processing|NLP]] model
 
 Despite of bag-of-words, *N-gram considers that there is a dependency among the words*.
 
