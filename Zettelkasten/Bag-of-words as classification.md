@@ -6,4 +6,4 @@ tags:
 
 Though, it is *useful to do text classification* with good accuracy!
 
-*Words like "stocks" and "earnings" most likely are used on a business text rath*
+*Words like "stocks" and "earnings" most likely are used on a business text rather than a text about the weather*
