@@ -6,7 +6,7 @@ A *context-free* [[Grammar]] means, broadly, that any rule can be used in any co
 
 A context-free grammar consists of the following components:
 
-**Terminals ($\displaystyle \large \Sigma$)**: These are the symbols from which strings are formed. They are the *alphabet* of the grammar and cannot be broken down further. In [[Natural Language Processing|NLP]], these might be words or tokens.
+**Terminals ($\displaystyle \large \Sigma$)**: These are the symbols from which strings are formed. They are the *alphabet* of the grammar and cannot be broken down further. These might be words or tokens.
 
 **Non-terminals ($\displaystyle \large V$)**: These are placeholder symbols that are used to define the structure of the language and are replaced in the derivation of strings. They are typically denoted by capital letters.
 

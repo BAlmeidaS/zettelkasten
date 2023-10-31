@@ -18,4 +18,7 @@ P(w \mid w_{1:j-1}) \approx\ &P&(W_j\mid w_{j-n+1:j-1}) \\
 P(w_{1:N}) = \prod_{j=1}^n &P&(W_j\mid w_{j-n+1:j-1})
 \end{eqnarray}$$
 
-There are many types of famous n-grams, like **unigram / 1-gram**, **bigram / 2-gram**, **trigram / 3-gram**.
+There are many types of famous n-grams, like:
+- **1-gram - unigram**
+- **2-gram - bigram**
+- **3-gram - trigram**
