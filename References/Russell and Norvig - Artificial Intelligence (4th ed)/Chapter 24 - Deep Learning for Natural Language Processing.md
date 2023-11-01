@@ -4,5 +4,8 @@
 
 From now on the topics are kinda of vague, and must be tackle deeply with another source.
 
-**24.2 must be reread later on**
 [[Sentiment Analysis]]
+
+**24.2 must be reread later on**
+
+There is a whole chapter about **attention and transformers** that require more attention (sorry for the pun)
