@@ -1,5 +1,7 @@
-- [[Fuzzy Logic]]
 - [[Fuzzy Sets]]
 	- [[Membership Function]]
 	- [[Fuzzy set operations]] 
 - [[Rule fuzzy based system]]
+- [[Fuzzy rules vs Crisp Rules]]
+- [[Fuzzification]]
+- [[Defuzzification]] and [[Centre of gravity - COG in Membership functions]]
