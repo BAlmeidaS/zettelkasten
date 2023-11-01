@@ -8,5 +8,5 @@ All of them rely on [[Membership Function]]
 
 - [[Complement - fuzzy set]]
 - [[Containment - fuzzy set]]
-- [[Intersection - fuzzy set]]
-- [[Union - fuzzy set]]
+- [[Intersection (and) - fuzzy set]]
+- [[Union (or) - fuzzy set]]
