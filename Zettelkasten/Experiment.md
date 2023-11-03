@@ -11,3 +11,5 @@ The main key concepts are:
 - [[Randomisation]]
 
 One important part to validate *experiment* is via a [[Hypothesis Test|Statistical Test]].
+
+Also *experiment* should have a *predefined duration*. To avoid premature conclusions, or running "until it gets the right result".
