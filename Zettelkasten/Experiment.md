@@ -2,7 +2,7 @@
 tags:
   - Statistics
 ---
-A combination of *observation*, *theory* and *experiment* solve scientific problems. 
+They are the core element of [[Statistics]], defined as a combination of *observation*, *theory* and *experiment* solve scientific problems.
 
 Usually **one or more must be sacrificed** because of constraints.
 
