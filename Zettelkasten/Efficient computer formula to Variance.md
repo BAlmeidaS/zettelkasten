@@ -11,7 +11,9 @@ The problem is to calculate many subtractions: $\displaystyle \large \sum(y-\bar
 $$\displaystyle \Huge (y-\bar{y})^2=y^2-2y\bar{y}+\bar{y}^2$$
 so,
 $$\displaystyle \Huge \begin{eqnarray} 
-\sum(y-\bar{y})^2 &=& \sum y^2 - 2\bar{y}\sum y &+& n\bar{y}^2 \\
-&=& \sum y^2 - 2\dfrac{\sum y}{n}\sum y\ &+& n[\dfrac{\sum y}{}]^2
+\sum(y-\bar{y})^2 &=& \sum y^2 - 2\bar{y}\sum y &+& n\bar{y}^2 \\ \\
+&=& \sum y^2 - 2\dfrac{\sum y}{n}\sum y\ &+& n\left[ \dfrac{\sum y}{n} \right]^2
+\\\\
+\sum(y-\bar{y})^2 &=& \sum y^2 - \dfrac{[\sum y]^2}{n}
 
 \end{eqnarray}$$
