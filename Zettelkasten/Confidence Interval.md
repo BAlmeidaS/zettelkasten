@@ -16,4 +16,4 @@ CI_{95\%} &=& t_{(\alpha=0.025, d.f.=9)} \sqrt{\dfrac{s^2}{n}}\\
 \end{eqnarray}$$
 
 with this example of 95% of confidence interval,
-$$\displaystyle \Huge mean = mean \pm CI_{95\%} (95\%) $$
+$$\displaystyle \Huge mean = mean \pm CI_{95\%}\ (95\%\ CI, n=10) $$

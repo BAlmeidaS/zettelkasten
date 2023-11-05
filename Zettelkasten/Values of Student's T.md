@@ -1,6 +1,9 @@
 ---
 tags:
   - Statistics
+aliases:
+  - Values of Student's T
+  - t-value
 ---
 Values of student's t can be used to calculate [[Confidence Interval]].
 
