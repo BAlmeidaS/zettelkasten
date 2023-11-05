@@ -2,7 +2,7 @@
 tags:
   - Statistics
 ---
-A specific numerical value, usually [[p-value]], calculated from [[sample data]] as part of a [[Hypothesis Test]].
+A specific numerical value, usually [[p-value]], calculated from [[Sample data]] as part of a [[Hypothesis Test]].
 
 The *test statistic* is used to determine whether **to reject or fail to reject** the [[Null Hypothesis]].
 

@@ -4,7 +4,7 @@ tags:
 aliases:
   - Statistical Test
 ---
-Make decision about a [[Hypothesis]]. To define whether there is enough evidence in the [[sample data]] to reject the [[Null Hypothesis]] or fail to reject it.
+Make decision about a [[Hypothesis]]. To define whether there is enough evidence in the [[Sample data]] to reject the [[Null Hypothesis]] or fail to reject it.
 
 The hypothesis test consists in:
 - Defining the overall procedure - including:
