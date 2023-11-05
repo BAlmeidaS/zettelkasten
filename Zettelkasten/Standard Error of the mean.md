@@ -13,8 +13,10 @@ $$\displaystyle \Huge SE_{\bar{y}} = \sqrt{\dfrac{s^2}{n}} $$
 ---
 
 So usually we define [[Average|mean]] as:
-$$\displaystyle \Huge mean\ \pm\ SE_{\bar{y}}$$
+$$\displaystyle \Huge mean\ \pm\ SE_{\bar{y}}\ [dim]\ (1\ s.e., n=n)$$
 *Being $\displaystyle \large SE_\bar{y}$ the standard error of the mean and the size of the sample n*
 
+$\displaystyle \large s.e.$ stands for standard error.
+
 for instance, 
-$\displaystyle \large mean = 3.0 \pm 0.364$ being the error the standard error of a sample size of 30.
+$$\displaystyle \large mean= 3.0\ \pm\ 0.675\ pphm\ (1\ s.e.,\ n=10)  $$
