@@ -4,7 +4,8 @@ tags:
 ---
 An [[Uninformed Search]] algorithm
 
-Can be implemented as a [[Best-first search]] using the [[path-cost]] as the evaluation function of the best first search.
+Can be implemented as a [[Best-first search]] using the [[path-cost]] as the *evaluation function*
+of the best first search.
 
 | Criterion | Dijkstra |
 | --------- | --- |
