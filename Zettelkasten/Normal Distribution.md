@@ -7,12 +7,12 @@ aliases:
 ---
 *Normal distribution* is a symmetric, bell curve that has the [[Average|mean]], [[Median]] and [[Mode]] located in the same place at the center.
 
-The normal distribution formula can be remembered as,
-
+The normal distribution formula is,
 $$\displaystyle \Huge \begin{eqnarray} 
-bell\_curve &=& e^{x^2} \\ 
-f(x) \sum a 
-\boldsymbol{N}(\mu, \sigma)  f(x) &=& e^{cx^2} \\
+bell\ curve &=& e^{-x^2} \\ \\
+
+f(x) &\sim& \boldsymbol{N}(\mu, \sigma) \\
+f(x) &=& \dfrac{1}{\sigma\sqrt{2\pi}}e^{{-\dfrac{1}{2}}\left(\dfrac{x-\mu}{\sigma}\right)^2} \\
 
 \end{eqnarray}$$
 
