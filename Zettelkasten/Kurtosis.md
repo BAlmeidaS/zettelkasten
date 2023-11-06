@@ -18,4 +18,14 @@ s_4 &=& var(y)^2 = (s^2)^2 \\
 
 *The $\displaystyle \large -3$ on the formula* appears because the *kurtosis of the Gaussian distribution is 3.*
 
-*Positive kurtosis 
+*Positive kurtosis* is a *pointy distribution* (Leptokurtic)
+*Negative kurtosis* is a *flat-topped distribution* (Platykurti)
+
+The approximate Standard Error of kurtosis is:
+$$\displaystyle \Huge SE_{\gamma_2} = \sqrt{\dfrac{24}{n}}$$
+
+---
+
+We use $\displaystyle \large SE_{\gamma_2}$ to validate if the distribution is or is not a normal, using [[t-test]]:
+
+if $\displaystyle \large \left|\dfrac{\gamma_2}{SE_{\gamma_2}}\right| < 2$ ,(this 2 came from the [[Student's t = 2 rule of thumb]]), so this distribution is smilar to a normal. if it is bigger we know that it is not close to a gaussian and we must see the signal of $\displaystyle \large \gamma_2$ to know if it is Leptokurtic or Platykurti distributions.

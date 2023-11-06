@@ -17,3 +17,9 @@ $$\displaystyle \Huge SE_{y_1} = \sqrt{\dfrac{6}{n}}$$
 
 *Negatives values of $\displaystyle \large \gamma_1$* means skew to the *left* - (tail is on the left).
 *Positives values of $\displaystyle \large \gamma_1$* means skew to the *right* - (tail is on the right).
+
+---
+
+We use $\displaystyle \large SE_{\gamma_1}$ to validate if the skew is really different than 0, using [[t-test]]:
+
+if $\displaystyle \large \left|\dfrac{\gamma_1}{SE_{\gamma_1}}\right| < 2$ ,(this 2 came from the [[Student's t = 2 rule of thumb]]), so this distribution has no strong skewness. Otherwise, we know that there is a skewness and we must check the signal of $\displaystyle \large \gamma_1$ to know to what side is the tail.
