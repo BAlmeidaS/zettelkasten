@@ -1,10 +1,13 @@
 ---
 tags:
   - Statistics
+aliases:
+  - F-test
+  - Fisher's F test
 ---
 A test to *compare variances* of 2 distributions.
 
-**When the variances are different, don't compare the means**
+*When the [[Variance|variances]] are different, don't compare the [[Average|means]]*
 
 ```R
 var.test(x, y)
@@ -17,7 +20,4 @@ This `var.test` will give you the p-value of the two distributions having the sa
 > The easiest way to calculate in R is to define the comulative probability of the F distribution using `pf`:
 > ```R
 > 1 - pf( var(x) / var(y), degrees_of_freedom(x), degrees_of_freedom(y) )
-
-
-
 
