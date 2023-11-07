@@ -10,6 +10,8 @@ $$\displaystyle \Huge unreliability \propto \sqrt{\dfrac{s^2}{n}} $$
 This is the *Standard Error of the [[Average|Mean]]*:
 $$\displaystyle \Huge SE_{\bar{y}} = \sqrt{\dfrac{s^2}{n}} $$
 
+**Note that to calculate the Standard Error we divide per $\displaystyle \large n$, the sample size, not degrees of freedom**
+
 ---
 
 So usually we define [[Average|mean]] as:
