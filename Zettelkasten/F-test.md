@@ -7,6 +7,9 @@ aliases:
 ---
 A test to *compare variances* of 2 distributions.
 
+[[Null Hypothesis|H0]]: Variances are the same
+[[Alternative Hypothesis|H1]]: Variances are different
+
 *When the [[Variance|variances]] are different, don't compare the [[Average|means]]*
 
 ```R

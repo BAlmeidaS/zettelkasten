@@ -1,6 +1,9 @@
 ---
 tags:
   - Statistics
+aliases:
+  - null hypothesis
+  - H0
 ---
 Null [[Hypothesis]] means *nothing is happen* / *the world is how we expect*
 
