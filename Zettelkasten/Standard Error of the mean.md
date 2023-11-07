@@ -7,7 +7,7 @@ tags:
 Getting from the relations drawn on Unreliability. Since variance has the dimension of the variable squared, it will be *nice to have unreliability in the same dimension of the variable*:
 $$\displaystyle \Huge unreliability \propto \sqrt{\dfrac{s^2}{n}} $$
 
-This is the *Standard Error of the mean*:
+This is the *Standard Error of the [[Average|Mean]]*:
 $$\displaystyle \Huge SE_{\bar{y}} = \sqrt{\dfrac{s^2}{n}} $$
 
 ---

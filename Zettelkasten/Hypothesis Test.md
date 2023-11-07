@@ -15,4 +15,4 @@ The hypothesis test consists in:
 Different *statistical tests* use different [[Test Statistic]]:
 - In a [[t-test]], the test statistic is the t-statistic.
 - In a [[chi-squared test]], the test statistic is the chi-squared statistic.
-- In an [[F-test ]] the test statistic is the F-statistic.
+- In an [[F test]] the test statistic is the F-statistic.

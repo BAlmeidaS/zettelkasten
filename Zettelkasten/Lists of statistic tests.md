@@ -4,7 +4,7 @@ tags:
 ---
 Here there is a list of [[Test Statistic]] with their use cases:
 
-- Comparing two variances - [[F-test]]
+- Comparing two variances - [[F test]]
 - Comparing two sample means with normal errors - [[Student's t test]]
 - Comparing two means with non-normal errors - [[Wilcoxon's test]]
 - Comparing two proportions - [[binomial test]]
