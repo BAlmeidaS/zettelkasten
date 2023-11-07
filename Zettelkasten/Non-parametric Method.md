@@ -1,6 +1,8 @@
 ---
 tags:
   - Statistics
+aliases:
+  - non-parametric
 ---
 In [[Statistics]], Non-parametric methods do not assume that the data follows any specific distribution.
 
