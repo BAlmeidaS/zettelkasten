@@ -11,11 +11,13 @@ It is a test to *compare means* of 2 distributions.
 [[Null Hypothesis|H0]]: Means are the same
 [[Alternative Hypothesis|H1]]: Means are different
 
+Apart from being *non-parametric*, [[wilcoxon test is more conservative than t test]]
+
 *Wilcoxon's test* is defined by the following procedure:
 1. Aggregate both distribution in one unique array, keep the labels of each entry
 2. Sort this array
-3. Assign a rank for each value - if two or more values are equal [[ties while ranking an array]]
-4. Ranks are added up for each one of the samples. So you will have a:
+3. Assign a rank for each value - if two or more values are equal [[Ranking an array|you need to handle ties on ranking]]
+5. Ranks are added up for each one of the samples. So you will have a:
 $$\displaystyle \Huge \begin{eqnarray} 
 S_A = Sum(rank[label == A]) \\
 S_B = Sum(rank[label == B]) \\
@@ -24,9 +26,15 @@ S_B = Sum(rank[label == B]) \\
 $$\displaystyle \Huge S_{\text{final}} = min(S_A, S_B)$$
 6. Find the $\displaystyle \large S_{\text{ref}}$ in a [Wilcoxon rank sums table](https://real-statistics.com/statistics-tables/wilcoxon-rank-sum-table-independent-samples/) - You will need the $\displaystyle \large \alpha$ that you want, and the size of both distributions $\displaystyle \large n_A$  and $\displaystyle \large n_B$.
 *For instance, if $\displaystyle \large n_A=10$ and $\displaystyle \large n_B = 10$ and I want $\displaystyle \large \alpha=.05$, then, $\displaystyle \large S_{\text{ref}} = 78$*
+
 7. We reject [[Null Hypothesis|H0]] if $\displaystyle \large S_{\text{final}} \le S_{\text{ref}}$ :
 $$\displaystyle \Huge \begin{eqnarray} 
 S_{\text{final}} \le S_{\text{ref}} &\rightarrow& \text{reject }H0 \\
 S_{\text{final}} \gt S_{\text{ref}} &\rightarrow& \text{fail to reject }H0
 
 \end{eqnarray}$$
+> [!R language]
+> In `R` the function `wilcox.test` has an approximation of this method using normals. However it will warning that if there are ties, the p-values is not going to be exact, seldom this is a problem.
+
+
+

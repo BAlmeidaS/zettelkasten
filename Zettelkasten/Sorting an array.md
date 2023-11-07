@@ -1,0 +1,1 @@
+*Sorting* is the process of arranging items of the array in a certain sequence or order according to a specific criterion (like size, time, alphabetical order, etc.).

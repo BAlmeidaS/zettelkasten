@@ -2,7 +2,7 @@
 tags:
   - Statistics
 ---
-When you are *ranking* an array you are attributing one rank (order) for each value.
+When you are *ranking* an array you are attributing one rank for each value. Is more than just [[Sorting an array]], you are *assigning one value* to each item, with a *special caveat for ties:*
 
 On ties, per default, *you get the average rank for each one of them and assign for all of them*:
 
