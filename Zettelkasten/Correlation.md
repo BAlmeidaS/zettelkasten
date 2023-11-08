@@ -8,5 +8,5 @@ Correlation is when two [[Continuous variable|continuous variables]], $\displays
 
 It is defined in terms of the [[Variance]] of $\displaystyle \large x$, the [[Variance]] of $\displaystyle \large y$, and the [[Covariance]] of $\displaystyle \large x$ and $\displaystyle \large y$.
 
-Correlation is defined in terms of the *covariance* and the [[Geometric Mean]] of the variances of $\displaystyle \large x$ and $\displaystyle \large y$:
+Correlation is defined, *the [[Covariance]] divided by the [[Geometric Mean]] of $\displaystyle \large x$ and $\displaystyle \large y$:
 $$\displaystyle \Huge r = \dfrac{cov(x, y)}{\sqrt{s_x^2s_y^2}}$$
