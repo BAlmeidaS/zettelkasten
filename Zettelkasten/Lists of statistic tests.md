@@ -10,4 +10,4 @@ Here there is a list of [[Test Statistic]] with their use cases:
 - Comparing two proportions - [[Binomial test]]
 - Comparing two variables - [[Pearson's correlation]] or [[Sperman's rank correlation]]
 - Testing for independence in contingency tables - [[chi-squared test]]
-- Testing small samples for correaltion - [[Fisher's exact test]]
+- Testing small samples for correlation - [[Fisher's exact test]]
