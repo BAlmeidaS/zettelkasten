@@ -21,7 +21,7 @@ We know that the *best fit passes through $\displaystyle \large (\bar{x}, \bar{y
 The *difference* between the *fitted line and the original data point* is called [[Deviation|Residual]] (in red):
 ![[Pasted image 20231110164148.png|400]]
 
-The [[Maximum Likelihood]] model is defined as *the model that minimises the sum of the squares of the residuals* : [[finding the minimum sum of squared error on LMs]]
+The [[Maximum Likelihood]] model is defined as *the model that minimises the sum of the squares of the residuals* : [[Correct sums]]
 
 Being a residual $\displaystyle \large d_i$ defined as:
 $$\displaystyle \Huge \begin{eqnarray} 
