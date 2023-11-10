@@ -1,7 +1,9 @@
 ---
 tags:
   - Statistics
-aliases: []
+aliases:
+  - Sum of Squares
+  - SSE
 ---
 Perhaps the most important single quantity in all statistics. It has multiple interpretations but in its purest form is:
 $$\displaystyle \Huge sum\_of\_squares = \sum\limits^n_{i=1}(y_i-\bar{y})^2$$
