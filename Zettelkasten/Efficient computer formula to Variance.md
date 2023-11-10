@@ -2,7 +2,7 @@
 tags:
   - Statistics
 ---
-Crawley presents this digression on his book (page 55) of how to have a *better formula* to a computer to calculate the [[Sum of squares]] and, as a consequence, also [[Variance]].
+Crawley presents this digression on his book (page 55) of how to have a *better formula* to a computer to calculate the [[Sum of squares errors]] and, as a consequence, also [[Variance]].
 
 ---
 

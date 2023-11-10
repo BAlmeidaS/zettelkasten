@@ -3,7 +3,7 @@ tags:
   - Statistics
 aliases:
   - Expected Value
-  - Expecation
+  - Expectation
 ---
 In [[Statistics]] and [[Probability theory]],
 

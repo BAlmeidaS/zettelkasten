@@ -20,25 +20,9 @@ cov(x,y) &=& E(xy) - E(x)E(y) \\
 
 When, $\displaystyle \large x$ and $\displaystyle \large y$ are *uncorrelated*, $\displaystyle \large cov(x,y) = 0$, so $\displaystyle \large E(xy) = E(x)E(y)$.
 
-
-
-
-
 ---
 
-from the [[corrected sum of squares and products]], we have:
+Using the [[Correct sums]] ([[SSXY]]), we have:
 $$\displaystyle \Huge \begin{eqnarray} 
 cov(x, y) &=& \text{SSXY}\sqrt{\dfrac{1}{(n-1)^2}} \\
 \end{eqnarray}$$
-
-which provides a short cut for the [[Correlation]] coefficient
-$$\displaystyle \Huge \begin{eqnarray} 
-r &=& \dfrac{\text{SSXY}}{\sqrt{\text{SSX}*\text{SSY}}} \\
-
-\end{eqnarray}$$
-
-
-
-
-
-
