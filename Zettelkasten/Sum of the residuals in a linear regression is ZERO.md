@@ -13,6 +13,6 @@ $$\displaystyle \Huge \begin{eqnarray}
 &=& \sum y - n\bar{y} + bn\bar{x} - b\sum x \\
 (\bar{x} = \dfrac{\sum x}{n}) \\
 &=& \sum y - n \dfrac{\sum y}{n} + bn\dfrac{\sum x}{n} - b\sum x \\
-&=& \sum
-
+&=& \sum y - \sum y + b\sum x - b\sum x \\
+&=& 0
 \end{eqnarray}$$

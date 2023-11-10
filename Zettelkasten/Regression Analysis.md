@@ -1,6 +1,9 @@
 ---
 tags:
   - Statistics
+aliases:
+  - Linear Regression
+  - Linear Model
 ---
 Regression Analysis is a [[Statistics|statistical]] method you use when both [[Response variable]] and [[Explanatory variable]] are [[Continuous variable|continuous variables]].
 
@@ -11,12 +14,14 @@ a &\rightarrow& intercept \\
 b &\rightarrow& slope
 \end{eqnarray}$$
 
-The parameters have the *maximum likelihood* with the data. In other words, *find the values of the slope and intercept that make the data most likely*. The math behind is on [[least-squares]]. 
+The parameters have the *maximum likelihood* with the data. In other words, *find the values of the slope and intercept that make the data most likely*. The math behind is on [[least-squares]].
+
+We know that the *best fit passes through $\displaystyle \large (\bar{x}, \bar{y})$*.
 
 The *difference* between the *fitted line and the original data point* is called [[Deviation|Residual]] (in red):
 ![[Pasted image 20231110164148.png|400]]
 
-The [[Maximum Likelihood]] model is defined as *the model that minimises the sum of the squares of the residuals*.
+The [[Maximum Likelihood]] model is defined as *the model that minimises the sum of the squares of the residuals* : [[finding the minimum sum of squared error on LMs]]
 
 Being a residual $\displaystyle \large d_i$ defined as:
 $$\displaystyle \Huge \begin{eqnarray} 
