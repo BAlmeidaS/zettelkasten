@@ -8,7 +8,8 @@ aliases:
 The **unexplained variation** of a [[Regression Analysis|Linear Model]].
 
 Perhaps the most important single quantity in all statistics. It has multiple interpretations but in its purest form is:
-$$\displaystyle \Huge sum\_of\_squares = \sum\limits^n_{i=1}(y_i-\hat{y_i})^2$$
+$$\displaystyle \Huge sum\_of\_squares = \sum d_i^2 =\sum\limits^n_{i=1}(y_i-\hat{y_i})^2$$
+*SSE is the sum of the squares of the [[Deviation|deviations]]*.
 
 The unit depends on the unit of $\displaystyle \large y$ and it will be that one squared.
 
