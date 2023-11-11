@@ -42,4 +42,4 @@ The [[p-value]] is calculated using the *f distributions* based on both [[Degree
 > 1 - pf(f_ratio, regression_d.f., error_d.f.)
 > ```
 
-The *summary* ends with the [[Standard Error of the Regression Slope]] and the [[Standard error of the Intercept]]
+The *summary* ends with the [[Standard Error of the Regression Slope]] and the [[Standard Error of the Intercept]]
