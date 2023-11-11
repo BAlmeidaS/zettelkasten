@@ -14,7 +14,7 @@ A table that shows all the core components of a [[Regression Analysis|Linear Mod
 >summary.aov(model)
 >```
 
-| Source     | Sum of Squares                 | [[Degrees of Freedom]]                         | Mean Squares | [[F ratio]] |
+| Source     | Sum of Squares                 | [[Degrees of Freedom]]                         | Mean Squares | [[Degree of Fit - Linear Regression]] |
 | ---------- | ------------------------------ | ---------------------------------------------- | ------------ | ----------- |
 | Regression | [[SSR]]                        | $\displaystyle \large num\_of\_slopes$         | *regression variance*             |   $\displaystyle \large \dfrac{regression\ variance}{error\ variance}$          |
 | Error      | [[Sum of squares errors\|SSE]] | $\displaystyle \large n - 1 - num\_of\_slopes$ | *error variance*              |             |
@@ -28,7 +28,7 @@ regression\ variance &=& \dfrac{SSR}{num\_of\_slopes} \\\\
 error\ variance &=& \dfrac{SSE}{n - 1 - num\_of\_slopes} \\
 \end{eqnarray}$$
 
-Finally the [[F ratio]] is the [[Test Statistic]] for the [[Regression Analysis|Linear Model]]
+Finally the *F Ratio* is the [[Test Statistic]] for the [[Regression Analysis|Linear Model]]
 
 The [[p-value]] is calculated using the *f distributions* based on both [[Degrees of Freedom]]
 
