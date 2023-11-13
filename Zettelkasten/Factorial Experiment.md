@@ -9,7 +9,7 @@ We can investigate statistical interaction in which the *response to one factor 
 > [!R Lang]
 > If the data has 2 or more categories we must consider the interaction between them, not only with the independent variable. Therefore, the right model is *not only*:
 > $$\displaystyle \Huge ind\_var \sim dep\_var\_a + dep\_var\_b$$
-> *but*:
+> *but*, because it is a **FACTORIAL EXPERIMENT**:
 > $$\displaystyle \Huge ind\_var \sim dep\_var\_a + dep\_var\_b + dep\_var\_a:dep\_var\_b $$
 > The shorcut to create such model is using the operator `*`:
 > ```R
