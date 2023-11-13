@@ -12,7 +12,7 @@ In this context, *explanatory variables are called **factors** and each factor h
 If we have:
 - *1 Factor with 3 or more levels*: [[One-Way Anova]]
 - *1 Factor with 2 levels*: [[Student's t test]] gives the same answer than [[Analyse of Variance|Anova]].
-- *2 or more Factor*: [[Two-Way Anova]] or [[Three-Way Anova]]
+- *2 or more Factor*: [[Factorial Experiment]]
 
 
 
