@@ -16,7 +16,7 @@ A table that shows all the core components of a [[Regression Analysis|Linear Mod
 
 | Source     | Sum of Squares                 | [[Degrees of Freedom]]                         | Mean Squares | [[Degree of Fit - Linear Regression]] |
 | ---------- | ------------------------------ | ---------------------------------------------- | ------------ | ----------- |
-| Regression | [[SSR]]                        | $\displaystyle \large num\_of\_slopes$         | *regression variance*             |   $\displaystyle \large \dfrac{regression\ variance}{error\ variance}$          |
+| Regression | [[SSR]]                        | $\displaystyle \large num\_of\_slopes$         | *regression variance*             |   $\displaystyle \large \text{F Ratio} = \dfrac{regression\ variance}{error\ variance}$          |
 | Error      | [[Sum of squares errors\|SSE]] | $\displaystyle \large n - 1 - num\_of\_slopes$ | *error variance*              |             |
 | Total      | [[SSY]] ([[SSY = SSR + SSE]])  | $\displaystyle \large n - 1$                   |              |             |
 
