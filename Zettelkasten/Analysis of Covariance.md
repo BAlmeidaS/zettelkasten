@@ -9,5 +9,6 @@ aka *Ancova*, It is a combination of [[Regression Analysis]] and [[Analyse of Va
 
 The [[Response variable|dependent variable]] *is continuous* and there is *at least one [[Continuous variable]] and one [[Categorical variable]] among the [[Explanatory variable|independent variables]]*.
 
-In *Ancova* more than *lm and anova*, we need to do [[model simplification]]!
+In *Ancova* we need to do [[model simplification]]!
 
+In *Ancova*, typically, *the data are non-orthogonal - **So the order of the parameters matter!***
