@@ -2,4 +2,6 @@
 tags:
   - Statistics
 ---
-The Idea is to compare two or more [[Average|Means]].
+You used it when you have one [[Categorical variable]] as [[Explanatory variable]].
+
+The idea is to co
