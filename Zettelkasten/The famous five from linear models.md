@@ -1,5 +1,6 @@
 ---
 tags:
+  - Statistics
 ---
 To work out on the formulas from [[Regression Analysis|Linear Models]] it will be easy if you use the **famous five**:
 - $\displaystyle \large \sum x$

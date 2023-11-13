@@ -1,3 +1,8 @@
+---
+tags:
+  - Statistics
+---
+
 Very similar with [[chi-squared test]], but you must use it when **one or more of the expected frequencies are less than 5**
 
 [[Null Hypothesis|H0]]:  *They are independent* / There is no significant association between the categorical variables

@@ -7,5 +7,3 @@ In [[Regression Analysis|Linear Models]], [[SSY|The total variation (SSY)]] is t
 $$\displaystyle \Huge \begin{eqnarray} 
 SSY &=& SSR + SSE \\
 \end{eqnarray}$$
-
-
