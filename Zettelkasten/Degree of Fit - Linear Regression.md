@@ -1,12 +1,16 @@
 ---
 tags:
   - Statistics
+aliases:
+  - r-squared
+  - r^2
+  - variation explained
 ---
 The degree of fit, $\displaystyle \large r^2$, quantifies the degree of fit of a [[Regression Analysis|Linear Model]]
 $$\displaystyle \Huge r^2 = \dfrac{SSR}{SSY}, \ r^2 \in[0,1]$$
 ([[SSR]] and [[SSY]])
 
-In other words, $\displaystyle \large r^2$ is the percentage of the *variation* that the model could explain.
+In other words, **$\displaystyle \large r^2$ is the percentage of the *variation* that the model could explain.**
 
 ![[Pasted image 20231111183012.png|500]]
 
