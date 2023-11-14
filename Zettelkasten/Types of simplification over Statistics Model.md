@@ -1,6 +1,9 @@
 ---
 tags:
   - Statistics
+aliases:
+  - types of simplification over stats models
+  - Maximal model
 ---
 In the process over the [[Model Simplification]] we have the 4 models:
 

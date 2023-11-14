@@ -7,7 +7,7 @@ aliases:
   - three-way
   - 2-way
   - 3-way
-  - High-Order
+  - Higher-order anova
 ---
 In [[Analyse of Variance|Anova]] and [[Factorial Experiment]], we can have *two-way*, *three-way*, or even *higher-order anova*. This means basically Anova with 2 or more [[Explanatory variable|explanatory variables]].
 

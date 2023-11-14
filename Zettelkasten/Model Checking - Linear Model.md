@@ -15,7 +15,7 @@ On `R` we can plot the [[Regression Analysis|Linear Model]] trying to understand
 
 **The top two graphs are the most important ones**
 
-*the top-left* - shows the [[Deviation|residuals]]. Ideally the point should look like "the sky at night", without any type of bias. It is a problem if the scatter increases of decreases along the x.
+*the top-left* - shows the [[Deviation|residuals]]. Ideally the point should look like "the sky at night", without any type of bias. It is a problem if the scatter increases of decreases along the x. This point we check for [[Heteroscedasticity]]
 
 *the top-right* - Is to check if the [[Deviation|residuals]] are normally distributed. It is a problem when there is an S-shaped or banana-shaped.
 
