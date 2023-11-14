@@ -24,7 +24,16 @@ This means, we want to:
 - remove non-significant interaction terms
 - remove non-significant quadratic or non-linear terms
 - remove non-significant explanatory variables
-- group together factor levels that do not differ f
+- group together factor levels that do not differ from one another
+- set non-significant slopes of continuous explanatory variables to zero
+
+Steps of model simplification are:
+1. Fit the [[Types of simplification over Statistics Model|Maximal Model]]
+2. Begin model simplification - check the parameters using `summary` - **Remember that order matters if variables are correlated!**
+3. Deletion cause an *in*significant increase in deviance (checked via *anova method*)? 
+	1. Yes? Remove and check the parameters again
+	2. No? Put the term back
+4. Keep removing terms from the model
 
 
 > [!R Lang]
