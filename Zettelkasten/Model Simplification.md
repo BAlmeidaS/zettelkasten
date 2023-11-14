@@ -30,7 +30,7 @@ This means, we want to:
 Steps of model simplification are:
 1. Fit the [[Types of simplification over Statistics Model|Maximal Model]]
 2. Begin model simplification - check the parameters using `summary` - **Remember that order matters if variables are correlated!**
-3. Deletion cause an *in*significant increase in deviance (checked via *anova method*)? Use method `update -` to remove var and `update +` to add
+3. Deletion cause an *in*significant increase in [[Deviance]] (checked via *anova method*)? Use method `update -` to remove var and `update +` to add
 	1. Yes? Remove and check the parameters again
 	2. No? Put the term back
 4. Keep removing terms from the model
