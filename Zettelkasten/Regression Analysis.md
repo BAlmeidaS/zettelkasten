@@ -34,3 +34,4 @@ d_i &=& y_i - (a+xb_i)  \\
 >in `R` we can use `lm(df$resp_var~df$explan_var)`
 >we read like *resp_var is modelled as a function of explan_var*
 
+*To analyse the quality of linear models **always remember of** [[Model Checking - Linear Model]]*
