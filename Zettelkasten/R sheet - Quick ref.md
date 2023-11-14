@@ -13,9 +13,16 @@ replace all instances in of a column to something else
 df$col[df$col=="old string"] <- "new string"
 ```
 
-get all the *number of the occurrences* of a categorical column - `table`
+get all the *number of the occurrences (table of frequencies)* of a categorical column - `table`
 ```R
-table(df$cat_col)
+table(df$cat_1)
+# or multi column table
+table(df$cat_1, df$cat_2)
+# addmargins to put on the the sum of each category
+addmargins(table(df$cat_1, df$cat_2))
+# or with the proportions
+prop.table(table(df$cat_1, df$cat_2))
+
 ```
 
 `NA` is different than `NAN`
@@ -47,5 +54,25 @@ summary(df$col)
 
 Martin like to put *density functions over histograms*
 ```R
+hist(df$col_a, prob=T)
+lines(density(df$col_a), col="red")
+```
 
+Boxplots
+```R
+Boxplot(df$numeric, df$numeric_2, ...)
+# you can filter a numeric column with a cat (factored) column
+Boxplot(df$numeric ~ as.factor(df$categorical))
+```
+
+setting seed
+```R
+set.seed(42)
+```
+
+cbind combine vectors to create dataframe
+```R
+df <- as.data.frame(cbind(vec1, vec2))
+# can be used with dfs as well
+df <- as.data.frame(cbind(vec1, vec2))
 ```
