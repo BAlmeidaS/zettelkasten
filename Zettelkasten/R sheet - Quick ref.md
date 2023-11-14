@@ -70,9 +70,12 @@ setting seed
 set.seed(42)
 ```
 
-cbind combine vectors to create dataframe
+cbind combine vectors to create dataframe, and rbind new rows
 ```R
 df <- as.data.frame(cbind(vec1, vec2))
 # can be used with dfs as well
-df <- as.data.frame(cbind(vec1, vec2))
+df <- cbind(df0, vec2)
+# adding rows
+new_row = c(1, "a", ...)
+df <- rbind(df, new_row)
 ```
