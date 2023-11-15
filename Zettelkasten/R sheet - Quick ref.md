@@ -119,10 +119,24 @@ new_row = c(1, "a", ...)
 df <- rbind(df, new_row)
 ```
 
+correlation with spearman
+```R
+round(cor(df, method = "spearman"), 3)
+```
+
 # basic about ggplot
 
 ```R
-ggplot(data=df, aes(x=col, y=col)) + geom_*()
+ggplot(data=df, aes(x=col, y=col)) + 
+	geom_*()
+
+# the input can be ordered with reorder
+ggplot(data=df, aes(x=reorder(col_to_use_on_graph, col_to_use_to_order),
+					y=col))
+# or in the desc way add a minus(-)
+ggplot(data=df, aes(x=reorder(col_to_use_on_graph, -col_to_use_to_order),
+					y=col))
+#you
 
 # to change ylim
 + ylim(y0, y1)
@@ -141,6 +155,9 @@ ggplot(data=df, aes(x=col, y=col)) + geom_*()
 
 # flip to horizontal
 + coord_flip()
+
+# rotate the x ticks
++ theme(axis.text.x = element_text(angle=90))
 
 # to save a png
 ggsave("filename.png") # after the plot
@@ -164,9 +181,19 @@ geom_boxplot(notch=T) # notch represents the CI 95%, wider=uncertain, narrow=nic
 geom_bar() # count the number (stat="count")
 geom_count() # the number as it is (stat="identity")
 
-# histrogram
-geom_histogram(binwidth=1, colour="black", fill="grey")
+# histrogram - each bin has the count
+geom_histogram(binwidth=3, # size of the bin
+			   colour="black", fill="grey")
+	# adding a function to overlay the histogram
+	+ geom_density(aes(y=after_stat(count)), alpha=.2, fill="blue")
 
+
+# histrogram that is a probability density function - (each bin has a probability instead of the count):
+geom_histogram(aes(y=after_stat(density)))
+# aes because we are changing the scale
+	# and add to the histogram the density function:
+	+ geom_density(alpha=.2, fill="blue")
+			
 
 ```
 
