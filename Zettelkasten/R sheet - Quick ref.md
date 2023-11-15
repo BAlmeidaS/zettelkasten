@@ -219,6 +219,7 @@ library(wordcloud)
 library(RColorBrewer)
 library(wordcloud2)
 library(tm)
+library(validate)
 ```
 
 [color names of RColorBrewer](https://r-graph-gallery.com/42-colors-names.html)
