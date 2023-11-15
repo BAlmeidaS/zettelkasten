@@ -79,3 +79,46 @@ df <- cbind(df0, vec2)
 new_row = c(1, "a", ...)
 df <- rbind(df, new_row)
 ```
+
+Head / Tail of a dataset
+```R
+head(df)
+tail(df)
+```
+
+### basic about ggplot
+```R
+ggplot(data=df, aes(x=col, y=col)) + geom_*()
+
+# to change ylim
++ ylim(y0, y1)
+
+# to add a title
++ ggtitle("My title")
+
+# to add label to x or y
++ xlab("my x label") + ylab("my y label")
+
+# change the scale y (1)
++ scale_y_continuous(trans = "log10")
+
+# to add smooth function
++ stat_smooth(span=)
+
+# to save a png
+ggsave("filename.png") # after the plot
+```
+
+(1) - [scale functions](https://bookdown.dongzhuoer.com/hadley/ggplot2-book/scale-transformation)
+
+
+## libraries
+```R
+library(tidyverse)
+library(wordcloud)
+library(RColorBrewer)
+library(wordcloud2)
+library(tm)
+```
+
+[color names of RColorBrewer](https://r-graph-gallery.com/42-colors-names.html)
