@@ -13,8 +13,36 @@ size of an object in memory
 format(object.size(cv.df), units="auto")
 ```
 
+print some var with a text - python `print(f"{}")`
+```R
+# paste
+paste0("var:", var) # DOES NOT add a space 'var:0'
+paste("var:", var) # ADD a space 'var: 0'
+
+# glue
+library(glue)
+glue("var: {var}")
+```
 
 # DF
+First steps with a df
+```R
+names(df) # col names
+dim(df) # dimensions
+struct(df) # types of cols
+View(df) # open the whole df
+head(df) # just the head
+tail(df) # just the tail
+sum(is.na(df)) # count NAs
+colSums(is.na(df)) # count NAs on the cols
+summary(df) # summary - can receive cols
+```
+
+if df has index
+```R
+row.names(df) # all the index nam
+```
+
 How to remove a column of a dataset
 ```R
 df = subset(df, select = -c(name_col))
@@ -63,12 +91,6 @@ Quite often is handy to change categorical variables in factors:
 df$cat_var <- as.factor(df$cat_var)
 ```
 
-use `summary` to *get info*
-```R
-summary(df)
-summary(df$col)
-```
-
 Martin like to put *density functions over histograms*
 ```R
 hist(df$col_a, prob=T)
@@ -97,12 +119,6 @@ new_row = c(1, "a", ...)
 df <- rbind(df, new_row)
 ```
 
-Head / Tail of a dataset
-```R
-head(df)
-tail(df)
-```
-
 # basic about ggplot
 
 ```R
@@ -122,6 +138,10 @@ ggplot(data=df, aes(x=col, y=col)) + geom_*()
 
 # to add smooth function
 + stat_smooth(span=)
+
+# flip to horizontal
++ coord_flip()
+
 # to save a png
 ggsave("filename.png") # after the plot
 ```
@@ -135,7 +155,19 @@ geom_point(col="", shape=3)
 geom_point(aes(color=column_name))
 
 # create a linear model to fit the points
-geom_smooth(method="lm") 
+geom_smooth(method="lm")
+
+# create a boxplots - for this one aes on ggplot can have only y
+geom_boxplot(notch=T) # notch represents the CI 95%, wider=uncertain, narrow=nice
+
+# bars 
+geom_bar() # count the number (stat="count")
+geom_count() # the number as it is (stat="identity")
+
+# histrogram
+geom_histogram(binwidth=1, colour="black", fill="grey")
+
+
 ```
 
 (1) - [scale functions](https://bookdown.dongzhuoer.com/hadley/ggplot2-book/scale-transformation)
