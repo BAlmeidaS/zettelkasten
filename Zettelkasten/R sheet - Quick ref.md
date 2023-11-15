@@ -26,7 +26,13 @@ glue("var: {var}")
 
 rep can be used to create massive vector
 ```R
-numVector <- rep(c(1, 2, 3), times = 5)
+numVector <- rep(c(1, 2, 3), times = 5) # 15 elems
+numVector <- rep(c(1, 2, 3), length.out = 5) # 5 elems
+```
+
+sampling in a vector
+```R
+sample(c("M", "F", "?"), 20, replace=T)
 ```
 
 # DF
@@ -223,7 +229,6 @@ geom_histogram(aes(y=after_stat(density)))
 # aes because we are changing the scale
 	# and add to the histogram the density function:
 	+ geom_density(alpha=.2, fill="blue")
-			
 ```
 
 (1) - [scale functions](https://bookdown.dongzhuoer.com/hadley/ggplot2-book/scale-transformation)
