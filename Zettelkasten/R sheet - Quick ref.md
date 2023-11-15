@@ -1,3 +1,20 @@
+# Pure R
+create custom function
+```R
+my_func <- function(param1, param2) {
+  ...
+  return(...)
+}
+my_func(1, 2)
+```
+
+size of an object in memory
+```R
+format(object.size(cv.df), units="auto")
+```
+
+
+# DF
 How to remove a column of a dataset
 ```R
 df = subset(df, select = -c(name_col))
@@ -86,7 +103,8 @@ head(df)
 tail(df)
 ```
 
-### basic about ggplot
+# basic about ggplot
+
 ```R
 ggplot(data=df, aes(x=col, y=col)) + geom_*()
 
@@ -94,7 +112,7 @@ ggplot(data=df, aes(x=col, y=col)) + geom_*()
 + ylim(y0, y1)
 
 # to add a title
-+ ggtitle("My title")
++ ggtitle("My title", subtitle="some subtitle")
 
 # to add label to x or y
 + xlab("my x label") + ylab("my y label")
@@ -104,15 +122,26 @@ ggplot(data=df, aes(x=col, y=col)) + geom_*()
 
 # to add smooth function
 + stat_smooth(span=)
-
 # to save a png
 ggsave("filename.png") # after the plot
+```
+
+geom_*
+```R
+# scatter points with different shapes
+geom_point(col="", shape=3)
+
+# scatter points with another column used as a 3rd dim
+geom_point(aes(color=column_name))
+
+# create a linear model to fit the points
+geom_smooth(method="lm") 
 ```
 
 (1) - [scale functions](https://bookdown.dongzhuoer.com/hadley/ggplot2-book/scale-transformation)
 
 
-## libraries
+# libraries
 ```R
 library(tidyverse)
 library(wordcloud)
