@@ -38,17 +38,24 @@ colSums(is.na(df)) # count NAs on the cols
 summary(df) # summary - can receive cols
 ```
 
-if df has index
+getting *variance, df and five_num* of each col:
+```R
+sapply(df,var)
+sapply(df,sd)
+sapply(df,fivenum)
+```
+
+if df has *index*
 ```R
 row.names(df) # all the index nam
 ```
 
-How to remove a column of a dataset
+How to *remove a column* of a dataset
 ```R
 df = subset(df, select = -c(name_col))
 ```
 
-replace all instances of a word in your dataset for something else
+*replace all instances of a word* in your dataset for something else
 ```R
 df[df=="old string"] <- "new string"
 ```
@@ -72,7 +79,7 @@ prop.table(table(df$cat_1, df$cat_2))
 
 `NA` is different than `NAN`
 
-counting NAs:
+*counting NAs*:
 ```R
 # all the dataset
 sum(is.na(df))
@@ -80,13 +87,13 @@ sum(is.na(df))
 colSums(is.na(df))
 ```
 
-Get the structure of a dataframe
+Get the *structure* of a dataframe
 ```R
 # str stands for STRUCTURE
 srt(df)
 ```
 
-Quite often is handy to change categorical variables in factors:
+Quite often is handy to *change categorical variables in factors*:
 ```R
 df$cat_var <- as.factor(df$cat_var)
 ```
@@ -109,7 +116,7 @@ setting seed
 set.seed(42)
 ```
 
-cbind combine vectors to create dataframe, and rbind new rows
+cbind *combine vectors to create dataframe*, and *rbind new rows*
 ```R
 df <- as.data.frame(cbind(vec1, vec2))
 # can be used with dfs as well
@@ -119,7 +126,7 @@ new_row = c(1, "a", ...)
 df <- rbind(df, new_row)
 ```
 
-correlation with spearman
+*correlation* with spearman
 ```R
 round(cor(df, method = "spearman"), 3)
 ```
@@ -127,7 +134,7 @@ round(cor(df, method = "spearman"), 3)
 # basic about ggplot
 
 ```R
-ggplot(data=df, aes(x=col, y=col)) + 
+ggplot(data=df, aes(x=col1, y=col2)) + 
 	geom_*()
 
 # the input can be ordered with reorder
@@ -136,7 +143,8 @@ ggplot(data=df, aes(x=reorder(col_to_use_on_graph, col_to_use_to_order),
 # or in the desc way add a minus(-)
 ggplot(data=df, aes(x=reorder(col_to_use_on_graph, -col_to_use_to_order),
 					y=col))
-#you
+# you can a colour on the global aes to be accessed to any geom
+ggplot(data=df, aes(x=col1, y=col2, colour=col3)) 
 
 # to change ylim
 + ylim(y0, y1)
@@ -159,6 +167,9 @@ ggplot(data=df, aes(x=reorder(col_to_use_on_graph, -col_to_use_to_order),
 # rotate the x ticks
 + theme(axis.text.x = element_text(angle=90))
 
+# if there is a colour as third dimension we can change the gradient
++ scale_colour_gradient(low = "blue", high = "red") 
+
 # to save a png
 ggsave("filename.png") # after the plot
 ```
@@ -166,13 +177,14 @@ ggsave("filename.png") # after the plot
 geom_*
 ```R
 # scatter points with different shapes
-geom_point(col="", shape=3)
+geom_point(col="color", shape=3, size=2)
 
 # scatter points with another column used as a 3rd dim
 geom_point(aes(color=column_name))
 
 # create a linear model to fit the points
 geom_smooth(method="lm")
+geom_smooth(method="lm", se=T) # add 1 SE of error
 
 # create a boxplots - for this one aes on ggplot can have only y
 geom_boxplot(notch=T) # notch represents the CI 95%, wider=uncertain, narrow=nice
