@@ -24,6 +24,11 @@ library(glue)
 glue("var: {var}")
 ```
 
+rep can be used to create massive vector
+```R
+numVector <- rep(c(1, 2, 3), times = 5)
+```
+
 # DF
 First steps with a df
 ```R
@@ -79,9 +84,10 @@ prop.table(table(df$cat_1, df$cat_2))
 
 `NA` is different than `NAN`
 
-*counting NAs*:
+*counting NAs* (`== NA` does not work ):
+
 ```R
-# all the dataset
+# all the dataset 
 sum(is.na(df))
 # per column
 colSums(is.na(df))
@@ -129,7 +135,12 @@ df <- rbind(df, new_row)
 round(cor(df, method = "spearman"), 3)
 ```
 
-# basic about ggplot
+removing NA
+```R
+df_without_nas <- df[complete.cases(df),]
+```
+
+# GGPLOT
 
 ```R
 ggplot(data=df, aes(x=col1, y=col2)) + 
@@ -218,7 +229,7 @@ geom_histogram(aes(y=after_stat(density)))
 (1) - [scale functions](https://bookdown.dongzhuoer.com/hadley/ggplot2-book/scale-transformation)
 (2) - [line functions](http://www.sthda.com/english/wiki/ggplot2-line-plot-quick-start-guide-r-software-and-data-visualization#create-line-plots-with-points)
 
-# Validate package
+# Validate (pkg)
 Week 5 modern data
 ```R
 # create a validator
@@ -238,6 +249,36 @@ new_rule <- validator(...)
 rules <- rules + new_rule
 ```
 
+
+# Dplyr (pkg)
+Function to change the df - Week 5 modern data
+```R
+# arrange -> Sort
+arrange(df, col_a)
+arrange(df, -col_a) #reverse order
+
+# filter -> "query"
+filter(df, col_a == 7)
+
+# mutate -> change or add new cols
+mutate(df, new_col = col_a + col_b)
+
+# rename -> rename a col
+rename(df, col_a = new_name_for_col_a)
+
+# sample_n -> random get some values
+sample_n(df, 3)
+
+# select -> get some only cols
+select(df, c(col_b, col_c))
+```
+
+# Hmisc (pkg)
+replace NA values on dfs
+```R
+df$col <- impute(df$col, median)
+```
+
 # libraries
 ```R
 library(tidyverse)
@@ -246,6 +287,8 @@ library(RColorBrewer)
 library(wordcloud2)
 library(tm)
 library(validate)
+library(dplyr)
+library(Hmisc)
 ```
 
 [color names of RColorBrewer](https://r-graph-gallery.com/42-colors-names.html)
