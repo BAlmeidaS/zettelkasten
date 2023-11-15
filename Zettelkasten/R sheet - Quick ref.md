@@ -104,11 +104,9 @@ hist(df$col_a, prob=T)
 lines(density(df$col_a), col="red")
 ```
 
-Boxplots
+Filtering the DF based in some querry
 ```R
-Boxplot(df$numeric, df$numeric_2, ...)
-# you can filter a numeric column with a cat (factored) column
-Boxplot(df$numeric ~ as.factor(df$categorical))
+subset(df, col_a == "condition")
 ```
 
 setting seed
