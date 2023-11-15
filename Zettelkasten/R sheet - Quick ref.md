@@ -168,17 +168,26 @@ ggplot(data=df, aes(x=col1, y=col2, colour=col3))
 # if there is a colour as third dimension we can change the gradient
 + scale_colour_gradient(low = "blue", high = "red") 
 
+# other background themes
++ theme_bw()
++ theme_minimal()
++ theme_classic()
+
 # to save a png
 ggsave("filename.png") # after the plot
 ```
-
+http://www.sthda.com/english/wiki/ggplot2-line-plot-quick-start-guide-r-software-and-data-visualization#create-line-plots-with-points
 geom_*
 ```R
 # scatter points with different shapes
 geom_point(col="color", shape=3, size=2)
-
 # scatter points with another column used as a 3rd dim
 geom_point(aes(color=column_name))
+
+# line will connect the datapoints on a scatter plot
+geom_line()
+# abline: (check also hline and vline) (2)
+geom_abline(intercept= , slope= )
 
 # create a linear model to fit the points
 geom_smooth(method="lm")
@@ -204,11 +213,30 @@ geom_histogram(aes(y=after_stat(density)))
 	# and add to the histogram the density function:
 	+ geom_density(alpha=.2, fill="blue")
 			
-
 ```
 
 (1) - [scale functions](https://bookdown.dongzhuoer.com/hadley/ggplot2-book/scale-transformation)
+(2) - [line functions](http://www.sthda.com/english/wiki/ggplot2-line-plot-quick-start-guide-r-software-and-data-visualization#create-line-plots-with-points)
 
+# Validate package
+Week 5 modern data
+```R
+# create a validator
+rules <- validator(name_of_val = <some condition>,
+				   okColB = is.ellement(colb, c("A", "B")),
+				   NonNegColC = colC >= 0,
+				   GreaterColD = colD >= ColC,
+				   ...
+				   )
+# apply the rules
+qual.check <- confront(df, rules)
+summary(qual.check)
+plot(qual.check)
+
+# new rules can be added
+new_rule <- validator(...)
+rules <- rules + new_rule
+```
 
 # libraries
 ```R
