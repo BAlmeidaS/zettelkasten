@@ -308,14 +308,20 @@ df$col <- impute(df$col, median)
 
 # libraries
 ```R
-library(tidyverse)
-library(wordcloud)
-library(RColorBrewer)
-library(wordcloud2)
-library(tm)
-library(validate)
+library(ggplot2)
 library(dplyr)
-library(Hmisc)
+library(glue)
+library(RColorBrewer)
 ```
-
 [color names of RColorBrewer](https://r-graph-gallery.com/42-colors-names.html)
+
+```R
+library(tidyverse)
+library(tm)
+
+library(validate)
+library(Hmisc)
+
+library(wordcloud)
+library(wordcloud2)
+```
