@@ -9,3 +9,12 @@ If you want to calculate the [[Confidence Interval]] of the [[Average|Mean]] ove
 >```R
 >t.test(df$col, conf.level = 0.9)
 >```
+>You can also test against a hypothese:
+>```R
+>t.test(x, mu=<H0>, alternative="two.sided")
+
+
+
+
+
+

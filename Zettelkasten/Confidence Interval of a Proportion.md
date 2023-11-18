@@ -9,3 +9,9 @@ If you want to calculate the [[Confidence Interval]] of a propotion, one thing y
 >```R
 >prop.test(490, 1000, conf.level = 0.9)
 >```
+>Another option, you can test against a H0
+>```R
+>prop.test(5, 12, p=[h0], alternative="greater")
+> ```
+
+

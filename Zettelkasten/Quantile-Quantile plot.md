@@ -10,3 +10,9 @@ If the sample is *normally distributed* then the line will be straight. Departur
 ![[Pasted image 20231106175944.png|500]]
 
 The functions you need to remember on `R` are `qqnorm` and `qqline`
+
+>[!R lang]
+>```R
+>qqnorm(df$col)
+>qqline(df$col, col = "steelblue", lwd = 2)
+>```
