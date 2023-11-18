@@ -195,6 +195,8 @@ ggplot(data=df, aes(x=col1, y=col2, colour=col3))
 ggsave("filename.png") # after the plot
 ```
 http://www.sthda.com/english/wiki/ggplot2-line-plot-quick-start-guide-r-software-and-data-visualization#create-line-plots-with-points
+[ggplot theme](https://ggplot2.tidyverse.org/reference/ggtheme.html)
+
 geom_*
 ```R
 # scatter points with different shapes
