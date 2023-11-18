@@ -222,7 +222,7 @@ geom_point(aes(color=column_name))
 # line will connect the datapoints on a scatter plot
 geom_line()
 # abline: (check also hline and vline) (2)
-geom_abline(intercept= , slope= )
+geom_abline(intercept= , slope= , linetype="dashed")
 
 # create a linear model to fit the points
 geom_smooth(method="lm")
@@ -247,6 +247,10 @@ geom_histogram(aes(y=after_stat(density)))
 # aes because we are changing the scale
 	# and add to the histogram the density function:
 	+ geom_density(alpha=.2, fill="blue")
+
+# geom_ribbon can be used to paint area under the curve
+# check lab - week 2 - QDA Indep Practice to understand
+# https://github.com/BAlmeidaS/brunel/blob/main/QDA/week-2/independent-practice/lab2-independent-practice-a-solution%202.Rmd
 ```
 
 (1) - [scale functions](https://bookdown.dongzhuoer.com/hadley/ggplot2-book/scale-transformation)
