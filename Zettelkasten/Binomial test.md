@@ -1,6 +1,9 @@
 ---
 tags:
   - Statistics
+aliases:
+  - binomial test
+  - prop test
 ---
 A test that can be used to determine whether the *observed proportion of success in a **binary outcome** experiment differs from a hypothesised proportion*.
 
