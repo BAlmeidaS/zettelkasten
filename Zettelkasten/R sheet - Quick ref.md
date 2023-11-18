@@ -83,7 +83,7 @@ df$col[df$col=="old string"] <- "new string"
 get all the *number of the occurrences (table of frequencies)* of a categorical column - `table`
 ```R
 table(df$cat_1)
-# or multi column table
+# or multi column tableggtitle
 table(df$cat_1, df$cat_2)
 # addmargins to put on the the sum of each category
 addmargins(table(df$cat_1, df$cat_2))
