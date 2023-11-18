@@ -189,6 +189,7 @@ ggplot(data=df, aes(x=col1, y=col2, colour=col3))
 + theme_bw()
 + theme_minimal()
 + theme_classic()
++ theme_linedraw()
 
 # to save a png
 ggsave("filename.png") # after the plot
