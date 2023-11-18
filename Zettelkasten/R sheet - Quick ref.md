@@ -1,4 +1,9 @@
 # Pure R
+create a vector of numeric values with 10k spaces
+```R
+vec <- numeric(10000)
+```
+
 create custom function
 ```R
 my_func <- function(param1, param2) {
@@ -34,7 +39,6 @@ sampling in a vector
 ```R
 sample(c("M", "F", "?"), 20, replace=T)
 ```
-
 # DF
 First steps with a df
 ```R
@@ -86,6 +90,12 @@ addmargins(table(df$cat_1, df$cat_2))
 # or with the proportions
 prop.table(table(df$cat_1, df$cat_2))
 
+```
+
+getting num of rows and cols isolated
+```R
+nrow(df)
+ncol(df)
 ```
 
 `NA` is different than `NAN`
@@ -144,6 +154,11 @@ round(cor(df, method = "spearman"), 3)
 removing NA
 ```R
 df_without_nas <- df[complete.cases(df),]
+```
+
+get a quantile of a column regardless the distribution
+```R
+quantile(df$col, c(0.025, 0.975))
 ```
 
 # GGPLOT
