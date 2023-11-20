@@ -311,6 +311,14 @@ replace NA values on dfs
 df$col <- impute(df$col, median)
 ```
 
+# ggmosaic
+Extension on ggplot2 to draw easily mosaics
+```R
+ggplot(data = df) +
+  geom_mosaic(aes(weight = Count, x = product(cat1), fill = cat2)) +
+  theme_minimal()
+```
+
 # libraries
 ```R
 library(ggplot2)
@@ -321,6 +329,7 @@ library(RColorBrewer)
 [color names of RColorBrewer](https://r-graph-gallery.com/42-colors-names.html)
 
 ```R
+library(ggmosaic) 
 library(tidyverse)
 library(tm)
 
