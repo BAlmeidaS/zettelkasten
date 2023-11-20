@@ -4,8 +4,10 @@ tags:
 ---
 A test to validate if there is a *association between two categorical variables*.
 
-[[Null Hypothesis|H0]]:  *They are independent* / There is no significant association between the categorical variables
-[[Alternative Hypothesis|H1]]:  *They are dependent on each other* / There is a significant association between the categorical variables
+[[Null Hypothesis|H0]]:  *The two categories are independent* / There is no significant association between the categorical variables
+[[Alternative Hypothesis|H1]]:  *The two categories are dependent on each other* / There is a significant association between the categorical variables
+
+*If two variables are independent, it means that knowledge of one does not provide useful information about the other. For instance, if you're looking at the relationship between eye colour and reading preference in a population and find them to be independent, knowing a person's eye colour doesn't help you predict their reading preference, and vice versa.*
 
 Since you have two [[Categorical variable|categorical variables]], you have a [[Contingency Table]], with the **observed frequencies**:
 
@@ -61,7 +63,11 @@ This happens because row total, column total and Grand total, impose a significa
 
 The whole test in `R` can be executed as:
 > [!R Lang]
-> ```
+> ```R
 > count <- matrix(c(38, 14, 11, 51), ncol=2)
-> chiq.test(count)
-``` 
+> chisq.test(count)
+> ``` 
+> or even with table:
+> ```R
+> chisq.test(table(df$col1, df$col2))
+> ```

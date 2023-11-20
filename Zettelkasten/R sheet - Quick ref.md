@@ -161,6 +161,11 @@ get a quantile of a column regardless the distribution
 quantile(df$col, c(0.025, 0.975))
 ```
 
+plot a table with the expected frequencies of two categories
+```R
+table(df$cat_1, df$cat_2)
+```
+
 # GGPLOT
 
 ```R
