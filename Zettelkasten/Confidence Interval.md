@@ -9,6 +9,9 @@ $$\displaystyle \Huge confidence\ interval \propto unreliability \propto \sqrt{\
 *The higher the confidence, the wider the interval*. If you want to be 100% sure the interval is infinite.
 
 ---
+we say, for instance, *to find the 95% confidence interval of something*.
+
+---
 Let's say that we want to calculate a 95% confidence interval for a small sample(n<30), so we can use [[Values of Student's T]]:
 $$\displaystyle \Huge \begin{eqnarray} 
 \text{confidence interval} &=& \text{t-value} * \text{standard error}  \\
