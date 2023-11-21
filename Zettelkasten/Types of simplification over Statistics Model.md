@@ -5,7 +5,7 @@ aliases:
   - types of simplification over stats models
   - Maximal model
 ---
-In the process over the [[Model Simplification]] we have the 4 models:
+In the process over the [[Model Simplification - Model Complexity]] we have the 4 models:
 
 **Null Model**:
 	Just one parameter, the overall mean $\displaystyle \large \bar{y}$

@@ -2,7 +2,6 @@
 tags:
   - Statistics
 ---
-
 It measures the linear [[Correlation]] between two variables $\displaystyle \large x$ and $\displaystyle \large y$.
 
 It assumes that:
@@ -17,3 +16,11 @@ While just `cor` give you the raw correlation
 [[Alternative Hypothesis|H1]]: There is linear correlation - depending on the test, we check by $\displaystyle \large \neq$  (two tailed), $\displaystyle \large r > 0$ (one tailed positive relation) or $\displaystyle \large r < 0$ (one tailed negative relation)
 
 *Person test* is running a [[Student's t test|t test]] under the hood
+
+>[!R Lang]
+>```R
+># computer the correlation
+>cor(df$col1, df$col2)
+># run the test
+>cor.test(df$col1, df$col2)
+>```

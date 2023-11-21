@@ -33,5 +33,11 @@ d_i &=& y_i - (a+xb_i)  \\
 >[!R Lang]
 >in `R` we can use `lm(df$resp_var~df$explan_var)`
 >we read like *resp_var is modelled as a function of explan_var*
+>and we can use `predict` to use the model
+>```R
+>pol_lm <- lm(amount ~ time + I(time^2), df)
+>summary(pol_lm)
+>predict(pol_lm, data.frame(time=some_vec))
+>```
 
 *To analyse the quality of linear models **always remember of** [[Model Checking - Linear Model]]*

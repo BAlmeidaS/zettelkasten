@@ -8,6 +8,7 @@ On `R` we can plot the [[Regression Analysis|Linear Model]] trying to understand
 >```R
 >model <- lm(...)
 >par(mfrow=c(2,2))
+>summary(model)
 >plot(model)
 >```
 
