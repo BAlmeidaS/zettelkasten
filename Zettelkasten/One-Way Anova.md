@@ -18,7 +18,7 @@ $$\displaystyle \Huge SSY = SSA + SSE$$
 
 The [[Test Statistic]] will be the **F-Ratio** from the [[Anova Table - Linear Model Summary|Anova Table]], between *the mean square of SSA* and *the mean square of Error*.
 
-Then we can calculate the p-value with `1 - pf(f-ratio, d.f._ind_var, d.f._error`
+Then we can calculate the p-value with `1 - pf(f-ratio, d.f._ind_var, d.f._error)`
 
 > [!R Lang]
 > in `r` we can use:
