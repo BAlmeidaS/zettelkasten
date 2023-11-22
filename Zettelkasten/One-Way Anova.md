@@ -27,3 +27,4 @@ Then we can calculate the p-value with `1 - pf(f-ratio, d.f._ind_var, d.f._error
 > summary(anova_model)
 > plot(anova_model)
 >  ```
+
