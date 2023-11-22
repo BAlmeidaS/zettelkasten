@@ -35,6 +35,12 @@ Steps of model simplification are:
 	2. No? Put the term back
 4. Keep removing terms from the model
 
-
 > [!R Lang]
+> ```R
+> model <- lm(...)
+> # removing features
+> model2 <- update(model, ~. -col)
+> ```
+> 
 > Other option is using the function `AIC`. With this one we simply get the one with the lower level.
+
