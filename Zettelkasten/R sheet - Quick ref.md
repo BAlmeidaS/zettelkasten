@@ -166,6 +166,11 @@ plot a table with the expected frequencies of two categories
 table(df$cat_1, df$cat_2)
 ```
 
+make one column being equal to something based on a condition
+```R
+df$new_col <- ifelse(df$col == "some cond", "true value", "false value")
+```
+
 # GGPLOT
 
 ```R

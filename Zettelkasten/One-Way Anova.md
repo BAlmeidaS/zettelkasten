@@ -28,3 +28,4 @@ Then we can calculate the p-value with `1 - pf(f-ratio, d.f._ind_var, d.f._error
 > plot(anova_model)
 >  ```
 
+In the summary, we will find a *p-value* (`Pr(>F)`) that *if it is smaller than $\displaystyle \large \alpha$ means that the independent variable isolates the better the means than the global one*, in other word, *the indep_vars have significantly different dep_var means*
