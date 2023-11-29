@@ -19,6 +19,6 @@ Variance:
 ![[Pasted image 20231129125835.png|500]]
 
 A generalised model has three important properties:
-- [[GLM - error structure]]
-- [[GLM - linear predictor]]
-- [[GLM - link function]]
+- [[GLM - error structure|error structure]]
+- [[GLM - linear predictor|linear predictor]]
+- [[GLM - link function|link function]]
