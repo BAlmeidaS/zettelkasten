@@ -3,7 +3,7 @@ tags:
   - Statistics
 aliases:
   - Analyse of Variance
-  - Anova
+  - ANOVA
 ---
 A [[Statistics]] technique that we use when *all the [[Explanatory variable|explanatory variables]] are [[Categorical variable|categorical]]*.
 

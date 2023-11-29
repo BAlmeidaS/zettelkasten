@@ -42,5 +42,9 @@ d_i &=& y_i - (a+xb_i)  \\
 
 *To analyse the quality of linear models **always remember of** [[Model Checking - Linear Model]]*
 
+---
+
 **The most common Linear models are**:
-[[]]
+- [[Regression Analysis]] - this one!
+- [[Analyse of Variance|ANOVA]]
+- [[Analysis of Covariance|ANCOVA]]
