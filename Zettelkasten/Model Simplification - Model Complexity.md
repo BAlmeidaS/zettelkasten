@@ -10,8 +10,11 @@ Using [[Occam's Razor]], if the *simpler model does not explain significantly le
 > m1 <- lm(...)
 > m2 <- lm(...)
 > anova(m1, m2)
+> anova(m1, m2, test="Chi") # to compare logistic regressions
 >  ```
->  Returns a table with a [[One-Way Anova]] test, if *p-value is low (less than 0.05)*, than m2 is worse than m1, otherwise they are the same. The one with the highest value of D.F. (DF or Res.DF) is the the simplest one, and if it is not worse, should be the one chosen.
+>  Returns a table with a [[One-Way Anova]] test, if *p-value is low (less than 0.05)*, than m2 is worse than m1, otherwise they are the same. *If they are the same, get the simplest*
+>  The one with the highest value of D.F. (DF or Res.DF) is the the simplest one, and if it is not worse, should be the one chosen.
+>  **p-value > 0.05 on anova model checking, get the simplest model!**
 
 We prefer:
 - a model with $\displaystyle \large n-1$ paramaters to a model with $\displaystyle \large n$ parameters
