@@ -42,5 +42,8 @@ Steps of model simplification are:
 > model2 <- update(model, ~. -col)
 > ```
 > 
-> Other option is using the function `AIC`. With this one we simply get the one with the lower level.
+> Other option is using the function [[Akaike's Information Criterion - AIC]]. With this one we simply get the one with the lower level.
+> ```R
+> step(model)
+> ```
 

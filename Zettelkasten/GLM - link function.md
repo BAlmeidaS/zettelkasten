@@ -11,4 +11,13 @@ $$\displaystyle \Huge \eta=g(\mu)$$
 
 *An important criterion in the choice of link function is to ensure that the fitted values stay within reasonable bounds*. If the response is a percentage, the link function will guarantee that the return will be between 0 and 1, and so on.
 
-**The most appropriate link function is the one which produces the minimum residual deviance**. By using different link functions, the performance of a variety of models can be compared. The total [[Deviance]] is the same in each case, and we can evaluate how the changes on the [[GLM - linear predictor|linear predictor]] are behaving.
+**The most appropriate link function is the one which produces the minimum residual deviance**. By using different link functions, the performance of a variety of models can be compared. The total [[Deviance]] is the same in each case, and we can evaluate how the changes on the [[GLM - linear predictor|linear predictor]] behaved.
+
+These are the common link function to each type of [[GLM - error structure|error structure]]:
+
+| Error      | Canonical link |
+| ---------- | -------------- |
+| *gaussian* | identity       |
+| *poisson*  | log            |
+| *binomial* | logit          |
+| *gamma*    | reciprocal     |
