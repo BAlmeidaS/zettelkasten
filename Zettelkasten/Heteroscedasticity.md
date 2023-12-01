@@ -12,3 +12,9 @@ In my own words:
 ![[Pasted image 20231105202400.png|500]]
 (on the left is what we want to see: no trend in the residual with the fitted values)
 (on the right there is a problem. A clear pattern of increasing residual as the fitted values get larger)
+
+>[!R lang]
+>During the course, we saw that many times when we observe heteroscedasticity, applying a `log transformation` on Y, helps to reduce:
+>```R
+>model <- lm(log(y) ~ x1 * x2 + I(x1^2), data=df)
+>```

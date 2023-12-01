@@ -50,3 +50,12 @@ Steps of model simplification are:
 > step(model)
 > ```
 
+---
+
+>[!R lang]
+>Another suggestion in `R` is using tree model to get what are the best features
+```R
+model_tree <- tree(y~., data=df)
+plot(model_tree)
+text(model_tree)
+```

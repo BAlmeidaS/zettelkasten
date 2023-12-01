@@ -171,6 +171,10 @@ make one column being equal to something based on a condition
 df$new_col <- ifelse(df$col == "some cond", "true value", "false value")
 ```
 
+plot easily the relation among all columns
+```R
+pairs(df, panel=panel.smooth)
+```
 # GGPLOT
 
 ```R
@@ -316,6 +320,14 @@ replace NA values on dfs
 df$col <- impute(df$col, median)
 ```
 
+# mgcv
+Is useful to plot non-parametric functions and based on the shape trying to guess [[Transformations - Linear Model]] to create linear models - remember of [[Model Simplification - Model Complexity]].
+
+```R
+model_gam <- gam(y ~ x1 + x2, data=df)
+summary(model_gam)
+plot(model_gam)
+```
 # ggmosaic
 Extension on ggplot2 to draw easily mosaics
 ```R
@@ -323,6 +335,7 @@ ggplot(data = df) +
   geom_mosaic(aes(weight = Count, x = product(cat1), fill = cat2)) +
   theme_minimal()
 ```
+
 
 # libraries
 ```R
