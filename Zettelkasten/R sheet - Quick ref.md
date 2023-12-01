@@ -182,6 +182,12 @@ model <- lm(...) vif(model)
 vif(model)
 ```
 
+removing features of a model
+```R
+model <- lm(...)
+# removing features
+model2 <- update(model, ~. -col)
+```
 # GGPLOT
 
 ```R
