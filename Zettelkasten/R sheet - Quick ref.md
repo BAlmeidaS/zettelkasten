@@ -263,7 +263,8 @@ geom_bar() # count the number (stat="count")
 geom_count() # the number as it is (stat="identity")
 
 # histrogram - each bin has the count
-geom_histogram(binwidth=3, # size of the bin
+geom_histogram(bins = 20, # 20 is a very good standard
+			   # binwidth=3, # size of the bin
 			   colour="black", fill="grey")
 	# adding a function to overlay the histogram
 	+ geom_density(aes(y=after_stat(count)), alpha=.2, fill="blue")

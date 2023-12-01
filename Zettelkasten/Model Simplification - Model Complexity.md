@@ -5,7 +5,7 @@ tags:
 Using [[Occam's Razor]], if the *simpler model does not explain significantly less of the variation in the response, then the simpler model is preferred*
 
 > [!R Lang]
-> Models can be compared using the function anova
+> Models can be compared using the function anova if they are **nested models** (`model1` is a simpler version of `model2` with fewer variables)
 > ```R
 > m1 <- lm(...)
 > m2 <- lm(...)
