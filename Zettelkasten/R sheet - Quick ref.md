@@ -175,6 +175,13 @@ plot easily the relation among all columns
 ```R
 pairs(df, panel=panel.smooth)
 ```
+
+checking [[Multi-collinearity]]:
+```R
+model <- lm(...) vif(model)
+vif(model)
+```
+
 # GGPLOT
 
 ```R
@@ -324,23 +331,28 @@ df$col <- impute(df$col, median)
 Is useful to plot non-parametric functions and based on the shape trying to guess [[Transformations - Linear Model]] to create linear models - remember of [[Model Simplification - Model Complexity]].
 
 ```R
-model_gam <- gam(y ~ x1 + x2, data=df)
+library(mgcv)
+
+model_gam <- gam(y ~ s(x1) + s(x2), data=df) # remember this s(...)
 summary(model_gam)
 plot(model_gam)
 ```
+## tree
+a plus not related to this library is considering also using tree 
+```R
+library(tree)
+
+model_tree <- tree(y~., data=df)
+plot(model_tree)
+text(model_tree)
+```
+
 # ggmosaic
 Extension on ggplot2 to draw easily mosaics
 ```R
 ggplot(data = df) +
   geom_mosaic(aes(weight = Count, x = product(cat1), fill = cat2)) +
   theme_minimal()
-```
-
-a plus not related to this library is considering also using tree 
-```R
-model_tree <- tree(y~., data=df)
-plot(model_tree)
-text(model_tree)
 ```
 
 # libraries
