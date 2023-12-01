@@ -43,7 +43,7 @@ sample(c("M", "F", "?"), 20, replace=T)
 First steps with a df
 ```R
 names(df) # col names
-dim(df) # dimensions
+dim(df) # dimensions - pandas shape 
 struct(df) # types of cols
 View(df) # open the whole df
 head(df) # just the head
@@ -336,6 +336,12 @@ ggplot(data = df) +
   theme_minimal()
 ```
 
+a plus not related to this library is considering also using tree 
+```R
+model_tree <- tree(y~., data=df)
+plot(model_tree)
+text(model_tree)
+```
 
 # libraries
 ```R
