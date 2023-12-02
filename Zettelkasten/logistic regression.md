@@ -23,3 +23,4 @@ log\left(\dfrac{p}{1-p}\right) &=& \beta_0 + \beta_1x_1 \\
 \end{eqnarray}$$
 
 and remember that *The [[Model Checking - Linear Model|diagnostic plots]] are not applicable to logistic regression as the assumptions that we were checking for in linear models are not relevant*. 
+
