@@ -15,8 +15,7 @@ being $\displaystyle \large p$ the probability of success and $\displaystyle \la
 
 On the contrary of probability, which goes from 0 to 1, *odds go from 0 to infinity*.
 $$\displaystyle \Huge \begin{eqnarray} 
-odds &=& 1 \\
-
+odds \in [0, \infty]
 \end{eqnarray}$$
 
 ![[Pasted image 20231202152616.png|600]]j
