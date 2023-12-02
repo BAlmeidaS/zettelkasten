@@ -15,3 +15,11 @@ Where,
 - $\displaystyle \large s$ is the *scale parameter*, also, $\displaystyle \large s = \frac{1}{\beta_0}$
 
 Finally, the function $\displaystyle \large p(x)$ should be understood as a *probability* to be (or not to be) the output category. Because it *maps any real-valued number to the [0,1] interval*.
+
+---
+The model can also be understood as:
+$$\displaystyle \Huge \begin{eqnarray} 
+log\left(\dfrac{p}{1-p}\right) &=& \beta_0 + \beta_1x_1 \\
+\end{eqnarray}$$
+
+and remember that *The [[Model Checking - Linear Model|diagnostic plots]] are not applicable to logistic regression as the assumptions that we were checking for in linear models are not relevant*. 

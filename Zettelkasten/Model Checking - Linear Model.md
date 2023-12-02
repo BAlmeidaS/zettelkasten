@@ -1,6 +1,10 @@
 ---
 tags:
   - Statistics
+aliases:
+  - model checking
+  - plot analysis regression
+  - diagnostic plots
 ---
 On `R` we can plot the [[Regression Analysis|Linear Model]] trying to understand how well it fits:
 
