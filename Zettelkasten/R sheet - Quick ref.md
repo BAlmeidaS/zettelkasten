@@ -358,7 +358,8 @@ text(model_tree)
 Extension on ggplot2 to draw easily mosaics
 ```R
 ggplot(data = df) +
-  geom_mosaic(aes(weight = Count, x = product(cat1), fill = cat2)) +
+  # geom_mosaic(aes(weight = Count,x = product(cat1), fill = cat2)) +
+  geom_mosaic(aes(x = product(cat1), fill = cat2)) +
   theme_minimal()
 ```
 
