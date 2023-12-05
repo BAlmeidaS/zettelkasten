@@ -9,3 +9,10 @@ tags:
 - [[Median]]
 - 3rd [[Quartile]]
 - Maximum
+
+>[!R lang]
+>```R
+>summary(df)
+>summary(df$col)
+>summary(vec)
+>```
