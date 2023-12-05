@@ -287,6 +287,8 @@ geom_histogram(aes(y=after_stat(density)))
 # Validate (pkg)
 Week 5 modern data
 ```R
+library(validate)
+
 # create a validator
 rules <- validator(name_of_val = <some condition>,
 				   okColB = is.ellement(colb, c("A", "B")),
@@ -357,6 +359,8 @@ text(model_tree)
 # ggmosaic
 Extension on ggplot2 to draw easily mosaics
 ```R
+library(ggmosaic) 
+
 ggplot(data = df) +
   # geom_mosaic(aes(weight = Count,x = product(cat1), fill = cat2)) +
   geom_mosaic(aes(x = product(cat1), fill = cat2)) +
