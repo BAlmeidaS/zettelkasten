@@ -10,8 +10,8 @@ It is a [[Parametric Method]] that assumes:
 - Normality: Data in each group should be normal distributed
 - Homogeneity of Variances: The variances in each group should be similar
 
-[[Null Hypothesis|H0]]: There is no difference between the group means
-[[Alternative Hypothesis|H1]]: At least one group mean is different from the others
+[[Null Hypothesis|H0]]: **There is no difference between the group means**
+[[Alternative Hypothesis|H1]]: **At least one group mean is different from the others**
 
 The sum of Squares in y, [[SSY]], will be divided in [[SSA]] and [[Sum of squares errors|SSE]]:
 $$\displaystyle \Huge SSY = SSA + SSE$$
