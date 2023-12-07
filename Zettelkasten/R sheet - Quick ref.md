@@ -212,8 +212,14 @@ ggplot(data=df, aes(x=col1, y=col2, colour=col3))
 # to add label to x or y
 + xlab("my x label") + ylab("my y label")
 
+# change the limits and the ticks
++ scale_y_continuous(breaks = seq(0, 400, 100), limits = c(0, 400)) 
+
+# change the labels of a discrete plot
++ scale_x_discrete(breaks = c(0, 1), labels=c("False", "True"))
+
 # change the scale y (1)
-+ scale_y_continuous(trans = "log10")
++ scale_y_continuous(trans = "log10", limits=c(1, 1000))
 
 # to add smooth function
 + stat_smooth(span=)
