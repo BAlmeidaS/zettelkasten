@@ -230,6 +230,11 @@ ggplot(data=df, aes(x=col1, y=col2, colour=col3))
 # rotate the x ticks
 + theme(axis.text.x = element_text(angle=90))
 
+# rotate them and moving
+# moving ticks accordingly ref: https://stackoverflow.com/questions/1330989/rotating-and-spacing-axis-labels-in-ggplot2
+theme(axis.text.x = element_text(angle=-45, hjust=0, vjust=0),
+        plot.margin = unit(c(10,20,10,10), "pt"))
+
 # if there is a colour as third dimension we can change the gradient
 + scale_colour_gradient(low = "blue", high = "red") 
 
@@ -265,8 +270,12 @@ geom_smooth(method="lm", se=T) # add 1 SE of error
 geom_boxplot(notch=T) # notch represents the CI 95%, wider=uncertain, narrow=nice
 
 # bars 
-geom_bar() # count the number (stat="count")
+geom_bar(fill="azure", color="black") # count the number (stat="count")
 geom_count() # the number as it is (stat="identity")
+
+# reorder bars based on their size
+ggplot(df, aes(x=reorder(col, col, function(x)-length(x)))) +
+  geom_bar()
 
 # histrogram - each bin has the count
 geom_histogram(bins = 20, # 20 is a very good standard
