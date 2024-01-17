@@ -8,4 +8,5 @@ Book define as key assumptions that we need to learn (in order of importance):
 4. independent errors
 5. additive effects
 
-[[Chapter 1 - Fundamentals]]
+Go to [[Statistics]] and see the nodes that use it. It is a HUB node, the whole statistics is spread and I did not split by chapter in this case
+
