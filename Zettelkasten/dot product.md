@@ -9,8 +9,10 @@ given $\displaystyle \large s$ and $\displaystyle \large r$ vectors
 
 $$\displaystyle \Huge \begin{eqnarray} 
 r \cdot s &=& r_is_i + r_js_j \\
-&=& 3*-1 + 2*2
+&=& 3*-1 + 2*2 \\
 &=& 1
 \end{eqnarray}$$
-
-*dot product* is [[commutative]]
+*dot product* is:
+- [[commutative]]
+- [[distributive]] 
+- [[associative]] **over** scalar multiplication: $\displaystyle \large r\cdot(a*s) = a*(r\cdot s)$

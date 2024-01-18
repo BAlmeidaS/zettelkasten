@@ -11,3 +11,9 @@ v &=& \begin{bmatrix} a \\ b \end{bmatrix} \\
 
 And can be understood as its *size*
 ![[Pasted image 20240118192152.png|450]]
+
+
+*modulus* of a vector $\displaystyle \large v$ can be obtained using [[dot product]] as well:
+$$\displaystyle \Huge \begin{eqnarray} 
+|r|^2 &=& r\cdot r \\
+\end{eqnarray}$$
