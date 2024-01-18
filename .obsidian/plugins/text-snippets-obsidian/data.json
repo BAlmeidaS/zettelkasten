@@ -1,12 +1,14 @@
 {
-  "snippets_file": "snippets : It is an obsidian plugin, that replaces your selected text.\n\ninm : $\\displaystyle \\large $end$$\nsmallm : $$\\displaystyle \\Huge $end$$$\nbigm : $$\\displaystyle \\Huge \\begin{eqnarray} $nl$a &=& 1 \\\\$nl$$end$$nl$\\end{eqnarray}$$\nrc : ```R$nl$$end$$nl$```$nl$\n\ncr : ```R$nl$$end$$nl$```$nl$\n",
+  "snippets_file": "snippets : It is an obsidian plugin, that replaces your selected text.\n\ninm : $\\displaystyle \\large $end$$\nsmallm : $$\\displaystyle \\Huge $end$$$\nbigm : $$\\displaystyle \\Huge \\begin{eqnarray} $nl$a &=& 1 \\\\$nl$$end$$nl$\\end{eqnarray}$$\nrc : ```R$nl$$end$$nl$```$nl$\n\ncr : ```R$nl$$end$$nl$```$nl$\n\nmatrix : \\begin{bmatrix} $end$ & 1 \\\\ \\end{bmatrix}\np_matrix : \\begin{bmatrix} $end$ & 1 \\\\  \\end{bmatrix}",
   "snippets": [
     "snippets : It is an obsidian plugin, that replaces your selected text.",
     "inm : $\\displaystyle \\large $end$$",
     "smallm : $$\\displaystyle \\Huge $end$$$",
     "bigm : $$\\displaystyle \\Huge \\begin{eqnarray} $nl$a &=& 1 \\\\$nl$$end$$nl$\\end{eqnarray}$$",
     "rc : ```R$nl$$end$$nl$```$nl$\n",
-    "cr : ```R$nl$$end$$nl$```$nl$\n"
+    "cr : ```R$nl$$end$$nl$```$nl$\n",
+    "matrix : \\begin{bmatrix} $end$ & 1 \\\\ \\end{bmatrix}",
+    "p_matrix : \\begin{bmatrix} $end$ & 1 \\\\  \\end{bmatrix}"
   ],
   "endSymbol": "$end$",
   "newlineSymbol": "$nl$",
