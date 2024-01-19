@@ -13,3 +13,8 @@ a_kv_k = 0
 different than $\displaystyle \large a_1 = a_2 = \dots = a_k = 0$
 
 On the other hand, if the only solution if with all $\displaystyle \large a_k = 0$ , they are **linearly dependent** and either, one (or more) vector is zero or a *linear combination of the others* (It can be defined as a combination of the others).
+
+$$\displaystyle \Huge \begin{eqnarray} 
+a &=& 1 \\
+
+\end{eqnarray}$$
