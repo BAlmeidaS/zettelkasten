@@ -8,6 +8,6 @@ The *scalar projection* of a vector $\displaystyle \large a$ on a vector $\displ
 In other words, $\displaystyle \large |a_1|$, and it can be worked out as:
 
 $$\displaystyle \Huge \begin{eqnarray} 
-proj_ba = |a_1| &=& \dfrac{a \cdot b}{|b|}
+|proj_ba| = |a_1| &=& \dfrac{a \cdot b}{|b|}
 \end{eqnarray}$$
 
