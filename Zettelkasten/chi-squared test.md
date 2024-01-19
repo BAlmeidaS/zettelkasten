@@ -2,7 +2,7 @@
 tags:
   - Statistics
 ---
-	A test to validate if there is an *association between two categorical variables*.
+A test to validate if there is an *association between two categorical variables*.
 
 [[Null Hypothesis|H0]]:  *The two category variables are independent* / There is no significant association between the categorical variables
 [[Alternative Hypothesis|H1]]:  *The two category vars are dependent on each other* / There is a significant association between the categorical variables
