@@ -4,3 +4,5 @@ week 1:
 
 week 2:
 [[Modulus of a vector]] and [[dot product]]
+[[Dot product to see orthogonality]]
+[[Vector projection]]
