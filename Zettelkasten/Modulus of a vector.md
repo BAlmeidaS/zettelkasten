@@ -15,5 +15,5 @@ And can be understood as its *size*
 
 *modulus* of a vector $\displaystyle \large v$ can be obtained using [[dot product]] as well:
 $$\displaystyle \Huge \begin{eqnarray} 
-|r|^2 &=& r\cdot r \\
+|r| &=& \sqrt{r\cdot r} \\
 \end{eqnarray}$$
