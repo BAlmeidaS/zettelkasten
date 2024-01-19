@@ -1,6 +1,9 @@
 ---
 tags:
   - Linear-algebra
+aliases:
+  - Modulus
+  - norm
 ---
 Modulus of a [[vector]] $\displaystyle \large v$ is defined as:
 $$\displaystyle \Huge \begin{eqnarray} 
@@ -17,3 +20,7 @@ And can be understood as its *size*
 $$\displaystyle \Huge \begin{eqnarray} 
 |r| &=& \sqrt{r\cdot r} \\
 \end{eqnarray}$$
+
+Or a formal definition using [[inner product]]
+
+![[Pasted image 20240119162029.png]]

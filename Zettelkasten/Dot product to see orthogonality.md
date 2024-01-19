@@ -16,3 +16,5 @@ Thus, **dot product can be used to see alignment between the vectors**
 
 When they are parallel in the same direction => $\displaystyle \large cos(\theta) = 1$
 When they are parallel in the opposite direction => $\displaystyle \large cos(\theta) = -1$
+
+*When dot-product (a specific case of inner product) is 0 the vectors are **orthogonal** and this comes by the definition of [[Orthogonal]]*
