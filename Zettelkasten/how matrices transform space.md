@@ -2,7 +2,7 @@
 tags:
   - Linear-algebra
 ---
-The matrix $\displaystyle \large A$ can transform the vector $\displaystyle \large v$ as the following:
+The [[matrix]] $\displaystyle \large A$ can transform the [[vector]] $\displaystyle \large v$ as the following:
 $$\displaystyle \Huge \begin{eqnarray} 
 A * v &=& v^\prime \\
 \end{eqnarray}$$

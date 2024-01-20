@@ -4,7 +4,7 @@ tags:
 ---
 **The combination of two linear transformation is another linear transformation**
 
-Being $\displaystyle \large A$ a transformation and $\displaystyle \large v$ a vector:
+Being $\displaystyle \large A$ a transformation and $\displaystyle \large v$ a [[vector]]:
 
 $$\displaystyle \Huge \begin{eqnarray} 
 \displaystyle \large A &=& A_1 * A_2
