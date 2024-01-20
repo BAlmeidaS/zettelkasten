@@ -15,4 +15,5 @@ week 3:
 [[how matrices transform space]]
 [[identity matrix]]
 [[Possible transformation of space made by matrices]]
+[[Row echelon form]]
 [[Matrix Inverse]]
