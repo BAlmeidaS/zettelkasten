@@ -2,7 +2,7 @@
 tags:
   - Linear-algebra
 ---
-**The combination of two linear transformation is another linear transformation**
+**The combination of two [[linear transformation|linear transformations]] is another linear transformation**
 
 Being $\displaystyle \large A$ a transformation and $\displaystyle \large v$ a [[vector]]:
 
