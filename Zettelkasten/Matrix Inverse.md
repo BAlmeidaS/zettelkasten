@@ -16,6 +16,11 @@ I*r &=& A^{-1}*s \\
 r &=& A^{-1}*s \\
 \end{eqnarray}$$
 
+a [[matrix]] has inverse, if and only if, its [[Derterminant]] is different than 0
+$$\displaystyle \Huge \begin{eqnarray} 
+a &=& 1 \\
+\end{eqnarray}$$
+
 ---
 
 To find the inverse, you can start with $\displaystyle \large AA^{-1}=I$, and make a sequence of steps to change $\displaystyle \large A^{-1}$ to $\displaystyle \large I$, when you do it on the right side will be the inverse.
