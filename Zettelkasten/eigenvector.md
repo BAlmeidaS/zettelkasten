@@ -11,4 +11,66 @@ $$\displaystyle \Huge \begin{eqnarray}
 A\vec{v} &=& \lambda\vec{v}\\
 \end{eqnarray}$$
 
-A transformation can ha
+A transformation can have from 0 to infinite eigenvectors.
+
+>[!note] Math to solve the equation
+>$\displaystyle \large I$ stands for [[identity matrix]]
+>$$\displaystyle \Huge \begin{eqnarray} 
+>A\vec{v} = \lambda\vec{v} \\
+>(A-\lambda I)\vec{v} = 0
+>\end{eqnarray}$$
+>Either $\displaystyle \large \vec{v} = 0$  or $\displaystyle \large (A-\lambda I) = 0$, being the later the one that we are interested in
+>$$\displaystyle \Huge \begin{eqnarray} 
+>A-\lambda I = 0
+>\end{eqnarray}$$
+>This will be zero, if its [[Determinant]] is zero.
+>$$\displaystyle \Huge \begin{eqnarray} 
+>det(A-\lambda I) = 0
+>\end{eqnarray}$$
+>Evaluating this [[Determinant]] we have the **characteristic polynomial**. The solution of this polynomial are the [[eigenvalue|eigenvalues]].
+>
+>By plugging the [[eigenvalue|eigenvalues]] in the original expression $\displaystyle \large (A-\lambda I)\vec{v} = 0$ *we can find the eigenvectors*
+
+>[!example] example with a 2x2 easy matrix
+> Considering $\displaystyle \large A = \begin{bmatrix} 1 & 0 \\ 0 & 2 \end{bmatrix}$:
+>$$\displaystyle \Huge \begin{eqnarray} 
+>det\left(
+>\begin{bmatrix} 1&0 \\ 0&2 \end{bmatrix} - 
+>\begin{bmatrix} \lambda&0 \\ 0&\lambda \end{bmatrix}
+>\right) &=& 0
+>\\
+>det\left(
+>\begin{bmatrix} 1-\lambda&0 \\ 0&2-\lambda \end{bmatrix}
+>\right) &=& 0
+>\\
+>(1-\lambda)(2-\lambda) &=& 0 \\\\
+>
+>\text{solutions:}\\
+>\lambda_1 &=& 1\\
+>\lambda_2 &=& 2
+>\end{eqnarray}$$ 
+>now applying back in the original expression:
+>$$\displaystyle \Huge \begin{eqnarray} 
+>\lambda=1 &:& 
+>\begin{bmatrix} 1-1 & 0 \\ 0 & 2-1 \end{bmatrix}
+>\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = 0
+>\\ & & 
+>\begin{bmatrix} 0 & 0 \\ 0 & 1 \end{bmatrix}
+>\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = 0
+>\\ & &
+>\begin{bmatrix} 0 \\ x_2 \end{bmatrix} = 0
+>\\\\
+>\lambda=2 &:& 
+>\begin{bmatrix} 1-2 & 0 \\ 0 & 2-2 \end{bmatrix}
+>\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = 0
+>\\ & & 
+>\begin{bmatrix} -1 & 0 \\ 0 & 0 \end{bmatrix}
+>\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = 0
+>\\ & &
+>\begin{bmatrix} -x_1 \\ 0 \end{bmatrix} = 0
+>\\
+>\end{eqnarray}$$
+>
+>For $\displaystyle \large \lambda = 1$, any vector that $\displaystyle \large x_2 = 0$ is an eigenvector. Thus, the vector $\displaystyle \large \begin{bmatrix} t \\ 0 \end{bmatrix}$ is an *eigenvector*, and its *eigenvalue* is $\displaystyle \large 1$.
+>
+>For $\displaystyle \large \lambda = 2$, any vector that $\displaystyle \large x_1 = 0$ is an eigenvector. Thus, the vector $\displaystyle \large \begin{bmatrix} 0 \\ t \end{bmatrix}$ is an *eigenvector*, and its *eigenvalue* is $\displaystyle \large 2$.
