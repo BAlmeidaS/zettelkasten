@@ -18,7 +18,7 @@ r &=& A^{-1}*s \\
 
 a [[matrix]] has inverse, if and only if, its [[Derterminant]] is different than 0
 $$\displaystyle \Huge \begin{eqnarray} 
-a &=& 1 \\
+\exists\ A^{-1} \Longleftrightarrow det(A) \ne 0
 \end{eqnarray}$$
 
 ---
