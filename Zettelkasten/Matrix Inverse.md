@@ -16,7 +16,7 @@ I*r &=& A^{-1}*s \\
 r &=& A^{-1}*s \\
 \end{eqnarray}$$
 
-a [[matrix]] has inverse, if and only if, its [[Derterminant]] is different than 0
+a [[matrix]] has inverse, if and only if, its [[Determinant]] is different than 0
 $$\displaystyle \Huge \begin{eqnarray} 
 \exists\ A^{-1} \Longleftrightarrow det(A) \ne 0
 \end{eqnarray}$$

@@ -14,6 +14,8 @@ different than $\displaystyle \large a_1 = a_2 = \dots = a_k = 0$
 
 On the other hand, if the only solution if with all $\displaystyle \large a_k = 0$ , they are **linearly dependent** and either, one (or more) vector is zero or a *linear combination of the others* (It can be defined as a combination of the others).
 
+One can use [[Determinant]] to validate, if one creates a [[matrix]] with the vectors as *columns* and the *[[Determinant]] of this matrix is different zero* these vector are *linear independent*.
+
 ---
 
 Anki has a good example that explains this: `nid:1705688150670`

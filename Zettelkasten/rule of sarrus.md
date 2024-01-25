@@ -2,7 +2,7 @@
 tags:
   - Linear-algebra
 ---
-Rule to calculate [[Derterminant|determinants]] of [[matrix|matrixes]] $\displaystyle \large 3\times 3$ but can be used in $\displaystyle \large 2\times 2$
+Rule to calculate [[Determinant|determinants]] of [[matrix|matrixes]] $\displaystyle \large 3\times 3$ but can be used in $\displaystyle \large 2\times 2$
 
 ![[Pasted image 20240124182240.png|400]]
 
