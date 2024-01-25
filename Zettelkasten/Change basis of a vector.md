@@ -6,4 +6,3 @@ if I have a [[vector]] $\displaystyle \large v$ describe in the basic [[basis]].
 1. Create the matrix transformation $\displaystyle \large T$ that maps $\displaystyle \large A$ to basic basis - using [[Matrix as Linear Transformations]]
 2. I have to find the [[Matrix Inverse]] of $\displaystyle \large T$
 3. then compute, $\displaystyle \large T^{-1}v = v_A$
-
