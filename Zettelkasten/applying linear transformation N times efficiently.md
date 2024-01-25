@@ -45,4 +45,5 @@ T^2 &=& E_b*T_{diagonal}*E_b^{-1}*E_b*T_{diagonal}*E_b^{-1} \\
 
 T^n &=& E_b*T_{diagonal}^n*E_b^{-1} \\
 \end{eqnarray}$$
-![[Pasted image 20240125185719.png|400]]
+
+![[Pasted image 20240125185719.png|300]]
