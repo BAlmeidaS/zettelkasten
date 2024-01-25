@@ -17,13 +17,14 @@ A transformation can have from 0 to infinite eigenvectors.
 >$\displaystyle \large I$ stands for [[identity matrix]]
 >$$\displaystyle \Huge \begin{eqnarray} 
 >A\vec{v} = \lambda\vec{v} \\
->(A-\lambda I)\vec{v} = 0
+>A\vec{v} = (\lambda I)\vec{v} \\
+>(A-\lambda I)\vec{v} = \vec{0}
 >\end{eqnarray}$$
->Either $\displaystyle \large \vec{v} = 0$  or $\displaystyle \large (A-\lambda I) = 0$, being the later the one that we are interested in
+>Either $\displaystyle \large \vec{v} = \vec{0}$  or $\displaystyle \large (A-\lambda I) = \vec{0}$, being the later the one that we are interested in
 >$$\displaystyle \Huge \begin{eqnarray} 
->A-\lambda I = 0
+>A-\lambda I = \vec{0}
 >\end{eqnarray}$$
->This will be zero, if its [[Determinant]] is zero.
+>This will be zero, if its [[Determinant]] is zero - *which means that might exist a vector $\displaystyle \large \vec{v}$ that when multiplied by $\displaystyle \large I$ and removed from A, the space will be squished*, the only way is having determinant zero. 
 >$$\displaystyle \Huge \begin{eqnarray} 
 >det(A-\lambda I) = 0
 >\end{eqnarray}$$
@@ -53,24 +54,26 @@ A transformation can have from 0 to infinite eigenvectors.
 >$$\displaystyle \Huge \begin{eqnarray} 
 >\lambda=1 &:& 
 >\begin{bmatrix} 1-1 & 0 \\ 0 & 2-1 \end{bmatrix}
->\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = 0
+>\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \vec{0}
 >\\ & & 
 >\begin{bmatrix} 0 & 0 \\ 0 & 1 \end{bmatrix}
->\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = 0
+>\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \vec{0}
 >\\ & &
->\begin{bmatrix} 0 \\ x_2 \end{bmatrix} = 0
+>\begin{bmatrix} 0 \\ x_2 \end{bmatrix} = \vec{0}
 >\\\\
 >\lambda=2 &:& 
 >\begin{bmatrix} 1-2 & 0 \\ 0 & 2-2 \end{bmatrix}
->\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = 0
+>\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \vec{0}
 >\\ & & 
 >\begin{bmatrix} -1 & 0 \\ 0 & 0 \end{bmatrix}
->\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = 0
+>\begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = \vec{0}
 >\\ & &
->\begin{bmatrix} -x_1 \\ 0 \end{bmatrix} = 0
+>\begin{bmatrix} -x_1 \\ 0 \end{bmatrix} = \vec{0}
 >\\
 >\end{eqnarray}$$
 >
 >For $\displaystyle \large \lambda = 1$, any vector that $\displaystyle \large x_2 = 0$ is an eigenvector. Thus, the vector $\displaystyle \large \begin{bmatrix} t \\ 0 \end{bmatrix}$ is an *eigenvector*, and its *eigenvalue* is $\displaystyle \large 1$.
 >
 >For $\displaystyle \large \lambda = 2$, any vector that $\displaystyle \large x_1 = 0$ is an eigenvector. Thus, the vector $\displaystyle \large \begin{bmatrix} 0 \\ t \end{bmatrix}$ is an *eigenvector*, and its *eigenvalue* is $\displaystyle \large 2$.
+
+Bare in mind that the **characteristic polynomial** has the *degree equivalent to the number of dimensions*, which vary fast has a problem to be solved manually!
