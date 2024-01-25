@@ -1,6 +1,9 @@
 ---
 tags:
   - Linear-algebra
+aliases:
+  - combine linear transformations
+  - composition
 ---
 **The combination of two [[linear transformation|linear transformations]] is another linear transformation**. And this is called **Composition**
 

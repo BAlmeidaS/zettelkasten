@@ -15,4 +15,4 @@ tags:
 
 Being, $\displaystyle \large e_1 = \begin{bmatrix} 1 \\ 0 \\ 0 \\ \vdots \end{bmatrix}$, and so on. 
 
-**transformations can be created by a composition of the above transformations**, because [[Linear transformations can be combined]]
+**transformations can be created by a composition of the above transformations**, because [[combine linear transformations]]
