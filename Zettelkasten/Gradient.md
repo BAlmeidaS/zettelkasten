@@ -23,10 +23,15 @@ $$\displaystyle \Huge \begin{eqnarray}
 \end{eqnarray}$$
 
 It has two interpretations that are the two sides of the same coin:
-- The gradient is a [[vector]] that gives *the direction you should travel to **increase the value of $\displaystyle \large f$** most rapidly*.
-- It is a *normal vector* to the function $\displaystyle \large f$
+1. The gradient is a [[vector]] that gives *the direction you should travel to **increase the value of $\displaystyle \large f$** most rapidly*.
+2. It is a *normal vector* to the function $\displaystyle \large f$
 
-
-![[Pasted image 20240126222943.png|400]]
-
-T
+>[!hint] Visual explanation
+>![[Pasted image 20240126223235.png]]
+>
+>- In *black* is the function $\displaystyle \large f(x,y)=x^2+y^2$, notice that it can assume many values, depending on the height ($\displaystyle \large z$), thus, if defines many circles.
+>- in *red* we have the plane (x,y,*1*). In this plane, the function is $\displaystyle \large f(x,y) = 1$
+>- in *blue* we have the plane (x,y,*2*). In this plane, the function is $\displaystyle \large f(x,y) = 2$
+>- the *gradient* of the function is $\displaystyle \large \nabla f(x,y) = \begin{bmatrix}  2x \\ 2y \end{bmatrix}$
+>- The *arrows are the gradients*. Notice that they are normal to the function in the plane! (compliant with 2)
+>- The *blue arrows are bigger than the red arrows*, because this is the direction that $\displaystyle \large f$ increases! (compliant with 1)
