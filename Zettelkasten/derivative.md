@@ -2,12 +2,16 @@
 tags:
   - Calculus
 ---
-The [[function]] $\displaystyle \large f$ is [[differentiable]] at a if
+The *derivative* is the *rate* at which a [[function]] value changes at some point.
+
+It is defined as $\displaystyle \large f^\prime(x)$ or $\displaystyle \large \dfrac{df}{dx}$:
 $$\displaystyle \Huge \begin{eqnarray} 
-\lim_{h \to 0} \dfrac{f(a+h)-f(a)}{h}\ \ \text{exists.}
+f^\prime(x) = \dfrac{df(x)}{dx} =
+\lim_{x \to 0} \dfrac{f(x+h)-f(x)}{h}
 \end{eqnarray}$$
 
-the [[limit]] is denotated by $\displaystyle \large f^\prime(a)$ and is called the **derivative of $\displaystyle \large f$ at $\displaystyle \large a$**.
+$\displaystyle \large f^\prime(a)$ is called the **derivative of $\displaystyle \large f$ at $\displaystyle \large a$**.
 
->[!quote] Theorem 1
->if $\displaystyle \large f$ is [[differentiable]] at $\displaystyle \large a$, then, $\displaystyle \large f$ is [[continuous function|continuous]] at $\displaystyle \large a$
+In 2 dimensions is often refereed as the **slope** of the curve
+![[Pasted image 20240126141331.png|400]]
+
