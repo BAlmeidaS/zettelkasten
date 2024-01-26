@@ -2,7 +2,7 @@
 tags:
   - Statistics
 ---
-The *best-fit* slope is found by *rotating the line* until the [[Sum of squares errors]] (SSE) is minimised. So we can get when its [[derivative]] *is equal to 0* (using [[chain rule]]):
+The *best-fit* slope is found by *rotating the line* until the [[Sum of squares errors]] (SSE) is minimised. So we can get when its [[derivative]] *is equal to 0* (using [[Chain Rule]]):
 $$\displaystyle \Huge \begin{eqnarray} 
 SSE &=& \sum(y-a-bx)^2 \\
 \dfrac{dSSE}{db} &=& -2\sum x(y-a-bx) \\

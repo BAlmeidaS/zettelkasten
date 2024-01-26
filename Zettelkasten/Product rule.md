@@ -19,3 +19,7 @@ f^\prime(x) &=& \dfrac{dx^3}{dx}sin(x) + x^3\dfrac{dsin(x)}{dx}\\
 &=& 3x^2sin(x)+x^3cos(x)
 \end{eqnarray}$$
 
+Similarly, considering $\displaystyle \large f*g*h$
+$$\displaystyle \Huge \begin{eqnarray} 
+(f * g * h)^\prime(x) &=& f^\prime(x)g(x)h(x) + f(x)g^\prime(x)h(x) + f(x)g(x)h^\prime(x)
+\end{eqnarray}$$
