@@ -2,13 +2,7 @@
 tags:
   - Calculus
 ---
-The *gradient* extends the idea of a [[derivative]] to a [[multivariable function]].
-
-The gradient is a [[vector]] that gives *the direction you should travel to **increase the value of $\displaystyle \large f$** most rapidly*.
-
-![[Pasted image 20240126191353.png|300]]
-
-The *gradient* is define by the collection of the [[partial derivatives]]:
+Given the [[multivariable function]] $\displaystyle \large f$. The *gradient* is define by the collection of the [[partial derivatives]]:
 $$\displaystyle \Huge \begin{eqnarray} 
 \nabla f(x_0, x_1, \dots) &=& 
 \begin{bmatrix}  
@@ -27,4 +21,10 @@ $$\displaystyle \Huge \begin{eqnarray}
 \vdots
 \end{bmatrix}
 \end{eqnarray}$$
+
+It has two interpretations that are the two sides of the same coin:
+- The gradient is a [[vector]] that gives *the direction you should travel to **increase the value of $\displaystyle \large f$** most rapidly*.
+- It is a *normal vector* to the function $\displaystyle \large f$
+
+
 
