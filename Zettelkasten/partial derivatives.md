@@ -18,3 +18,4 @@ $$\displaystyle \Huge \begin{eqnarray}
 >\dfrac{\partial f}{\partial z} &=& sin(x)e^{yz^2}2yz\\
 >
 >\end{eqnarray}$$
+
