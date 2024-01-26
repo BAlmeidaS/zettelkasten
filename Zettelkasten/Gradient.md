@@ -22,12 +22,12 @@ $$\displaystyle \Huge \begin{eqnarray}
 \end{bmatrix}
 \end{eqnarray}$$
 
-It has two interpretations that are the two sides of the same coin:
-1. The gradient is a [[vector]] that gives *the direction you should travel to **increase the value of $\displaystyle \large f$** most rapidly*.
-2. It is a *normal vector* to the function $\displaystyle \large f$
+It has *two interpretations* that are the two sides of the same coin:
+1. The gradient is a [[vector]] that gives *the direction you should travel to **increase the value of $\displaystyle \large f$** most rapidly* - *direction of steepest ascent*.
+2. It is a *normal vector* to the *level curves*
 
 >[!hint] Visual explanation
->![[Pasted image 20240126223235.png]]
+>![[Pasted image 20240126232209.png]]
 >
 >- In *black* is the function $\displaystyle \large f(x,y)=x^2+y^2$, notice that it can assume many values, depending on the height ($\displaystyle \large z$), thus, if defines many circles.
 >- in *red* we have the plane (x,y,*1*). In this plane, the function is $\displaystyle \large f(x,y) = 1$
