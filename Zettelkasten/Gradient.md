@@ -27,4 +27,6 @@ It has two interpretations that are the two sides of the same coin:
 - It is a *normal vector* to the function $\displaystyle \large f$
 
 
+![[Pasted image 20240126222943.png|400]]
 
+T
