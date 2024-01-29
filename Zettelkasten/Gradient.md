@@ -35,3 +35,5 @@ It has *two interpretations* that are the two sides of the same coin:
 >- the *gradient* of the function is $\displaystyle \large \nabla f(x,y) = \begin{bmatrix}  2x \\ 2y \end{bmatrix}$
 >- The *arrows are the gradients*. Notice that they are normal to the function in the plane! (compliant with 2)
 >- The *blue arrows are bigger than the red arrows*, because this is the direction that $\displaystyle \large f$ increases! (compliant with 1)
+
+![[Pasted image 20240129181403.png]]
