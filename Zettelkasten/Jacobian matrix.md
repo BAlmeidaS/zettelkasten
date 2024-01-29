@@ -57,7 +57,5 @@ The *Jacobian matrix represents the [[linear transformation]] around each point*
 
 If we want to apply the *Jacobian*/transformation in a point of the domain, we have to calculate the *matrix multiplication*:
 $$\displaystyle \Huge \begin{eqnarray} 
-J(f) * 
-\begin{bmatrix} x_0 \\ x_1 \\ \vdots \end{bmatrix} = \text{the }
-
+J(f(x_0, x_1, \cdots)) * \begin{bmatrix} x_0 \\ x_1 \\ \vdots \end{bmatrix} =\text{the transformation around the input point}
 \end{eqnarray}$$
