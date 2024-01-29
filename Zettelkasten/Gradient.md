@@ -16,8 +16,8 @@ a simplified version is
 $$\displaystyle \Huge \begin{eqnarray} 
 \nabla f &=& 
 \begin{bmatrix}  
-\dfrac{\partial f}{\partial x_0} \\\\
-\dfrac{\partial f}{\partial x_1} \\\\
+\dfrac{\partial f}{\partial x_0} \\
+\dfrac{\partial f}{\partial x_1} \\
 \vdots
 \end{bmatrix}
 \end{eqnarray}$$
