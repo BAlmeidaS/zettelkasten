@@ -23,3 +23,4 @@ tags:
 | Linear transformation | **NOT** linear transformation |
 | --------------------- | ------------------------- |
 | ![[Pasted image 20240124173439.png\|300]]                     | ![[Pasted image 20240124173537.png\|300]]                          |
+![[ezgif-3-64211c81e5.gif|550]]

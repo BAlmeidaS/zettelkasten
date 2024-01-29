@@ -2,7 +2,7 @@
 tags:
   - Calculus
 ---
-*Jacobian* can be understood as a generalisation of the [[Gradient]].
+*Jacobian* can be understood as a generalisation of the [[Gradient]] - Gradient is like the "Jacobian row".
 
 Jacobians are applied on [[vector-valued function]] rather than multivariable functions.
 
@@ -55,3 +55,9 @@ The *Jacobian matrix represents the [[linear transformation]] around each point*
 >\end{bmatrix} \\
 >\end{eqnarray}$$
 
+If we want to apply the *Jacobian*/transformation in a point of the domain, we have to calculate the *matrix multiplication*:
+$$\displaystyle \Huge \begin{eqnarray} 
+J(f) * 
+\begin{bmatrix} x_0 \\ x_1 \\ \vdots \end{bmatrix} = \text{the }
+
+\end{eqnarray}$$
