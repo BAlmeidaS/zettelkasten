@@ -5,7 +5,7 @@ aliases:
   - nabla
   - vector nabla
 ---
-*Nabla* is a greek letter $\displaystyle \large \nabla$. For many *calculus* operations, it is handy to think that *nabla is a vector with this form*:
+*Nabla* is a greek letter $\displaystyle \large \nabla$. For many *calculus* operations, it is handy to think that *nabla is a [[vector]] defined using generic [[partial derivatives]]*:
 $$\displaystyle \Huge \begin{eqnarray} 
 \nabla &=& 
 \hat{i}\dfrac{\partial}{\partial x} +

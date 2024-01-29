@@ -6,7 +6,7 @@ In 3-dimensions, *curl* is used to describe the rotation or rotational tendency 
 
 The curl of a vector field measures the amount of "twist" or circular motion at a point in the field. For a fluid, this would correspond to how much and in what way the fluid is rotating around a point.
 
-*curl* is defined as the [[Cross product]] of the [[vector field]] $\displaystyle \large \vec{V}$ and [[Vector nabla|nabla]]:
+*curl* is defined as the [[Cross product]] of the [[vector field]] $\displaystyle \large \vec{V}$ and [[Vector nabla|nabla]]([[partial derivatives]]):
 $$\displaystyle \Huge \begin{eqnarray} 
 curl\ \vec{V} &=& \nabla \times \vec{V} \\
 curl\ \vec{V} &=& 
