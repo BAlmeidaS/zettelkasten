@@ -1,6 +1,7 @@
 ---
 tags:
   - Calculus
+aliases:
 ---
 *Codomain* is the *output set* of a [[function]], commonly denoted by $\displaystyle \large Y$
 

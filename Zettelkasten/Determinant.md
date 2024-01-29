@@ -2,7 +2,7 @@
 tags:
   - Linear-algebra
 ---
-*Determinant* is a number that shows how much an area (or volumes, or hyper-volumes) in the space changed after a [[linear transformation]]
+*Determinant* is a number that shows how much an area (or volumes, or hyper-volumes) in the space changed (stretches or squises) after a [[linear transformation]]
 
 ![[Pasted image 20240124180441.png|600]]
 
