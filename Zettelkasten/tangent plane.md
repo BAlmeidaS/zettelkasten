@@ -20,10 +20,3 @@ L_f(x,y) &=&
 \end{eqnarray}$$
 >[!hint]
 >at the red-point, the function and the plane have the same value $\displaystyle \large L_f(x_0, y_0) = f(x_0, y_0)$
-
-
-
-
-
-
-

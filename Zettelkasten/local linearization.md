@@ -43,7 +43,7 @@ f(\boldsymbol{x}) = L_f(\boldsymbol{x})
 \end{eqnarray}$$
 2. the partial derivatives are equal on the point $\displaystyle \large \boldsymbol{x}$:
 $$\displaystyle \Huge \begin{eqnarray} 
-\dfrac{\partial L_f(x,y,\dots)}{\partial x} = 
+\dfrac{\partial L_f(x_0, y_0,\dots)}{\partial x} = 
 \dfrac{\partial f(x_0, y_0, \dots)}{\partial x} 
 \end{eqnarray}$$
 
