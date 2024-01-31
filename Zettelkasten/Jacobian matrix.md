@@ -2,7 +2,7 @@
 tags:
   - Calculus
 ---
-*Jacobian* can be understood as a generalisation of the [[Gradient]] - Gradient is like the "Jacobian row".
+*Jacobian* can be understood as a generalisation of the [[gradient]] - Gradient is like the "Jacobian row".
 
 Jacobians are applied on [[vector-valued function]] rather than multivariable functions.
 

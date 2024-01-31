@@ -8,7 +8,7 @@ If you have some [[multivariable function]], $\displaystyle \large f: \mathbb{R}
 
 The *directional derivative* is defined as $\displaystyle \large D_vf$
 
-This will be the [[dot product]] of the [[Gradient]] with $\displaystyle \large \vec{v}$:
+This will be the [[dot product]] of the [[gradient]] with $\displaystyle \large \vec{v}$:
 $$\displaystyle \Huge \begin{eqnarray} 
 D_vf &=& \nabla_{\vec{v}}f \\
      &=& \nabla f \cdot\vec{v} \\
