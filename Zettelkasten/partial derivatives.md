@@ -9,6 +9,12 @@ $$\displaystyle \Huge \begin{eqnarray}
 \dfrac{\partial f(x_0,x_1,...)}{\partial x_0} &=& \lim_{h \to 0} \dfrac{f(x_0+h, x_1, \dots) - f(x_0, x_1, \dots)}{h}
 \end{eqnarray}$$
 
+>[!hint] different notations
+>$$\displaystyle \Huge \begin{eqnarray} 
+>\dfrac{\partial f}{\partial x} &\equiv& f_x\\
+>\dfrac{\partial f}{\partial x \partial y} &\equiv& f_{xy}
+>\end{eqnarray}$$
+
 >[!example] example
 >$$\displaystyle \Huge \begin{eqnarray} 
 >f(x,y,z) &=& sin(x)e^{yz^2} \\\\
@@ -18,4 +24,5 @@ $$\displaystyle \Huge \begin{eqnarray}
 >\dfrac{\partial f}{\partial z} &=& sin(x)e^{yz^2}2yz\\
 >
 >\end{eqnarray}$$
+
 

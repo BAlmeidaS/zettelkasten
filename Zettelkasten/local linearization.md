@@ -36,6 +36,17 @@ f(\boldsymbol{x_0}) +
 - $\displaystyle \large f(\boldsymbol{x_0})$, the **constant term**
 - $\displaystyle \large \nabla f(\boldsymbol{x_0})(\boldsymbol{x} - \boldsymbol{x_0})$, the **linear term**
 
+*local linearization* has:
+1. the same value of $\displaystyle \large f$ at the point $\displaystyle \large \boldsymbol{x_0}$.
+$$\displaystyle \Huge \begin{eqnarray} 
+f(\boldsymbol{x}) = L_f(\boldsymbol{x})
+\end{eqnarray}$$
+2. the partial derivatives are equal on the point $\displaystyle \large \boldsymbol{x}$:
+$$\displaystyle \Huge \begin{eqnarray} 
+\dfrac{\partial L_f(x,y,\dots)}{\partial x} = 
+\dfrac{\partial f(x_0, y_0, \dots)}{\partial x} 
+\end{eqnarray}$$
+
 It is a *linear* function because:
 ![[Pasted image 20240131163911.png]]
 ![[Pasted image 20240131163920.png]]
@@ -43,6 +54,3 @@ It is a *linear* function because:
 >[!hint] 
 >*local linearization* can be a way to approximate a function that you don't know, but you could approximate it to one point (red-point) and calculate/estimate its gradient.
 >
->Local linearization has:
->1. the same value of $\displaystyle \large f$ at the point $\displaystyle \large \boldsymbol{x_0}$.
->2. the same value partial derivatives as $\displaystyle \large f$ at the point $\displaystyle \large \boldsymbol{x_0}$.
