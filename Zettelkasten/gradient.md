@@ -14,12 +14,7 @@ $$\displaystyle \Huge \begin{eqnarray}
 
 a simplified version is 
 $$\displaystyle \Huge \begin{eqnarray} 
-\nabla f &=& 
-\begin{bmatrix}  
-\dfrac{\partial f}{\partial x_0} \\
-\dfrac{\partial f}{\partial x_1} \\
-\vdots
-\end{bmatrix}
+\nabla f &=& [f_x, f_y, \cdots] 
 \end{eqnarray}$$
 
 It has *two interpretations* that are the two sides of the same coin:

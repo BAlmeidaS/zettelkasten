@@ -1,6 +1,8 @@
 ---
 tags:
   - Calculus
+aliases:
+  - jacobian
 ---
 *Jacobian* can be understood as a generalisation of the [[gradient]] - Gradient is like the "Jacobian row".
 
