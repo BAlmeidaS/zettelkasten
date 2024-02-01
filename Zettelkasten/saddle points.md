@@ -15,3 +15,4 @@ $$\displaystyle \Huge \begin{eqnarray}
 \\
 D(\boldsymbol{x_0}) &<& 0
 \end{eqnarray}$$
+![[Pasted image 20240201165326.png|500]]

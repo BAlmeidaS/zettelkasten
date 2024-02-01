@@ -3,6 +3,7 @@ tags:
   - Calculus
 aliases:
   - concavity test
+  - second derivative test
 ---
 In a *single variable* [[function]] $\displaystyle \large f: \mathbb{R} \rightarrow \mathbb{R}$, to find if a point is *either* a maximum or a minimum we must check its *first* [[derivative]]. If it is zero, is either one of them
 $$\displaystyle \Huge \begin{eqnarray} 
@@ -28,5 +29,10 @@ Because the slope *is increasing*!
 
 ## $\displaystyle \large f^{\prime\prime} = 0$ ?
 This is an *unknown point and you have to make more tests*
+
+it can be a max/min point or can be a *inflection point*
+![[Pasted image 20240201165228.png]]
+
+---
 
 ![[Pasted image 20240201154341.png|500]]

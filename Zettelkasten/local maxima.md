@@ -22,6 +22,6 @@ f_{xx}(\boldsymbol{x_0}) &<& 0
 \ (\text{or }
 f_{yy}(\boldsymbol{x_0}) < 0)
 \end{eqnarray}$$
-
+![[Pasted image 20240201165358.png|500]]
 
 

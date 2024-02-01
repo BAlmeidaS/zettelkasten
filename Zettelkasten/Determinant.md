@@ -19,4 +19,4 @@ $$\displaystyle \Huge \begin{eqnarray}
 det(AB)=det(A)det(B)
 \end{eqnarray}$$
 
-A simple rule to calculate *determinants* is by [[rule of sarrus]]
+A simple rule to calculate *determinants* is by [[rule of sarrus]]. But bare in mind that we must appeal to *computational methods* when the matrix is more than $\displaystyle \large 3\times 3$.
