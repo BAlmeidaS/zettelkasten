@@ -45,66 +45,59 @@ $$\displaystyle \Huge \begin{eqnarray}
 \end{eqnarray}$$
 
 >[!example] example with 3 variables
-
 with *3 variables* we want to get this formula:
-$$\displaystyle \Huge \begin{eqnarray} 
-ax^2+2bxy+2cxz+dy^2+eyz+fz^2
-\end{eqnarray}$$
-The same variable should be obtained as:
-$$\displaystyle \Huge \begin{eqnarray} 
-&\boldsymbol{x}^T& \boldsymbol{M} \boldsymbol{x} \\
-\text{being, } \\
+>$$\displaystyle \Huge \begin{eqnarray} 
+>ax^2+2bxy+2cxz+dy^2+eyz+fz^2
+>\end{eqnarray}$$
+>
+>The same variable should be obtained as:
+>$$\displaystyle \Huge \begin{eqnarray}
+>&\boldsymbol{x}^T& \boldsymbol{M} \boldsymbol{x} \\
+>\text{being, } \\
+>&\boldsymbol{x}&=
+>\begin{bmatrix}
+>x \\
+>y \\
+>z \\
+>\end{bmatrix} \\
+>
+>&\boldsymbol{M}&=
+>\begin{bmatrix} 
+>a & b & c \\
+>b & d & e \\
+>c & e & f \\
+>\end{bmatrix}
+>\end{eqnarray}$$
+>
+>Doing the math:
+>$$\displaystyle \Huge \begin{eqnarray} 
+>\boldsymbol{x}^T \boldsymbol{M} \boldsymbol{x} 
+>&=& 
+>\begin{bmatrix} x & y & z 
+>\end{bmatrix} 
+>\begin{bmatrix} 
+>a & b & c \\
+>b & d & e \\
+>c & e & f \\
+>\end{bmatrix}
+>\begin{bmatrix}
+>x \\
+>y \\
+>z \\
+>\end{bmatrix}
+>\\
+>&=& 
+>\begin{bmatrix} x & y & z 
+>\end{bmatrix} 
+>\begin{bmatrix} 
+>ax & by & cz \\
+>bx & dy & ez \\
+>cx & ey & fz \\
+>\end{bmatrix}
+>\\
+>&=& ax^2 + bxy + cxz + byx + dy^2 + eyz + czx + ezy + fz^2 \\
+>&=& ax^2 + 2bxy + 2cxz + dy^2 + 2eyz + fz^2 \\
+>&&&\blacksquare
+>
+>\end{eqnarray}$$
 
-&\boldsymbol{x}&=
-\begin{bmatrix}
-x \\
-y \\
-z \\
-\end{bmatrix} \\
-
-&\boldsymbol{M}&=
-\begin{bmatrix} 
-a & b & c \\
-b & d & e \\
-c & e & f \\
-\end{bmatrix}
-\end{eqnarray}$$
-
-Doing the math
-$$\displaystyle \Huge \begin{eqnarray} 
-\boldsymbol{x}^T \boldsymbol{M} \boldsymbol{x} 
-&=& 
-\begin{bmatrix} x & y & z 
-\end{bmatrix} 
-\begin{bmatrix} 
-a & b & c \\
-b & d & e \\
-c & e & f \\
-\end{bmatrix}
-\begin{bmatrix}
-x \\
-y \\
-z \\
-\end{bmatrix}
-\\
-&=& 
-\begin{bmatrix} x & y & z 
-\end{bmatrix} 
-\begin{bmatrix} 
-ax & by & cz \\
-bx & dy & ez \\
-cx & ey & fz \\
-\end{bmatrix}
-\\
-&=& 
-\begin{bmatrix} x & y & z 
-\end{bmatrix} 
-\begin{bmatrix} 
-ax & by & cz \\
-bx & dy & ez \\
-cx & ey & fz \\
-\end{bmatrix}
-\\
-
-
-\end{eqnarray}$$
