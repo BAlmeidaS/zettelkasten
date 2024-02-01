@@ -2,6 +2,11 @@
 tags:
   - Calculus
 ---
+*The quadratic form can be written as*:
+$$\displaystyle \Huge \begin{eqnarray} 
+\boldsymbol{x}^T \boldsymbol{M} \boldsymbol{x}
+\end{eqnarray}$$
+
 Given a [[multivariable function]] we wish to create a *vectorize way* to express a function that have *a relation between the quadratic variables and its constant*:
 $$\displaystyle \Huge \begin{eqnarray} 
 f(x,y,z,\dots) 
@@ -36,12 +41,6 @@ b & k & l &\dots \\
 c & l & u &\dots \\
 \vdots & \vdots & \vdots & \ddots
 \end{bmatrix}
-\end{eqnarray}$$
-
-
-*The quadratic form can be written as*:
-$$\displaystyle \Huge \begin{eqnarray} 
-\boldsymbol{x}^T \boldsymbol{M} \boldsymbol{x}
 \end{eqnarray}$$
 
 >[!example] example with 3 variables

@@ -1,8 +1,12 @@
 ---
 tags:
   - Calculus
+aliases:
+  - local linearization
+  - linear approximation
+  - first-order approximation
 ---
-*local linearization* generalises the idea of [[tangent plane]] to *any* [[multivariable function]].
+*local linearization* generalises the idea of [[tangent plane]] to *any* [[multivariable function]], also known as *first-order approximation*.
 
 **local linearization** *approximates one function near a point based on the information you can get from its [[partial derivatives]] at that point.*
 
@@ -26,7 +30,7 @@ x-x_0 \\
 y-y_0 \\
 \vdots
 \end{bmatrix} 
-\\
+\\\\
 L_f(\boldsymbol{x}) &=& 
 f(\boldsymbol{x_0}) +
 \nabla f(\boldsymbol{x_0})(\boldsymbol{x} - \boldsymbol{x_0})
