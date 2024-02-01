@@ -32,7 +32,7 @@ The *jacobian matrix* is the best *linear approximation of a vector-valued funct
 >x+sin(y) \\ y+sin(x)
 >\end{bmatrix}
 >\end{eqnarray}$$
->Note how it changes the [[domain]], in a non-linear way:
+>Note how it changes the [[domain of a function|domain]], in a non-linear way:
 >![[Peek 2022-07-18 17-13.gif|300]]
 >
 How ever, *it does transform the domain* **linearly** on a very very small area:
