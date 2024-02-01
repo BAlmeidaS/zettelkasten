@@ -12,10 +12,13 @@ In [[multivariable function]], there might be many points that can be considered
 All the *red-arrows* point to *local minima*,
 but only the one circled in *green* is also the *global minimum*.
 
-To be a *local minima* a point must *at least* meet the following criteria (using the [[gradient]]):
+To be a *local minima* a point must be a [[Critical Points|critical point]] and lay down in a specific case of the [[second-partial derivative test]]:
 $$\displaystyle \Huge \begin{eqnarray} 
-\nabla_f(x,y) = \vec{0}
+\nabla_f(\boldsymbol{x_0}) &=& \vec{0}
+\\
+D(\boldsymbol{x_0}) &>& 0
+\\
+f_{xx}(\boldsymbol{x_0}) &>& 0 
+\ (\text{or }
+f_{yy}(\boldsymbol{x_0}) > 0)
 \end{eqnarray}$$
-This means that all the [[partial derivatives]] must be $\displaystyle \large 0$, or the [[tangent plane]] must be flat.
-
-This is not enough, because this condition in isolation is the same for [[local maxima]] and [[saddle points]]

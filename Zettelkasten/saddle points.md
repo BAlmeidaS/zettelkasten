@@ -9,3 +9,9 @@ $$\displaystyle \Huge \begin{eqnarray}
 Its form is like this
 ![[Pasted image 20240201150623.png]]
 
+To be a *saddle point* it must be a [[Critical Points|critical point]] and lay down in a specific case of the [[second-partial derivative test]]:
+$$\displaystyle \Huge \begin{eqnarray} 
+\nabla_f(\boldsymbol{x_0}) &=& \vec{0}
+\\
+D(\boldsymbol{x_0}) &<& 0
+\end{eqnarray}$$
