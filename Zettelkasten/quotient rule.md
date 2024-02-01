@@ -1,6 +1,9 @@
 ---
 tags:
   - Calculus
+aliases:
+  - quotient rule
+  - division rule
 ---
 *Quotient rule* can be inferred by [[Product rule]], nevertheless:
 
