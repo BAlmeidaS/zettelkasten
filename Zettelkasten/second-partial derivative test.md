@@ -33,3 +33,6 @@ In the case of $\displaystyle \large D(x_0, y_0) > 0$, I decided to use $\displa
 $$\displaystyle \Huge \begin{eqnarray} 
 D(\boldsymbol{x_0}) &=& det(\boldsymbol{H_f}(\boldsymbol{x_0})) \\\\
 \end{eqnarray}$$
+---
+
+[A good article from 3blue1brown](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/optimizing-multivariable-functions/a/reasoning-behind-the-second-partial-derivative-test)
