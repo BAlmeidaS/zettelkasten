@@ -11,5 +11,7 @@ C_{n \times m} &=& A_{n \times p}*B_{p \times m} \\
 
 c_{ij}&=&\sum_{k=1}^{p}a_{ik}b_{kj}
 \end{eqnarray}$$
-
 ![[Pasted image 20240129212410.png|300]]
+
+>[!hint] python
+>in python, using *numpy*, the operator *@* does matrix multiplication
