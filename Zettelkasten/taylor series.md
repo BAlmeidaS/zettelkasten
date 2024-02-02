@@ -18,4 +18,8 @@ f(x) = \sum^\infty_{n=0}\dfrac{f^{(n)}(a)}{n!}(x-a)^n
 
 *The taylor expansion of any [[polynomial]] is the [[polynomial]] itself*
 
+We can say *n-order approximation* when we use until the $\displaystyle \large n$th derivative.
+
+---
+
 [Visualising Taylor Series](https://www.coursera.org/learn/multivariate-calculus-machine-learning/ungradedWidget/SgnFT/visualising-taylor-series)
