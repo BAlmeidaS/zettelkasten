@@ -17,3 +17,5 @@ f(x) = \sum^\infty_{n=0}\dfrac{f^{(n)}(a)}{n!}(x-a)^n
 \end{eqnarray}$$
 
 *The taylor expansion of any [[polynomial]] is the [[polynomial]] itself*
+
+[Visualising Taylor Series](https://www.coursera.org/learn/multivariate-calculus-machine-learning/ungradedWidget/SgnFT/visualising-taylor-series)
