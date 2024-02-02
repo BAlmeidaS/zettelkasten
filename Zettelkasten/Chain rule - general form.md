@@ -29,3 +29,4 @@ $$\displaystyle \Huge \begin{eqnarray}
 >
 >\end{eqnarray}$$
 
+The [[chain rule - vector form]] is also an option!
