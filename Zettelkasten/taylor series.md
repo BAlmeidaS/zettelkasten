@@ -20,6 +20,9 @@ f(x) = \sum^\infty_{n=0}\dfrac{f^{(n)}(a)}{n!}(x-a)^n
 
 We can say *n-order approximation* when we use until the $\displaystyle \large n$th derivative.
 
----
+*Remember that taylor function work VERY poorly when functions are not well-behaved*. Check the comparison between the approximations of $\displaystyle \large cos(x)$ and $\displaystyle \large \dfrac{1}{x}$
+![[Peek 2024-02-02 21-10.gif|400]]
 
+---
 [Visualising Taylor Series](https://www.coursera.org/learn/multivariate-calculus-machine-learning/ungradedWidget/SgnFT/visualising-taylor-series)
+  
