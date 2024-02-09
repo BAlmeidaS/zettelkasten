@@ -58,3 +58,4 @@ It is a *linear* function because:
 >[!hint] 
 >*local linearization* can be a way to approximate a function that you don't know, but you could approximate it to one point (red-point) and calculate/estimate its gradient.
 >
+>The approximation says that as you move away from $\displaystyle \large x_0$, your corresponding change is equal to your distance away from $\displaystyle \large x_0$ times the gradient of your function at $\displaystyle \large x_0$.

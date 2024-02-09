@@ -13,7 +13,11 @@ f(x) \approx f(a)
 
 or more generally:
 $$\displaystyle \Huge \begin{eqnarray} 
-f(x) = \sum^\infty_{n=0}\dfrac{f^{(n)}(a)}{n!}(x-a)^n
+f(x) &=& \sum^\infty_{n=0}\dfrac{f^{(n)}(a)}{n!}(x-a)^n
+\\
+\text{or in terms of $\Delta x$:}
+\\
+f(x + \Delta x) &=& \sum^\infty_{n=0}\dfrac{f^{(n)}(a)}{n!}(\Delta x)^n
 \end{eqnarray}$$
 
 *The taylor expansion of any [[polynomial]] is the [[polynomial]] itself*
