@@ -8,7 +8,7 @@ $$\displaystyle \Huge \begin{eqnarray}
 \end{eqnarray}$$
 ![[Pasted image 20240202155332.png|300]]
 
-Being,
+It is composed of [[neurons]], and this can be formulated as,
 - $\displaystyle \large a$: activity
 - $\displaystyle \large w$: weight
 - $\displaystyle \large b$: bias

@@ -9,3 +9,4 @@ $$\displaystyle \Huge \begin{eqnarray}
 \end{eqnarray}$$
 
 ![[Pasted image 20231130135514.png|500]]
+
