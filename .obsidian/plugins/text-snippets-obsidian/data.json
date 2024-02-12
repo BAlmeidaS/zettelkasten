@@ -1,5 +1,5 @@
 {
-  "snippets_file": "snippets : It is an obsidian plugin, that replaces your selected text.\n\ninm : $\\displaystyle \\large $end$$\nsmallm : $$\\displaystyle \\Huge $end$$$\nbigm : $$\\displaystyle \\Huge \\begin{eqnarray} $nl$a &=& 1 \\\\$nl$$end$$nl$\\end{eqnarray}$$\nrc : ```R$nl$$end$$nl$```$nl$\n\ncr : ```R$nl$$end$$nl$```$nl$\n\nmatrix : \\begin{bmatrix} $end$ & 1 \\\\ \\end{bmatrix}\np_matrix : \\begin{bmatrix} $end$ & 1 \\\\  \\end{bmatrix}\nlim : \\lim_{x \\to a} $end$ \nbold : \\boldsymbol{$end$}",
+  "snippets_file": "snippets : It is an obsidian plugin, that replaces your selected text.\n\ninm : $\\displaystyle \\large $end$$\nsmallm : $$\\displaystyle \\Huge $end$$$\nbigm : $$\\displaystyle \\Huge \\begin{eqnarray} $nl$a &=& 1 \\\\$nl$$end$$nl$\\end{eqnarray}$$\nrc : ```R$nl$$end$$nl$```$nl$\n\ncr : ```R$nl$$end$$nl$```$nl$\n\nmatrix : \\begin{bmatrix} $end$ & 1 \\\\ \\end{bmatrix}\np_matrix : \\begin{bmatrix} $end$ & 1 \\\\  \\end{bmatrix}\nlim : \\lim_{x \\to a} $end$ \nbold : \\boldsymbol{$end$}\n\ncases : \\begin{cases}$nl$$end$,& \\text{if } x\\geq1\\\\$nl$0,&$nl$\\text{otherwise}$nl$\\end{cases}",
   "snippets": [
     "snippets : It is an obsidian plugin, that replaces your selected text.",
     "inm : $\\displaystyle \\large $end$$",
@@ -10,7 +10,8 @@
     "matrix : \\begin{bmatrix} $end$ & 1 \\\\ \\end{bmatrix}",
     "p_matrix : \\begin{bmatrix} $end$ & 1 \\\\  \\end{bmatrix}",
     "lim : \\lim_{x \\to a} $end$ ",
-    "bold : \\boldsymbol{$end$}"
+    "bold : \\boldsymbol{$end$}",
+    "cases : \\begin{cases}$nl$$end$,& \\text{if } x\\geq1\\\\$nl$0,&$nl$\\text{otherwise}$nl$\\end{cases}"
   ],
   "endSymbol": "$end$",
   "newlineSymbol": "$nl$",
