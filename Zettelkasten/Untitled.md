@@ -1,1 +1,0 @@
-Data mining is about solving problems by analysing data already present in databases.
