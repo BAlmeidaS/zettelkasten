@@ -2,9 +2,9 @@
 tags:
   - Statistics
 ---
-A type of [[Random Variable]] that is a real number - like height and weight
+A type of [[Random Variable]] that is a *real* number - like height and weight.
 
-Useful in [[Statistics]]
+It is different of being *numerical*, there are [[Categorical variable|Discrete variables]] that are numerical
 
 ---
 See also [[Categorical variable]]
