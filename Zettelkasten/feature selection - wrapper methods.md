@@ -7,4 +7,5 @@ tags:
 Some examples are:
 - [[Sequential Forward Selection]]
 - [[Sequential Backward Selection]]
-- 
+- [[Recursive Feature Elimination]]
+- [[Exhaustive Feature Selection]]
