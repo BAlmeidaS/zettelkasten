@@ -8,4 +8,4 @@ Usually we *denormalize* data in [[Machine Learning]] in order to have proper [[
 
 ---
 
-The opposite of [[normalization]]
+The opposite of [[database normalisation]]
