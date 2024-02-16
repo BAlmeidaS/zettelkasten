@@ -8,7 +8,8 @@ The goal is to make data more suitable for modelling by altering its original fo
 
 Examples:
 - [[Normalisation]]
-- [[Standardisation]]
+- [[mean-normalisation]]
+- [[Z-score normalisation]]
 - [[Transformations - Linear Model]]
 - [[One-Hot Enconding]]
 - [[binning/bucketing]]
