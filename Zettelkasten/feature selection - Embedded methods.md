@@ -8,5 +8,4 @@ The selection of features is built into the model learning algorithm itself, not
 
 For example:
 - [[L1 Regularisation]]
-- [[L2 Regularisation]]
 - [[Tree models to get feature importance]]
