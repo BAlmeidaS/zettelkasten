@@ -16,8 +16,12 @@ $\displaystyle \large \lambda$ is a [[Hyperparameters of the model|Hyperparamete
 In opposite of [[L1 Regularisation|L1]], *L2 does not work well as feature selection*, because it does not reduce the coefficients to zero.
 
 >[!hint] Math interpratation
->The set of points for which the L1 regularization term is constant forms a diamond shape in two dimensions (or a higher-dimensional equivalent, often called a "cross-polytope," in more dimensions).
->This is because the absolute value function $\displaystyle \large |x|$ grows linearly in both the positive and negative directions from the origin, forming sharp corners (or edges) at each axis. In two dimensions, this constraint region looks like a square that has been rotated 45 degrees (hence, often referred to as a "diamond").
+> The set of points for which the L2 regularization term is constant forms a circle in two dimensions (or a sphere in three dimensions, and so forth in higher dimensions). This is because the sum of squares $\displaystyle \large \beta_1^2 + \beta_2$ defines the equation of a circle centered at the origin. The L2 penalty increases quadratically as we move away from the origin, which results in smooth, rounded contours without any sharp corners or edges.
+> 
+>*the consequence*: The circular (or spherical) constraint of L2 regularization encourages the weights to be small but does not necessarily drive them to zero. This results in models where the weight values are distributed more smoothly and none are exactly zero
 >
->*the consequence*: The diamond-shaped constraint of L1 regularization means that optimization paths are more likely to hit the axes (where one of the weights becomes exactly zero), leading to sparsity in the model coefficients. This property is particularly useful for feature selection.
+>![[Pasted image 20240216175343.png]]
+
+
+
 
