@@ -3,6 +3,7 @@ tags:
   - machine-learning
 aliases:
   - feature
+  - features
 ---
 *Features* or *attributes* carry the information of the [[instance|examples]] but related to a specific variable. 
 
