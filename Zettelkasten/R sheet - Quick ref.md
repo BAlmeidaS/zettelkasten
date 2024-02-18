@@ -40,6 +40,11 @@ sampling in a vector
 sample(c("M", "F", "?"), 20, replace=T)
 ```
 
+get all parameters / attributes of a variable
+```R
+attributes(df)
+```
+
 files
 ```R
 # load RData
@@ -170,9 +175,12 @@ df <- rbind(df, new_row)
 round(cor(df, method = "spearman"), 3)
 ```
 
-removing NA
+removing NA / drop NAs
 ```R
 df_without_nas <- df[complete.cases(df),]
+
+# or
+df_without_nas <- na.omit(df)
 ```
 
 get a quantile of a column regardless the distribution
@@ -206,6 +214,20 @@ removing features of a model
 model <- lm(...)
 # removing features
 model2 <- update(model, ~. -col)
+```
+
+get outliers from boxplot
+```R
+bx <- boxplot(df$col_1)
+df[df$col_1 %in% bx$out, ]
+
+# get all others values than outliers
+df[df$col_1 %in% bx$out, ]
+```
+
+drop duplicates
+```R
+df_no_dups <- unique(df)
 ```
 # GGPLOT
 
@@ -407,6 +429,13 @@ a good library to create [[Scatterplot matrix]]
 library(psych)
 
 pairs.panels(df)
+```
+
+# sampling
+stratified sampling
+```R
+# col has 2 categories, I want to get 3 from the first, 8 from the second
+sampling::strata(df, "col", c(3,8))
 ```
 
 # libraries

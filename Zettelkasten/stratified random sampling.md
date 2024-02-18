@@ -1,6 +1,10 @@
 ---
 tags:
   - machine-learning
+aliases:
+  - stratified
+  - strata
+  - stratum
 ---
 *Stratified random sampling* is a method of sampling that involves *dividing the population into distinct subgroups or strata that share similar characteristics*, and then selecting a random sample from each of these *strata* (plural of stratum).
 
