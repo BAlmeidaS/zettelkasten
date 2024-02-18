@@ -39,6 +39,25 @@ sampling in a vector
 ```R
 sample(c("M", "F", "?"), 20, replace=T)
 ```
+
+files
+```R
+# load RData
+load("myfile.RData")
+
+# save a RData
+save(df, file = "myfile.RData")
+
+# save csv
+write.csv(df, "mycsv.csv")
+
+# write a pdf
+pdf(file = "mypdf.pdf")
+## run operations to be saved such as plot
+dev.off()
+
+```
+
 # DF
 First steps with a df
 ```R
