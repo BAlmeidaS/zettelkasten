@@ -382,6 +382,14 @@ ggplot(data = df) +
   theme_minimal()
 ```
 
+# psych
+a good library to create [[Scatterplot matrix]]
+```R
+library(psych)
+
+pairs.panels(df)
+```
+
 # libraries
 ```R
 library(ggplot2)
