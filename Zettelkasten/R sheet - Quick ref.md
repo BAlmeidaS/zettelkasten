@@ -222,12 +222,20 @@ bx <- boxplot(df$col_1)
 df[df$col_1 %in% bx$out, ]
 
 # get all others values than outliers
-df[df$col_1 %in% bx$out, ]
+df[!df$col_1 %in% bx$out, ]
 ```
 
 drop duplicates
 ```R
 df_no_dups <- unique(df)
+```
+
+test/train split
+```R
+num_row <- nrow(df)
+train_idx <- sample(num_row, num_row * .7) # 70% train
+df.train <- df[train_idx, ]
+df.test <- df[-train_idx, ]
 ```
 # GGPLOT
 
