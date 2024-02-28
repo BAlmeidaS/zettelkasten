@@ -20,3 +20,4 @@ There are two types of clustering:
 - [[fuzzy clustering]]
 
 ![[Pasted image 20240228155009.png]]
+
