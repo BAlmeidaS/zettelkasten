@@ -5,6 +5,7 @@ aliases:
   - example
   - examples
   - instances
+  - record
 ---
 An *instance* is one particular example of a dataset. They contain a [[concept]] to be learned.
 
