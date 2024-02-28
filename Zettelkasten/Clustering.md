@@ -8,6 +8,15 @@ The definition of *clustering* is finding groups of [[instance|examples]] that a
 
 Clustering is *based on* [[distance]]. Through distance we can measure this (dis)similarities
 
+Clustering can be understood as a function that maps a datapoint to an output:
+$$\displaystyle \Huge \begin{eqnarray} 
+f:x\rightarrow cluster
+\end{eqnarray}$$
+
 There are two types of clustering:
 - [[hard clustering]]
+	- [[Partitional clustering]]
+	- [[Hierarchical clustering]]
 - [[fuzzy clustering]]
+
+![[Pasted image 20240228155009.png]]
