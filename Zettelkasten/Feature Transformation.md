@@ -7,7 +7,7 @@ It is the process of *converting [[Attribute|features]] from one representation 
 The goal is to make data more suitable for modelling by altering its original format and scale.
 
 Examples:
-- [[Normalisation]]
+- [[min-max scaling]]
 - [[mean-normalisation]]
 - [[Z-score normalisation]]
 - [[Transformations - Linear Model]]
