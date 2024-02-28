@@ -2,9 +2,21 @@
 tags:
   - machine-learning
 ---
-A group of ways to *measure dissimilarity*. In fact, distance and similarity are reciprocal:
-$$\displaystyle \Huge \begin{eqnarray} 
-distance = \dfrac{1}{similarity}
-\end{eqnarray}$$
+A *distance function* has 4 properties:
 
-The most common way is to think about [[euclidean distance]], but it is not the only way to measure distance!
+1. Nonnegative
+$$\displaystyle \Huge \begin{eqnarray} 
+f(x, y) \ge 0
+\end{eqnarray}$$
+2. reflexivity
+$$\displaystyle \Huge \begin{eqnarray} 
+f(x,y) = 0 \iff x = y
+\end{eqnarray}$$
+3. commutativity
+$$\displaystyle \Huge \begin{eqnarray} 
+f(x,y) = f(y,x)
+\end{eqnarray}$$
+4. triangle inequality
+$$\displaystyle \Huge \begin{eqnarray} 
+f(x,y) \le f(x,z) + f(y, z)
+\end{eqnarray}$$
