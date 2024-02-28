@@ -5,7 +5,7 @@ aliases:
   - Linear Regression
   - Linear Model
 ---
-Regression Analysis is a [[Statistics|statistical]] method you use when both [[Response variable]] and [[Explanatory variable]] are [[Numerical variable|continuous variables]].
+Regression Analysis is a [[Statistics|statistical]] method you use when both [[Response variable]] and [[Explanatory variable]] are [[Numerical variables|continuous variables]].
 
 The simplest method is:
 $$\displaystyle \Huge \begin{eqnarray} 

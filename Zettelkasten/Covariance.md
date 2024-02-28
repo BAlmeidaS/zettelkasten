@@ -3,7 +3,7 @@ tags:
   - Statistics
 aliases: []
 ---
-The way that two [[Random Variable]] ([[Numerical variable]]) vary together, the way they *co-vary*
+The way that two [[Random Variable]] ([[Numerical variables]]) vary together, the way they *co-vary*
 $$\displaystyle \Huge \begin{eqnarray} 
 cov(x, y) &=& E[(x-\bar{x})(y-\bar{y})]
 \end{eqnarray}$$
