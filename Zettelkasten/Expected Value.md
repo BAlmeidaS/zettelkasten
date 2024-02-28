@@ -9,7 +9,7 @@ In [[Statistics]] and [[Probability theory]],
 
 *The expected value is equal to the [[Average|Mean]]!*
 
-For a [[Continuous variable]] is:
+For a [[Numerical variable]] is:
 $$\displaystyle \Huge E[X] = \int\limits^{\infty}_{-\infty}x*f(x)*dx$$
 being $\displaystyle \large f(x)$ the [[Probability Density Function|PDF]] of the random variable.
 

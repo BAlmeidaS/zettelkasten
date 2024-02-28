@@ -3,7 +3,7 @@
 	- [[Explanatory variable]]
 	- [[Non-significant]]
 	- [[Significance]]
-- [[Continuous variable]]
+- [[Numerical variable]]
 - [[Categorical variable]]
 - [[p-value]]
 - [[Test Statistic]]

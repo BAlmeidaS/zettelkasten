@@ -1,11 +1,14 @@
 ---
 tags:
-  - Statistics
   - machine-learning
-aliases:
-  - numerical variable
+  - math
 ---
-A type of [[Random Variable]] that is a *real* number - like height and weight.
+Continuous variables can take on any value within a range, including fractions and irrational numbers, much like the real numbers $\displaystyle \large \mathbb{R}$.
 
----
-See also [[Categorical variable]]
+This characteristic allows continuous variables to represent measurements that can be infinitely precise, analogous to how real numbers can represent points on a continuous number line.
+
+>[!example]
+>- Weight
+>- Temperat
+
+>

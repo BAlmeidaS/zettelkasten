@@ -4,7 +4,7 @@ tags:
 ---
 **Correlation does not imply causation**
 
-Correlation is when two [[Continuous variable|continuous variables]], $\displaystyle \large x$ and $\displaystyle \large y$, are correlated with each other.
+Correlation is when two [[Numerical variable|continuous variables]], $\displaystyle \large x$ and $\displaystyle \large y$, are correlated with each other.
 
 It is defined in terms of the [[Variance]] of $\displaystyle \large x$, the [[Variance]] of $\displaystyle \large y$, and the [[Covariance]] of $\displaystyle \large x$ and $\displaystyle \large y$.
 
