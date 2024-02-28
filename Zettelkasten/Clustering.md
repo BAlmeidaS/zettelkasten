@@ -21,3 +21,4 @@ There are two types of clustering:
 
 ![[Pasted image 20240228155009.png]]
 
+Most of the algorithm perform better if we run some [[data transformation]]
