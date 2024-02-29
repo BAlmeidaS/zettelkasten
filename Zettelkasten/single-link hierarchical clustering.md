@@ -34,7 +34,3 @@ The data points are represented as vertices in the space. A pair $\displaystyle 
 >
 >Final [[dendogram]]:
 >![[Pasted image 20240229150849.png|400]]
-
----
-
-A more *computer science* theme in this one, single-link method can be improved by using [[Minimum Spanning Tree]], but for now I will not create a note about this.

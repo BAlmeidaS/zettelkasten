@@ -18,7 +18,7 @@ tags:
 >![[Pasted image 20240229142635.png]]
 
 Examples are:
-- [[single-link method]]
+- [[single-link hierarchical clustering]]
 - [[complete link method]]
 
 and many others, such as UPGMA, WPGMA, UPGMC, WPGMC and Ward's. They differ basically by the [[distance function]] they will use.
