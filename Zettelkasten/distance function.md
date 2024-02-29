@@ -20,3 +20,7 @@ f(x,y) = f(y,x)
 $$\displaystyle \Huge \begin{eqnarray} 
 f(x,y) \le f(x,z) + f(y, z)
 \end{eqnarray}$$
+
+---
+
+*Distance* can be considered a *hard* definition, a softer definition would be [[Similarity function|dissimilarity function]]
