@@ -19,3 +19,7 @@ tags:
 
 Examples are:
 - [[single-link method]]
+- [[complete link method]]
+
+and many others, such as UPGMA, WPGMA, UPGMC, WPGMC and Ward's. They differ basically by the [[distance function]] they will use.
+
