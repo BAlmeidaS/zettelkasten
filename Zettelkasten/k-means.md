@@ -20,7 +20,18 @@ E = \sum^k_{i=1}\sum_{x \in C_i}d(x, \mu(C_i))
 
 It is called k-means, because in each step it reset the centroid to minimise the **mean** distance for all of its points.
 
->[!summary] algorithm
+>[!success] advantages
+>- efficient - *linear complexity*
+>- no need cutoff definition (as hierarchical), so it's more automatic
+
+>[!warning] disadvantages
+>- depending on *initial seeds*
+>- often terminates in *local minima*
+>- needs *cluster number*
+>- **inefficient** for high_dimensional data (treated with [[dimensionality reduction]])
+>- *sensitive to outliers* (treated with )
+
+>[!note] algorithm
 >1. Random pick a number k of cluster centres (*initial seeds*)
 >2. Assign every object to its nearest cluster centre using some [[distance function]]
 >3. For each cluster update centre to the **mean**.
@@ -28,6 +39,6 @@ It is called k-means, because in each step it reset the centroid to minimise the
 >	a. error < threshold
 >	b. no change in cluster assignments
 
-
+![[Pasted image 20240229180800.png]]
 
 
