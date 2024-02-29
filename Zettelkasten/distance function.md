@@ -2,7 +2,7 @@
 tags:
   - machine-learning
 ---
-A *distance function* has 4 properties:
+A *distance function*, is a function that measure the distance of two points $\displaystyle \large x$ and $\displaystyle \large y$, since it follow these 4 properties:
 
 1. Nonnegative
 $$\displaystyle \Huge \begin{eqnarray} 

@@ -1,15 +1,18 @@
 ---
 tags:
   - math
+aliases:
+  - similarity coeficiente
 ---
-Similarity functions are *soft* [[distance]]. They measure how dissimilar is one object of the other in a set.
+*Similarity function* $\displaystyle \large s(x, y)$ is a function that indicates *the strength of the relationship between two data points $\displaystyle \large x$ and $\displaystyle \large y$*.
 
-They usually don't fulfil all the properties of [[distance]], especially the triangle inequality. Therefore, *similarity function are **not** distances*, though, we can say that *every **distance** is a dissimilarity function*.
-
-The general properties of *dissimilarity functions*:
+It follows the following properties:
 $$\displaystyle \Huge \begin{eqnarray} 
-1.& & 0 \le s(x,y) \le 1 \\
-2.& & s(x,x) = 1 \\
-3.& & s(x,y) = s(y,x) \text{ (symmetry)}
+& & 0 \le s(x,y) \le 1 \\
+& & s(x,x) = 1 \\
+\text{(symmetry) }& & s(x,y) = s(y,x)
 \end{eqnarray}$$
 
+$\displaystyle \large s(x,y)$ is known as *similarity coefficient*.
+
+$\displaystyle \large d(x,y)$ is defined as *dissimilarity coefficient* and is defined as $\displaystyle \large d(x,y) = 1 - s(x,y)$. It has a close relation with a [[distance function]], but it is *not a distance function* because it has *softer properties*.
