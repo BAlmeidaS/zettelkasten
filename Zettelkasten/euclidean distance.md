@@ -13,7 +13,7 @@ d_{euclidean}(\boldsymbol{x}, \boldsymbol{y}) &=&
 &=& [
 (\boldsymbol{x} - \boldsymbol{y})
 (\boldsymbol{x} - \boldsymbol{y})^T
-] ^ \frac{1}{2}
+] ^ \tfrac{1}{2}
 \end{eqnarray}$$
 
 ![[Pasted image 20240228150623.png|500]]
