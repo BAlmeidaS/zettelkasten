@@ -2,7 +2,7 @@
 tags:
   - Statistics
 ---
-It is a test that we use when there is one [[Categorical variable]] as [[Explanatory variable]].
+It is a test that we use when there is one [[categorical variable]] as [[Explanatory variable]].
 
 The idea is to *validate if different categories (levels) of the categorical variable have an impact on the [[Response variable|dependent variable]]*. For that, we will compare the total mean of the distribution with the means of each individual category and try to conclude if it is better to handle the data in isolation, or in total
 

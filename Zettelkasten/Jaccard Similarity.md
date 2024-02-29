@@ -2,7 +2,7 @@
 tags:
   - machine-learning
 ---
-A [[Similarity function]] useful to calculate similarity when the datapoints are defined only with [[Categorical variable|categorical variables]].
+A [[Similarity function]] useful to calculate similarity when the datapoints are defined only with [[categorical variable|categorical variables]].
 
 It is defined using the [[Modulus of a vector|norm]] of the *union* and *intersection*:
 $$\displaystyle \Huge \begin{eqnarray} 

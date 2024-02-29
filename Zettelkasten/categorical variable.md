@@ -3,7 +3,7 @@ tags:
   - Statistics
   - machine-learning
 aliases:
-  - Categorical variable
+  - categorical variables
 ---
 A common way to refer to [[random variable]] that contain categories.
 

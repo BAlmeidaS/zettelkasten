@@ -9,7 +9,7 @@ A test to validate if there is an *association between two categorical variables
 
 *If two variables are independent, it means that knowledge of one does not provide useful information about the other. For instance, if you're looking at the relationship between eye colour and reading preference in a population and find them to be independent, knowing a person's eye colour doesn't help you predict their reading preference, and vice versa.*
 
-Since you have two [[Categorical variable|categorical variables]], you have a [[Contingency Table]], with the **observed frequencies**:
+Since you have two [[categorical variable|categorical variables]], you have a [[Contingency Table]], with the **observed frequencies**:
 
 |           | Blue eyes | Brown eyes |
 | --------- | --------- | ---------- |

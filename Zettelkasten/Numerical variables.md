@@ -11,4 +11,4 @@ They can be further divided into two subcategories:
 - [[Continuous variable]]
 
 ---
-See also [[Categorical variable]]
+See also [[categorical variable]]

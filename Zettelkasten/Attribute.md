@@ -8,7 +8,7 @@ aliases:
 *Features* or *attributes* carry the information of the [[instance|examples]] but related to a specific variable. 
 
 *Attributes* have two basic representations:
-- [[Numerical variables]] / [[Categorical variable]]
+- [[Numerical variables]] / [[categorical variable]]
 - [[Variable categories|stevens' scale of measurement]]
 
 ![[Pasted image 20240214234957.png]]

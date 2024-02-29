@@ -2,7 +2,7 @@
 tags:
   - Statistics
 ---
-A factorial experiment has *two or more factors* ([[Categorical variable]] as [[Explanatory variable|independent variable]]) each *with two or more **levels*** (# of categories).
+A factorial experiment has *two or more factors* ([[categorical variable]] as [[Explanatory variable|independent variable]]) each *with two or more **levels*** (# of categories).
 
 We can investigate statistical interaction in which the *response to one factor depends on the level of another factor*. Also, we must understand the interaction among the [[Explanatory variable|independent variable]], and put this on the analysis.
 

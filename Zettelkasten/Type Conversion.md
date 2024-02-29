@@ -2,7 +2,7 @@
 tags:
   - machine-learning
 ---
-*Type conversion*  is a set of strategies to make conversions between [[Categorical variable]] and [[Numerical variables]]
+*Type conversion*  is a set of strategies to make conversions between [[categorical variable]] and [[Numerical variables]]
 
 - [[Conversion - Numerical to Ordinal]]
 - [[Conversion - Interval to Nominal]]

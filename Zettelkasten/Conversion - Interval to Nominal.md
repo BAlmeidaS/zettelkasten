@@ -4,7 +4,7 @@ tags:
 ---
 A conversion from [[interval variable]] to [[nominal variable]]
 
-In such conversion the new [[Categorical variable]] we *don't care about the order*
+In such conversion the new [[categorical variable]] we *don't care about the order*
 
 A *interval variable* that has an order such $\displaystyle \large A > B > C > D > E$
 We can change to a *nominal variable* replacing:

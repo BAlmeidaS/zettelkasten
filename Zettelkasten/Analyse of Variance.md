@@ -5,7 +5,7 @@ aliases:
   - Analyse of Variance
   - ANOVA
 ---
-A [[Statistics]] technique that we use when *all the [[Explanatory variable|explanatory variables]] are [[Categorical variable|categorical]]*.
+A [[Statistics]] technique that we use when *all the [[Explanatory variable|explanatory variables]] are [[categorical variable|categorical]]*.
 
 In this context, *explanatory variables are called **factors** and each factor has **two or more levels** (categories).
 

@@ -7,7 +7,7 @@ aliases:
 ---
 aka *Ancova*, It is a combination of [[Regression Analysis]] and [[Analyse of Variance]].
 
-The [[Response variable|dependent variable]] *is continuous* and there is *at least one [[Numerical variables]] and one [[Categorical variable]] among the [[Explanatory variable|independent variables]]*.
+The [[Response variable|dependent variable]] *is continuous* and there is *at least one [[Numerical variables]] and one [[categorical variable]] among the [[Explanatory variable|independent variables]]*.
 
 In *Ancova* we need to do [[Model Simplification - Model Complexity]]!
 

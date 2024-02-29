@@ -2,7 +2,7 @@
 tags:
   - math
 ---
-A [[distance function]] used on [[Categorical variable]]. Being $\displaystyle \large x$ and $\displaystyle \large y$ two *categorical* objects:
+A [[distance function]] used on [[categorical variable]]. Being $\displaystyle \large x$ and $\displaystyle \large y$ two *categorical* objects:
 $$\displaystyle \Huge \begin{eqnarray} 
 d_{matching} = \sum^d_{i=1} \delta(x_i, y_i)
 \end{eqnarray}$$

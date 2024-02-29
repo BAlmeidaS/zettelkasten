@@ -3,7 +3,7 @@ tags:
   - Statistics
   - machine-learning
 ---
-A *nominal variable* is a [[Categorical variable]] where the categories **do not have a natural order or ranking**.
+A *nominal variable* is a [[categorical variable]] where the categories **do not have a natural order or ranking**.
 
 The categories are mutually exclusive and exhaustive, meaning each observation belongs to one and only one category, and all possible categories are considered.
 

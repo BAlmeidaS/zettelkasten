@@ -24,3 +24,6 @@ Examples are:
 and many others, such as UPGMA, WPGMA, UPGMC, WPGMC and Ward's. They differ basically by the [[Dissimilarity metrics for clustering]] they will use.
 
 [[Agglomerative methods are preferred rather than Divisive]]
+
+>[!hint]
+>When used with [[Jaccard Similarity]] can have good results in order to cluster [[categorical variable|categorical variables]]

@@ -31,6 +31,9 @@ It is called k-means, because in each step it reset the centroid to minimise the
 >- **inefficient** for high_dimensional data (treated with [[dimensionality reduction]])
 >- *sensitive to outliers* (treated with )
 
+>[!hint]
+>Although *k-means can be used with any [[distance function]]*, it is **usually paired with [[euclidean distance]]**, because k-means is more related to this *spherical clusters*
+
 >[!note] algorithm
 >1. Random pick a number k of cluster centres (*initial seeds*)
 >2. Assign every object to its nearest cluster centre using some [[distance function]]
