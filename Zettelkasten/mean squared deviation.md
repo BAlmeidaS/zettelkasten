@@ -12,4 +12,4 @@ $$\displaystyle \Huge \begin{eqnarray}
 MSD = \dfrac{1}{N}\sum^N_{i=1}(x_i - \bar{x})^2
 \end{eqnarray}$$
 
-Being, $\displaystyle \large N$ the number of data points, $\displaystyle \large \bar{x}$ the [[Average|Mean]].
+Being, $\displaystyle \large N$ the number of data points and $\displaystyle \large \bar{x}$ the [[Average|Mean]].

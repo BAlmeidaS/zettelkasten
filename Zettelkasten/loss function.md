@@ -6,4 +6,4 @@ tags:
 
 It is often used interchangeably with [[cost function]], but being more rigorous, *loss function* is related to the *performance on the a **single data point***. 
 
-Typical cases of loss functions are [[Mean squared Error]] 
+Typical cases of loss functions are [[Mean squared Error]] and [[Cross-entropy error]]
