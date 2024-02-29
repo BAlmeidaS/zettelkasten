@@ -2,7 +2,7 @@
 tags:
   - math
 ---
-A [[distance function]] that is the generalisation of [[euclidean distance]], [[Manhattan distance - L1 Norm|manhattan distance]] and [[maximum distance]].
+A [[distance function]] that is the generalisation of [[euclidean distance]], [[Manhattan distance|manhattan distance]] and [[maximum distance]].
 
 $$\displaystyle \Huge \begin{eqnarray} 
 d_{minkowski}(x,y) = 
