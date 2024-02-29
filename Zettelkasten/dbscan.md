@@ -25,3 +25,6 @@ Points are defined as *core points*, *border points* and *outliers*
 >2. If the point has sufficiently many points in its ε-neighborhood, it starts a cluster. Otherwise, it marks the point as noise (later, this noise could become part of a cluster).
 >3. For a point found to be part of a cluster, it expands the cluster by exploring its neighbours, thus growing the cluster iteratively.
 >4. The process repeats until all points have been processed.
+
+It scans the dataspace following *density connections*
+![[Pasted image 20240229203218.png|400]]
