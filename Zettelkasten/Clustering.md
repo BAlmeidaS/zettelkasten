@@ -15,8 +15,6 @@ f:x\rightarrow cluster
 
 There are two types of clustering:
 - [[hard clustering]]
-	- [[Partitional clustering]]
-	- [[Hierarchical clustering]]
 - [[fuzzy clustering]]
 
 ![[Pasted image 20240228155009.png]]

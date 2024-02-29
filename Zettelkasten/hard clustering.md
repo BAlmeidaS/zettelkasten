@@ -4,7 +4,7 @@ tags:
 aliases:
   - crisp clustering
 ---
-In *hard clustering* each objects is assigned to *only one cluster*
+In *hard [[clustering]] each objects is assigned to *only one cluster*
 
 The result of a hard clustering can be represented as a matrix $\displaystyle \large k \times n$:
 $$\displaystyle \Huge \begin{eqnarray} 

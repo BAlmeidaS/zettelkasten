@@ -4,6 +4,8 @@ tags:
 aliases:
   - similarity coefficient
   - dissimilarity function
+  - dissimilarity
+  - similarity
 ---
 *Similarity function* $\displaystyle \large s(x, y)$ is a function that indicates *the strength of the relationship between two data points $\displaystyle \large x$ and $\displaystyle \large y$*.
 

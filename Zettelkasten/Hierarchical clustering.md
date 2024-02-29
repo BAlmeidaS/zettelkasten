@@ -2,7 +2,7 @@
 tags:
   - machine-learning
 ---
-*Hierarchical clustering* creates a tree of clusters called a [[dendogram]], which represents the relationships among the data points.
+*Hierarchical clustering* is a type of [[hard clustering]], it creates a tree of clusters called a [[dendogram]], which represents the relationships among the data points.
 
 **It does not require specifying the number of clusters in advance**.
 
@@ -17,5 +17,5 @@ tags:
 > 
 >![[Pasted image 20240229142635.png]]
 
-
-
+Examples are:
+- [[single-link method]]

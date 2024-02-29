@@ -4,7 +4,7 @@ tags:
 aliases:
   - soft clustering
 ---
-In *fuzzy clustering* objects can belong to more than one cluster.
+In *fuzzy [[Clustering]]* objects can belong to more than one cluster.
 
 The result of a fuzzy clustering can be represented as a matrix $\displaystyle \large k \times n$:
 $$\displaystyle \Huge \begin{eqnarray} 
