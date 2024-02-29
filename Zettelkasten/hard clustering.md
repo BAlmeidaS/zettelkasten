@@ -33,3 +33,7 @@ Also, there is *no empty cluster*:
 $$\displaystyle \Huge \begin{eqnarray} 
 \sum^n_{j=1} u_{ij} > 0, \forall i \in [1, k]
 \end{eqnarray}$$
+
+Hard clusterings are divided into:
+- [[Hierarchical clustering]]
+- [[Partitional clustering]]
