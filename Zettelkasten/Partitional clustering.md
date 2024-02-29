@@ -7,7 +7,7 @@ tags:
 **number of clusters is specified a priori**
 
 - Fixed number of clusters.
-- Tends to be faster and more scalable to large datasets.
+- Tends to be *faster and more scalable* to large datasets.
 - Sensitivity to the initial partition and the presence of outliers.
 
 >[!note] How it does

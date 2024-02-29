@@ -7,7 +7,7 @@ aliases:
 ---
 *L1 regularization* is also known as *lasso*, that stands for Least Absolute and Selection Operator.
 
-Basically, it add a penalty on the [[loss function]] equal to the *absolute value of the magnitude of the coefficients*.
+Basically, it add a penalty on the [[Cost function]] equal to the *absolute value of the magnitude of the coefficients*.
 
 $$\displaystyle \Huge \begin{eqnarray} 
 Loss &=& Pure\_Loss + \lambda\sum|\beta_j|

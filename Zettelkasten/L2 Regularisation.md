@@ -4,7 +4,7 @@ tags:
 ---
 *L2 regularization* is also known as *ridge*.
 
-Basically, it add a penalty on the [[loss function]] equal to the *square of the coefficients*:
+Basically, it add a penalty on the [[Cost function]] equal to the *square of the coefficients*:
 
 $$\displaystyle \Huge \begin{eqnarray} 
 Loss &=& Pure\_Loss + \lambda\sum\beta_j^2

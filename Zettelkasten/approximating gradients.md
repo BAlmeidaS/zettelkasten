@@ -3,7 +3,7 @@ tags:
   - Calculus
   - deep-learning
 ---
-The idea is to use the [[gradient]] to find the minimum on the [[loss function]]. But how can we do it, if we don't have the function analytically? The answer will be *approximate* the [[gradient]] "walking" in all directions
+The idea is to use the [[gradient]] to find the minimum or the [[Cost function]]. But how can we do it, if we don't have the function analytically? The answer will be *approximate* the [[gradient]] "walking" in all directions
 
 $$\displaystyle \Huge \begin{eqnarray} 
 \nabla_f \approx 
