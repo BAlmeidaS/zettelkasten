@@ -21,5 +21,6 @@ Examples are:
 - [[single-link hierarchical clustering]]
 - [[complete link method]]
 
-and many others, such as UPGMA, WPGMA, UPGMC, WPGMC and Ward's. They differ basically by the [[distance function]] they will use.
+and many others, such as UPGMA, WPGMA, UPGMC, WPGMC and Ward's. They differ basically by the [[Dissimilarity metrics for clustering]] they will use.
 
+[[Agglomerative methods are preferred rather than Divisive]]

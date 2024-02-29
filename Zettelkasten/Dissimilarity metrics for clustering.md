@@ -9,3 +9,5 @@ There are some [[Similarity function|dissimilarity functions]] to measure dissim
 - [[mean-based distance]]
 - [[nearest neighbor distance]]
 - [[farthest neighbor distance]]
+
+And many more not listed here
