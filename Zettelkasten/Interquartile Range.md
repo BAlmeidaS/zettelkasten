@@ -12,4 +12,4 @@ One definition of outliers, every datapoint:
 - $\displaystyle \large \gt Q3 + 1.5IQR$
 - $\displaystyle \large \lt Q1 - 1.5IQR$
 
-![[Pasted image 20231105212854.png|700]]
+![[Pasted image 20231105212854.png|600]]
