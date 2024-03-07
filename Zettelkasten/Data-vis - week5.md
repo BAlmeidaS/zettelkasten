@@ -40,5 +40,19 @@ So basically, **Visibility of controls + Clear Feedback**
 - **Brushing and Linking**:
 	- *linking*: change in parameter in one view, reflect in the others
 	- *brushing*: select a subset of data points
+- Dynamic filtering , decision making that put the control to explore on the user's hands (_Spence and Tweedie, 1994_)
+- Dynamic queries, "sliders with selected ranges"
+- *Zoom and pan* - Increasing magnification of a decreasing fraction of an image - *visual momentum*
+- Geometric vs semantic zoom
+
+**Summary**
+- Interaction is key to modern data visualisation
+- Filters can be implemented locally (single view) or globally (multi-views) to implement required constraints
+- Graphical widgets for filtering allow intuitive and rapid interaction for ‘what if’ type analyses
+- Brushing and linking coordinates multiple views turning views into filters and helping the user to understand multivariate and higher order interactions
+- Zooming is essential for balancing focus and context
+- Semantic zooming adjusts level of representation/detail, in contrast to geometric zooming where only scale is adjusted
+
+
 
 	
