@@ -86,5 +86,18 @@ How some category is represented in a whole. Bar charts are the goal here, but y
 
 Usually we use Machine learning (clustering and dimensionality reduction).
 
-E
+Exceptions are:
+*scatter plot matrix*: to compare how many variables covary - bi-variate correlations
+![[Pasted image 20240307183140.png|200]]
 
+*Star-plots*: compare individuals in a whole using many variables
+![[Pasted image 20240307183228.png|200]]
+
+*treemaps*:  Visualising trees/hierarchical structures or categories with one or more layers of sub-categories
+![[Pasted image 20240307183413.png|200]]
+
+*mosaic plots*: multiple categorical variables
+![[Pasted image 20240307183459.png|200]]
+
+*parallel coordinates*: useful for comparing profiles across a number of measures
+![[Pasted image 20240307183842.png|300]]
