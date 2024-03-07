@@ -1,36 +1,7 @@
-# week 1
-
-"data visualization is the use of visual representations to explore, make sense of, and communicate data" (Few, S)
-
-*SEE*:
-- **S** : Search (explore)
-- **E** : Examine (make sense)
-- **E** : Explain (communicate)
-
-(_Card et al 1999 - week 2 / pg 4_)
-
-Avoid redundant or distracting features - *maximise the data-ink ratio* ("Every bit of ink on a graphic requires a reason") - use this with parsimony
-
-(_The Visual display of quantitative information_)
-
-Common mistakes:
-- unsuitable graphical encodings/chart
-- truncated ranges
-- wrong axis range
-(_Graphics Lies, Misleading Visuals - Alberto Cairo 2015_)
-
-Seven task types:
-- overview
-- zoom
-- filter
-- details on demand
-- relate
-- history
-- extract
-
-(_Ben Shneiderman 1996_)
-# week 2
-
+---
+tags:
+  - data-vis
+---
 Minimise chunks of memory used to understand graphs - (_Information Dashboard Design, Stephen Few - chap 4.1_)
 
 Avoid Scrolling and avoid multiple tabs/screens
@@ -68,17 +39,8 @@ Order of the encoding on quantitative data:
 ![[Pasted image 20240307172208.png|300]]
 ![[Pasted image 20240307172307.png|400]]
 
-Avoid **Inattentional blindness** (_Gorillas in our midsts: sustained inattentional blindness
-for dynamic events - Simons and Chabris, 1999_) - So focus in something that we miss the obvious
+Avoid **Inattentional blindness** - [[Gorillas in our midsts, sustained inattentional blindness for dynamic events, Simons and Chabris, 1999]] - So focused in something that we miss the obvious
 
-Avoid **Change blindness** (_Change detection - Rensink, 2002_) - Take significant time to people to notice a change in a visual scene, if they are distracted and not look for it
+Avoid **Change blindness** [[Change detection, Rensink, 2002]] - Take significant time to people to notice a change in a visual scene, if they are distracted and not look for it
 
-The conclusion of last two points: perception is fallible! Small changes in a complex environment without focus can lead unnoticed! Continuity in view transformation is key to help users.
-
-
-# week 3
-# week 4
-# week 5
-# week 6
-# week 7
-# week 8
+The conclusion of last two points: **perception is fallible!** Small changes in a complex environment without focus can lead unnoticed! Continuity in view transformation is key to help users.
