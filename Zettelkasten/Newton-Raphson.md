@@ -24,7 +24,14 @@ This formula is derived from the first-order of [[taylor series]].
 This method has a problem that *depending on the function it can lead to no solution*, not converging (by oscillating) or even converging in another result farther from the point.
 
 >[!hint] Python + scipy
->*scipy* has a newton-raphson implemented:
+>[*scipy* has a newton-raphson](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.newton.html) implemented:
 >```python
->from scipy import opt
+>from scipy import optimize
+>
+>def f(x):
+>    return x**3 + x*2 / 2 + 17
+>
+>x0 = 2
+>optimize.newton(f, x0)
 >```
+
