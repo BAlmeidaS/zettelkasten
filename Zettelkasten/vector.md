@@ -14,5 +14,3 @@ x_3 \\
 
 [[Sum of vectors|Vectors can be summed]]
 [[Vectors can be scaled by a number]]
-
-

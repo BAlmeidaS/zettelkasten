@@ -1,6 +1,8 @@
 ---
 tags:
   - Calculus
+aliases:
+  - directional gradient
 ---
 This is the simplest case of [[directional derivative|directional derivatives]]. 
 
