@@ -8,6 +8,8 @@ It does not by setting the [[gradient]] as 0, but to *numerically approximating 
 
 To *minimize a function, we can follow the **negative** of the [[gradient]] and go in the direction of the **steepest descent**.
 
+Important to notice that *Gradient descent works well on [[multivariable function]]*
+
 The pure form of the algorithm is defined as:
 $$\displaystyle \Huge \begin{eqnarray} 
 x_{n+1} = x_n - \alpha\nabla f(x_n)
