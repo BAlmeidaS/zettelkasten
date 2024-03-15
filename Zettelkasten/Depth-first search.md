@@ -18,11 +18,11 @@ It is implemented with an [[Late Goal Test]]
 
 It uses a [[LIFO]] queue
 
-| Criterion | DFS |
-| --------- | --- |
-| [[Completeness]]? | No |
-| [[Cost optimality]]? | No |
-| [[Time complexity]] | $\Large O(b^m)$ |
+| Criterion            | DFS             |
+| -------------------- | --------------- |
+| [[Completeness]]?    | No              |
+| [[Cost optimality]]? | No              |
+| [[Time complexity]]  | $\Large O(b^m)$ |
 | [[Space complexity]] | $\Large O(b*m)$ |
 $\large b$ is the [[branching factor]]
 $\large m$ is the maximum depth of the search tree
