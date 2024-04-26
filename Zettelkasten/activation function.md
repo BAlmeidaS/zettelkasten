@@ -6,7 +6,9 @@ tags:
 
 It plays an important role in deep learning because they introduce the *non-linear* behaviour to [[Neural networks]].
 
-Activation functions
+Activation functions must be:
+- **Non-linear**: otherwise they could collapse in a unique linear function
+- [[differentiable]]: because via [[back-propagation]] their gradients will be calculated 
 
 Some examples of activation functions are:
 - [[Sigmoid function]]
