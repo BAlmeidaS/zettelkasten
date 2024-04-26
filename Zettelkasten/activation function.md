@@ -11,6 +11,8 @@ Activation functions must be:
 - [[differentiable]]: because via [[back-propagation]] their gradients will be calculated 
 
 Some examples of activation functions are:
+- [[step function]]
+- [[sign function]]
 - [[Sigmoid function]]
 - [[Hyperbolic Tangent function]]
 - [[ReLU function]]
