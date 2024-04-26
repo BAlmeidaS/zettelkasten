@@ -18,3 +18,9 @@ Some examples of activation functions are:
 - [[ReLU function]]
 - [[Leaky ReLU]]
 - [[softmax function]]
+
+>[!hint] Visual notion of an activation function and common variables
+>usually, $\displaystyle \large z$ is the linear combination of the weights with the inputs and the bias
+>
+>while $\displaystyle \large a$ is the result of the *activation function* applied on z
+>![[Pasted image 20240426175305.png|500]]
