@@ -6,6 +6,8 @@ tags:
 
 It plays an important role in deep learning because they introduce the *non-linear* behaviour to [[Neural networks]].
 
+Activation functions
+
 Some examples of activation functions are:
 - [[Sigmoid function]]
 - [[Hyperbolic Tangent function]]
