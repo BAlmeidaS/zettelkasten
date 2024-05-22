@@ -1,3 +1,5 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b93408b4c429226e0513499d86c8bed9e048fffb45db82763b877c21b273f68f
-size 83
+[
+  "obsidian-admonition",
+  "oz-clear-unused-images",
+  "text-snippets-obsidian"
+]
