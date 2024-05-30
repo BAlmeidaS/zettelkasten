@@ -1,7 +1,7 @@
 ---
 tags:
   - data-vis
-  - paper
+  - paper-old
 ---
 This paper explains **inattentional blindness** - when we are so focused in something that we miss the obvious
 

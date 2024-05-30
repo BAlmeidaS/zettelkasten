@@ -34,6 +34,34 @@
         "a": 1,
         "rgb": 6058198
       }
+    },
+    {
+      "query": "tag: rate-2",
+      "color": {
+        "a": 1,
+        "rgb": 16205196
+      }
+    },
+    {
+      "query": "tag: rate-3",
+      "color": {
+        "a": 1,
+        "rgb": 12614649
+      }
+    },
+    {
+      "query": "tag: #rate-35  ",
+      "color": {
+        "a": 1,
+        "rgb": 3552969
+      }
+    },
+    {
+      "query": "tag: #rate-no  ",
+      "color": {
+        "a": 1,
+        "rgb": 16777215
+      }
     }
   ],
   "collapse-display": false,
@@ -47,5 +75,5 @@
   "linkStrength": 1,
   "linkDistance": 86,
   "scale": 0.45050811767578125,
-  "close": true
+  "close": false
 }

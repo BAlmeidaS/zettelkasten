@@ -1,7 +1,7 @@
 ---
 tags:
   - data-vis
-  - paper
+  - paper-old
 ---
 The paper discuss the concept of **Change blindness**: when it takes significant time to people to notice a change in a visual scene, if they are distracted and not look for it
 

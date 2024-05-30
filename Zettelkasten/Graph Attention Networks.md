@@ -3,6 +3,9 @@ tags:
   - paper
 ---
 URL: https://arxiv.org/abs/1710.10903
+Review: https://openreview.net/forum?id=rJXMpikCZ
+
+Conf: ICLR 2018
 
 ---
 

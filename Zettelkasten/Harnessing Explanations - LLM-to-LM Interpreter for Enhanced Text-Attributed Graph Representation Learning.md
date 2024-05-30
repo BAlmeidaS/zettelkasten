@@ -1,8 +1,12 @@
 ---
 tags:
   - paper
+  - rate-2
 ---
 URL: https://arxiv.org/pdf/2305.19523
+Review: https://openreview.net/forum?id=RXFVcynVe1
+Review average (1-5): 2
+Conf: ICLR 2024
 
 ---
 
