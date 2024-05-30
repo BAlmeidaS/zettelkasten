@@ -8,102 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e420a28b99749104",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Graph Transformer Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42c4e9d0c228d3ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/On the Connection Between MPNN and Graph Transformer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4db41d62164881fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Harnessing Explanations - LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "74ddfb742672c266",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Towards Deep Attention in Graph Neural Networks - Problems and Remedies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa51f50ef32b258f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Graph Attention Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9aba46a07af9e166",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Graph Transformers on EHRs - Better Representation Improves Downstream Performance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4cc680e6e8cf69ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Distinguished In Uniform - Self-Attention Vs. Virtual Nodes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "309eed1ce3d8bc0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Neural Message Passing for Quantum Chemistry.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9295c0329645daaa",
             "type": "leaf",
             "state": {
@@ -115,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -321,6 +224,7 @@
   },
   "active": "9295c0329645daaa",
   "lastOpenFiles": [
+    "Zettelkasten/Efficient Subgraph GNNs by Learning Effective Selection Policies.md",
     "Zettelkasten/Neural Message Passing for Quantum Chemistry.md",
     "Zettelkasten/Distinguished In Uniform - Self-Attention Vs. Virtual Nodes.md",
     "Zettelkasten/BERT.md",
@@ -333,7 +237,6 @@
     "Zettelkasten/Talk like a Graph - Encoding Graphs for Large Language Models.md",
     "Zettelkasten/Change detection, Rensink, 2002.md",
     "Zettelkasten/Gorillas in our midsts, sustained inattentional blindness for dynamic events, Simons and Chabris, 1999.md",
-    "Zettelkasten/Efficient Subgraph GNNs by Learning Effective Selection Policies.md",
     "Templates/Paper.md",
     "Templates/zBasic Note.md",
     "Zettelkasten/VN to MPPN.md",

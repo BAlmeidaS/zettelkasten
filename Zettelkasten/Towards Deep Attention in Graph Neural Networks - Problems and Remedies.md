@@ -1,6 +1,7 @@
 ---
 tags:
   - paper
+  - rate-no
 ---
 URL: https://arxiv.org/pdf/2306.02376
 Review: -

@@ -1,10 +1,13 @@
 ---
 tags:
   - paper
+  - rate-3
 ---
 URL: https://arxiv.org/abs/2310.20082
 REVIEW: https://openreview.net/forum?id=gppLqZLQeY
+Review-score: 3
 Conf: ICLR 2024
+
 
 ---
 

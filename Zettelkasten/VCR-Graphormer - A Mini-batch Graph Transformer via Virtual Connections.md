@@ -1,6 +1,7 @@
 ---
 tags:
   - paper
+  - rate-2
 ---
 URL: 
 Review: https://openreview.net/forum?id=SUUrkC3STJ
