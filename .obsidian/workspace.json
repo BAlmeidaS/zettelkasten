@@ -11,64 +11,36 @@
             "id": "00edff41dc3c67aa",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "55c14eb61c75b66b",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Graph Transformer Networks.md",
+                "file": "Zettelkasten/Efficient Subgraph GNNs by Learning Effective Selection Policies.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1664b04b2b6bdded",
+            "id": "d743e1eab16372b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Distinguished In Uniform - Self-Attention Vs. Virtual Nodes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef8d4876fdfd0bde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Graph Attention Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc31e8f64d63fb08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Talk like a Graph - Encoding Graphs for Large Language Models.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f91d87e66dfbca9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Harnessing Explanations - LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning.md",
+                "file": "Zettelkasten/Graph Transformers on EHRs - Better Representation Improves Downstream Performance.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Harnessing Explanations - LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning.md",
+                "file": "Zettelkasten/Graph Transformers on EHRs - Better Representation Improves Downstream Performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Harnessing Explanations - LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning.md",
+                "file": "Zettelkasten/Graph Transformers on EHRs - Better Representation Improves Downstream Performance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettelkasten/Harnessing Explanations - LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning.md"
+                "file": "Zettelkasten/Graph Transformers on EHRs - Better Representation Improves Downstream Performance.md"
               }
             }
           }
@@ -192,7 +164,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Zettelkasten/Harnessing Explanations - LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning.md",
+                "file": "Zettelkasten/Graph Transformers on EHRs - Better Representation Improves Downstream Performance.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -238,12 +210,16 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f91d87e66dfbca9f",
+  "active": "d743e1eab16372b3",
   "lastOpenFiles": [
-    "Zettelkasten/Talk like a Graph - Encoding Graphs for Large Language Models.md",
+    "Zettelkasten/Efficient Subgraph GNNs by Learning Effective Selection Policies.md",
+    "Zettelkasten/Graph Transformers on EHRs - Better Representation Improves Downstream Performance.md",
     "Zettelkasten/Harnessing Explanations - LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning.md",
-    "Zettelkasten/Distinguished In Uniform - Self-Attention Vs. Virtual Nodes.md",
+    "Zettelkasten/Change detection, Rensink, 2002.md",
+    "Zettelkasten/Gorillas in our midsts, sustained inattentional blindness for dynamic events, Simons and Chabris, 1999.md",
     "Zettelkasten/Graph Transformer Networks.md",
+    "Zettelkasten/Talk like a Graph - Encoding Graphs for Large Language Models.md",
+    "Zettelkasten/Distinguished In Uniform - Self-Attention Vs. Virtual Nodes.md",
     "Zettelkasten/On the Connection Between MPNN and Graph Transformer.md",
     "Zettelkasten/Graph Attention Networks.md",
     "Zettelkasten/Towards Deep Attention in Graph Neural Networks - Problems and Remedies.md",
@@ -262,14 +238,10 @@
     "Zettelkasten/Dying ReLU problem.md",
     "Zettelkasten/Feature Extraction.md",
     "Zettelkasten/Heuristic.md",
-    "Zettelkasten/Admissible Heuristic.md",
-    "Zettelkasten/Batch Normalisation.md",
     "Files/Pasted image 20240426175908.png",
     "Files/Pasted image 20240426175305.png",
     "Files/Pasted image 20240426173311.png",
     "Files/Pasted image 20240426172114.png",
-    "Zettelkasten/Sigmoid function.md",
-    "Zettelkasten/step function.md",
     "Files/Pasted image 20240426170635.png",
     "Files/Pasted image 20240426170342.png",
     "Files/Pasted image 20240426165930.png",
