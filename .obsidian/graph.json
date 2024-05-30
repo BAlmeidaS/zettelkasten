@@ -46,14 +46,14 @@
       "query": "tag: rate-3",
       "color": {
         "a": 1,
-        "rgb": 12614649
+        "rgb": 8096505
       }
     },
     {
       "query": "tag: #rate-35  ",
       "color": {
         "a": 1,
-        "rgb": 7105754
+        "rgb": 6160078
       }
     },
     {
@@ -67,7 +67,7 @@
       "query": "tag: #rate-4  ",
       "color": {
         "a": 1,
-        "rgb": 2817726
+        "rgb": 2883328
       }
     }
   ],
@@ -81,6 +81,6 @@
   "repelStrength": 16.4583333333333,
   "linkStrength": 1,
   "linkDistance": 86,
-  "scale": 0.6757621765136719,
+  "scale": 0.13348388671875,
   "close": false
 }
