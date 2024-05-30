@@ -16,43 +16,43 @@
             }
           },
           {
-            "id": "2403df840c41fd6b",
+            "id": "65d18f863104f913",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Edgeformers - Graph-Empowered Transformers for Representation Learning on Textual-Edge Networks.md",
+                "file": "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9c9a950cbc265b0d",
+            "id": "7ecef49d01395f41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Inductive representation learning on temporal graphs.md",
+                "file": "Zettelkasten/Adversarial Training for Graph Neural Networks - Pitfalls, Solutions, and New Directions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "04d134113af762d2",
+            "id": "aeefbd741a40a686",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
+                "file": "Zettelkasten/NodeFormer - A Scalable Graph Structure Learning Transformer for Node Classification.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c90bb2f61182a52d",
+            "id": "ef9fdf6c1a06748f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,7 +64,67 @@
             }
           },
           {
-            "id": "2ad47fbefaa3f8d5",
+            "id": "41ecc156f6c1a17f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Edgeformers - Graph-Empowered Transformers for Representation Learning on Textual-Edge Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ad90d9aa60a3cef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Do Transformers Really Perform Bad for Graph Representation?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11999cca2f910fc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/SGFormer - Simplifying and Empowering Transformers for Large-Graph Representations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eee5822dcf33d32c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/GNNEvaluator - Evaluating GNN Performance OnUnseen Graphs Without Labels.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "981e0b5f1d9c756e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/GraphAdapter - Tuning Vision-Language Models With Dual Knowledge Graph.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cbbe91007aaad70d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -76,19 +136,67 @@
             }
           },
           {
-            "id": "0d9deeeca5eef87f",
+            "id": "56cafbfea6804cf0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Graph Neural Networks are Inherently Good Generalizers - Insights by Bridging GNNs and MLPs.md",
+                "file": "Zettelkasten/Exphormer - Sparse Transformers for Graphs.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "11e3ef46a7fd9b8a",
+            "id": "fc548c8cd6ff6f14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Recipe for a General, Powerful, Scalable Graph Transformer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b1edb9b19145d84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c397c7c751fabd6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Structure-free Graph Condensation - FromLarge-scale Graphs to Condensed Graph-free Data.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9753da9ddeabf36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/4D Panoptic Scene Graph Generation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9bf136d2565aaf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -98,9 +206,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4f40d584203f46ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Demystifying Structural Disparity in Graph NeuralNetworks - Can One Size Fit All?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +287,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+                "file": "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +304,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+                "file": "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +327,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md"
+                "file": "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md"
               }
             }
           }
@@ -224,7 +344,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+                "file": "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -257,7 +377,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 363.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,34 +391,34 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "11e3ef46a7fd9b8a",
+  "active": "65d18f863104f913",
   "lastOpenFiles": [
-    "Zettelkasten/Graph Neural Networks are Inherently Good Generalizers - Insights by Bridging GNNs and MLPs.md",
-    "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
-    "Zettelkasten/Neighborhood-aware Scalable Temporal NetworkRepresentation Learning.md",
-    "Zettelkasten/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
+    "Zettelkasten/Adversarial Training for Graph Neural Networks - Pitfalls, Solutions, and New Directions.md",
+    "Zettelkasten/NodeFormer - A Scalable Graph Structure Learning Transformer for Node Classification.md",
     "Zettelkasten/How Attentive are Graph Attention Networks?.md",
+    "Zettelkasten/Edgeformers - Graph-Empowered Transformers for Representation Learning on Textual-Edge Networks.md",
+    "Zettelkasten/Do Transformers Really Perform Bad for Graph Representation?.md",
+    "Zettelkasten/SGFormer - Simplifying and Empowering Transformers for Large-Graph Representations.md",
+    "Zettelkasten/GNNEvaluator - Evaluating GNN Performance OnUnseen Graphs Without Labels.md",
+    "Zettelkasten/GraphAdapter - Tuning Vision-Language Models With Dual Knowledge Graph.md",
+    "Zettelkasten/Neighborhood-aware Scalable Temporal NetworkRepresentation Learning.md",
+    "Zettelkasten/Exphormer - Sparse Transformers for Graphs.md",
+    "Zettelkasten/Recipe for a General, Powerful, Scalable Graph Transformer.md",
+    "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
+    "Zettelkasten/Structure-free Graph Condensation - FromLarge-scale Graphs to Condensed Graph-free Data.md",
+    "Zettelkasten/4D Panoptic Scene Graph Generation.md",
+    "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+    "Zettelkasten/Demystifying Structural Disparity in Graph NeuralNetworks - Can One Size Fit All?.md",
+    "Zettelkasten/Spatio-Temporal Graph Transformer Networks for Pedestrian Trajectory Prediction.md",
+    "Zettelkasten/TransMOT - Spatial-Temporal Graph Transformer for Multiple Object Tracking.md",
+    "Zettelkasten/A Generalization of Transformer Networks to Graphs.md",
+    "Zettelkasten/Open Graph Benchmark - Datasets for Machine Learning on Graphs.md",
+    "Zettelkasten/Temporal Graph Benchmark for Machine Learning on Temporal Graphs.md",
+    "Zettelkasten/Graph Neural Networks are Inherently Good Generalizers - Insights by Bridging GNNs and MLPs.md",
+    "Zettelkasten/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
     "Zettelkasten/Inductive representation learning on temporal graphs.md",
     "Zettelkasten/Inductive Representation Learning on Large Graphs.md",
-    "Zettelkasten/NodeFormer - A Scalable Graph Structure Learning Transformer for Node Classification.md",
     "Zettelkasten/INDUCTIVE REPRESENTATION LEARNING ONTEMPORAL GRAPHSUntitled.md",
-    "Zettelkasten/Edgeformers - Graph-Empowered Transformers for Representation Learning on Textual-Edge Networks.md",
-    "Zettelkasten/Graph Transformers on EHRs - Better Representation Improves Downstream Performance.md",
-    "Zettelkasten/Efficient Subgraph GNNs by Learning Effective Selection Policies.md",
-    "Zettelkasten/Neural Message Passing for Quantum Chemistry.md",
-    "Zettelkasten/Distinguished In Uniform - Self-Attention Vs. Virtual Nodes.md",
-    "Zettelkasten/BERT.md",
-    "Zettelkasten/Graph Transformer Networks.md",
-    "Zettelkasten/On the Connection Between MPNN and Graph Transformer.md",
-    "Zettelkasten/Harnessing Explanations - LLM-to-LM Interpreter for Enhanced Text-Attributed Graph Representation Learning.md",
-    "Zettelkasten/Towards Deep Attention in Graph Neural Networks - Problems and Remedies.md",
-    "Zettelkasten/Graph Attention Networks.md",
-    "Zettelkasten/Talk like a Graph - Encoding Graphs for Large Language Models.md",
-    "Zettelkasten/Change detection, Rensink, 2002.md",
-    "Zettelkasten/Gorillas in our midsts, sustained inattentional blindness for dynamic events, Simons and Chabris, 1999.md",
-    "Templates/Paper.md",
-    "Templates/zBasic Note.md",
-    "Zettelkasten/VN to MPPN.md",
     "Files/Pasted image 20240426175908.png",
     "Files/Pasted image 20240426175305.png",
     "Files/Pasted image 20240426173311.png",
