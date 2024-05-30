@@ -1,6 +1,7 @@
 ---
 tags:
   - paper
+  - rate-no
 ---
 URL: 
 Review: 
