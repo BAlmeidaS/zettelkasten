@@ -1,6 +1,8 @@
 ---
 tags:
   - paper
+aliases:
+  - GT
 ---
 URL: https://arxiv.org/pdf/1911.06455
 
