@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:Zettelkasten  tag:paper tag:#rate-35 -tag:#year-2022 -tag:year-2023 -tag:year-2021",
+  "search": "path:Zettelkasten  tag:paper tag:#rate-35 tag:year-2023",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,

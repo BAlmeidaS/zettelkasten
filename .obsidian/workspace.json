@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
+                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ae0219d349b59af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
+                "file": "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
+                "file": "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md"
+                "file": "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md"
               }
             }
           }
@@ -144,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
+                "file": "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,12 +204,15 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "3267bb1e34df418c",
+  "active": "5ae0219d349b59af",
   "lastOpenFiles": [
+    "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+    "Zettelkasten/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
+    "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
+    "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
     "Zettelkasten/Edgeformers - Graph-Empowered Transformers for Representation Learning on Textual-Edge Networks.md",
     "Zettelkasten/Adversarial Training for Graph Neural Networks - Pitfalls, Solutions, and New Directions.md",
     "Zettelkasten/GNNEvaluator - Evaluating GNN Performance OnUnseen Graphs Without Labels.md",
-    "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
     "Zettelkasten/Structure-free Graph Condensation - FromLarge-scale Graphs to Condensed Graph-free Data.md",
     "Zettelkasten/NodeFormer - A Scalable Graph Structure Learning Transformer for Node Classification.md",
     "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
@@ -207,7 +223,6 @@
     "Zettelkasten/Neighborhood-aware Scalable Temporal NetworkRepresentation Learning.md",
     "Zettelkasten/Recipe for a General, Powerful, Scalable Graph Transformer.md",
     "Zettelkasten/SGFormer - Simplifying and Empowering Transformers for Large-Graph Representations.md",
-    "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
     "Zettelkasten/How Attentive are Graph Attention Networks?.md",
     "Zettelkasten/Exphormer - Sparse Transformers for Graphs.md",
     "Zettelkasten/Spatio-Temporal Graph Transformer Networks for Pedestrian Trajectory Prediction.md",
@@ -216,9 +231,7 @@
     "Zettelkasten/Open Graph Benchmark - Datasets for Machine Learning on Graphs.md",
     "Zettelkasten/Temporal Graph Benchmark for Machine Learning on Temporal Graphs.md",
     "Zettelkasten/Graph Neural Networks are Inherently Good Generalizers - Insights by Bridging GNNs and MLPs.md",
-    "Zettelkasten/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
     "Zettelkasten/Inductive representation learning on temporal graphs.md",
-    "Zettelkasten/Inductive Representation Learning on Large Graphs.md",
     "Files/Pasted image 20240426175908.png",
     "Files/Pasted image 20240426175305.png",
     "Files/Pasted image 20240426173311.png",
