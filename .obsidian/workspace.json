@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Graph Transformer Networks.md",
+                "file": "Zettelkasten/SGFormer - Simplifying and Empowering Transformers for Large-Graph Representations.md",
                 "mode": "source",
                 "source": false
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Graph Transformer Networks.md",
+                "file": "Zettelkasten/SGFormer - Simplifying and Empowering Transformers for Large-Graph Representations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Graph Transformer Networks.md",
+                "file": "Zettelkasten/SGFormer - Simplifying and Empowering Transformers for Large-Graph Representations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettelkasten/Graph Transformer Networks.md"
+                "file": "Zettelkasten/SGFormer - Simplifying and Empowering Transformers for Large-Graph Representations.md"
               }
             }
           }
@@ -249,7 +249,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Zettelkasten/Graph Transformer Networks.md",
+                "file": "Zettelkasten/SGFormer - Simplifying and Empowering Transformers for Large-Graph Representations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -298,6 +298,7 @@
   },
   "active": "39bf490f45dfff64",
   "lastOpenFiles": [
+    "Zettelkasten/Graph Transformer Networks.md",
     "Zettelkasten/Newton–Cotes Graph Neural Networks - On the Time Evolution of Dynamic Systemsitled.md",
     "Zettelkasten/No Change, No Gain - Empowering Graph Neural Networks with Expected Model Change Maximization for Active Learning.md",
     "Zettelkasten/Adversarial Robustness in Graph Neural Networks - A Hamiltonian Approach.md",
@@ -324,7 +325,6 @@
     "Zettelkasten/GraphAdapter - Tuning Vision-Language Models With Dual Knowledge Graph.md",
     "Zettelkasten/Do Transformers Really Perform Bad for Graph Representation?.md",
     "Zettelkasten/4D Panoptic Scene Graph Generation.md",
-    "Zettelkasten/Demystifying Structural Disparity in Graph NeuralNetworks - Can One Size Fit All?.md",
     "Files/Pasted image 20240426175908.png",
     "Files/Pasted image 20240426175305.png",
     "Files/Pasted image 20240426173311.png",
