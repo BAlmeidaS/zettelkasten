@@ -15,3 +15,8 @@ In this paper, they carefully design and propose the GraphMixer network for temp
 ---
 
 The authors present a simple and elegant solution that achieves state-of-the-art performance on temporal graph learning-related tasks. The proposed solution has the potential to open the door to research for simpler, more interpretable, yet effective solutions.
+
+The result relies a lot on which feature use for each dataset, they even purpose this as a future contribution to the area.
+
+There solution is based on [[MLP-Mixer - An all-MLP Architecture for Vision]], although they say that it could be done using [[Graph Attention Networks|GAT]], and they prove on Figure 7. But they decide to keep with the MLP-mixer due to its simplicity.
+

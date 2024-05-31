@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5ae0219d349b59af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
+                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
+                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md"
+                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md"
               }
             }
           }
@@ -157,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
+                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,11 +191,15 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5ae0219d349b59af",
+  "active": "3267bb1e34df418c",
   "lastOpenFiles": [
+    "Zettelkasten/Graph Attention Networks.md",
     "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
-    "Zettelkasten/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
+    "Zettelkasten/MLP-Mixer - An all-MLP Architecture for Vision.md",
+    "Zettelkasten/Visualizing the Loss Landscape of Neural Nets.md",
+    "Files/Pasted image 20240531165708.png",
     "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
+    "Zettelkasten/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
     "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
     "Zettelkasten/Edgeformers - Graph-Empowered Transformers for Representation Learning on Textual-Edge Networks.md",
     "Zettelkasten/Adversarial Training for Graph Neural Networks - Pitfalls, Solutions, and New Directions.md",
@@ -229,9 +220,6 @@
     "Zettelkasten/TransMOT - Spatial-Temporal Graph Transformer for Multiple Object Tracking.md",
     "Zettelkasten/A Generalization of Transformer Networks to Graphs.md",
     "Zettelkasten/Open Graph Benchmark - Datasets for Machine Learning on Graphs.md",
-    "Zettelkasten/Temporal Graph Benchmark for Machine Learning on Temporal Graphs.md",
-    "Zettelkasten/Graph Neural Networks are Inherently Good Generalizers - Insights by Bridging GNNs and MLPs.md",
-    "Zettelkasten/Inductive representation learning on temporal graphs.md",
     "Files/Pasted image 20240426175908.png",
     "Files/Pasted image 20240426175305.png",
     "Files/Pasted image 20240426173311.png",
@@ -241,7 +229,6 @@
     "Files/Pasted image 20240426165930.png",
     "Files/Pasted image 20240311184058.png",
     "Files/Pasted image 20240311184023.png",
-    "Files/074f7d79729339289fdae362de9f4434009cdb02.gif",
     "limit from above",
     "References/Coursera - math to DS - Imperium College/1 - Calculus",
     "References/Coursera - math to DS - Imperium College/0 - Linear Algebra",
