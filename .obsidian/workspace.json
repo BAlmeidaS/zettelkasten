@@ -11,15 +11,120 @@
             "id": "3267bb1e34df418c",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "a05f48e15deec856",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+                "file": "Zettelkasten/How to Turn your knowledge graph embeddings into Generative Models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "74a30fffee966873",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Evaluating Post-hoc Explanations for Graph Neural Networks via Robustness Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73bd96aac51be326",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Going beyond persistent homology using persistent homology.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "afe0214cffa48fd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Structure-free Graph Condensation - From Large-scale Graphs to Condensed Graph-free Data.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ddae85d57652f62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Uncertainty Quantification over Graph with Conformalized Graph Neural Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b2405c3fdd042598",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Demystifying Oversmoothing in Attention-Based Graph Neural Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "abcb02f25289740a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Adversarial Robustness in Graph Neural Networks - A Hamiltonian Approach.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccd23a7a0cbbf49e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/No Change, No Gain - Empowering Graph Neural Networks with Expected Model Change Maximization for Active Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "39bf490f45dfff64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Graph Transformer Networks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -87,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+                "file": "Zettelkasten/Graph Transformer Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+                "file": "Zettelkasten/Graph Transformer Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +232,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md"
+                "file": "Zettelkasten/Graph Transformer Networks.md"
               }
             }
           }
@@ -144,7 +249,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+                "file": "Zettelkasten/Graph Transformer Networks.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,19 +296,28 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "3267bb1e34df418c",
+  "active": "39bf490f45dfff64",
   "lastOpenFiles": [
-    "Zettelkasten/Graph Attention Networks.md",
+    "Zettelkasten/Newton–Cotes Graph Neural Networks - On the Time Evolution of Dynamic Systemsitled.md",
+    "Zettelkasten/No Change, No Gain - Empowering Graph Neural Networks with Expected Model Change Maximization for Active Learning.md",
+    "Zettelkasten/Adversarial Robustness in Graph Neural Networks - A Hamiltonian Approach.md",
+    "Zettelkasten/Demystifying Oversmoothing in Attention-Based Graph Neural Networks.md",
+    "Zettelkasten/Uncertainty Quantification over Graph with Conformalized Graph Neural Networks.md",
+    "Zettelkasten/Structure-free Graph Condensation - From Large-scale Graphs to Condensed Graph-free Data.md",
+    "Zettelkasten/Going beyond persistent homology using persistent homology.md",
+    "Zettelkasten/Evaluating Post-hoc Explanations for Graph Neural Networks via Robustness Analysis.md",
+    "Zettelkasten/How to Turn your knowledge graph embeddings into Generative Models.md",
+    "Zettelkasten/GNNEvaluator - Evaluating GNN Performance OnUnseen Graphs Without Labels.md",
     "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+    "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
+    "Zettelkasten/Graph Attention Networks.md",
     "Zettelkasten/MLP-Mixer - An all-MLP Architecture for Vision.md",
     "Zettelkasten/Visualizing the Loss Landscape of Neural Nets.md",
     "Files/Pasted image 20240531165708.png",
     "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
     "Zettelkasten/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
-    "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
     "Zettelkasten/Edgeformers - Graph-Empowered Transformers for Representation Learning on Textual-Edge Networks.md",
     "Zettelkasten/Adversarial Training for Graph Neural Networks - Pitfalls, Solutions, and New Directions.md",
-    "Zettelkasten/GNNEvaluator - Evaluating GNN Performance OnUnseen Graphs Without Labels.md",
     "Zettelkasten/Structure-free Graph Condensation - FromLarge-scale Graphs to Condensed Graph-free Data.md",
     "Zettelkasten/NodeFormer - A Scalable Graph Structure Learning Transformer for Node Classification.md",
     "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
@@ -211,15 +325,6 @@
     "Zettelkasten/Do Transformers Really Perform Bad for Graph Representation?.md",
     "Zettelkasten/4D Panoptic Scene Graph Generation.md",
     "Zettelkasten/Demystifying Structural Disparity in Graph NeuralNetworks - Can One Size Fit All?.md",
-    "Zettelkasten/Neighborhood-aware Scalable Temporal NetworkRepresentation Learning.md",
-    "Zettelkasten/Recipe for a General, Powerful, Scalable Graph Transformer.md",
-    "Zettelkasten/SGFormer - Simplifying and Empowering Transformers for Large-Graph Representations.md",
-    "Zettelkasten/How Attentive are Graph Attention Networks?.md",
-    "Zettelkasten/Exphormer - Sparse Transformers for Graphs.md",
-    "Zettelkasten/Spatio-Temporal Graph Transformer Networks for Pedestrian Trajectory Prediction.md",
-    "Zettelkasten/TransMOT - Spatial-Temporal Graph Transformer for Multiple Object Tracking.md",
-    "Zettelkasten/A Generalization of Transformer Networks to Graphs.md",
-    "Zettelkasten/Open Graph Benchmark - Datasets for Machine Learning on Graphs.md",
     "Files/Pasted image 20240426175908.png",
     "Files/Pasted image 20240426175305.png",
     "Files/Pasted image 20240426173311.png",

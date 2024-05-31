@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:Zettelkasten  tag:paper tag:#rate-35 tag:year-2023",
+  "search": "path: Zettelkasten tag: #paper  tag:#year-2023  tag:#rate-35  -tag:#reviewed  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
