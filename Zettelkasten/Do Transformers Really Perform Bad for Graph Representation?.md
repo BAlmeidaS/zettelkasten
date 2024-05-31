@@ -2,13 +2,14 @@
 tags:
   - paper
   - rate-35
+  - year-2021
 aliases:
   - GraphFormer
 ---
 URL: https://arxiv.org/pdf/2106.05234
 Review: https://openreview.net/forum?id=OeWooOxFwDa
 Review average (1-5): 3.5
-Conf: 
+Conf: NeurIPS 2021
 
 ---
 

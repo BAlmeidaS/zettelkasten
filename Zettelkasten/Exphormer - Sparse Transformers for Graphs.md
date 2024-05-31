@@ -1,7 +1,7 @@
 ---
 tags:
   - paper
-  - rate-35
+  - rate-3
 ---
 URL: https://arxiv.org/pdf/2303.06147
 Review: -

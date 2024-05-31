@@ -2,6 +2,7 @@
 tags:
   - paper
   - rate-35
+  - year-2022
 ---
 URL: https://arxiv.org/abs/2205.12454
 Review: https://openreview.net/forum?id=lMMaNf6oxKM

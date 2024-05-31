@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:Zettelkasten  tag:paper tag:#rate-35 ",
+  "search": "path:Zettelkasten  tag:paper tag:#rate-35 -tag:#year-2022 -tag:year-2023 -tag:year-2021",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -73,14 +73,14 @@
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -0.9,
+  "textFadeMultiplier": -1.2,
   "nodeSizeMultiplier": 2.11614583333333,
   "lineSizeMultiplier": 2.34583333333333,
   "collapse-forces": false,
-  "centerStrength": 0.427083333333333,
+  "centerStrength": 0.619791666666667,
   "repelStrength": 16.4583333333333,
   "linkStrength": 1,
   "linkDistance": 86,
-  "scale": 0.200225830078125,
+  "scale": 0.6757621765136719,
   "close": false
 }

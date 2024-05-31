@@ -2,11 +2,12 @@
 tags:
   - paper
   - rate-35
+  - year-2023
 ---
 URL: https://arxiv.org/abs/2309.13625
 Review: https://openreview.net/forum?id=YmEDnMynuO
 Review average (1-5): 3.5
-Conf: NeurIPS 
+Conf: NeurIPS 2023
 
 ---
 
