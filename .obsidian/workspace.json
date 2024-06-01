@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
+                "file": "Zettelkasten/Demystifying Oversmoothing in Attention-Based Graph Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
+                "file": "Zettelkasten/Demystifying Oversmoothing in Attention-Based Graph Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
+                "file": "Zettelkasten/Demystifying Oversmoothing in Attention-Based Graph Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md"
+                "file": "Zettelkasten/Demystifying Oversmoothing in Attention-Based Graph Neural Networks.md"
               }
             }
           }
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
+                "file": "Zettelkasten/Demystifying Oversmoothing in Attention-Based Graph Neural Networks.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,6 +206,8 @@
   },
   "active": "8a223018dbe8cbb7",
   "lastOpenFiles": [
+    "Zettelkasten/Graph Transformer Networks.md",
+    "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
     "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
     "Zettelkasten/How to Turn your knowledge graph embeddings into Generative Models.md",
     "Zettelkasten/Evaluating Post-hoc Explanations for Graph Neural Networks via Robustness Analysis.md",
@@ -216,7 +218,6 @@
     "Zettelkasten/Adversarial Robustness in Graph Neural Networks - A Hamiltonian Approach.md",
     "Zettelkasten/No Change, No Gain - Empowering Graph Neural Networks with Expected Model Change Maximization for Active Learning.md",
     "Zettelkasten/SGFormer - Simplifying and Empowering Transformers for Large-Graph Representations.md",
-    "Zettelkasten/Graph Transformer Networks.md",
     "Zettelkasten/Newton–Cotes Graph Neural Networks - On the Time Evolution of Dynamic Systemsitled.md",
     "Zettelkasten/GNNEvaluator - Evaluating GNN Performance OnUnseen Graphs Without Labels.md",
     "Zettelkasten/Online GNN Evaluation Under Test-time Graph Distribution Shifts.md",
@@ -230,7 +231,6 @@
     "Zettelkasten/Adversarial Training for Graph Neural Networks - Pitfalls, Solutions, and New Directions.md",
     "Zettelkasten/Structure-free Graph Condensation - FromLarge-scale Graphs to Condensed Graph-free Data.md",
     "Zettelkasten/NodeFormer - A Scalable Graph Structure Learning Transformer for Node Classification.md",
-    "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
     "Zettelkasten/GraphAdapter - Tuning Vision-Language Models With Dual Knowledge Graph.md",
     "Zettelkasten/Do Transformers Really Perform Bad for Graph Representation?.md",
     "Files/Pasted image 20240426175908.png",
