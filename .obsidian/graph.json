@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path: Zettelkasten tag: #paper  tag:#year-2023  tag:#rate-35  -tag:#reviewed  ",
+  "search": "path: Zettelkasten tag: #paper   tag:#rate-4 OR tag:#rate-35  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -81,6 +81,6 @@
   "repelStrength": 16.4583333333333,
   "linkStrength": 1,
   "linkDistance": 86,
-  "scale": 0.6757621765136719,
+  "scale": 1.0136432647705078,
   "close": false
 }

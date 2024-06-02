@@ -11,28 +11,23 @@
             "id": "39bf490f45dfff64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "8a223018dbe8cbb7",
+            "id": "c4007e13a2ce35ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zettelkasten/How Attentive are Graph Attention Networks?.md",
+                "file": "Zettelkasten/Demystifying Oversmoothing in Attention-Based Graph Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zettelkasten/How Attentive are Graph Attention Networks?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zettelkasten/How Attentive are Graph Attention Networks?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Zettelkasten/How Attentive are Graph Attention Networks?.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -157,7 +148,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Zettelkasten/How Attentive are Graph Attention Networks?.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,15 +194,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "8a223018dbe8cbb7",
+  "active": "39bf490f45dfff64",
   "lastOpenFiles": [
-    "Zettelkasten/Inductive Representation Learning on Large Graphs.md",
+    "Zettelkasten/Edgeformers - Graph-Empowered Transformers for Representation Learning on Textual-Edge Networks.md",
+    "Zettelkasten/Evaluating Post-hoc Explanations for Graph Neural Networks via Robustness Analysis.md",
+    "Zettelkasten/How to Turn your knowledge graph embeddings into Generative Models.md",
     "Zettelkasten/Demystifying Oversmoothing in Attention-Based Graph Neural Networks.md",
+    "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
+    "Zettelkasten/How Attentive are Graph Attention Networks?.md",
+    "Zettelkasten/Inductive Representation Learning on Large Graphs.md",
     "Zettelkasten/Graph Transformer Networks.md",
     "Zettelkasten/Towards Better Dynamic Graph Learning - New Architecture and Unified Library.md",
-    "Zettelkasten/Do We Really Need Complicated Model Architectures For Temporal Networks?.md",
-    "Zettelkasten/How to Turn your knowledge graph embeddings into Generative Models.md",
-    "Zettelkasten/Evaluating Post-hoc Explanations for Graph Neural Networks via Robustness Analysis.md",
     "Zettelkasten/Going beyond persistent homology using persistent homology.md",
     "Zettelkasten/Structure-free Graph Condensation - From Large-scale Graphs to Condensed Graph-free Data.md",
     "Zettelkasten/Uncertainty Quantification over Graph with Conformalized Graph Neural Networks.md",
@@ -228,11 +220,9 @@
     "Files/Pasted image 20240531165708.png",
     "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
     "Zettelkasten/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
-    "Zettelkasten/Edgeformers - Graph-Empowered Transformers for Representation Learning on Textual-Edge Networks.md",
     "Zettelkasten/Adversarial Training for Graph Neural Networks - Pitfalls, Solutions, and New Directions.md",
     "Zettelkasten/Structure-free Graph Condensation - FromLarge-scale Graphs to Condensed Graph-free Data.md",
     "Zettelkasten/NodeFormer - A Scalable Graph Structure Learning Transformer for Node Classification.md",
-    "Zettelkasten/GraphAdapter - Tuning Vision-Language Models With Dual Knowledge Graph.md",
     "Files/Pasted image 20240426175908.png",
     "Files/Pasted image 20240426175305.png",
     "Files/Pasted image 20240426173311.png",
