@@ -11,8 +11,24 @@
             "id": "39bf490f45dfff64",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/eigenvalue.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "857af57c5f627731",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zettelkasten/Eigendecomposition.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -27,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Zettelkasten/Eigendecomposition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Zettelkasten/Eigendecomposition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Zettelkasten/Eigendecomposition.md"
+              }
             }
           }
         ]
@@ -148,6 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Zettelkasten/Eigendecomposition.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -180,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5,
-    "collapsed": true
+    "width": 741.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +215,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "39bf490f45dfff64",
+  "active": "857af57c5f627731",
   "lastOpenFiles": [
+    "Zettelkasten/eigenvalue.md",
+    "Zettelkasten/Eigendecomposition.md",
+    "Zettelkasten/matrix.md",
     "Zettelkasten/Edgeformers - Graph-Empowered Transformers for Representation Learning on Textual-Edge Networks.md",
     "Zettelkasten/Evaluating Post-hoc Explanations for Graph Neural Networks via Robustness Analysis.md",
     "Zettelkasten/How to Turn your knowledge graph embeddings into Generative Models.md",
@@ -220,9 +244,6 @@
     "Files/Pasted image 20240531165708.png",
     "Zettelkasten/What can a Single Attention Layer Learn? A Study Through the Random Features Lens.md",
     "Zettelkasten/Temporal Graph Networks for Deep Learning on Dynamic Graphs.md",
-    "Zettelkasten/Adversarial Training for Graph Neural Networks - Pitfalls, Solutions, and New Directions.md",
-    "Zettelkasten/Structure-free Graph Condensation - FromLarge-scale Graphs to Condensed Graph-free Data.md",
-    "Zettelkasten/NodeFormer - A Scalable Graph Structure Learning Transformer for Node Classification.md",
     "Files/Pasted image 20240426175908.png",
     "Files/Pasted image 20240426175305.png",
     "Files/Pasted image 20240426173311.png",
