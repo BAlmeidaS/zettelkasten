@@ -14,4 +14,4 @@ $$\displaystyle \Huge \begin{eqnarray}
 
 *The harmonic mean will always be the least among the mean, median, and mode. **
 
-It's particularly useful in situations where you are averaging ratios or rates, like speed or density. For example, if you want to calculate the average speed of a trip where different legs of the trip are traveled at different speeds, the harmonic mean would give you the correct average speed.
+It's particularly useful in situations where you are averaging ratios or rates, like speed or density. For example, if you want to calculate the average speed of a trip where different legs of the trip are travelled at different speeds, the harmonic mean would give you the correct average speed.
