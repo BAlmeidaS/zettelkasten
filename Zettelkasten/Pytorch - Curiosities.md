@@ -2,6 +2,9 @@
 tags:
   - Python
 ---
+The beginning of everything:
+https://pytorch.org/tutorials/beginner/basics/intro.html
+
 Maybe consider reading this first:
 https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html
 
