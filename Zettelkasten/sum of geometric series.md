@@ -17,3 +17,11 @@ $$\displaystyle \Huge
 \end{cases}
 $$
 
+The [[Differentiation]] of the formula to $\displaystyle \large r < 1$, in respect to $\displaystyle \large r$:
+$$\displaystyle \Huge \begin{eqnarray} 
+
+\sum\limits_{i=0}^\infty a*r^{n} &=& \dfrac{a}{1-r}
+\\
+\sum\limits_{i=0}^\infty n*a*r^{n-1} &=& \dfrac{a}{(1-r)^2}
+\\
+\end{eqnarray}$$

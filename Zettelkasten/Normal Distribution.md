@@ -4,6 +4,7 @@ tags:
 aliases:
   - Normal Distribution
   - Gaussian Distribution
+  - Gaussian
 ---
 *Normal distribution* is a symmetric, bell curve that has the [[Average|mean]], [[Median]] and [[Mode]] located in the same place at the center.
 
