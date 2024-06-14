@@ -2,7 +2,7 @@
 tags:
   - Statistics
 ---
-The *standard deviation* is a measure of the amount of variation or dispersion in a set of values. 
+The *standard deviation* is *a measure of the amount of variation or dispersion in a set of values*.
 
 It quantifies how much the values in a dataset differ from the [[Average|Mean]]. 
 
