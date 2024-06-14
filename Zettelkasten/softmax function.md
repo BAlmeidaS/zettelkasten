@@ -17,3 +17,5 @@ The key properties:
 
 
 ![[Pasted image 20240614182154.png|400]]
+
+At the end, one can use [[Arg Max]] to get the index (class) with the highest value
