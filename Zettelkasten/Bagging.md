@@ -4,7 +4,7 @@ tags:
 ---
 *Bagging* is a type of [[Ensemble method]]. It is a short for *Bootstrap Aggregating*.
 
-*Bagging* involves training multiple models of the *same type* on different subsets of the training dataset.  
+*Bagging* involves training multiple models of the *same type* on different subsets of the training dataset.  Considered as *weak generalist learners*.
   
 These subsets are created by randomly sampling with replacement from the training set, primarily on the rows of the dataset, process also known as [[Bootstrap]].
   

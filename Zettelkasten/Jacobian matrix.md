@@ -6,7 +6,7 @@ aliases:
 ---
 *Jacobian* can be understood as a generalisation of the [[gradient]] - Gradient is like the "Jacobian row".
 
-Jacobians are applied on [[vector-valued function]] rather than multivariable functions.
+Jacobians are applied on [[vector-valued function]] rather than [[multivariable function]].
 
 So, given a function $\displaystyle \large  f: \mathbb{R}^n \rightarrow \mathbb{R}^m$, the *jacobian* $\displaystyle \large J(f)$ is a matrix of $\displaystyle \large m \times n$, with all the [[partial derivatives]] possible:
 $$\displaystyle \Huge \begin{eqnarray} 
