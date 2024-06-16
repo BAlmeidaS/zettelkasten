@@ -24,3 +24,10 @@ Pay attention that, *$\displaystyle \large \gamma$ and $\displaystyle \large \be
 >During Test (or just to predict, not training), the mean and std dev used are the ones calculated over the *entire* training. Therefore, they will not move on predict.
 >
 > ![[Pasted image 20240426175908.png|450]]
+
+>[!info]
+>the claim is, *batch normalisation*:
+>- reduces [[Internal Covariate Shift]]
+>- Can replace [[Dropout]]
+>- Increase *learning rate*
+>- bias is not necessary
