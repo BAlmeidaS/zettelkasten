@@ -50,3 +50,33 @@ $$\displaystyle \Huge \begin{eqnarray}
 0 & 0 & 0 & 0 & 0 & 0 & 0 & 2 \\ 
 \end{bmatrix}
 \end{eqnarray}$$
+
+![[Pasted image 20240617154022.png]]
+
+$$\displaystyle \Huge \begin{eqnarray} 
+\tilde{D} = \begin{bmatrix}  
+d_1 & 0 & 0 \\ 
+0 & d_2 & 0 \\ 
+0 & 0 & d_3 \\ 
+\end{bmatrix}
+\end{eqnarray}$$
+
+
+$$\displaystyle \Huge \begin{eqnarray} 
+\tilde{D}^{-1} = \begin{bmatrix}  
+\dfrac{1}{3} & 0 & 0 & 0 \\
+0 & \dfrac{1}{3} & 0 & 0 \\
+0 & 0 & \dfrac{1}{4} & 0 \\
+0 & 0 & 0 & \dfrac{1}{2} \\
+\end{bmatrix}
+\end{eqnarray}$$
+
+
+$$\displaystyle \Huge \begin{eqnarray} 
+\tilde{D}^{-\tfrac{1}{2}} = \begin{bmatrix}  
+\dfrac{1}{\sqrt3} & 0 & 0 & 0 \\
+0 & \dfrac{1}{\sqrt3} & 0 & 0 \\
+0 & 0 & \dfrac{1}{\sqrt4} & 0 \\
+0 & 0 & 0 & \dfrac{1}{\sqrt2} \\
+\end{bmatrix}
+\end{eqnarray}$$
