@@ -5,9 +5,9 @@ aliases:
   - Graph
 ---
 
-A *Graph $\displaystyle \large G$* is defined by the *nodes $\displaystyle \large N$* and the *edges $\displaystyle \large E$*, such as that it can be defined as:
+A *Graph $\displaystyle \large G$* is defined by the [[Vertices]] $\displaystyle \large V$ and the [[Edges]] $\displaystyle \large E$, such as that it can be defined as:
 $$\displaystyle \Huge \begin{eqnarray} 
-G(N, E)
+G = (V, E)
 \end{eqnarray}$$
 ![[Pasted image 20240620134057.png|400]]
 
