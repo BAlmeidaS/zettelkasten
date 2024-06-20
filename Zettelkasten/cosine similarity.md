@@ -1,6 +1,7 @@
 ---
 tags:
   - machine-learning
+  - math
 ---
 A [[Similarity function]] especially useful when the magnitude of the [[vector]] is not relevant. Fields like [[Natural Language Processing|NLP]] use it a lot. It is defined using [[dot product]] and [[Euclidean Norm]]
 

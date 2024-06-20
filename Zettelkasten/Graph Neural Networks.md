@@ -11,7 +11,6 @@ Graph Neural Networks might be defined into 3 main types:
 
 ---
 
-![[Pasted image 20240620131936.png]]
-
-![[Pasted image 20240620175356.png]]
+![[Pasted image 20240620131936.png|400]]
+![[Pasted image 20240620175356.png|400]]
 

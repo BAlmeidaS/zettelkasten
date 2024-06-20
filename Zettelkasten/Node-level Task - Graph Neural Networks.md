@@ -9,8 +9,8 @@ f : V \rightarrow \mathbb{R}
 
 *Some nodes are labelled on the graph and we want to label all of them*
 ![[Pasted image 20240620180320.png|500]]
-Features that might be useful:
+Features (manually designed) that might be useful:
 - [[Node Degree as feature|Node Degree]]
 - [[Node Centrality]]
 - [[Clustering Coefficient]]
-- [[Graphlets]]
+- [[Graphlets]] and [[Graphlet Degree Vector]]
