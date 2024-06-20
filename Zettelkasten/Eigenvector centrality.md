@@ -28,7 +28,7 @@ There might be many eigenvalues associated with non-zero eigenvector solutions. 
 
 An interesting way to find the largest eigenvector is using an [[iteration]] approach:
 
-1. **Initialization**: Start with a vector of ones (or any initial guess) and normalize it.
-2. **Iteration**: Use the power iteration method to update the centrality vector iteratively.
-3. **Normalization**: Normalize the vector in each iteration to ensure numerical stability.
+1. **Initialisation**: Start with a vector of ones (or any initial guess) and normalise it.
+2. **Iteration**: Use the power iteration method to update the centrality vector interactively. $\displaystyle \large c^{k+1} = Ac^{k}$
+3. **Normalisation**: Normalise the vector in each iteration to ensure numerical stability.
 4. **Convergence**: Continue iterations until the vector converges (i.e., changes between iterations are below a threshold).

@@ -2,7 +2,7 @@
 tags:
   - math
 aliases:
-  - Path
+  - path
 ---
 A *Path* in a [[Graphs|Graph]] is a *sequence of vertices* such that each adjacent pair of vertices is connected by an edge.
 
