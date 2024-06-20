@@ -3,7 +3,7 @@ tags:
   - data-vis
 ---
 
-In this class they defined [[Graph]].
+In this class they defined [[Graph (Visual)]].
 
 # Quantities data
 ## points

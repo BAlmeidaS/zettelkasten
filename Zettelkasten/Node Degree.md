@@ -4,7 +4,7 @@ tags:
 aliases:
   - average node degree
 ---
-Is the *number of edges* connected to a certain *Node* from a [[Graph]], usually is represented as a letter $\displaystyle \large k$
+Is the *number of edges* connected to a certain *Node* from a [[Graphs]], usually is represented as a letter $\displaystyle \large k$
 $$\displaystyle \Huge \begin{eqnarray} 
 k_a: \text{node degree of node $a$}
 

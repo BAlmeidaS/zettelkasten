@@ -2,7 +2,7 @@
 tags:
   - machine-learning
 ---
-*Silhouette plot* is a [[Graph|Plot]] useful to visualise all the [[silhouette score]] of a dataset.
+*Silhouette plot* is a [[Graph (Visual)|Plot]] useful to visualise all the [[silhouette score]] of a dataset.
 
 ![[Pasted image 20240301151345.png|500]]
 

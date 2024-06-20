@@ -2,7 +2,7 @@
 tags:
   - Calculus
 ---
-The hyperbola is a type of [[Graph]] that is *not a [[function]]*.
+The hyperbola is a type of [[Graph (Visual)]] that is *not a [[function]]*.
 
 all points $\displaystyle \large (x,y)$ such that,
 $$\displaystyle \Huge \begin{eqnarray} 

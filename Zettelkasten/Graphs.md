@@ -1,3 +1,10 @@
+---
+tags:
+  - math
+aliases:
+  - Graph
+---
+
 A *Graph $\displaystyle \large G$* is defined by the *nodes $\displaystyle \large N$* and the *edges $\displaystyle \large E$*, such as that it can be defined as:
 $$\displaystyle \Huge \begin{eqnarray} 
 G(N, E)
