@@ -21,9 +21,8 @@ k_a: \text{node degree of node $a$}
 > \bar{k} &=& \dfrac{2E}{N}
 >\end{eqnarray}$$
 
-Have a *self reference* on a node *adds 2 to the degree*, because *both endpoints attach to the same node*.
+Have a *self reference* (or loop) on a node *adds 2 to the degree*, because *both endpoints attach to the same node*.
 
 >[!example] 
 >In the following example, $\displaystyle \large k_c = 6$ and $\displaystyle \large k_a = 4$ 
 >![[Pasted image 20240620135318.png|200]]
-
