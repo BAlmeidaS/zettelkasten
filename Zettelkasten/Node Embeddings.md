@@ -11,30 +11,11 @@ f: node \rightarrow \mathbb{R}^d
 
 Important to say that they will not use any labels or features from the nodes, thus such models will not be trained for a specific task but can be used to many downstream tasks.
 
-A way to define this function is using the framework *encoding and decoding graphs*. This will be reduce the *Graph [[Representation Learning]]* into two operations: *Encoding and Decoding*.
+A way to define this function is using the framework *encoding and decoding graphs*. This will be reduce the *Graph [[Representation Learning]]* into two operations:
+- [[Encoder - Node Embedding]]
+- [[Decoder - Node Embedding]]
 
 ![[Pasted image 20240621183208.png|600]]
-### Encoder
-The idea of the encoder is mapping the node to the embedding space:
-$$\displaystyle \Huge \begin{eqnarray} 
-ENC : V \rightarrow\mathbb{R}^d
-\end{eqnarray}$$
-
-Two types of encoders are possible:
-- [[Shallow encoder embedding]]
-- [[Deep encoder embeddings]]
-
-### Decoder
-The role is to *reconstruct graph characteristics*, the most common way is defining pairwise function:
-$$\displaystyle \Huge \begin{eqnarray} 
-DEC:
-\mathbb{R}^d
-\times
-\mathbb{R}^d
-\rightarrow
-\mathbb{R}^+
-\end{eqnarray}$$
-- two embedding that map to a positive number, and this number might be understood as [[Similarity function|similarity]] of both nodes.
 
 *Applying the pairwise decoder to a pair of embeddings $\displaystyle \large (z_u, z_v)$ results in the reconstruction of the relationship between nodes $\displaystyle \large u$ and $\displaystyle \large v$. The goal is optimise the encoder and decoder to minimise the reconstruction loss* 
 $$\displaystyle \Huge \begin{eqnarray} 
