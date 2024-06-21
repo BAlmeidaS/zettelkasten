@@ -2,49 +2,50 @@
 tags:
   - deep-learning
 aliases:
-  - encoding decoding graphs
+  - encode decode approach
 ---
 *Nodes embedding* are a type of [[embedding]] for [[Vertices|Nodes]] in a [[Graphs|Graph]]. The idea is defining a function $\displaystyle \large f$ that maps the node $\displaystyle \large u$ to its embedding representation $\displaystyle \large z_u$:
 $$\displaystyle \Huge \begin{eqnarray} 
 f: node \rightarrow \mathbb{R}^d
 \end{eqnarray}$$
 
-A way to define this function is using the framework *encoding and decoding graphs*. This will be reduce the *Graph [[Representation Learning]]* into two operations: *Encoding and Decoding*
+Important to say that they will not use any labels or features from the nodes, thus such models will not be trained for a specific task but can be used to many downstream tasks.
 
+A way to define this function is using the framework *encoding and decoding graphs*. This will be reduce the *Graph [[Representation Learning]]* into two operations: *Encoding and Decoding*.
 
-
-
-
-Given a node $\displaystyle \large u$, find a function $\displaystyle \large f: node \rightarrow \mathbb{R}^d$
-
-
-
-The idea here is presenting a *framework* to create *node [[embedding]]*.
-
-
-
-The *main goal* is if [[Vertices|Nodes]] are similar in the original [[Graphs|Graph]], so *they must be close in the embedding space* (using dot product):
+![[Pasted image 20240621183208.png|600]]
+### Encoder
+The idea of the encoder is mapping the node to the embedding space:
 $$\displaystyle \Huge \begin{eqnarray} 
-similarity(u, v) \approx z_u^T\cdot z_v
-\end{eqnarray}$$
-$\displaystyle \large u, v$: are [[Vertices|vertices]] of the graph
-
-To do this, we must find a [[Similarity function]] in the original network.
-
-Also, we must define an [[encoder of node graphs]] which map the nodes to their embedding (low-dimensional vector):
-$$\displaystyle \Huge \begin{eqnarray} 
-enc(u) = z_u
+ENC : V \rightarrow\mathbb{R}^d
 \end{eqnarray}$$
 
-On the other hand, a *decoder* also must be defined:
+Two types of encoders are possible:
+- [[Shallow encoder embedding]]
+- [[Deep encoder embeddings]]
+
+### Decoder
+The role is to *reconstruct graph characteristics*, the most common way is defining pairwise function:
 $$\displaystyle \Huge \begin{eqnarray} 
-dec(z_u) = u
+DEC:
+\mathbb{R}^d
+\times
+\mathbb{R}^d
+\rightarrow
+\mathbb{R}^+
+\end{eqnarray}$$
+- two embedding that map to a positive number, and this number might be understood as [[Similarity function|similarity]] of both nodes.
+
+*Applying the pairwise decoder to a pair of embeddings $\displaystyle \large (z_u, z_v)$ results in the reconstruction of the relationship between nodes $\displaystyle \large u$ and $\displaystyle \large v$. The goal is optimise the encoder and decoder to minimise the reconstruction loss* 
+$$\displaystyle \Huge \begin{eqnarray} 
+DEC(ENC(u), ENC(v)) = DEC(z_u, z_v) \approx Similarity[u, v]
 \end{eqnarray}$$
 
-With that, the decoder must be as close as it possible from the original similarity
+Thus, we can define a [[loss function]]:
 $$\displaystyle \Huge \begin{eqnarray} 
-similarity(u, v) \approx 
-dec(enc(u), enc(v))
+L = \sum_{(u, v) \in V} l(DEC(z_u, z_v), S[u,v])
 \end{eqnarray}$$
+$\displaystyle \large V$: is the the set of [[Vertices]]
+$\displaystyle \large l$: is a function that measures the difference between this two numbers, it might be [[Mean squared Error|MSE]] but it also be [[Cross-entropy]]. It depends on the definition of $\displaystyle \large DEC$ and $\displaystyle \large Similarity$.
 
 
