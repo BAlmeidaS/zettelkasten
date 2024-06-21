@@ -3,7 +3,7 @@ tags:
   - machine-learning
   - computer-science
 ---
-A possible feature to measure how much two [[Vertices]] are *close to be connected*, to predict [[Edge-level Task - Graph Neural Networks|if a new edge should be added]], would be *shortest-path distance*
+A possible feature to measure how much two [[Vertices]] are *close to be connected*, to predict [[Edge-level Task - Traditional ML methods|if a new edge should be added]], would be *shortest-path distance*
 
 The claim is *If the shortest-path distance is small, they might be more likely to have a connection*.
 

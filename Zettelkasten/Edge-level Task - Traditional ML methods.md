@@ -15,7 +15,7 @@ At predict time, all node pairs (without existing links) are ranked, and top K n
 > 4. See which of these links actually appear in $\displaystyle \large G_{t_1}$
 
 *The key is to design **features for pairs of nodes**.*
-A simple (and bad solution) is to concatenate the [[Node-level Task - Graph Neural Networks|features designed to the nodes]]
+A simple (and bad solution) is to concatenate the [[Node-level Task - Traditional ML methods|features designed to the nodes]]
 
 
 Two possible formulation of the link prediction:

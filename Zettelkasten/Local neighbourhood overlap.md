@@ -6,7 +6,7 @@ aliases:
   - adamic-adar
   - Common neighbours
 ---
-*Local neighbourhood overlap* is a possible feature to measure how much two [[Vertices]] are *close to be connected*, to predict [[Edge-level Task - Graph Neural Networks|if a new edge should be added]].
+*Local neighbourhood overlap* is a possible feature to measure how much two [[Vertices]] are *close to be connected*, to predict [[Edge-level Task - Traditional ML methods|if a new edge should be added]].
 
 
 Score based on the *number of direct shared neighbours between the two nodes $\displaystyle \large v_1$ and $\displaystyle \large v_2$*.

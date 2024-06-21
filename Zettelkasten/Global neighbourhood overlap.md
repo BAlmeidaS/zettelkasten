@@ -5,7 +5,7 @@ tags:
 aliases:
   - Katz index
 ---
-*Global neighbourhood overlap* is a possible feature to measure how much two [[Vertices]] are *close to be connected*, to predict [[Edge-level Task - Graph Neural Networks|if a new edge should be added]].
+*Global neighbourhood overlap* is a possible feature to measure how much two [[Vertices]] are *close to be connected*, to predict [[Edge-level Task - Traditional ML methods|if a new edge should be added]].
 
 Kind of evolving [[Local neighbourhood overlap]], *Global* looks to the entire graph.
 
