@@ -5,7 +5,7 @@ aliases:
   - Graph
 ---
 
-A *Graph $\displaystyle \large G$* is defined by the [[Vertices]] $\displaystyle \large V$ and the [[Edges]] $\displaystyle \large E$, such as that it can be defined as:
+A *Graph $\displaystyle \large G$* is defined by two [[set|sets]]: the [[Vertices]] $\displaystyle \large V$ and the [[Edges]] $\displaystyle \large E$, such as that it can be defined as:
 $$\displaystyle \Huge \begin{eqnarray} 
 G = (V, E)
 \end{eqnarray}$$

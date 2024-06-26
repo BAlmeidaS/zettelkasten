@@ -1,6 +1,8 @@
 ---
 tags:
   - math
+aliases:
+  - digraph
 ---
 *Directed Graph* are a type of [[Graphs]], their *edges* have a direction (source and destination)
 
