@@ -8,8 +8,11 @@ tags:
 
 $$\displaystyle \Huge \begin{eqnarray} 
 dim(A) &=& N \times N \\
-A_{ij} &=& 1, \text{ if there is an edge from node i to j} \\
-A_{ij} &=& 0, \text{ otherwise}
+A_{ij} &=& \begin{cases}
+1, \text{ if there is an edge from node i to j} \\
+0, \text{ otherwise}
+\end{cases} \\
+
 \end{eqnarray}$$
 
 For [[Undirected Graphs]], Adjacency Matrix is *symmetric*; Whereas, for [[Directed Graphs]], they are not.

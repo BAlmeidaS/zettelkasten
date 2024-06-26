@@ -10,6 +10,11 @@ k_a: \text{node degree of node $a$}
 
 \end{eqnarray}$$
 
+The sum of the degrees of all nodes in a graph is twice the number of edges
+$$\displaystyle \Huge \begin{eqnarray} 
+S = \sum_{v \in V} k_v = 2|E|
+\end{eqnarray}$$
+
 >[!example] 
 >In the following example, $\displaystyle \large k_a = 4$
 >![[Pasted image 20240620134731.png|300]]
