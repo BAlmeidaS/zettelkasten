@@ -2,7 +2,7 @@
 tags:
   - Calculus
 ---
-It is the process to continuously stack [[derivative|derivatives]] in order to get the *rate* of the *rate* of...
+It is the process to continuously stack [[derivative|derivatives]] in order to get the *rate* of the *rate* of the rate of the rate... n times
 
 considering the function $\displaystyle \large f$:
 $$\displaystyle \Huge \begin{eqnarray} 
