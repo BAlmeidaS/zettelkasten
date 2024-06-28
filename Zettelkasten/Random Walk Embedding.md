@@ -9,8 +9,8 @@ A way to define [[Shallow encoder embedding]] is via *Random Walk*.
 
 The idea here defining the [[Decoder - Node Embedding|decoder]] as the [[softmax function|softmax]] of the [[inner product]] of the [[embedding]] $\displaystyle \large z_u, z_v$:
 $$\displaystyle \Huge \begin{eqnarray} 
-DEC(z_u, z_v) &=& softmax(z_u^T\cdot z_v) \\
-&=& \dfrac{e^{z_u^Tz_v}}{\sum_{v_k \in V} e^{z_u^T\cdot z_v}} \\
+DEC(z_u, z_v) &=& softmax(z_u^T \cdot z_v) \\
+&=& \dfrac{e^{z_u^T \cdot z_v}}{\sum_{v_k \in V} e^{z_u^T\cdot z_v}} \\
 \end{eqnarray}$$
 And this $\displaystyle \large DEC$, is the approximation of the [[Similarity function|similarity]] that will be the *probability of visiting $\displaystyle \large v$ on a length $\displaystyle \large T$ random walk starting at node $\displaystyle \large u$*
 $$\displaystyle \Huge \begin{eqnarray} 
