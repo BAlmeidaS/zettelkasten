@@ -4,15 +4,19 @@ tags:
 aliases:
   - GRU
 ---
-Created as an extension of default [[Recurrent Neural Network|RNNs]] to solve their [[vanishing gradient problem]].
+Created as an extension of default [[Recurrent Neural Network|RNNs]] to solve their [[vanishing gradient problem]]. Important to notice that *GRU* came after than [[Long Short-Term Memory|LSTM]], almost 17 years after, and it is "kind of" a simplification of [[Long Short-Term Memory|LSTM]].
 
-
-The main idea is creating a *gate* $\displaystyle \large \Gamma$, that controls how much of the context $\displaystyle \large a^{<t-1>}$ will pass, defined using a [[Sigmoid function]] $\displaystyle \large \sigma$ (that varies from 0 to 1 to be the gate):
+The main idea is based on *gates* $\displaystyle \large \Gamma$, that controls how much of the context $\displaystyle \large a^{<t-1>}$ will pass, defined using a [[Sigmoid function]] $\displaystyle \large \sigma$ (that varies from 0 to 1 to be the gate):
 $$\displaystyle \Huge \begin{eqnarray} 
-\Gamma = \sigma(W*x^{<t>} + U*a^{<t-1>} + b) 
-\\
+\Gamma_i = \sigma(M_i*x^{<t>} + U_i*a^{<t-1>} + b_i) 
 \end{eqnarray}$$
-$\displaystyle \large W, U, b$ are [[Parameters of the Model|Parameters]] *of the gate*.
+$\displaystyle \large M, U, b$ are [[Parameters of the Model|Parameters]] *of the gate*. 
+
+>[!note]
+>A "simplified version" using the [[Multiple weights simplification notation]]:
+>$$\displaystyle \Huge \begin{eqnarray} 
+>\Gamma_i = \sigma(W_i[x^{<t>}, a^{<t-1>}] + b_i) 
+>\end{eqnarray}$$
 
 *GRU gates* , *G*ates *R* and *U*:
 
