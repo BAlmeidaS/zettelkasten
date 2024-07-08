@@ -9,5 +9,7 @@ A common problem on deep learning, occurs when [[gradient]] becomes very small a
 
 Two noticeable functions that have this problem are [[Sigmoid function]] and [[Hyperbolic Tangent function|tanh]].
 
+*Vanishing Gradient* are a tough problem to spot and solve.
+
 ---
 see also [[exploding gradient problem]]

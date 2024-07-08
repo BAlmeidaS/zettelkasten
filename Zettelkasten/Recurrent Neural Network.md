@@ -2,7 +2,7 @@
 tags:
   - deep-learning
 aliases:
-  - RNN
+  - RNNs
 ---
 Type of [[Neural networks|Neural Network]] where the goal is to process sequential data by leveraging temporal or sequential patterns.
 
@@ -12,9 +12,6 @@ The idea is that *a type of signal is shared between each execution* and this in
 $\displaystyle \large a^{<t>}$ is the signal propagated - usually $\displaystyle \large a^{<0>}$ is defined as a vector of zeros 
 $\displaystyle \large x^{<t>}$ is the input $\displaystyle \large t$
 $\displaystyle \large y^{<t>}$ is the prediction $\displaystyle \large t$
-
->[!note] 
->the context (a) is being propagated forward in the example image, but it can be propagated in both direction.
 
 $$\displaystyle \Huge \begin{eqnarray} 
 a^{<t>} &=& g_1(
@@ -43,3 +40,7 @@ W_{ya}*a^{<t>}
 
 Full image with the operations:
 ![[Pasted image 20240708141701.png]]
+
+A particular useful case for *RNNs* (apart from [[Types of RNN]]) is *sequence generation*, where based on the previous token, the model will try to generate the next token.
+
+Finally, *RNN* suffer a lot by the [[vanishing gradient problem]]
