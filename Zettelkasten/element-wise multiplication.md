@@ -31,3 +31,9 @@ A \odot B &=& C
 0 & 2 & 4\\
 \end{bmatrix}
 \end{eqnarray}$$
+
+>[!info] Alternative Notation
+>$$\displaystyle \Huge \begin{eqnarray} 
+>A \odot B &=& A \circ B = A \star B
+>\end{eqnarray}$$
+
