@@ -44,3 +44,4 @@ The discrete case is useful to calculate *moving averages*.
 
 Both *numpy* and *scipy* implement convolution, however scipy has a *way faster implementation* called [[fftconvolve]]
 
+![[Pasted image 20240710203132.png]]
