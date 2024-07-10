@@ -1,6 +1,8 @@
 ---
 tags:
   - computer-science
+aliases:
+  - shallow embedding
 ---
 This type of [[Node Embeddings|encoder for node embeddings]] defines a *lookup matrix*, with size $\displaystyle \large (\text{number of nodes} \times dim(embedding))$.
 
