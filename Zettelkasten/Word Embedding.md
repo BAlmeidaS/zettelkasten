@@ -2,7 +2,7 @@
 tags:
   - deep-learning
 ---
-An [[embedding]] for words. A good think about word embedding is that the dimensions of the embedding might be related to the "meaning" of the word. Rather then [[One-Hot Enconding]], they tend to use better the space and thus have [[Similarity function|similarity]] embedded
+An [[embedding]] for words. A good think about word embedding is that the dimensions of the embedding might be related to the "meaning" of the word. Rather then [[One-Hot Enconding]], they tend to use better the space ([[dense vector]]) and thus have [[Similarity function|similarity]] embedded. 
 
 ![[Pasted image 20240710144712.png|500]]
 
@@ -27,6 +27,13 @@ The goal will be defining the matrix $\displaystyle \large E$ ([[Shallow encoder
 3. apply [[softmax function|softmax]] to attach a probability to the words and than sample from it.
 
 This works well but there are other algorithms that do better jobs, such as:
-- [[Skip-gram]]
+- [[Skip-gram Model]]
 - [[Word2Vec]]
 - [[GloVe]]
+
+
+---
+
+They are learned *automatically* by the data. Unlikely pre-trained models, *word embeddings produced for a specific task tend to emphasise aspects of words that are useful for that task*. [[Example of a word embedding being created to solve a POS problem]]
+
+![[Pasted image 20231101192053.png|600]]

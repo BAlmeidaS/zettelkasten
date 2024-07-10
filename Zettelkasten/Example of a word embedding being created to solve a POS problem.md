@@ -2,7 +2,7 @@
 tags:
   - Russel-n-Norvig-chap-24
 ---
-Russell and Norvig present this example on the book and it clarifies how a [[Word Embeddings]], is not just trained, it is part of a process and it helps to achieve that purpose.
+Russell and Norvig present this example on the book and it clarifies how a [[Word Embedding]], is not just trained, it is part of a process and it helps to achieve that purpose.
 
 In this case, the task is to a [[Part-of-speech tagging]]:
 

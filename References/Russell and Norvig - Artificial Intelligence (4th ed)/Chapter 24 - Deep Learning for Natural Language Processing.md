@@ -1,4 +1,4 @@
-[[Word Embeddings]]
+[[Word Embedding]]
 [[Properties of Word embeddings]]
 [[Example of a word embedding being created to solve a POS problem]]
 

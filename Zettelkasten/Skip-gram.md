@@ -12,6 +12,10 @@ So you will have a dataset composed of *context* and *target*
 - **Context Words:** The words within the context window are considered as context words for the target word.
 - **Dataset Creation:** Pairs of (target word, context word) are created. For example, if the sentence is "The cat sat on the mat" and the context window size is 2, the pairs for the word "sat" would be ("sat", "The"), ("sat", "cat"), ("sat", "on"), and ("sat", "the").
 
+>[!tip]
+> To avoid the dataset to be dominated by words like "the" or "or" you can use some [[Heuristic]] to avoid picking that much this words, or you can just remove [[Stop Words]].
+
 The Idea is that by defining this dataset a model aims to reconstruct this probability distribution, by using [[softmax function|softmax]]
 
 ![[Pasted image 20240710172916.png|600]]
+
