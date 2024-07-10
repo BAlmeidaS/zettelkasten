@@ -6,7 +6,7 @@ An [[embedding]] for words. A good think about word embedding is that the dimens
 
 ![[Pasted image 20240710144712.png|500]]
 
-The simplest *embedding* is what some researches called [[Shallow encoder embedding|Shallow embedding]].
+The simplest *embedding* is what some researches called [[Shallow encoder embedding|Shallow embedding]]. And the goal of algorithms like [[Word2Vec]] and [[GloVe]] is to learn such matrix.
 
 The interesting thing is that you can make vector operations to understand what is the meaning, like the example of *man is to king as woman is to ?* (queen) By using [[Arg Max]] we can solve it as:
 $$\displaystyle \Huge \begin{eqnarray} 
