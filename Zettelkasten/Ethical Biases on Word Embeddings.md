@@ -18,6 +18,9 @@ As an example this would be the embedding of some words, and the bias direction 
 
 step 2 - neutralise bias (remove from doctor and babysitter some type of gender bias):
 ![[Pasted image 20240712184115.png|300]]
+![[Pasted image 20240712211336.png|700]]
 
 step 3 - equalise (make grandmother and grandfather equidistant to babysitter)
 ![[Pasted image 20240712184219.png]]
+![[Pasted image 20240712212033.png|700]]
+
