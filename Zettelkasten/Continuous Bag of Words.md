@@ -4,7 +4,7 @@ tags:
 ---
 A simple *deep learning model* to build [[Word Embedding]]. The idea is to create a dataset using [[Skip-gram]] and learn the [[Shallow encoder embedding|shallow embedding]] $\displaystyle \large E$.
 
-*Skip-gram model aim to predict the context from a target word*.
+*Continuous Bag of Word aims to predict the target from a context word*.
 
 Usually the algorithm goes as the following:
 1. The context is processed with [[One-Hot Enconding]], having the $\displaystyle \large o_{word}$
