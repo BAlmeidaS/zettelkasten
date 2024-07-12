@@ -29,7 +29,7 @@ The goal will be defining the matrix $\displaystyle \large E$ ([[Shallow encoder
 This works well but there are other algorithms that do better jobs, such as:
 - [[Skip-gram Model]]
 - [[Word2Vec]]
-- [[GloVe]]
+- [[Global Vectors for Word Representation]]
 
 
 ---

@@ -21,4 +21,6 @@ e^{\theta^T_{i}\cdot e_{context}}}{
 }
 \end{eqnarray}$$
 
+Being $\displaystyle \large \theta_{target}$ the parameters associated with the output $\displaystyle \large target$. 
+
 A solution to avoid this linear computation might be [[Hierarchical Softmax]] another is [[negative sampling]]
