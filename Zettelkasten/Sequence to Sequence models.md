@@ -16,13 +16,17 @@ The second part (*purple*) is known as the *decoder*.
 
 >[!note]
 >Sometimes this architecture is known as *conditional language model*, mainly because *purple* is conditioned to *green*. In other words, it will generate sequences based on the context observed on green.
->
+>$$\displaystyle \Huge \begin{eqnarray} 
+>p(
+>y^{<1>}, \cdots, y^{<T_y>}
+>\mid
+>x^{<T_1>},\cdots, x^{<T_x>}
+>)
+>\end{eqnarray}$$
 
+Considering that the outputs $\displaystyle \large y^{<i>}$ are the result of a [[softmax function|softmax]], we usually *don't* want to take the [[Arg Max]] of each $\displaystyle \large y^{<i>}$, in other words doing a type of [[Greedy Best-first search|greedy search]], because this can lead to *sub-optimal* solutions. Instead, we want the most likely *whole sentence*:
 $$\displaystyle \Huge \begin{eqnarray} 
-p(
-y^{<1>}, \cdots, y^{<T_y>}
-\mid
-x^{<T_1>},\cdots, x^{<T_x>}
-)
+\arg \max_y p(y^{<1>}, \cdots, y^{<T_y>} \mid \boldsymbol{x})
 \end{eqnarray}$$
 
+A simple approach uses [[Beam Search to find the most likely sentence]].
