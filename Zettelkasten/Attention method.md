@@ -12,3 +12,13 @@ It will "kinda" of follow the [[Sequence to Sequence models|encode / decode]] st
 
 The goal is to learn *each one of this $\displaystyle \large \alpha_{ij}$*, which is the *amount of attention that node $\displaystyle \large j$ is paying to node $\displaystyle \large i$*.
 
+$\displaystyle \large \alpha$ will be a [[softmax function|softmax]] for each node $\displaystyle \large j$ on the *decode*, and it will be built using a small neural network, with the *context aggregated $\displaystyle \large c$ and the last word $\displaystyle \large y_{last}$.
+
+$$\displaystyle \Huge \begin{eqnarray} 
+\alpha_{i,j} = 
+\dfrac{
+e^{z_{i,j}}
+}{
+\sum\limits^{Tx}_ke^{z_{i,k}}
+}
+\end{eqnarray}$$
