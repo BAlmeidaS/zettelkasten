@@ -16,9 +16,11 @@ $\displaystyle \large \alpha$ will be a [[softmax function|softmax]] for each no
 
 $$\displaystyle \Huge \begin{eqnarray} 
 \alpha_{i,j} = 
-\dfrac{
-e^{z_{i,j}}
-}{
-\sum\limits^{Tx}_ke^{z_{i,k}}
-}
+\dfrac{ e^{z_{i,j}} }{ \sum\limits^{Tx}_ke^{z_{i,k}} }
 \end{eqnarray}$$
+
+and $\displaystyle \large z_{i,j}$ is gotten from the small neural net
+![[Pasted image 20240715193908.png|500]]
+
+The *downside is that the amount of $\displaystyle \large \alpha$s is $\displaystyle \large T_x * T_y$ , so it is quadratic time to tune this whole number of parameters.*
+
