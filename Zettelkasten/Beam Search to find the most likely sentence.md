@@ -35,9 +35,17 @@ At the end of the step 2, *there will be $\displaystyle \large B*vocab$ results 
 The algorithm keeps until all $\displaystyle \large B$ sequences include the end-of-sequence and we get the one with highest probability.
 
 ##### Others
-
-The fact that multiplying many numbers that are way smaller than 1 results in a tiny number might lead to a problem of [[underflow]]. Thus, one solution is maximising the log instead:
+The fact that multiplying many numbers that are way smaller than 1 results in a tiny number might lead to a problem of [[underflow]]. Thus, one solution is maximising the [[likelihood|log likelihood]] instead:
 $$\displaystyle \Huge \begin{eqnarray} 
-\arg \max_y p(y^{<1>}, \cdots, y^{<T_y>} \mid \boldsymbol{x}) = 
-\arg \max_y \prod^{T_y} p(y^{<t>} \mid \boldsymbol{x}, y^{<1>}, \dots, y^{<t-1>}) \\
+&&\arg \max_y p(y^{<1>}, \cdots, y^{<T_y>} \mid \boldsymbol{x}) = 
+\\[5pt]
+&=& \arg \max_y \prod^{T_y}_{t=1} p(y^{<t>} \mid \boldsymbol{x}, y^{<1>}, \dots, y^{<t-1>})
+\\[5pt]
+&=& \arg \max_y \sum^{T_y}_{t=1} \log p(y^{<t>} \mid \boldsymbol{x}, y^{<1>}, \dots, y^{<t-1>}) \\
 \end{eqnarray}$$
+
+*Another problem* is that the *objective function, as defined so far, tends to prefer* **short sentences**, even with the log likelihood. Thus **normalising by the size of the sentence** removes this effect:
+$$\displaystyle \Huge \begin{eqnarray} 
+\arg \max_y \dfrac{1}{{T_y}^\alpha} \sum^{T_y}_{t=1} \log p(y^{<t>} \mid \boldsymbol{x}, y^{<1>}, \dots, y^{<t-1>}) \\
+\end{eqnarray}$$
+With $\displaystyle \large \alpha$ varying from $\displaystyle \large 0$ (not normalised) to $\displaystyle \large 1$ (completely normalised).
