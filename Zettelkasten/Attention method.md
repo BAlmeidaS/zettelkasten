@@ -1,0 +1,14 @@
+---
+tags:
+  - deep-learning
+---
+Given an [[Recurrent Neural Network|RNN]] the *attention method* is oftenly refered to [[Sequence to Sequence models]], though it can be used in *any RNN architecture*.
+
+Here it will be defined using a simple [[Bidirectional RNN]] (but it could be unidirectional, GRU, LSTM, ...).
+
+It will "kinda" of follow the [[Sequence to Sequence models|encode / decode]] structure from Seq2Seq, but the input won't merely be the context of the last encode layer, rather it will be the whole encode, 
+
+![[Pasted image 20240715182827.png]]
+
+The goal is to learn *each one of this $\displaystyle \large \alpha_{ij}$*, which is the *amount of attention that node $\displaystyle \large j$ is paying to node $\displaystyle \large i$*.
+

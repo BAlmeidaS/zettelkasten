@@ -3,6 +3,7 @@ tags:
   - deep-learning
 aliases:
   - Conditional language model
+  - seq2seq
 ---
 [[Recurrent Neural Network|RNNs]] might have multiple [[Types of RNN|types]], most of them are very much straightforward to conceive, however, *many to many with different sizes* is the most different one.
 
