@@ -18,3 +18,4 @@ MultiHead(Q,K,V) &=& concat(head_1, head_2, \dots, head_h) \cdot W^O
 head_i &=& Attention(W_i^Q Q, W_i^K K, W_i^V V)
 \end{eqnarray}$$
 
+![[Pasted image 20240716173750.png]]

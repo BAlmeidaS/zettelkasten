@@ -1,6 +1,8 @@
 ---
 tags:
   - deep-learning
+aliases:
+  - scaled dot-product attention
 ---
 *Self-attention* was designed, originally, to deal with [[Natural Language Processing|NLP]]. The idea is to [[Representation Learning|learn a representation]] for each word in the input sentence, this representation will take into account all the other words, for the same step the representations might be computed in parallel (which means that there is no the concept of sequence as in [[Attention method]])
 
