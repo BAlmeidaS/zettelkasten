@@ -22,5 +22,7 @@ $$\displaystyle \Huge \begin{eqnarray}
 and $\displaystyle \large z_{i,j}$ is gotten from the small neural net
 ![[Pasted image 20240715193908.png|500]]
 
-The *downside is that the amount of $\displaystyle \large \alpha$s is $\displaystyle \large T_x * T_y$ , so it is quadratic time to tune this whole number of parameters.*
+The final context is built calculating the [[dot product]] of the alphas and the original context *from the encode*
+![[Pasted image 20240716111428.png|600]]
 
+The *downside is that the amount of $\displaystyle \large \alpha$s is $\displaystyle \large T_x * T_y$ , so it is quadratic time to tune this whole number of parameters.*
