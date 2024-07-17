@@ -24,4 +24,22 @@ There are three main concepts:
 
 >[!note]
 >The *first Convolution layers* identify simpler patterns (such as edges), whereas the *last Convolution layer* end up identifying more complex patterns
-> 
+
+The number of *learnable parameters* on a CNN layer is:
+$$\displaystyle \Huge \begin{eqnarray} 
+\#params &=& 
+filter_{height} * filter_{width} * filter_{channel} + Bias_{one\ per\ filter}
+\end{eqnarray}$$
+
+**Polling layers have no learnable parameters**
+
+The *output feature map* of a *CNN* layer is defined as:
+$$\displaystyle \Huge \begin{eqnarray} 
+output\ dimmensions =\ &(&
+\left\lfloor\dfrac{input_x + 2*padding_x - filter_x}{stride_x}\right\rfloor,
+\\&&
+\left\lfloor\dfrac{input_y + 2*padding_y - filter_y}{stride_y}\right\rfloor,
+\\&&
+\#\text{filters}
+)
+\end{eqnarray}$$

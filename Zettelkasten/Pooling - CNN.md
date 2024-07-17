@@ -12,4 +12,4 @@ And a type of operation to reduce, like [[Average]] (AvgPoll) or *Maximum* (MaxP
 ![[average-pooling-a.gif|300]]
 ![[max-pooling-a.gif|300]]
 
-
+**Polling layers have no learnable parameters**

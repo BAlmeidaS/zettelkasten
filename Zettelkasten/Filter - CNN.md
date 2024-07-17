@@ -4,11 +4,12 @@ tags:
 aliases:
   - padding
   - stride
+  - cross-correlation
 ---
 *Filters* in [[Convolutional Neural Network|CNN]], also known as *Kernels*, are the set of parameters that each layer of *CNN* will learn.
 
 A layer of CNN defines:
-1. the dimmensions of the filters: *Height and Weight*, which must be smaller than the *feature map* (signal). The filter has also the number of channels *C* as the number of *channels* from the *feature map*.
+1. the dimmensions of the filters: *Height and Weight*, which must be smaller than the *feature map* (signal). The filter has also the number of channels *C* as the number of *channels* from the *feature map* of the last layer.
 2. The *number of filters* - In the image above, *K* are being generated.
 ![[Pasted image 20240717145530.png]]
 
@@ -27,4 +28,9 @@ One layer of *CNN* might contain multiple filters, each filter will generate a *
 
 >[!note]
 >The idea of *filters* is identifying pattern, *edges* and *patterns*
+
+*Each filter has only one bias, regardless its size!*
+
+>[!note] cross-correlation
+>Rigorously, there is a flip that must be done (horizontally and vertically) on the filters, before applying it on the feature map. Without this flipping this *convolution* is better named as *cross-correlation*, but conventionally we call this operation *convolution* anyway.
 
