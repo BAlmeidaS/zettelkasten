@@ -3,6 +3,8 @@ tags:
   - deep-learning
 aliases:
   - skip connection
+  - resnet
+  - shortcut
 ---
 The main goal of *Residual Blocks* are to avoid [[vanishing gradient problem]] that deep [[Neural networks]] have. *ResNet* is a famous network to implement it with [[Convolutional Neural Network|CNNs]].
 
@@ -38,6 +40,9 @@ dim(W_s) &=& dim(a_2) \times dim(a_0)
 >[!tip] 
 >Residual blocks try to solve the problem of adding more layers resulting in worse performance on train set:
 > ![[Pasted image 20240717193834.png|500]]
+> another way to see the same information:
+> ![[Pasted image 20240718185022.png|500]]
+
 
 >[!important] why it works?
 >The idea is that if $\displaystyle \large W_2$ and $\displaystyle \large b_2$ are zero, so, $\displaystyle \large a_2 = g(a_0)$, which in general is $\displaystyle \large g(a_0) = a_0$.
