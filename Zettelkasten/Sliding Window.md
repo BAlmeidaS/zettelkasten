@@ -6,7 +6,7 @@ Algorithm to solve [[Object Detection]].
 
 The Idea is creating multiple *windows* and *sliding* them through the image and do like a [[Image Classification with localisation]] on those windows.
 ![[Pasted image 20240719212923.png|500]]
-
+![[Peek 2024-07-20 20-35.gif|300]]
 The way to implement this using [[Convolutional Neural Network|CNNs]] **in an efficient way** is relying on the fact that a *fully connected layer might be transformed to a convolutional layer*:
 
 For instance the following architecture:

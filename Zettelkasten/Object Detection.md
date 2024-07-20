@@ -10,3 +10,6 @@ More than [[Image Classification with localisation]], here we want to find multi
 
 Some algorithms that do this:
 - [[Sliding Window]]
+- [[YOLO - You Only Look Once]]
+
+As metrics it is common to look at [[Intersection Over Union]].
