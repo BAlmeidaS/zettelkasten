@@ -20,3 +20,6 @@ The final arquitecture
 * The input is $\displaystyle \large h \times w \times 3$
 * The output is $\displaystyle \large h \times w \times n_{classes}$
 
+
+The *left side* also defined as *encoder* is called *Contracting path*
+The *right side* also defined as *decoder* is called *Expanding path*
