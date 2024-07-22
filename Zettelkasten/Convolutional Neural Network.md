@@ -24,6 +24,7 @@ There are three main concepts:
 
 >[!note]
 >The *first Convolution layers* identify simpler patterns (such as edges), whereas the *last Convolution layer* end up identifying more complex patterns
+>![[Pasted image 20240722170154.png]]
 
 The number of *learnable parameters* on a CNN layer is:
 $$\displaystyle \Huge \begin{eqnarray} 
@@ -43,3 +44,4 @@ output\ dimmensions =\ &(&
 \#\text{filters}
 )
 \end{eqnarray}$$
+
