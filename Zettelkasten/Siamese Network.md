@@ -1,6 +1,9 @@
 ---
 tags:
   - deep-learning
+aliases:
+  - face recognition
+  - face verification
 ---
 A Siamese Network is a type of [[Neural networks]] that consists of two or more identical sub-networks sharing the same parameters and weights.
 
@@ -12,8 +15,8 @@ The primary purpose of Siamese Networks is to determine the similarity between t
 The Idea is measuring the [[Similarity function|similarity]] between $\displaystyle \large y_1$ and $\displaystyle \large y_2$ in order to say if this two people are the same, by getting the output vector of this [[Convolutional Neural Network|CNN]] and considered as an [[embedding]].
 
 Two ways to tackle this problem:
-1. Using [[Triplet Loss]] as loss function
-2. concatenate at the end a logistic regression and treat this problem as a *binary classification problem*
+1. Using [[Triplet Loss]] as loss function (*face recognition - 1:k problem*)
+2. concatenate at the end a logistic regression and treat this problem as a *binary classification problem* (*face verification - 1:1 problem*)
 ![[Pasted image 20240722163438.png]]
 
 For the 2. case, using [[Sigmoid function]]:
