@@ -7,6 +7,8 @@ A test to validate if there is an *association between two categorical variables
 [[Null Hypothesis|H0]]:  *The two category variables are independent* / There is no significant association between the categorical variables
 [[Alternative Hypothesis|H1]]:  *The two category vars are dependent on each other* / There is a significant association between the categorical variables
 
+**This means that a high [[p-value]] means that the categories _are_ independent**
+
 *If two variables are independent, it means that knowledge of one does not provide useful information about the other. For instance, if you're looking at the relationship between eye colour and reading preference in a population and find them to be independent, knowing a person's eye colour doesn't help you predict their reading preference, and vice versa.*
 
 Since you have two [[categorical variable|categorical variables]], you have a [[Contingency Table]], with the **observed frequencies**:
