@@ -17,7 +17,7 @@ $$\displaystyle \Huge \begin{eqnarray}
 \nabla f &=& [f_x, f_y, \cdots] 
 \end{eqnarray}$$
 
-$\displaystyle \large \nabla f$ is called "grad" f
+$\displaystyle \large \nabla f$ is called [[Grad of F]]
 
 It has *two interpretations* that are the two sides of the same coin:
 1. The gradient is a [[vector]] that gives *the direction you should travel to **increase the value of $\displaystyle \large f$** most rapidly* - **direction of steepest ascent**.

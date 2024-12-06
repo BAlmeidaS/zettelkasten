@@ -6,7 +6,7 @@ tags:
 
 It does not by setting the [[gradient]] as 0, but to *numerically approximating towards the result*.
 
-To *minimize a function, we can follow the **negative** of the [[gradient]] and go in the direction of the **steepest descent**.
+To *minimize a function, we can follow the **negative** of the [[gradient]] and go in the direction of the **steepest descent**. The [[gradient]] of the function is often called [[Grad of F]].
 
 Important to notice that *Gradient descent works well on [[multivariable function]]*
 
