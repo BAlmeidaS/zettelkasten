@@ -20,3 +20,13 @@ L_f(x,y) &=&
 \end{eqnarray}$$
 >[!hint]
 >at the red-point, the function and the plane have the same value $\displaystyle \large L_f(x_0, y_0) = f(x_0, y_0)$
+
+Or in general terms, the *tangent plane can be defined as*:
+$$\displaystyle \Huge \begin{eqnarray} 
+L_f(x, y, z, \dots) &=& F_x(x_0, y_0, z_0, \cdots) \\
+&& + F_y(x_0, y_0, z_0, \cdots) \\
+&& + F_z(x_0, y_0, z_0, \cdots) \\
+&& + \cdots \\
+&& + f(x_0, y_0, z_0, \cdots)
+
+\end{eqnarray}$$
