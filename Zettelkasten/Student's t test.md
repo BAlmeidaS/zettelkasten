@@ -4,6 +4,7 @@ tags:
 aliases:
   - student's t test
   - t test
+  - t-test
 ---
 We use *student's t test* with 3 constants / assumptions:
 1. The samples are independents
