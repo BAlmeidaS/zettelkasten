@@ -37,7 +37,7 @@ The *jacobian matrix* is the best *linear approximation of a vector-valued funct
 >Note how it changes the [[domain of a function|domain]], in a non-linear way:
 >![[Peek 2022-07-18 17-13.gif|300]]
 >
-How ever, *it does transform the domain* **linearly** on a very very small area:
+However, *it does transform the domain* **linearly** on a very very small area:
 ![[Peek 2022-07-18 17-17.gif]]
 >
 The *Jacobian matrix represents the [[linear transformation]] around each point*!
