@@ -21,21 +21,9 @@ We know that the *best fit passes through $\displaystyle \large (\bar{x}, \bar{y
 The *difference* between the *fitted line and the original data point* is called [[Deviation|Residual]] (in red):
 ![[Pasted image 20231110164148.png|400]]
 
-The [[Maximum Likelihood]] model is defined as *the model that minimises the sum of the squares of the residuals* : [[Correct sums]]
+The [[Maximum Likelihood]] model is defined as [[how to find the best fit of linear regression|the model that minimises the sum of the squares of the residuals]] 
 
-Being a residual $\displaystyle \large d_i$ defined as:
-$$\displaystyle \Huge \begin{eqnarray} 
-d_i &=& y_i - \hat{y_i} \\
-d_i &=& y_i - (a+xb_i)  \\
-&=& y_i - a - bx_i \\
-\end{eqnarray}$$
-
-*The way to find the best fit* is to get the min value of the [[Sum of squares errors|RSS]], which is the squared sum of the residuals. So the best *slope* and *intercept* are the ones that get the minimum value of *RSS*.
-
-$$\displaystyle \Huge \begin{eqnarray} 
-min()
-\end{eqnarray}$$
-
+(see also [[Correct sums]])
 
 
 >[!R Lang]
