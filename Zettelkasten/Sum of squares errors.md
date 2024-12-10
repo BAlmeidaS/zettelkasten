@@ -4,6 +4,9 @@ tags:
 aliases:
   - Sum of Squares
   - SSE
+  - chi-square (linear regression)
+  - Residual Sum of Squares
+  - RSS
 ---
 The **unexplained variation** of a [[Regression Analysis|Linear Model]]. Or the *variation that the model could not explain*.
 
@@ -19,3 +22,20 @@ The unit depends on the unit of $\displaystyle \large y$ and it will be that one
 
 Since *SSE*, depends on $\displaystyle \large \hat{y_i}$, which is the predicted value on $\displaystyle \large i$, and $\displaystyle \large \hat{y_i} = a + bx$, so *SSE depends on **a** and **b**, thus the SSE [[Degrees of Freedom]] are $\displaystyle \large n-2$*.
 
+---
+
+SSE is also known as **RSS** (Residual Sum of Squares), and some literature *also defines this as $\displaystyle \large \chi^2$  (chi-square)*.
+
+The [[Deviation|Residual]] is the difference between $\displaystyle \large y_i$ and $\displaystyle \large \hat{y}_i$ . Thus,
+$$\displaystyle \Huge \begin{eqnarray} 
+\chi^2 = RSS = \sum r_i^2 = \sum (y_i - \hat{y}_i)^2
+\end{eqnarray}$$
+
+>[!important] RSS is not SSR
+> *RSS* is different from [[SSR]]!
+>
+> RSS is related to each datapoint, whereas, SSR is related to the mean
+> $$\displaystyle \Huge \begin{eqnarray} 
+> RSS &=& \sum (y_i - \hat{y}_i)^2 \\
+> SSR &=& \sum(\hat{y}_i - \bar{y})
+> \end{eqnarray}$$

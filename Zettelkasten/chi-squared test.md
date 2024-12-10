@@ -46,9 +46,10 @@ With this you will mount a table with the **expected frequencies**:
 
 The [[Test Statistic]] $\displaystyle \large \chi^2$ , is defined as:
 $$\displaystyle \Huge \begin{eqnarray} 
-\chi^2 &=& \sum\dfrac{(O-E)^2}{E} \\\\
-O &\rightarrow& \text{Observed Category} \\
-E &\rightarrow& \text{Expected Category}
+\chi^2 &=& \sum\dfrac{(O_i-E_i)^2}{E_i} \\\\
+i &\rightarrow& \text{Each category on the categorical variable} \\
+O &\rightarrow& \text{Observed Category Frequency} \\
+E &\rightarrow& \text{Expected Category Frequency} \\
 \end{eqnarray}$$
 
 **Finally**, $\displaystyle \large \chi^2$ must be compared with the quantile of the *chi-square (with n d.f.) distribution* related to the alpha level that you want.

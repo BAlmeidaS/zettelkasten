@@ -30,6 +30,14 @@ d_i &=& y_i - (a+xb_i)  \\
 &=& y_i - a - bx_i \\
 \end{eqnarray}$$
 
+*The way to find the best fit* is to get the min value of the [[Sum of squares errors|RSS]], which is the squared sum of the residuals. So the best *slope* and *intercept* are the ones that get the minimum value of *RSS*.
+
+$$\displaystyle \Huge \begin{eqnarray} 
+min()
+\end{eqnarray}$$
+
+
+
 >[!R Lang]
 >in `R` we can use `lm(df$resp_var~df$explan_var)`
 >we read like *resp_var is modelled as a function of explan_var*
