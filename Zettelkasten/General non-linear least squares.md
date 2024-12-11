@@ -29,7 +29,7 @@ given, \\
 &\nabla\chi^2 = 0
 \end{eqnarray}$$
 
-Since the function is not linear, we will do it [[iteration|iteratively]] rather then *analytics* as we did on [[how to find the best fit of linear regression]]. So:
+Since the function is not linear, we will do it [[iteration|interactively]] rather then *analytically* as we did on [[how to find the best fit of linear regression]]. So:
 $$\displaystyle \Huge \begin{eqnarray} 
 a_{k_{next}} = a_{k_{cur}} - constant * \nabla\chi^2
 \end{eqnarray}$$
