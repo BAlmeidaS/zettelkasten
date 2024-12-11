@@ -2,7 +2,7 @@
 tags:
   - machine-learning
 ---
-*Gradient descent* is the most important [[iteration]] *optimization* algorithm to *estimates where a function outputs its lowest values*. Extensively used in [[Neural networks]].
+*Gradient descent* is the most important [[iteration]] *optimisation* algorithm to *estimates where a function outputs its lowest values*. Extensively used in [[Neural networks]].
 
 It does not by setting the [[gradient]] as 0, but to *numerically approximating towards the result*.
 

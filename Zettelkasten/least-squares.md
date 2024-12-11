@@ -20,3 +20,7 @@ from the [[Correct sums]] ([[SSXY]] and [[SSX]]), we can reduce to:
 $$\displaystyle \Huge \begin{eqnarray} 
 b &=& \dfrac{SSXY}{SSX} \\
 \end{eqnarray}$$
+
+---
+
+The same explanation can be found in [[how to find the best fit of linear regression]], but it does not pass through $\displaystyle \large \bar{x}$ and $\displaystyle \large \bar{y}$. There as well it defines how to find the best intercept.
