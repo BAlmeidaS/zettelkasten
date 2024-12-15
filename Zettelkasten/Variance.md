@@ -2,18 +2,33 @@
 tags:
   - Statistics
 ---
+
+ *The variance is the square of the [[Standard Deviation]]*, and is a [[measure of dispersion]]
+ 
 *Variance*, on the contrary of [[Sum of squares errors]], it is not super affected by the addition of a new data point. Also it is deeply connected with [[Degrees of Freedom]]:
 
 $$\displaystyle \Huge \begin{eqnarray} 
 variance &=& \dfrac{sum\_of\_squares}{degrees\_of\_freedom} \\ \\
+variance &=& \sigma^2 = \dfrac{\sum(y-\bar{y})^2}{n}
+\end{eqnarray}$$
+
+ $\displaystyle \large \sigma^2$  defines the *population variance*, thus, divided by $\displaystyle \large n$
+ $\displaystyle \large s^2$  defines the *sample variance*, thus, divided by $\displaystyle \large n-1$
+
+ Also defined as, given a dataset $\displaystyle \large X$:
+ $$\displaystyle \Huge \begin{eqnarray} 
+variance = Var[X] &=& \dfrac{1}{N}\sum^N(x_n-\mu)^2 \\
+E[X] &=& \mu
+\end{eqnarray}$$
+
+---
+## **Why the right is $\displaystyle \large n-1$ and not $\displaystyle \large n$?**
+
+
+$$\displaystyle \Huge \begin{eqnarray} 
 variance &=& s^2 = \dfrac{\sum(y-\bar{y})^2}{n-1}
 \end{eqnarray}$$
 
- $\displaystyle \large s^2$  defines the *sample variance*, thus, divided by $\displaystyle \large n-1$
- $\displaystyle \large \sigma^2$  defines the *population variance*, thus, divided by $\displaystyle \large n$
-
----
-**Why $\displaystyle \large n-1$ and not $\displaystyle \large n$?**
 ---
 #### Crawley
 
