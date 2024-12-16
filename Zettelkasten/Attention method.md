@@ -2,7 +2,7 @@
 tags:
   - deep-learning
 ---
-Given an [[Recurrent Neural Network|RNN]] the *attention method* is oftenly refered to [[Sequence to Sequence models]], though it can be used in *any RNN architecture*.
+Given an [[Recurrent Neural Network|RNN]] the *attention method* is often referred to [[Sequence to Sequence models]], though it can be used in *any RNN architecture*.
 
 Here it will be defined using a simple [[Bidirectional RNN]] (but it could be unidirectional, GRU, LSTM, ...).
 
