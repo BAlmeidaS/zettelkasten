@@ -10,7 +10,7 @@ It will "kinda" of follow the [[Sequence to Sequence models|encode / decode]] st
 
 ![[Pasted image 20240715182827.png]]
 
-The goal is to learn *each one of this $\displaystyle \large \alpha_{ij}$*, which is the *amount of attention that node $\displaystyle \large j$ is paying to node $\displaystyle \large i$*.
+The goal is to learn *each one of this $\displaystyle \large \alpha_{i,j}$*: which is the **amount of attention that node $\displaystyle \large i$ is paying to node $\displaystyle \large j$**.
 
 $\displaystyle \large \alpha$ will be a [[softmax function|softmax]] for each node $\displaystyle \large j$ on the *decode*, and it will be built using a small neural network, with the *context aggregated $\displaystyle \large c$ and the last word $\displaystyle \large y_{last}$.
 
@@ -22,7 +22,9 @@ $$\displaystyle \Huge \begin{eqnarray}
 and $\displaystyle \large z_{i,j}$ is gotten from the small neural net
 ![[Pasted image 20240715193908.png|500]]
 
-The final context is built calculating the [[dot product]] of the alphas and the original context *from the encode*
+The *final context is built by summing up the the elementwise multiplication of $\displaystyle \large \alpha_{i,j} * encode\_context_i$ over all $\displaystyle \large i$*.
+
 ![[Pasted image 20240716111428.png|600]]
 
 The *downside is that the amount of $\displaystyle \large \alpha$s is $\displaystyle \large T_x * T_y$ , so it is quadratic time to tune this whole number of parameters.*
+
