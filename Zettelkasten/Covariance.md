@@ -5,8 +5,15 @@ aliases: []
 ---
 The way that two [[Random Variable]] ([[Numerical variables]]) vary together, the way they *co-vary*
 $$\displaystyle \Huge \begin{eqnarray} 
-cov(x, y) &=& E[(x-\bar{x})(y-\bar{y})]
+Cov(x, y) &=& E[(x-\bar{x})(y-\bar{y})] \\
+&=& \dfrac{1}{n-1}\sum\limits^n_{i=1}(x_i - \bar{x})(y_i - \bar{y})
 \end{eqnarray}$$
+
+When:
+- $\displaystyle \large Cov(x,y) = 0$ we say that the variables, x and y, are **independent***.
+- $\displaystyle \large Cov(x,y) > 0$ if $\displaystyle \large x$ increase, y increases.
+- $\displaystyle \large Cov(x,y) < 0$ if $\displaystyle \large x$ increase, y decreases.
+
 
 Being $\displaystyle \large E[z]$ the [[Expected Value]].
 
