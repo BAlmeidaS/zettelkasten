@@ -8,6 +8,11 @@ $$\displaystyle \Huge \begin{eqnarray}
 \boldsymbol{M}\text{ is quadratic} \iff M_{ij} = M_{ji}\ \forall i,j
 \end{eqnarray}$$
 
+or by using [[Matrix transpose]]:
+$$\displaystyle \Huge \begin{eqnarray} 
+\boldsymbol{M} \text{is symmetric if } \boldsymbol{M} = \boldsymbol{M}^T
+\end{eqnarray}$$
+
 For instance:
 $$\displaystyle \Huge \begin{eqnarray} 
 \begin{bmatrix} 
