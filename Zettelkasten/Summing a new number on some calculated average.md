@@ -24,7 +24,7 @@ Average_n &=& \dfrac{x_1+x_2+\dots+x_{n-1}+x_n}{n} \\
 \end{eqnarray}$$
 
 And how about the [[Variance]], how will it change?
-$$\displaystyle \Huge \begin{eqnarray} 
-a &=& 1 \\
 
+$$\displaystyle \Huge \begin{eqnarray} 
+\sigma^2 &=& \dfrac{\sum^n}{}
 \end{eqnarray}$$
