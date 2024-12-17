@@ -242,5 +242,31 @@ x - \overline{x_{n-1}}
 (\overline{x_n} - \overline{x_{n-1}})^2*n^2
 }{n^2} \right)
 +\left( \dfrac{x_n - \overline{x_{n-1}}}{n} \right)^2
+\\
+&=& 
+\sigma^2_{n-1}
+* \left(\dfrac{n-1}{n}\right)
+*\left(1 - 2 (\overline{x_n} - \overline{x_{n-1}})^2 \right)
++\left( \dfrac{x_n - \overline{x_{n-1}}}{n} \right)^2
+\\
+&=& 
+\sigma^2_{n-1} * \left(\dfrac{n-1}{n}\right)
+- \sigma^2_{n-1} * \left(\dfrac{n-1}{n}\right) * 2 (\overline{x_n} - \overline{x_{n-1}})^2
++\left( \dfrac{x_n - \overline{x_{n-1}}}{n} \right)^2
+
+\end{eqnarray}$$
+
+### third solution
+
+$$\displaystyle \Huge \begin{eqnarray} 
+\sigma^2_{n-1} &=& \dfrac{\sum\limits^{n-1} (x-\overline{x_{n-1}})^2}{n-1}\\
+\sigma^2_{n} &=& \dfrac{\sum\limits^n (x-\overline{x_n})^2}{n} \\
+\\\\
+
+\sigma^2_{n} &=& \dfrac{\sum\limits^n 
+\left(x 
+- \overline{x_{n-1}} 
+- \dfrac{x_n - \overline{x_{n-1}}}{n}
+\right)^2} {n}
 
 \end{eqnarray}$$
