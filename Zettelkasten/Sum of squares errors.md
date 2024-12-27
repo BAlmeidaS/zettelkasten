@@ -31,6 +31,11 @@ $$\displaystyle \Huge \begin{eqnarray}
 \chi^2 = RSS = \sum r_i^2 = \sum (y_i - \hat{y}_i)^2
 \end{eqnarray}$$
 
+Sometimes, $\displaystyle \large \chi^2$ is normalised by the [[Variance]], making it comparable when facing two different distributions:
+$$\displaystyle \Huge \begin{eqnarray} 
+\chi^2 = \sum \dfrac{(y_i - \hat{y}_i)^2}{\sigma^2}
+\end{eqnarray}$$
+
 >[!important] RSS is not SSR
 > *RSS* is different from [[SSR]]!
 >
