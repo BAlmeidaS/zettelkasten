@@ -22,6 +22,13 @@ E[X] &=& \mu
 \end{eqnarray}$$
 
 ---
+
+Another way to understand variance of a dataset $\displaystyle \large D$ is:
+$$\displaystyle \Huge \begin{eqnarray} 
+Var[D] = E[(D-\mu)(D-\mu)^T]
+\end{eqnarray}$$
+
+---
 ## **Why the right is $\displaystyle \large n-1$ and not $\displaystyle \large n$?**
 
 
