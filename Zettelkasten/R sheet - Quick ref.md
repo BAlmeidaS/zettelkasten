@@ -1,3 +1,11 @@
+---
+tags:
+  - computer-languages
+aliases:
+  - R-lang
+  - R lang
+---
+
 # Pure R
 create a vector of numeric values with 10k spaces
 ```R
