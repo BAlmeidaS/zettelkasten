@@ -78,6 +78,7 @@ np.min(a, axis=0, keepdims=True)
 
 ### Broadcasting
 
+
 **Broadcasting** allows you to perform element wise operations on Numpy arrays that are not of the same dimension but can be strected/duplicated so that they are of the same dimenson.
 
 The simplest example for this is when you have to multiply all elements of a Numpy array with a scaler or add a scaler to all elements of the array.
