@@ -84,7 +84,7 @@ The simplest example for this is when you have to multiply all elements of a Num
 
 ```python
 a = np.array([[4, 1, 2],
-              [7, 2, 3]])i
+              [7, 2, 3]])
 
 a * 2
 # [[ 8  2  4]
