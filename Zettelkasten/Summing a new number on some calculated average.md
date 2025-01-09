@@ -4,6 +4,8 @@ tags:
   - Statistics
 cssclasses:
   - wider_page.css
+aliases:
+  - mean iteration calculation
 ---
 Considering a [[Average|Mean]] calculated over $\displaystyle \large n-1$ numbers. If a new number $\displaystyle \large x_n$ is introduced, how does it change the average?
 
@@ -269,4 +271,13 @@ $$\displaystyle \Huge \begin{eqnarray}
 - \dfrac{x_n - \overline{x_{n-1}}}{n}
 \right)^2} {n}
 
+\\\\
+\cdots
+\\\\
+
+\sigma_n^2 &=& \frac{n-1}{n} \sigma_{n-1}^2 + \frac{1}{n} (x_* - \bar{x}_{n-1})(x_* - \bar{x}_n)
+
 \end{eqnarray}$$
+
+chategpt defined slightly different:
+![[Pasted image 20250109165124.png]]
