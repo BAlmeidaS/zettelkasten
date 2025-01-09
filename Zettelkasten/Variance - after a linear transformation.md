@@ -1,6 +1,8 @@
 ---
 tags:
   - Statistics
+aliases:
+  - affine
 ---
 If we apply a [[linear transformation]] over a dataset, the [[Variance]] will change in the following way:
 
