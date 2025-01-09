@@ -294,23 +294,194 @@ $$\displaystyle \Huge \begin{eqnarray}
 COV_n(x,y) &=& \sum\limits^{n}_{i=1}\dfrac{(x_i-\bar{x}_n)(y_i-\bar{y}_n)}{n}
 \\
 &=& \sum\limits^{n}_{i=1}\dfrac{
-(x_i - \bar{x}_{n-1} + \dfrac{x_n - \bar{x}_{n-1}}{n})
-(y_i - \bar{y}_{n-1} + \dfrac{y_n - \bar{y}_{n-1}}{n})
+(x_i - \bar{x}_{n-1} - \dfrac{x_n - \bar{x}_{n-1}}{n})
+(y_i - \bar{y}_{n-1} - \dfrac{y_n - \bar{y}_{n-1}}{n})
 }{n}
 \\\\
-&& \text{let's remove the first term $n$:}
+&& \text{let's remove the first $n$th-term:}
 \\
 &=& 
 \overbrace{
-(x_n - \bar{x}_{n-1} + \dfrac{x_n - \bar{x}_{n-1}}{n})
-(y_n - \bar{y}_{n-1} + \dfrac{y_n - \bar{y}_{n-1}}{n})
+(x_n - \bar{x}_{n-1} - \dfrac{x_n - \bar{x}_{n-1}}{n})
+(y_n - \bar{y}_{n-1} - \dfrac{y_n - \bar{y}_{n-1}}{n})
 \dfrac{1}{n}
 }^{\text{first part of the queation}}
-\\
-&& +
+ +
+\overbrace{
 \sum\limits^{n-1}_{i=1}\dfrac{
-(x_i - \bar{x}_{i-1} + \dfrac{x_i - \bar{x}_{i-1}}{i})
-(y_i - \bar{y}_{i-1} + \dfrac{y_i - \bar{y}_{i-1}}{i})
+(x_i - \bar{x}_{n-1} - \dfrac{x_n - \bar{x}_{n-1}}{n})
+(y_i - \bar{y}_{n-1} - \dfrac{y_n - \bar{y}_{n-1}}{n})
 }{n}
+}^{\text{second part of the queation}}
+\end{eqnarray}$$
+
+#### let's solve the first part:
+$$\displaystyle \Huge \begin{eqnarray} 
+1st &=& 
+(x_n - \bar{x}_{n-1} - \dfrac{x_n - \bar{x}_{n-1}}{n})
+(y_n - \bar{y}_{n-1} - \dfrac{y_n - \bar{y}_{n-1}}{n})
+\dfrac{1}{n}
+\\ &=& 
+(\dfrac{n(x_n - \bar{x}_{n-1}) - (x_n - \bar{x}_{n-1})}{n})
+(\dfrac{n(y_n - \bar{y}_{n-1}) - (y_n - \bar{y}_{n-1})}{n})
+\\ &=& 
+(\dfrac{(x_n - \bar{x}_{n-1})(n-1)}{n})
+(\dfrac{(y_n - \bar{y}_{n-1})(n-1)}{n})
+\dfrac{1}{n}
+\\ &=& 
+\dfrac{(x_n - \bar{x}_{n-1})(y_n - \bar{y}_{n-1})(n-1)^2}{n^3}
+\end{eqnarray}$$
+#### let's solve the second part:
+
+$$\displaystyle \Huge \begin{eqnarray} 
+2nd&=&
+\overbrace{
+\sum\limits^{n-1}_{i=1}\dfrac{
+(x_i - \bar{x}_{n-1} - \dfrac{x_n - \bar{x}_{n-1}}{n})
+(y_i - \bar{y}_{n-1} - \dfrac{y_n - \bar{y}_{n-1}}{n})
+}{n}
+}^{\text{second part of the queation}}
+\\
+&=&
+
+\sum\limits^{n-1}_{i=1}\dfrac{
+(
+\overbrace{x_i - \bar{x}_{n-1}}^{\text{a}} - \overbrace{\dfrac{x_n - \bar{x}_{n-1}}{n}}^{\text{b}}
+)(
+\overbrace{y_i - \bar{y}_{n-1}}^{\text{c}} -  \overbrace{\dfrac{y_n - \bar{y}_{n-1}}{n})}^{\text{d}}
+}{n}
+\\\\
+&& \text{condidering the coeficients we have: $ac-ad-bc+bd$:}
+\\
+&=&
+\sum\limits^{n-1}_{i=1}\dfrac{
+(x_i - \bar{x}_{n-1})(y_i - \bar{y}_{n-1})
+- (x_i - \bar{x}_{n-1})(\dfrac{y_n - \bar{y}_{n-1}}{n})
+- (y_i - \bar{y}_{n-1})(\dfrac{x_n - \bar{x}_{n-1}}{n})
++ (\dfrac{x_n - \bar{x}_{n-1}}{n})(\dfrac{y_n - \bar{y}_{n-1}}{n})
+}{n}
+\\\\
+&& \text{lets split the sigma}
+\\
+&=&
+\overbrace{
+\sum\limits^{n-1}_{i=1}\dfrac{
+	(x_i - \bar{x}_{n-1})(y_i - \bar{y}_{n-1})
+}{n}
+}^{\text{i-term}}
+-
+\overbrace{
+\sum\limits^{n-1}_{i=1}\dfrac{
+	(x_i - \bar{x}_{n-1})(\dfrac{y_n - \bar{y}_{n-1}}{n})
+}{n}
+}^{\text{ii-term}}
+-
+\overbrace{
+\sum\limits^{n-1}_{i=1}\dfrac{
+	(y_i - \bar{y}_{n-1})(\dfrac{x_n - \bar{x}_{n-1}}{n})
+}{n}
+}^{\text{iii-term}}
++
+\overbrace{
+\sum\limits^{n-1}_{i=1}\dfrac{
+	(\dfrac{x_n - \bar{x}_{n-1}}{n})(\dfrac{y_n - \bar{y}_{n-1}}{n})
+}{n}
+}^{\text{iv-term}}
+\end{eqnarray}$$
+
+*let's break down each term:*
+##### i-term
+$$\displaystyle \Huge \begin{eqnarray} 
+\text{i-term} &=&
+\sum\limits^{n-1}_{i=1}\dfrac{
+	(x_i - \bar{x}_{n-1})(y_i - \bar{y}_{n-1})
+}{n}
+\\ &=&
+\sum\limits^{n-1}_{i=1}\dfrac{
+	(x_i - \bar{x}_{n-1})(y_i - \bar{y}_{n-1})
+}{n}*\dfrac{n-1}{n-1}
+\\ &=&
+\sum\limits^{n-1}_{i=1}\dfrac{
+	(x_i - \bar{x}_{n-1})(y_i - \bar{y}_{n-1})
+}{n-1}*\dfrac{n-1}{n}
+\\ &=&
+COV_{n-1}(x,y)*\dfrac{n-1}{n}
+\end{eqnarray}$$
+##### ii-term
+$$\displaystyle \Huge \begin{eqnarray} 
+\text{ii-term} &=&
+\sum\limits^{n-1}_{i=1}\dfrac{
+	(x_i - \bar{x}_{n-1})(\dfrac{y_n - \bar{y}_{n-1}}{n})
+}{n}
+\\ &=&
+(\dfrac{y_n - \bar{y}_{n-1}}{n})
+\sum\limits^{n-1}_{i=1}\dfrac{
+	(x_i - \bar{x}_{n-1})
+}{n}
+\\
+since, && \sum^m (x_i-\bar{x}_m) = (\sum^m x_i)-\bar{x}_m =\bar{x}_m-\bar{x}_m = 0
+\\\\
+\text{ii-term} &=& 0
+
+\end{eqnarray}$$
+
+##### iii-term
+$$\displaystyle \Huge \begin{eqnarray} 
+\text{iii-term} &=&
+\sum\limits^{n-1}_{i=1}\dfrac{
+	(y_i - \bar{y}_{n-1})(\dfrac{x_n - \bar{x}_{n-1}}{n})
+}{n}
+\\
+&& \text{same argument of ii-term...}
+\\
+\text{iii-term} &=&0
+\end{eqnarray}$$
+
+##### iv-term
+$$\displaystyle \Huge \begin{eqnarray} 
+\text{iv-term} &=&
+\sum\limits^{n-1}_{i=1}\dfrac{
+	(\dfrac{x_n - \bar{x}_{n-1}}{n})(\dfrac{y_n - \bar{y}_{n-1}}{n})
+}{n}
+\\ &&
+\text{nothing depends on $i$, so we replace sigma }
+\\\\ &=&
+(n-1)*(\dfrac{x_n-\bar{x}_{n-1}}{n})(\dfrac{y_n-\bar{y}_{n-1}}{n}) * \dfrac{1}{n}
+\\ &=&
+\dfrac{(n-1)(x_n-\bar{x}_{n-1})(y_n-\bar{y}_{n-1})}{n^3}
+
+\end{eqnarray}$$
+
+#### putting all pieces together of the 2nd equation:
+$$\displaystyle \Huge \begin{eqnarray} 
+2nd&=&
+\overbrace{
+\sum\limits^{n-1}_{i=1}\dfrac{
+(x_i - \bar{x}_{n-1} - \dfrac{x_n - \bar{x}_{n-1}}{n})
+(y_i - \bar{y}_{n-1} - \dfrac{y_n - \bar{y}_{n-1}}{n})
+}{n}
+}^{\text{second part of the queation}}
+\\ &=&
+COV_{n-1}(x,y)*\dfrac{n-1}{n} + \dfrac{(n-1)(x_n-\bar{x}_{n-1})(y_n-\bar{y}_{n-1})}{n^3}
+\end{eqnarray}$$
+
+#### putting 1st and 2nd part together:
+
+$$\displaystyle \Huge \begin{eqnarray} 
+COV_n(x,y) &=& \sum\limits^{n}_{i=1}\dfrac{(x_i-\bar{x}_n)(y_i-\bar{y}_n)}{n}
+\\
+&=& 
+\dfrac{(x_n - \bar{x}_{n-1})(y_n - \bar{y}_{n-1})(n-1)^2}{n^3}
++COV_{n-1}(x,y)*\dfrac{n-1}{n} + \dfrac{(n-1)(x_n-\bar{x}_{n-1})(y_n-\bar{y}_{n-1})}{n^3}
+\\ &=& 
+COV_{n-1}(x,y)*\dfrac{n-1}{n}
++ \dfrac{(x_n - \bar{x}_{n-1})(y_n - \bar{y}_{n-1})(n-1)(n-1)}{n^3}
++ \dfrac{(x_n-\bar{x}_{n-1})(y_n-\bar{y}_{n-1})(n-1)}{n^3}
+\\ &=& 
+COV_{n-1}(x,y)*\dfrac{n-1}{n}
++ \dfrac{(x_n - \bar{x}_{n-1})(y_n - \bar{y}_{n-1})(n-1)(n-1+1)}{n^3}
+\\ &=& 
+COV_{n-1}(x,y)*\dfrac{n-1}{n}
++ \dfrac{(x_n - \bar{x}_{n-1})(y_n - \bar{y}_{n-1})(n-1)n}{n^3}
 
 \end{eqnarray}$$
