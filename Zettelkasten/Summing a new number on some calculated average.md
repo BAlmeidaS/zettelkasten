@@ -268,7 +268,7 @@ $$\displaystyle \Huge \begin{eqnarray}
 \sigma^2_{n} &=& \dfrac{\sum\limits^n 
 \left(x 
 - \overline{x_{n-1}} 
-- \dfrac{x_n - \overline{x_{n-1}}}{n}
+- \dfrac{x - \overline{x_{n-1}}}{n}
 \right)^2} {n}
 
 \\\\
@@ -281,3 +281,36 @@ $$\displaystyle \Huge \begin{eqnarray}
 
 chategpt defined slightly different:
 ![[Pasted image 20250109165124.png]]
+
+## Covariances
+from [[Covariance]]:
+$$\displaystyle \Huge \begin{eqnarray} 
+COV_n(x,y) &=& \sum\limits^{n}_{i=1}\dfrac{(x_i-\bar{x}_n)(y_i-\bar{y}_n)}{n}
+\\
+COV_{n-1}(x,y) &=& \sum\limits^{n-1}_{i=1}\dfrac{(x_i-\bar{x}_{n-1})(y_i-\bar{y}_{n-1})}{n}
+\end{eqnarray}$$
+so, we can expand $\displaystyle \large COV_n$ using the mean definition (seen above)
+$$\displaystyle \Huge \begin{eqnarray} 
+COV_n(x,y) &=& \sum\limits^{n}_{i=1}\dfrac{(x_i-\bar{x}_n)(y_i-\bar{y}_n)}{n}
+\\
+&=& \sum\limits^{n}_{i=1}\dfrac{
+(x_i - \bar{x}_{n-1} + \dfrac{x_n - \bar{x}_{n-1}}{n})
+(y_i - \bar{y}_{n-1} + \dfrac{y_n - \bar{y}_{n-1}}{n})
+}{n}
+\\\\
+&& \text{let's remove the first term $n$:}
+\\
+&=& 
+\overbrace{
+(x_n - \bar{x}_{n-1} + \dfrac{x_n - \bar{x}_{n-1}}{n})
+(y_n - \bar{y}_{n-1} + \dfrac{y_n - \bar{y}_{n-1}}{n})
+\dfrac{1}{n}
+}^{\text{first part of the queation}}
+\\
+&& +
+\sum\limits^{n-1}_{i=1}\dfrac{
+(x_i - \bar{x}_{i-1} + \dfrac{x_i - \bar{x}_{i-1}}{i})
+(y_i - \bar{y}_{i-1} + \dfrac{y_i - \bar{y}_{i-1}}{i})
+}{n}
+
+\end{eqnarray}$$
