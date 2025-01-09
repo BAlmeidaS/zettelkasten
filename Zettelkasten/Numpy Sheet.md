@@ -79,9 +79,9 @@ np.min(a, axis=0, keepdims=True)
 ### Broadcasting
 
 
-**Broadcasting** allows you to perform element wise operations on Numpy arrays that are not of the same dimension but can be strected/duplicated so that they are of the same dimenson.
+**Broadcasting** allows you to perform element wise operations on Numpy arrays that are not of the same dimension but can be stratched/duplicated so that they are of the same dimension.
 
-The simplest example for this is when you have to multiply all elements of a Numpy array with a scaler or add a scaler to all elements of the array.
+The simplest example for this is when you have to multiply all elements of a Numpy array with a scalar or add a scalar to all elements of the array.
 
 ```python
 a = np.array([[4, 1, 2],
@@ -128,3 +128,25 @@ given a matrix *A*:
 np.linalg.eig(A)
 ```
 
+### Convolution
+[[Convolution]] are useful way to combine arrays!
+```python
+np.convolve(A, B)
+```
+
+### Inner and Outer product
+We would advice you to use [np.outer()](https://numpy.org/doc/stable/reference/generated/numpy.outer.html) and [np.inner()](https://numpy.org/doc/stable/reference/generated/numpy.outer.html) when computing the dot product of 1D arrays.
+
+If $\displaystyle \large X$ is a vector (represented as a 1D array in this course), then `np.inner(X, X)` calculates 
+$\displaystyle \large X^T \cdot X$ (the regular inner product) and `np.outer(X, X)` computes $\displaystyle \large X \cdot X^T$.
+
+### reshape an array
+If you are performing matrix multiplication between a 2D array and a 1D array, we would advise you to first reshape the 1D array into a 2D array of shape $\displaystyle \large (d,1)$
+```python
+a = np.arange(6)
+# [0, 1, 2, 3, 4, 5]
+
+a.reshape((3, 2))
+# [[0, 1, 2],
+#  [3, 4, 5]]
+```
