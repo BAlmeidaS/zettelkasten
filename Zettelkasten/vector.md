@@ -12,5 +12,10 @@ x_3 \\
 \end{bmatrix}
 \end{eqnarray}$$
 
+In mathematical terms if the *length* of $\displaystyle \large x$ is $\displaystyle \large k$, and its *components are real numbers*, then $\displaystyle \large x$ is defined as:
+$$\displaystyle \Huge \begin{eqnarray} 
+x \in \mathbb{R}^N
+\end{eqnarray}$$
+
 [[Sum of vectors|Vectors can be summed]]
 [[Vectors can be scaled by a number]]

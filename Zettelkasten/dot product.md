@@ -8,6 +8,12 @@ $$\displaystyle \Huge \begin{eqnarray}
 r\cdot s &=& \sum r_is_i \\
 \end{eqnarray}$$
 
+>[!info] Even more math accurate
+> $$\displaystyle \Huge \begin{eqnarray} 
+>x^Ty = \sum\limits^N_{i=1} x_iy_i,\ x,y \in \mathbb{R}^N
+>\end{eqnarray}$$
+
+
 >[!example] 
 >![[Pasted image 20240118192518.png|450]]
 >$$\displaystyle \Huge \begin{eqnarray} 
@@ -16,15 +22,18 @@ r\cdot s &=& \sum r_is_i \\
 >&=& 1
 >\end{eqnarray}$$
 
-*dot product* can be also expressed using the angle between the vectors and [[cosine]] and the [[Modulus of a vector|Modulus]]:
-
+*dot product* can be also expressed using the angle between the vectors, the [[cosine]] of the angle, and the [[Modulus of a vector|Modulus]]:
 ![[Pasted image 20240311173822.png|200]]
 $$\displaystyle \Huge \begin{eqnarray} 
 r\cdot s &=& |r|*|s|*cos(\theta)
 \end{eqnarray}$$
 
-
-given $\displaystyle \large s$ and $\displaystyle \large r$ vectors, *dot product* of $\displaystyle \large r$ and $\displaystyle \large s$ is
+so that, *the angle between the vectors can be found using **dot product***:
+$$\displaystyle \Huge \begin{eqnarray} 
+\cos\theta &=& \dfrac{x^Ty}{\lVert x\rVert *\lVert y\rVert}
+\\
+\theta &=& \arccos \dfrac{x^Ty}{\lVert x\rVert *\lVert y\rVert}
+\end{eqnarray}$$
 
 
 *dot product* is:

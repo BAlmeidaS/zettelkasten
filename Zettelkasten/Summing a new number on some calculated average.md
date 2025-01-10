@@ -6,6 +6,8 @@ cssclasses:
   - wider_page.css
 aliases:
   - mean iteration calculation
+  - variance iteration calculation
+  - covariance iteration calculation
 ---
 Considering a [[Average|Mean]] calculated over $\displaystyle \large n-1$ numbers. If a new number $\displaystyle \large x_n$ is introduced, how does it change the average?
 
