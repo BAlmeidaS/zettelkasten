@@ -27,8 +27,30 @@ $$\displaystyle \Huge \begin{eqnarray}
 \\
 \{3,4\} \setminus \{2, 3\}  = \{4\}
 \end{eqnarray}$$
- - Complement $\displaystyle \large $
- - $$\displaystyle \Huge \begin{eqnarray} 
-a &=& 1 \\
-\stc
+
+ - Complement $\displaystyle \large ^\complement$ (remaining of the universal set U that a set belongs):
+ $$\displaystyle \Huge \begin{eqnarray} 
+given, &&
+\\ 
+\text{a Universal Set: }&& U = \{1,2,3,4,5\}
+\\
+\text{and: }&& A = \{2,3\}
+\\\\
+A^\complement &=& U \setminus A = \{1,4,5\}
 \end{eqnarray}$$
+
+- Cartesian Product $\displaystyle \large \times$ (*set of all ordered pairs $\displaystyle \large (a,b)$ where $\displaystyle \large a$ comes from the first set and $\displaystyle \large b$  comes from the second*):
+$$\displaystyle \Huge \begin{eqnarray} 
+\{2,3\} \times \{3, 4\}  = 
+\{(2,3), (2,4), (3,3), (3,4) \}
+\\\\
+\{3,4\} \times \{2, 3\}  = 
+\{(3,2), (3,3), (4,2), (4,3) \}
+\end{eqnarray}$$
+
+There are **5** *famous set of numbers*:
+- [[Natural numbers]]
+- [[Integer numbers]]
+- [[Rational numbers]]
+- [[Real numbers]]
+- [[Complex numbers]]
