@@ -9,6 +9,13 @@ tags:
 
 ![[Pasted image 20240119144749.png]]
 
+>[!note] conjugate symmetry
+> Every real number equals its [[complex conjulgate]]. Thus if we are dealing with a *real vector space*, then we can *simplify the conjugate symmetry to just symmetry*:
+> $$\displaystyle \Huge \begin{eqnarray} 
+> \langle u,v \rangle = \langle v, u \rangle, \forall u,v \in V
+> \end{eqnarray}$$
+
+
 ---
 
 Imperial College course summarised *additivity and homogeneity* into a single property called *bilinear*.
