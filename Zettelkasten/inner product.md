@@ -14,4 +14,41 @@ tags:
 Imperial College course summarised *additivity and homogeneity* into a single property called *bilinear*.
 
 They define **inner product** as:
-- a *mapping* that maps two vectors in a [[vector space]]
+- a *mapping* that maps two vectors in a [[vector space]]:
+$$\displaystyle \Huge \begin{eqnarray} 
+\langle\cdot,\cdot\rangle: V\times V \rightarrow\mathbb{R}
+\end{eqnarray}$$
+- This *mapping* is:
+	- *Bilinear* (linearity in both sides):
+$$\displaystyle \Huge \begin{eqnarray} 
+	x,y,z \in v, \lambda \in \mathbb{r}
+	\\
+	\langle\lambda x+z,y\rangle = \lambda\langle x,y \rangle + \langle z, y\rangle
+	\\, and \\
+	\langle x, \lambda y+z\rangle = \langle \lambda x,y \rangle + \langle x, z \rangle
+\end{eqnarray}$$
+	- *Positive definite:
+$$\displaystyle \Huge \begin{eqnarray} 
+\langle x,x\rangle \ge0, 
+\langle x,x\rangle = 0 \iff x=0
+\end{eqnarray}$$
+	- *Symmetry*:
+	$$\displaystyle \Huge \begin{eqnarray} 
+	\langle x,y\rangle = \langle y,x\rangle
+\end{eqnarray}$$
+
+
+>[!example]
+> let's say define one possible inner product in $\displaystyle \large \mathbb{R}^2$:
+> $$\displaystyle \Huge \begin{eqnarray} 
+> \langle x,y\rangle=x^TIy
+> \end{eqnarray}$$
+> and this is gives the same result of [[dot product]]
+> 
+> However, we could define another inner product, that is different from *dot product*, like:
+> $$\displaystyle \Huge \begin{eqnarray} 
+> \langle x,y\rangle &=& x^TAy, 
+> A = \begin{bmatrix} 2 & 1 \\ 1 & 2\end{bmatrix}
+> \\
+> &=&2x_1y_1+x_2y_1+x_1y_2+2x_2y_2
+> \end{eqnarray}$$
