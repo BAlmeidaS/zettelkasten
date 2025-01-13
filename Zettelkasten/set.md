@@ -4,6 +4,7 @@ tags:
 aliases:
   - set of numbers
   - roster notation
+  - cartesian product
 ---
 A *set of numbers*  is a collection of numbers, called **elements**. It can be *finite or infinite*.
 
