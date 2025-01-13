@@ -2,6 +2,8 @@
 tags:
   - Linear-algebra
 ---
+Probably the most common [[inner product]].
+
 *Dot product* is a scalar number defined as:
 
 $$\displaystyle \Huge \begin{eqnarray} 
