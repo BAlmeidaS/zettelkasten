@@ -16,7 +16,7 @@ f(x,y) = 0 \iff x = y
 $$\displaystyle \Huge \begin{eqnarray} 
 f(x,y) = f(y,x)
 \end{eqnarray}$$
-4. triangle inequality
+4. [[triangle inequality]]
 $$\displaystyle \Huge \begin{eqnarray} 
 f(x,y) \le f(x,z) + f(y, z)
 \end{eqnarray}$$
