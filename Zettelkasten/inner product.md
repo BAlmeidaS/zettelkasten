@@ -52,10 +52,13 @@ $$\displaystyle \Huge \begin{eqnarray}
 > \end{eqnarray}$$
 > and this is gives the same result of [[dot product]]
 > 
-> However, we could define another inner product, that is different from *dot product*, like:
+> However, we could define another inner product over $\displaystyle \large \mathbb{R}^2$, that is different from *dot product*, like:
 > $$\displaystyle \Huge \begin{eqnarray} 
-> \langle x,y\rangle &=& x^TAy, 
-> A = \begin{bmatrix} 2 & 1 \\ 1 & 2\end{bmatrix}
+> \langle x,y\rangle &=& x^TAy, A = \begin{bmatrix} 2 & 1 \\ 1 & 2\end{bmatrix}
+> \\
+> &=& x^T\begin{bmatrix} 2 & 1 \\ 1 & 2\end{bmatrix}y
 > \\
 > &=&2x_1y_1+x_2y_1+x_1y_2+2x_2y_2
 > \end{eqnarray}$$
+
+Inner products can be extend to other [[vector space]]. like [[inner product of functions]] and [[inner product of random variables]]

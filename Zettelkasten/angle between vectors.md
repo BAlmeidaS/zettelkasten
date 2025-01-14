@@ -12,7 +12,7 @@ $$\displaystyle \Huge \begin{eqnarray}
 
 *The **angle** between two vectors might translate **how similar the two vectors are***.
 
-when, $\displaystyle \large \cos \theta = 0$, we say that *$\displaystyle \large x$ and $\displaystyle \large y$ are [[orthogonal vectors]]*.
+when, $\displaystyle \large \cos \theta = 0$, we say that *$\displaystyle \large x$ and $\displaystyle \large y$ are [[Orthogonal|orthogonal vectors]]*.
 
 The *angle* between the vectors *is defined with respect of the [[inner product]] used*.
 
