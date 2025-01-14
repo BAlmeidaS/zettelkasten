@@ -23,7 +23,7 @@ E[X] &=& \mu
 
 ---
 
-Another way to understand variance of a dataset $\displaystyle \large D$ is:
+Another way to understand variance of a dataset $\displaystyle \large D$ is by using [[Expected Value|Expectation]]:
 $$\displaystyle \Huge \begin{eqnarray} 
 Var[D] = E[(D-\mu)(D-\mu)^T]
 \end{eqnarray}$$
