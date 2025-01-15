@@ -4,7 +4,12 @@ tags:
 aliases:
   - vector normalisation
 ---
-Unit vector is a vector with [[Modulus of a vector|modulus]] 1. This is also called *normalisation of a vector*
+the vector $\displaystyle \large v$ is a *unite vector* if its [[Modulus of a vector|modulus]] is 1. 
+$$\displaystyle \Huge \begin{eqnarray} 
+\lvert \lvert v \rvert \rvert = 1
+\end{eqnarray}$$
+
+This is also called *normalisation of a vector*
 
 The unit vector is represented with a "hat" and, any vector $\displaystyle \large v$ can be transformed to *unit vector* $\displaystyle \large v$:
 $$\displaystyle \Huge \begin{eqnarray} 

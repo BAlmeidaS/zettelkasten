@@ -2,7 +2,7 @@ The vector projection of a *vector $\displaystyle \large a$* on a *vector $\disp
 
 ![[Pasted image 20240119143824.png|300]]
 
-So, in the exam the vector $\displaystyle \large a_1$, and it can be define using $\displaystyle \large a$ and $\displaystyle \large b$ and [[dot product]]:
+So, the vector $\displaystyle \large a_1$, and it can be define using $\displaystyle \large a$ and $\displaystyle \large b$ and [[dot product]]:
 $$\displaystyle \Huge \begin{eqnarray} 
 proj_b a = a_1 &=& \dfrac{a \cdot b}{b \cdot b}*b
 \end{eqnarray}$$
@@ -16,3 +16,10 @@ proj_b a &=& \dfrac{a \cdot b}{b \cdot b}*b \\
 \end{eqnarray}$$
 
 So, $\displaystyle \large \dfrac{a \cdot b}{b \cdot b}$ is *component* in $\displaystyle \large b$ that $\displaystyle \large a$ is defined, and this is *particularly useful if b belongs to a orthogonal [[basis]] and we want to change the basis of a to this new basis*
+
+---
+
+In fact, the definition of *projection* might be generalised using any [[inner product]].
+
+
+Given a vector $\displaystyle \large x$ and a [[vector space|subspace]] $\displaystyle \large U$, where $\displaystyle \large b$ is its [[basis]]. The *orthogonal projection of kj
