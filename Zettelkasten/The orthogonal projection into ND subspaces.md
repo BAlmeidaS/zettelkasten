@@ -39,14 +39,16 @@ B = \begin{bmatrix}  b_1, \dots, b_n \end{bmatrix}
 
 >[!tip] B will be a matrix composed with the vectors of its basis
 The matrix will be the concatenation of the vectors that form the basis
-
-$$\displaystyle \Huge \begin{eqnarray} 
-B &=& [b_1 | b_2 | \dots]
-\\
-B &=& \begin{bmatrix}  b_{1_x} & b_{2_x} & \dots \\ \end{bmatrix}
-\end{eqnarray}$$
-
-
+>$$\displaystyle \Huge \begin{eqnarray} 
+>B &=& [b_1 | b_2 | \dots]
+>\\\\
+>B &=& 
+>\begin{bmatrix}  
+>b_{1_x} & b_{2_x} & \dots \\ 
+>b_{1_y} & b_{2_y} & \dots \\ 
+>\vdots & \vdots & \ddots
+>\end{bmatrix}
+>\end{eqnarray}$$
 
 so, we can expand the orthogonal definition:
 $$\displaystyle \Huge \begin{eqnarray} 
