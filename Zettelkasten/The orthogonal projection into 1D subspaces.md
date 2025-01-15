@@ -2,7 +2,7 @@
 tags:
   - Linear-algebra
 aliases:
-  - projection matrix
+  - projection matrix for 1 dimension subspace
 ---
 This is a generalisation of [[Vector projection]].
 
@@ -51,6 +51,13 @@ $$\displaystyle \Huge \begin{eqnarray}
 \text{projection matrix} = \dfrac{bb^T}{\lvert \lvert b \rvert \rvert^2}
 \end{eqnarray}$$
 
+$$\displaystyle \Huge \begin{eqnarray} 
+\begin{bmatrix}  & 1 \\ \end{bmatrix}
+\end{eqnarray}$$
+
+**See that the projection matrix only depends on $\displaystyle \large b$**.
+With only the $\displaystyle \large b$ vector we can *define a projection matrix that allows us to project **any** vector $\displaystyle \large x \in \mathbb{R^k}$.
+
 The *projection matrix* is:
 - symmetric
 $$\displaystyle \Huge \begin{eqnarray} 
@@ -68,3 +75,8 @@ dim(bb^T) = k \times k
 >\\
 >\pi_u(x) &=& bb^Tx
 >\end{eqnarray}$$
+
+The projection $\displaystyle \large \pi_u(x)$ is *still a vector in $\displaystyle \large \mathbb{R}^d$, but it can be defined using only $\displaystyle \large \lambda$, since we have the vector $\displaystyle \large b$.
+
+>[!example]
+>![[Pasted image 20250115194116.png|500]]
