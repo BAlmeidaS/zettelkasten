@@ -37,6 +37,17 @@ B = \begin{bmatrix}  b_1, \dots, b_n \end{bmatrix}
 \pi_U(x) &=& B\lambda
 \end{eqnarray}$$
 
+>[!tip] B will be a matrix composed with the vectors of its basis
+The matrix will be the concatenation of the vectors that form the basis
+
+$$\displaystyle \Huge \begin{eqnarray} 
+B &=& [b_1 | b_2 | \dots]
+\\
+B &=& \begin{bmatrix}  b_{1_x} & b_{2_x} & \dots \\ \end{bmatrix}
+\end{eqnarray}$$
+
+
+
 so, we can expand the orthogonal definition:
 $$\displaystyle \Huge \begin{eqnarray} 
 && \langle x -\pi_u(x), b_i\rangle = \langle B\lambda - x, b_i \rangle = 0
