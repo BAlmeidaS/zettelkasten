@@ -29,4 +29,45 @@ $$\displaystyle \Huge \begin{eqnarray}
 >
 >\end{eqnarray}$$
 
+if $\displaystyle \large x_0, x_1, ...$ are defined using more than one variable, for instance two variables, $\displaystyle \large s$ and $\displaystyle \large t$. There will be two partial derivatives to be computed:
+$$\displaystyle \Huge \begin{eqnarray} 
+\dfrac{df}{dt} &=& 
+\dfrac{\partial f}{\partial x_0}\dfrac{\partial x_0}{\partial t} +
+\dfrac{\partial f}{\partial x_1}\dfrac{\partial x_1}{\partial t} +
+\cdots
+\\\\
+\dfrac{df}{ds} &=& 
+\dfrac{\partial f}{\partial x_0}\dfrac{\partial x_0}{\partial s} +
+\dfrac{\partial f}{\partial x_1}\dfrac{\partial x_1}{\partial s} +
+\cdots
+\end{eqnarray}$$
+
+Which can be expressed *as the following matrix multiplication*:
+$$\displaystyle \Huge \begin{eqnarray} 
+\dfrac{d f}{d(s, t)} &=&
+\dfrac{\partial f}{\partial \boldsymbol{x}} 
+\dfrac{\partial \boldsymbol{x}}{\partial (s,t)}
+=
+\overbrace{
+\begin{bmatrix} 
+\dfrac{\partial f}{\partial x_0} & \dfrac{\partial f}{\partial x_1} & \dots
+\end{bmatrix}
+}^{\dfrac{\partial f}{\partial x}}
+\overbrace{
+\begin{bmatrix}
+\dfrac{\partial x_0}{\partial s} & \dfrac{\partial x_0}{\partial t}
+\\
+\dfrac{\partial x_1}{\partial s} & \dfrac{\partial x_1}{\partial t}
+\\
+\vdots & \vdots
+\end{bmatrix}
+}^{\dfrac{\partial x}{\partial (s, t)}}
+
+\end{eqnarray}$$
+
+>[!example]
+>![[Pasted image 20250116192106.png]]
+
+---
+
 The [[chain rule - vector form]] is also an option!
