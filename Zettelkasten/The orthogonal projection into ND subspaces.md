@@ -3,6 +3,7 @@ tags:
   - Linear-algebra
 aliases:
   - projection matrix
+  - orthogonal projection
 ---
 This is the generalisation of [[The orthogonal projection into 1D subspaces]].
 
