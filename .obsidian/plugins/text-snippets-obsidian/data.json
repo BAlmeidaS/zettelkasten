@@ -1,5 +1,5 @@
 {
-  "snippets_file": "snippets : It is an obsidian plugin, that replaces your selected text.\n\ninm : $\\displaystyle \\large $end$$\nsmallm : $$\\displaystyle \\Huge $end$$$\nbigm : $$\\displaystyle \\Huge \\begin{eqnarray} $nl$a &=& 1 \\\\$nl$$end$$nl$\\end{eqnarray}$$\nrc : ```R$nl$$end$$nl$```$nl$\n\ncr : ```R$nl$$end$$nl$```$nl$\n\npyc : ```python$nl$$end$$nl$```$nl$\n\nmatrix : \\begin{bmatrix} $end$ & 1 \\\\ \\end{bmatrix}\np_matrix : \\begin{bmatrix} $end$ & 1 \\\\  \\end{bmatrix}\nlim : \\lim_{x \\to a} $end$ \nbold : \\boldsymbol{$end$}\n\nspace: \\qquad\n\ncomment : \\overbrace{$end$}^{\\text{my comment}}\nline : \\overline{$end$}\nbar : \\lvert $end$ \\rvert\ninner : \\langle $end$ \\rangle\n\ncases : \\begin{cases}$nl$$end$,& \\text{if } x\\geq1\\\\$nl$0,&$nl$\\text{otherwise}$nl$\\end{cases}\n\nadv : >[!success] advantages$nl$>- good$nl$$nl$>[!warning] disadvantages$nl$>- bad$nl$",
+  "snippets_file": "snippets : It is an obsidian plugin, that replaces your selected text.\n\ninm : $\\displaystyle \\large $end$$\nsmallm : $$\\displaystyle \\Huge $end$$$\nbigm : $$\\displaystyle \\Huge \\begin{eqnarray} $nl$a &=& 1 \\\\$nl$$end$$nl$\\end{eqnarray}$$\nrc : ```R$nl$$end$$nl$```$nl$\n\ncr : ```R$nl$$end$$nl$```$nl$\n\npyc : ```python$nl$$end$$nl$```$nl$\n\nmatrix : \\begin{bmatrix} $end$ & 1 \\\\ \\end{bmatrix}\np_matrix : \\begin{bmatrix} $end$ & 1 \\\\  \\end{bmatrix}\nlim : \\lim_{x \\to a} $end$ \nbold : \\boldsymbol{$end$}\n\nspace: \\qquad\n\ncomment : \\overbrace{$end$}^{\\text{my comment}}\nline : \\overline{$end$}\nbar : \\lvert $end$ \\rvert\ninner : \\langle $end$ \\rangle\ncut : \\cancel{$end$}\n\ncases : \\begin{cases}$nl$$end$,& \\text{if } x\\geq1\\\\$nl$0,&$nl$\\text{otherwise}$nl$\\end{cases}\n\nadv : >[!success] advantages$nl$>- good$nl$$nl$>[!warning] disadvantages$nl$>- bad$nl$",
   "snippets": [
     "snippets : It is an obsidian plugin, that replaces your selected text.",
     "inm : $\\displaystyle \\large $end$$",
@@ -17,6 +17,7 @@
     "line : \\overline{$end$}",
     "bar : \\lvert $end$ \\rvert",
     "inner : \\langle $end$ \\rangle",
+    "cut : \\cancel{$end$}",
     "cases : \\begin{cases}$nl$$end$,& \\text{if } x\\geq1\\\\$nl$0,&$nl$\\text{otherwise}$nl$\\end{cases}",
     "adv : >[!success] advantages$nl$>- good$nl$$nl$>[!warning] disadvantages$nl$>- bad$nl$"
   ],

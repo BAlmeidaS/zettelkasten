@@ -24,7 +24,7 @@ $$\displaystyle \Huge \begin{eqnarray}
 
 so, $\displaystyle \large \beta_{in}$ can be interpreted as the [[The orthogonal projection into 1D subspaces| orthogonal projection of]] $\displaystyle \large x_n$ onto the 1-dimension [[vector subspace|subspace]] spanned by $\displaystyle \large b_i$,
 $$\displaystyle \Huge \begin{eqnarray} 
-\beta_{in} = x_n^Tb_i
+(2) \quad \beta_{in} = x_n^Tb_i
 \end{eqnarray}$$
 
 Considering, another [[orthonormal basis]] $\displaystyle \large B = \{b_1, ..., b_m\}, m \lt D$ (*which is the equivalent of cutting $\displaystyle \large B_0$*), then $\displaystyle \large B$ defines a [[vector subspace]] and the [[The orthogonal projection into ND subspaces|orthogonal projection]] of $\displaystyle \large X$ onto this subspace $\displaystyle \large \tilde{X}$ is
@@ -37,15 +37,18 @@ the *CODE* are the *coordinates of $\displaystyle \large X$ with respect to the 
 
 Any $\displaystyle \large \tilde{x}_n$ can be written as,
 $$\displaystyle \Huge \begin{eqnarray} 
-(2) \quad \tilde{x}_n = 
+(3) \quad \tilde{x}_n = 
 \overbrace{
 \sum^m_{i=1}\beta_{in}b_i 
 }^{\text{lives on m dimension subspace}}
 +
-\underbrace{\sum^D_{i=m+1} \beta_in}_{\text{ lives on d - m dimension subspace}} \quad\in\mathbb{R}^D
+\cancel{
+\underbrace{\sum^D_{i=m+1} \beta_in}_{\text{ lives on d - m dimension subspace}} 
+}
+\quad\in\mathbb{R}^D
 \end{eqnarray}$$
 
-$\displaystyle \large (2)$ is the expansion of $\displaystyle \large (1)$. The second subspace (d-m dimension subspace), is [[orthogonal complement of a subspace|orthogonal complement]] of the first one.
+$\displaystyle \large (3)$ is the expansion of $\displaystyle \large (1)$. The second subspace (d-m dimension subspace), is [[orthogonal complement of a subspace|orthogonal complement]] of the first one.
 
 **PCA _ignores_ the second term**, and it is related to "the error" that we want to minimise. More than that, $\displaystyle \large b_1, ..., b_m$ span the **principal subspace**.
 
@@ -53,12 +56,14 @@ by definition (since PCA ignores the second term), $\displaystyle \large \tilde{
 
 ##### The reconstruction error
 
-*The average squared reconstruction error $\displaystyle \large J$* is defined as,
+*The average squared reconstruction error $\displaystyle \large J$*, [[loss function]], is defined as,
 $$\displaystyle \Huge \begin{eqnarray} 
 J = \dfrac{1}{N} \sum^N \lvert \lvert x_n - \tilde{x}_n \rvert \rvert ^ 2
 \end{eqnarray}$$
 
-By computing the [[partial derivatives]] of $\displaystyle \large J$ with respect to the parameters of $\displaystyle \large J$, which are the $\displaystyle \large \beta_{in}$s and $\displaystyle \large b_i, i=1,...,m$. By using [[Chain rule - general form]]:
+In order to *minimise the error*, we need to find when the [[Grad of F|grad]]  of J is zero.
+
+By computing the [[partial derivatives]] of $\displaystyle \large J$ with respect to the parameters of $\displaystyle \large J$, which are the $\displaystyle \large \beta_{in}$s and $\displaystyle \large b_i, i=1,...,m$. Using [[Chain rule - general form]]:
 $$\displaystyle \Huge \begin{eqnarray} 
 \dfrac{\partial J}{\partial b_i} = 
 \dfrac{\partial J}{\partial \tilde{x}_n} \dfrac{\partial \tilde{x}_n}{\partial b_i}
@@ -68,6 +73,57 @@ $$\displaystyle \Huge \begin{eqnarray}
 \dfrac{\partial J}{\partial \tilde{x}_n} \dfrac{\partial \tilde{x}_n}{\partial \beta_{in}}
 
 \end{eqnarray}$$
+
+By definition of [[Chain rule - general form]]:
+$$\displaystyle \Huge \begin{eqnarray} 
+(4)\quad \dfrac{\partial J}{\partial \tilde{x}_n} = -\dfrac{2}{N}(x_n - \tilde{x}_n)^T
+\end{eqnarray}$$
+while, using $\displaystyle \large (2)$ we have:
+$$\displaystyle \Huge \begin{eqnarray} 
+\dfrac{\partial J}{\partial \beta_{in}} &=&
+\dfrac{\partial J}{\partial \tilde{x}_n}
+\dfrac{\partial \tilde{x}_n}{\partial \beta_{in}}
+\\\\
+&&\text{from (2) we have that,}
+\\
+\dfrac{\partial \tilde{x}_n}{\partial \beta_{in}} &=& b_i
+\\
+&&\text{so, by using (4)}
+\\\\
+\dfrac{\partial J}{\partial \beta_{in}} &=& 
+\dfrac{\partial J}{\partial \tilde{x}_n} * b_i, &\quad i=1,..., M
+\\&=& 
+-\dfrac{2}{N}(x_n - \tilde{x}_n)^T * b_i, &\quad i=1,..., M
+\\
+&&\text{and by using (3)}
+\\\\
+\dfrac{\partial J}{\partial \beta_{in}} &=& 
+-\dfrac{2}{N}(x_n - \sum^M_{j=1}\beta_{in}b_i)^T * b_i, &\quad i=1,..., M
+\\
+&&\text{since B is orthonormal base,}
+\\
+&&\text{the only j that matters is the $i$th}
+\\
+&&\text{$b_j \cdot b_i$ is not 0 only when j = i}
+
+\\\\
+\dfrac{\partial J}{\partial \beta_{in}} &=& 
+-\dfrac{2}{N}(x_n^Tb_i - \beta_{in}b_i^Tb_i) 
+
+\end{eqnarray}$$
+(We remove the *summation* because of the [[inner product]] of [[Orthogonal]] vectors)
+
+Since we want to minimise the error, the *derivative must be 0* with the respect of the parameters,
+$$\displaystyle \Huge \begin{eqnarray} 
+\dfrac{\partial J}{\partial \beta_{in}} &=& 
+-\dfrac{2}{N}(x_n^Tb_i - \beta_{in}b_i^Tb_i)  = 0
+\iff \beta_{in} = x_n^Tb_i
+\end{eqnarray}$$
+and this returns to equation $\displaystyle \large (2)$. *$\displaystyle \large \beta_{in}$ must be the projection of $\displaystyle \large x$ over the vector $\displaystyle \large b_i$*.
+
+
+
+
 
 
 
