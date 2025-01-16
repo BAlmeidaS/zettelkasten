@@ -44,6 +44,7 @@ $$\displaystyle \Huge \begin{eqnarray}
 	\langle x,y\rangle = \langle y,x\rangle
 \end{eqnarray}$$
 
+*Many authors, especially on math field **do NOT require bilinear***, rather, they demand only **linearity on the first argument**.
 
 >[!example]
 > let's say define one possible inner product in $\displaystyle \large \mathbb{R}^2$:

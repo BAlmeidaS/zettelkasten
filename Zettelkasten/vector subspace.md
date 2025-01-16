@@ -14,7 +14,19 @@ $$\displaystyle \Huge \begin{eqnarray}
 \\
 (2)& \text{closure of $U$:}
 \\
-& (2a)\quad \text{inner operation:} &\lambda\in\mathbb{R}\ \forall x\in U &:& \lambda x \in U
+& (2a)\quad \text{inner operation:} &\lambda\in\mathbb{R}\ \forall x\in U :& \lambda x \in U
 \\
-& (2b) \quad \text{outer operation:} &\forall x,y\in U &:x+y \in U
+& (2b) \quad \text{outer operation:} &\forall x,y\in U :& x+y \in U
 \end{eqnarray}$$
+
+---
+
+#### how to identify a subspace
+
+- For every [[vector space]] $\displaystyle \large V$ the trivial subspace are: $\displaystyle \large V$ itself and $\displaystyle \large \{0\}$
+
+- The solution of a linear equation system $\displaystyle \large \boldsymbol{A}\boldsymbol{x} = \boldsymbol{0}$ with $\displaystyle \large n$ unknowns $\displaystyle \large \boldsymbol{n} = [x_1, \dots, x_n]$ *is a subspace of $\displaystyle \large \mathbb{R}^n$
+
+- The solution of a linear equation system with $\displaystyle \large \boldsymbol{b} \ne \boldsymbol{0}$, $\displaystyle \large \boldsymbol{Ax} = \boldsymbol{b}$ is *not* a subspace of $\displaystyle \large \mathbb{R}^n$
+
+![[Pasted image 20250116163606.png]]

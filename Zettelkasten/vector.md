@@ -1,6 +1,8 @@
 ---
 tags:
   - Linear-algebra
+aliases:
+  - vectors
 ---
 Vector is a set of attributes that describes an object:
 
