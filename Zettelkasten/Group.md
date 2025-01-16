@@ -21,7 +21,18 @@ $$\displaystyle \Huge \begin{eqnarray}
 $$\displaystyle \Huge \begin{eqnarray} 
 \exists e \in S\ \forall x \in S:x \otimes e = x \text{ and } e \otimes x = x
 \end{eqnarray}$$
-4. *Inverse Element*
+4. *Inverse element*
 $$\displaystyle \Huge \begin{eqnarray} 
-\forall x \in S\ \exists
+\forall x \in S\ \exists y \in S: x \otimes y = e \text{ and } y \otimes x = e
+\\\\
+\text{often this the inverse element is defined as $x^{-1}$}
 \end{eqnarray}$$
+
+>[!example] examples
+> - ([[Integer numbers|Integers]]) and $\displaystyle \large +$: $\displaystyle \large (\mathbb{Z}, +)$ is a group
+> - [[Natural numbers|Naturals]] and $\displaystyle \large +$: $\displaystyle \large (\mathbb{N}_0, +)$ is *not* a group. It has the neutral element but the inverse element is missing
+> - [[Real numbers|Reals]] and $\displaystyle \large +$:  $\displaystyle \large (\mathbb{R^n}, +) \text{ and } (\mathbb{Z}^n, +), n\in \mathbb{N}$ are [[Abelian Group]] if $\displaystyle \large +$ is [[element-wise multiplication|componentwise]]:
+> $$\displaystyle \Huge \begin{eqnarray} 
+> (x_1,\dots,x_n) +  (y_1,\dots,y_n) = 
+> (x_1 + y_1,\dots,x_n + y_n)
+> \end{eqnarray}$$
