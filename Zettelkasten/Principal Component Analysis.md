@@ -166,10 +166,86 @@ J &=&
 \\ && \text{we assumed that we have *centered* data (mean = 0),}
 \\ && \text{so the we can get the covariance of $x_n$, called S}
 \\ &=& 
-\sum^N_{n=1}  b_j^T \left( \dfrac{1}{N}  \sum^D_{j=m+1} x_nx_n^T \right) b_j
+\sum^D_{j=m+1}  b_j^T \left( \dfrac{1}{N}  \sum^N_{i=1} x_nx_n^T \right) b_j
 \\ &=& 
-\sum^N_{n=1}  b_j^T S b_j
-
+\sum^D_{j=m+1}  b_j^T S b_j
 \end{eqnarray}$$
 
 This expression might be rewritten using the [[trace operator]]:
+$$\displaystyle \Huge \begin{eqnarray} 
+J &=& 
+\sum^D_{j=m+1}  b_j^T S b_j
+\\ &=& 
+trace\left(\sum^D_{j=m+1}  b_jb_j^T\right)S
+\end{eqnarray}$$
+
+>[!tip] proof of using trace
+>$$\displaystyle \Huge \begin{eqnarray} 
+>b_j = \begin{bmatrix}  b^1_j \\ b^2_j \\ \vdots \\ b^D_j \end{bmatrix}
+>,\quad S = 
+>\begin{bmatrix} 
+>S_{11} & S_{12} & \dots & S_{1D} \\ 
+>\vdots & \vdots & \ddots & \vdots \\
+>S_{D1} & S_{D2} & \dots & S_{DD} \\ 
+>\end{bmatrix}
+>\end{eqnarray}$$
+>so, because $\displaystyle \large b_j$ is an [[orthonormal basis]], the [[inner product]] between different basis vectors will be 0:
+>$$\displaystyle \Huge \begin{eqnarray} 
+>\sum_j b_jb_j^T 
+>&=&
+>\begin{bmatrix} 
+>\sum_j b^1_jb^1_j & \sum_j b^1_jb^2_j & \dots & \sum_j b^1_jb^D_j \\
+>\vdots & \vdots & \ddots & \vdots  \\
+>\sum_j b^D_jb^1_j & \sum_j b^D_jb^2_j & \dots & \sum_j b^D_jb^D_j \\
+>\end{bmatrix}
+>\\\\
+>&=&
+>\begin{bmatrix} 
+>\sum_j b^1_jb^1_j & 0 & \dots & 0 \\
+>\vdots & \vdots & \ddots & \vdots  \\
+>0 & 0 & \dots & \sum_j b^D_jb^D_j \\
+>\end{bmatrix}
+>\end{eqnarray}$$
+>
+>So, the multiplication with S will get only the diagonal, so the [[trace operator|trace]].
+
+Moreover, $\displaystyle \large \sum^D_{j=m+1}b_jb_j^T$ is a [[The orthogonal projection into ND subspaces|projection matrix]] to the [[orthogonal complement of a subspace|orthogonal complement]] of the *principal subspace*.
+
+*since S is the [[Variance]]*, this means that, the **loss is the [[Variance]] projected onto the orthogonal complement of the principal subspace**. Therefore, by *minimising* the loss is equivalent to *minimising the [[Variance]] of the data that lies on the orthogonal subspace*!
+
+>[!important] 
+>*PCA* retains as much [[Variance]] after projection the data into the subspace as possible!
+
+##### finding the orthonormal basis
+
+We have so that the [[loss function]] is (being $\displaystyle \large S$, the [[Covariance Matrix]]),
+$$\displaystyle \Huge \begin{eqnarray} 
+J=\sum^D_{j=m+1}  b_j^T S b_j
+\end{eqnarray}$$
+
+we want to find $\displaystyle \large b_1, b_2, ...$ , but they have a *constraint*, they have to be build an [[orthonormal basis]], so,
+$$\displaystyle \Huge \begin{eqnarray} 
+b_i^Tb_j = 0, i \ne j
+\\
+b_i^Tb_i = 1
+\end{eqnarray}$$
+
+The error to *project* the data onto one vector of the basis, let's call it $\displaystyle \large i$:
+$$\displaystyle \Huge \begin{eqnarray} 
+&&J = b_i^TSb_i, 
+\\
+\text{with a constraint, }&& b_i^Tb_i = 1
+\end{eqnarray}$$
+To solve this *optimisation* we will use [[Lagrange Multiplier|Lagrangian]]:
+$$\displaystyle \Huge \begin{eqnarray} 
+\mathcal{L} = b_i^TSb_i + \lambda(1-b_i^Tb_i)
+\end{eqnarray}$$
+To minimise we will get its [[partial derivatives]] and set them to 0:
+$$\displaystyle \Huge \begin{eqnarray} 
+\dfrac{\partial \mathcal{L}}{\partial\lambda} &=& 1 - b_i^Tb_i = 0
+\\
+&\iff& b_i^Tb_i = 1 \text{ (recover the constraint)}
+\\ \\
+\dfrac{\partial \mathcal{L}}{\partial\lambda} &=& 1 - b_i^Tb_i = 0
+
+\end{eqnarray}$$

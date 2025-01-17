@@ -1,6 +1,8 @@
 ---
 tags:
   - Calculus
+aliases:
+  - Lagrangian
 ---
 *Lagrange Multipliers* is a *analytical method* to find local minimum (or maximum). It is useful *when you have a constrained in your space*.
 
@@ -14,8 +16,14 @@ $$\displaystyle \Huge \begin{eqnarray}
 g(x,y,\dots) &=& 0
 \end{eqnarray}$$
 
+The *Lagrangian* $\displaystyle \large \mathcal{L}$ is defined as:
+$$\displaystyle \Huge \begin{eqnarray} 
+\mathcal{L}(x, \lambda) = f(x) - \lambda g(x)
+\end{eqnarray}$$
+Again, $\displaystyle \large \lambda$ is called a *Lagrange multiplier*.
 
-This function can be unified in one single vector, and so, one system of equations to solve
+
+We try to minimise the Lagrangian, by computing the [[partial derivatives]] and setting it to zero:
 $$\displaystyle \Huge \begin{eqnarray} 
 \nabla\mathcal{L}(x, y, \dots,\lambda) = 
 \begin{bmatrix} 

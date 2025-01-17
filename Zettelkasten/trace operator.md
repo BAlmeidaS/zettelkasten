@@ -30,4 +30,9 @@ $$\displaystyle \Huge \begin{eqnarray}
 trace(AB) = trace(BA)
 \end{eqnarray}$$
 - sum of [[eigenvalue]]
+		The *trace of a matrix is **equal** to the sum of its [[eigenvalue|eigenvalues]]
 		
+- *Derivative in Matrix Calculus*
+$$\displaystyle \Huge \begin{eqnarray} 
+\dfrac{d}{dx}trace(A) = trace\left(\dfrac{dA}{dx}\right)
+\end{eqnarray}$$
