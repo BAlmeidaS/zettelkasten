@@ -147,9 +147,29 @@ x_n = (\sum^m_{j=1} b_jb_j^T)x_n + (\sum^D_{j=m+1} b_jb_j^T)x_n
 
 The *error will be based on the second term*, which is the [[orthogonal complement of a subspace|orthogonal complement]] of the *principal subspace*:
 $$\displaystyle \Huge \begin{eqnarray} 
-x_n-\tilde{x}_n &=& (\sum^D_{j=m+1}b_jb_j^T)x_n
+&x_n-\tilde{x}_n &=\ & (\sum^D_{j=m+1}b_jb_j^T)x_n
 \\
-&=& (\sum^D_{j=m+1}b_j^Tx_n)b_j \quad
+(6) & \quad &=& (\sum^D_{j=m+1}b_j^Tx_n)b_j & \quad\text{symmetry of inner}
+\end{eqnarray}$$
+So the loss $\displaystyle \large J$ might be rewritten as (using the concept of [[Covariance]]),
+$$\displaystyle \Huge \begin{eqnarray} 
+J &=& 
+\dfrac{1}{N} \sum^N_{n=1} \lvert \lvert x_n - \tilde{x}_n \rvert \rvert ^ 2
+\\ &=&
+\dfrac{1}{N} \sum^N_{n=1} \lvert \lvert \sum^D_{j=m+1} (b_j^Tx_n) b_j \rvert \rvert ^ 2
+\quad\text{using (6)}
+\\ &=&
+\dfrac{1}{N} \sum^N_{n=1} \sum^D_{j=m+1} (b_j^Tx_n)^2  
+\qquad\text{B is an orthonormal basis ($b_j^2 = 1$)}
+\\ &=&
+\dfrac{1}{N} \sum^N_{n=1} \sum^D_{j=m+1} b_j^Tx_nx_n^Tb_j
+\\ && \text{we assumed that we have *centered* data (mean = 0),}
+\\ && \text{so the we can get the covariance of $x_n$, called S}
+\\ &=& 
+\sum^N_{n=1}  b_j^T \left( \dfrac{1}{N}  \sum^D_{j=m+1} x_nx_n^T \right) b_j
+\\ &=& 
+\sum^N_{n=1}  b_j^T S b_j
+
 \end{eqnarray}$$
 
-
+This expression might be rewritten using the [[trace operator]]:
