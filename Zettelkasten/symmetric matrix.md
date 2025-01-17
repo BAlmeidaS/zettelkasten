@@ -24,3 +24,6 @@ $$\displaystyle \Huge \begin{eqnarray}
 \end{eqnarray}$$
 
 ![[Pasted image 20240131221416.png]]
+
+>[!tip]
+> *Symmetric matrix* have [[eigenvector]] that are *guaranteed* to be [[Orthogonal]] to each other
