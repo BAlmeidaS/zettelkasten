@@ -117,14 +117,39 @@ Since we want to minimise the error, the *derivative must be 0* with the respect
 $$\displaystyle \Huge \begin{eqnarray} 
 \dfrac{\partial J}{\partial \beta_{in}} &=& 
 -\dfrac{2}{N}(x_n^Tb_i - \beta_{in}b_i^Tb_i)  = 0
-\iff \beta_{in} = x_n^Tb_i
+\iff \beta_{in} = x_n^Tb_i \quad (5)
 \end{eqnarray}$$
 and this returns to equation $\displaystyle \large (2)$. *$\displaystyle \large \beta_{in}$ must be the projection of $\displaystyle \large x$ over the vector $\displaystyle \large b_i$*.
 
+##### Rephrasing the loss
 
+Reinterpreting $\displaystyle \large \tilde{x}_n$:
+$$\displaystyle \Huge \begin{eqnarray} 
+\tilde{x}_n 
+&=& \sum^m_{j=1} \beta_{jn}b_j 
+&\qquad\text{using (3)}
+\\
+&=& \sum^m_{j=1} (x_n^Tb_j)b_j 
+&\qquad\text{using (5)}
+\\
+&=& (
+\overbrace{
+\sum^m_{j=1} b_jb_j^T
+}^{\text{projection matrix}}
+) x_n
+&\qquad\text{cause inner are symmetric}
+\end{eqnarray}$$
 
+Reinterpreting $\displaystyle \large x_n$:
+$$\displaystyle \Huge \begin{eqnarray} 
+x_n = (\sum^m_{j=1} b_jb_j^T)x_n + (\sum^D_{j=m+1} b_jb_j^T)x_n
+\end{eqnarray}$$
 
-
-
+The *error will be based on the second term*, which is the [[orthogonal complement of a subspace|orthogonal complement]] of the *principal subspace*:
+$$\displaystyle \Huge \begin{eqnarray} 
+x_n-\tilde{x}_n &=& (\sum^D_{j=m+1}b_jb_j^T)x_n
+\\
+&=& (\sum^D_{j=m+1}b_j^Tx_n)b_j \quad
+\end{eqnarray}$$
 
 
