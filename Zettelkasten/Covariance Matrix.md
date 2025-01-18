@@ -2,7 +2,7 @@
 tags:
   - Statistics
 ---
-A *Covariance Matrix*, defined as $\displaystyle \large \Sigma$, is a matrix that contains all [[Covariance|covariances]] from each pair of features of a dataset, and the [[Variance]] of the features.
+a *Covariance Matrix*, defined as $\displaystyle \large \Sigma$, is a matrix that contains all [[Covariance|covariances]] from each pair of features of a dataset, and the [[Variance]] of the features.
 
 #### Definition
 
@@ -45,3 +45,24 @@ Cov(X_2, X_1) & Var(X_2) & \dots & Cov(X_1, X_d) \\
 Cov(X_d, X_1) & Cov(X_d, X_d) & \dots & Var(X_d) \\
 \end{bmatrix}
 \end{eqnarray}$$
+
+---
+
+The covariance matrix might be calculated in *vector-way* as follows.
+
+Given a dataset,
+$$\displaystyle \Huge \begin{eqnarray} 
+x_1, ..., x_N \in \mathbb{R}^D
+\end{eqnarray}$$
+The *covariance matrix* might be calculated as:
+$$\displaystyle \Huge \begin{eqnarray} 
+&&S = \dfrac{1}{N}X^TX
+\\
+where,&&
+\\
+&& X = \begin{bmatrix} x_1^T \\ \vdots \\ x_N^T \end{bmatrix} \in \mathbb{R}^{N \times D}
+\end{eqnarray}$$
+
+The [[rank of a matrix|rank]] of $\displaystyle \large S$ will be $\displaystyle \large N$.
+
+

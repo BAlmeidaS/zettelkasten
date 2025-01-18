@@ -1,6 +1,8 @@
 ---
 tags:
   - Linear-algebra
+aliases:
+  - eigenvectors
 ---
 *eigenvector* are [[vector|vectors]] that *after a [[linear transformation]] don't change their direction*, the lingo is "the span is the same". Thus, they can be used as the *characteristic* property of the *transformation*.
 

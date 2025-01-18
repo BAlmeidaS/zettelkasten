@@ -1,6 +1,8 @@
 ---
 tags:
   - Linear-algebra
+aliases:
+  - eigenvalues
 ---
 *Eigenvalue is a scalar associated to [[eigenvector|eigenvectors]]*.
 
