@@ -25,8 +25,23 @@ Each data point $\displaystyle \large x$ will be [[The orthogonal projection int
 The projection will be called $\displaystyle \large \tilde{x}$:
 $$\displaystyle \Huge \begin{eqnarray} 
 \tilde{x} = \pi_u (x) = BB^Tx
-
 \end{eqnarray}$$
+
+>[!note] using the projection matrix
+> [[The orthogonal projection into ND subspaces|projection matrix]]
+>$$\displaystyle \Huge \begin{eqnarray} 
+>\tilde{x} &=& (proj\_matrix \cdot x^T)
+>\\
+>&=& (
+>B\cdot 
+>(B^T\cdot 
+>B)^{-1}\cdot 
+>B^T
+>\cdot x^T)
+>\end{eqnarray}$$
+>
+>in practice, the inverse parenthesis is not necessary when the data is orthonormal
+
 
 Being $\displaystyle \large B^Tx$ the *coordinates* of the projection of $\displaystyle \large x$ with respect to [[orthonormal basis]] created with the *firsts* [[eigenvector|eigenvectors]]/*principal components*.
 
