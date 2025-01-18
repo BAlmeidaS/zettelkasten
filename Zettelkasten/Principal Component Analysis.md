@@ -54,3 +54,9 @@ Being $\displaystyle \large B^Tx$ the *coordinates* of the projection of $\displ
 >- 3: Calculate the eigenvector and eigenvalues of the covariance matrix. We call the eigenvector with the largest eigenvalue the principal component eigenvector
 >
 >- Step 4: Find the new data of reduced dimensionality
+
+![[Pasted image 20250118200205.png]]
+
+$\displaystyle \large B^T$ transform $\displaystyle \large x$ from a higher dimensional space to $\displaystyle \large z$ on a lower dimensional space. This can be undone by applying $\displaystyle \large B$ on $\displaystyle \large z$. Nonetheless, an error will be created $\displaystyle \large \lvert x - \tilde{x} \rvert$.
+
+Figure above, shows PCA as a *linear* [[Autoencoders]]
