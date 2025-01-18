@@ -30,3 +30,12 @@ $$\displaystyle \Huge \begin{eqnarray}
 
 Being $\displaystyle \large B^Tx$ the *coordinates* of the projection of $\displaystyle \large x$ with respect to [[orthonormal basis]] created with the *firsts* [[eigenvector|eigenvectors]]/*principal components*.
 
+>[!note] PCA step-by-step
+>
+>- 1: Normalise the data
+>
+>- 2: Construct the covariance matrix of the data
+>
+>- 3: Calculate the eigenvector and eigenvalues of the covariance matrix. We call the eigenvector with the largest eigenvalue the principal component eigenvector
+>
+>- Step 4: Find the new data of reduced dimensionality
