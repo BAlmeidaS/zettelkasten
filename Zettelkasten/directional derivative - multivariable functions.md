@@ -10,13 +10,17 @@ If you have some [[multivariable function]], $\displaystyle \large f: \mathbb{R}
 
 The *directional derivative* is defined as $\displaystyle \large D_vf$
 
-This will be the [[dot product]] of the [[gradient]] with $\displaystyle \large \vec{v}$:
+This will be the [[dot product]] of the [[gradient]] ([[Grad of F]]) with $\displaystyle \large \vec{v}$:
 $$\displaystyle \Huge \begin{eqnarray} 
 D_vf &=& \nabla_{\vec{v}}f \\
-     &=& \nabla f \cdot\vec{v} \\
-     &=& \sum^n_{i=0} \vec{v}_i * \dfrac{\partial f(x_0, x_1, \cdots)}{\partial x_i}
+     &=& \nabla f(\vec{a}) \cdot\vec{v} \\
 \end{eqnarray}$$
 
+
+$$\displaystyle \Huge \begin{eqnarray} 
+D_vf &=& \nabla_{\vec{v}}f \\
+     &=& \sum^n_{i=0} \vec{v}_i * \dfrac{\partial f(x_0, x_1, \cdots)}{\partial x_i}
+\end{eqnarray}$$
 ---
 
 *usually the vector $\displaystyle \large \vec{v}$ is normalized to a [[unit vector]]*, but this is not a restriction, it is just good practice to ensure a consistent interpretation of the directional derivative as a rate of change per unit length.
