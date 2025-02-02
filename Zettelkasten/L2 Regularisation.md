@@ -1,6 +1,8 @@
 ---
 tags:
   - machine-learning
+aliases:
+  - ridge regularisation
 ---
 *L2 regularization* is also known as *ridge*.
 
