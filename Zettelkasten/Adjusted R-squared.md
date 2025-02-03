@@ -4,8 +4,17 @@ tags:
 ---
 Using `r` often you will see two types of [[Degree of Fit - Linear Regression|r-squared]].
 
-***Adjusted R-squared** is usually a **better choice** than Multiple for evaluating the overall effectiveness*
+***Adjusted R-squared** is usually a **better choice** than [[Degree of Fit - Linear Regression|r^2]] for evaluating the overall effectiveness*
 
-- **Definition**: It measures the proportion of variance in the dependent variable that is predictable from the independent variables.
-- **Use**: It gives you an overall idea of how well your model explains the variability of the response data.
-- **Limitation**: It always increases as you add more [[Explanatory variable|independent variable]] to your model, regardless of whether those [[Explanatory variable|independent variable]] are actually meaningful. This can be misleading, especially with a large number of variables, as it might suggest a better fit than is truly the case.
+[[Degree of Fit - Linear Regression|r-squared]] always increases (or stays the same) when more independent variables are added to a regression model, even if those variables have little to no explanatory power.
+
+**Adjusted R-sqiared**, however, *introduces a penalty for adding variables that do not improve the model significantly*. It adjusts for the number of predictors, preventing [[overfitting]].
+
+$$\displaystyle \Huge \begin{eqnarray} 
+r^2_{adj} = 1 - \left(\dfrac{(1 - r^2)(n-1)}{n-p-1}\right)
+\end{eqnarray}$$
+- $\displaystyle \large r^2$ is the [[Degree of Fit - Linear Regression|r-squared]] calculated
+- $\displaystyle \large n$ is the number of *observations* / *datapoints*
+- $\displaystyle \large p$ the number of [[Explanatory variable|independent variables]] used on the regression
+
+

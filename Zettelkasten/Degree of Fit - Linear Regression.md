@@ -34,6 +34,14 @@ r^2 &=&
 1 - \dfrac{ \sum{(y_i- \hat{y}_i)} }{\sum{(y_i- \bar{y})} }
 \end{eqnarray}$$
 
+---
+
+- **Definition**: It measures the proportion of variance in the dependent variable that is predictable from the independent variables.
+- **Use**: It gives you an overall idea of how well your model explains the variability of the response data.
+- **Limitation**: It always increases as you add more [[Explanatory variable|independent variable]] to your model, regardless of whether those [[Explanatory variable|independent variable]] are actually meaningful. This can be misleading, especially with a large number of variables, as it might suggest a better fit than is truly the case - solution: [[Adjusted R-squared]]
+---
+
+
 >[!hint] The interpretation of r-squared
 > if $\displaystyle \large r^2$ is 0.6 (or 60%) we understand as **x-variable explain 60% of the the variation of the y-variable**:
 > ![[Pasted image 20250202204901.png]]
