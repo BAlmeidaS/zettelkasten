@@ -1,3 +1,9 @@
+---
+tags:
+  - Statistics
+  - machine-learning
+---
+
 *Logistic regression* fits a [[Sigmoid function]] on the data.
 
 It makes a linear combination of the features:
