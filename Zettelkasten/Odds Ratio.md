@@ -18,7 +18,7 @@ The *OR* is particularly *used to compare the likelihood of a particular outcome
 - $\displaystyle \large OR \gt 1$: The event we are interested in is *more equally* likely when $\displaystyle \large X = a$. 
 - $\displaystyle \large OR \lt 1$: The event we are interested in is *less equally* likely when $\displaystyle \large X = a$. 
 
-As in [[Log Odds]] it is common to apply *log* to *odds ratio* and create **log odds ratio**.
+As in [[Log Odds]] it is common to apply *log* to *odds ratio* and create **log odds ratio**, to make it *symmetric and easily interpretable*.
 
 ---
 For instance,

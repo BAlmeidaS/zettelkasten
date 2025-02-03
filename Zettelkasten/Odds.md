@@ -4,7 +4,7 @@ tags:
 ---
 Odds should *NOT* be confused with *probability*.
 
-*Odds are the ration of something happening to something not happen*
+*Odds are the ratio of something happening to something not happen*
 
 $$\displaystyle \Huge \begin{eqnarray} 
 odds &=& \dfrac{\text{probability of winning}}{\text{probability of losing}} \\ \\
