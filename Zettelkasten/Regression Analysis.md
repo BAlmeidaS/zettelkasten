@@ -39,22 +39,21 @@ The [[Maximum Likelihood]] model is defined as [[how to find the best fit of lin
 *To analyse the quality of linear models **always remember of** [[Model Checking - Linear Model]]*
 
 >[!important] statistical relevance
-
 The *statistical relevance* comes from running an [[F test]] comparing the *variance explained by the model* against the *variance left explained*.
-
-The easiest way to grasp this is by understanding as an F Test between the *y-hat and the [[Deviation|Residuals]]:
-```R
-model <- lm (y ~ x, data=df)
-
-y_hat <- fitted(model) # predicted values
-residuals <- residuals(model) # Errors distribution : (y - y-hat)
-
-var.test(y_hat, residuals) # F-test comparing explained vs. residual variance
-```
-
-*This is wrong but it is a way to remember!* It is wrong because the right way is to calculating the f-statistics manually, and plotting on the correct f-distribution.
-
-In order to calculate manually and get the correct f-distribution, one must take into account the [[Degrees of Freedom]] of the model! But this turns out to be [[Calculating the f-statistics of a linear regression|a more complicated math]].
+>
+>The easiest way to grasp this is by understanding as an F Test between the *y-hat and the [[Deviation|Residuals]]:
+>```R
+>model <- lm (y ~ x, data=df)
+>
+>y_hat <- fitted(model) # predicted values
+>residuals <- residuals(model) # Errors distribution : (y - y-hat)
+>
+>var.test(y_hat, residuals) # F-test comparing explained vs. residual variance
+>```
+>
+> *This is wrong but it is a way to remember!* It is wrong because the right way is to calculating the f-statistics manually, and plotting on the correct f-distribution.
+> 
+> In order to calculate manually and get the correct f-distribution, one must take into account the [[Degrees of Freedom]] of the model! But this turns out to be [[Calculating the f-statistics of a linear regression|a more complicated math]].
 
 ---
 
