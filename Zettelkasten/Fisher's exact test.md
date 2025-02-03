@@ -1,6 +1,8 @@
 ---
 tags:
   - Statistics
+aliases:
+  - fisher exact test
 ---
 
 Very similar with [[chi-squared test]], but you must use it when **one or more of the expected frequencies are less than 5**
