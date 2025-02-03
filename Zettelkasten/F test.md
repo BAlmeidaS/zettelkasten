@@ -5,6 +5,7 @@ aliases:
   - F test
   - Fisher's F test
   - var test
+  - f-test
 ---
 A test to *compare variances* of 2 distributions.
 

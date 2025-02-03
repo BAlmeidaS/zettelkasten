@@ -41,8 +41,6 @@ r^2 &=&
 - **Limitation**: It always increases as you add more [[Explanatory variable|independent variable]] to your model, regardless of whether those [[Explanatory variable|independent variable]] are actually meaningful. This can be misleading, especially with a large number of variables, as it might suggest a better fit than is truly the case - solution: [[Adjusted R-squared]]
 ---
 
-In order to calculate the 
-
 >[!hint] The interpretation of r-squared
 > if $\displaystyle \large r^2$ is 0.6 (or 60%) we understand as **x-variable explain 60% of the the variation of the y-variable**:
 > ![[Pasted image 20250202204901.png]]

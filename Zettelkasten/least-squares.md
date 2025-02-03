@@ -1,6 +1,8 @@
 ---
 tags:
   - Statistics
+aliases:
+  - closed-form
 ---
 The *best-fit* slope is found by *rotating the line* until the [[Sum of squares errors]] (SSE) is minimised. So we can get when its [[derivative]] *is equal to 0* (using [[Chain Rule]]):
 $$\displaystyle \Huge \begin{eqnarray} 
@@ -20,6 +22,20 @@ from the [[Correct sums]] ([[SSXY]] and [[SSX]]), we can reduce to:
 $$\displaystyle \Huge \begin{eqnarray} 
 b &=& \dfrac{SSXY}{SSX} \\
 \end{eqnarray}$$
+
+this solution is called **analytical solution** or **closed-form**.
+
+>[!important] Important : Gradient Descent
+> We can also find the minimum of the [[Sum of squares errors|Sum of Squares]] using some [[iteration|iterative]] method, like [[Gradient Descent]]. 
+> For large datasets *Gradient Descent* is usually faster:
+> - closed-form : $\displaystyle \large O(p^3 + np^2)$
+> - gradient-descent : $\displaystyle \large O(knp)$ 
+>
+> being:
+> - $\displaystyle \large p$ : number of [[Explanatory variable|independent variables]]
+> - $\displaystyle \large n$ : number of *observations* / *datapoints*
+> - $\displaystyle \large k$ : number of iterations on the gradient descent
+
 
 ---
 
