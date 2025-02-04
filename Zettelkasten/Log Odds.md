@@ -26,6 +26,12 @@ being $\displaystyle \large p$ the probability of that variable to be true
 >$$\displaystyle \Huge \begin{eqnarray} 
 >p = \dfrac{e^{log(odds)}}{1 + e^{log(odds)}}
 >\end{eqnarray}$$
+> of course this is the same as the [[Sigmoid function]]:
+> $$\displaystyle \Huge \begin{eqnarray} 
+> f(p) = \dfrac{1}{1 + e^{-p}}
+>\end{eqnarray}$$
+> 
+
 
 The idea to *apply log* over odds is **to make it symmetrical around 0**, instead of going from 0 to $\displaystyle \large \infty$, it goes from $\displaystyle \large -\infty$ to $\displaystyle \large \infty$.
 
