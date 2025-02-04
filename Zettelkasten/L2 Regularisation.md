@@ -12,12 +12,13 @@ $$\displaystyle \Huge \begin{eqnarray}
 Loss &=& Pure\_Loss + \lambda\sum\beta_j^2
 \end{eqnarray}$$
 
+$\displaystyle \large \lambda$ is a [[Hyperparameters of the model|Hyperparameter]] of the model, it sets how much of the penalty will be given for the coefficients.
+
 >[!note] machine learning lingo
 > It is said that L2 regularisation *adds bias* into the model, *reducing the variance*, therefore.
 
-
-
-$\displaystyle \large \lambda$ is a [[Hyperparameters of the model|Hyperparameter]] of the model, it sets how much of the penalty will be given for the coefficients.
+>[!important]
+>**The intercept is not including on the penalty!**
 
 In opposite of [[L1 Regularisation|L1]], *L2 does not work well as feature selection*, because it does not reduce the coefficients to zero.
 
@@ -28,7 +29,5 @@ In opposite of [[L1 Regularisation|L1]], *L2 does not work well as feature selec
 >
 >![[Pasted image 20240216180111.png]]
 
-
-
-
+![[Pasted image 20250204165759.png|400]]
 

@@ -16,6 +16,12 @@ Loss &=& Pure\_Loss + \lambda\sum|\beta_j|
 
 $\displaystyle \large \lambda$ is a [[Hyperparameters of the model|Hyperparameter]] of the model, it sets how much of the penalty will be given for the coefficients.
 
+>[!note] machine learning lingo
+> It is said that L2 regularisation *adds bias* into the model, *reducing the variance*, therefore.
+
+>[!important]
+>**The intercept is not including on the penalty!**
+
 L1 reg has some *special features*:
 - It can result in [[sparse vector|sparse]] models, with few coefficients (some zeros) - In the jargon *it shrinks the less important feature’s coefficient to zero thus, removing some features*.
 - Good when it has a *high number of features*
@@ -26,3 +32,5 @@ L1 reg has some *special features*:
 >
 >*the consequence*: The diamond-shaped constraint of L1 regularization means that optimization paths are more likely to hit the axes (where one of the weights becomes exactly zero), leading to sparsity in the model coefficients. This property is particularly useful for feature selection.
 >![[Pasted image 20240216175343.png]]
+
+![[Pasted image 20250204165837.png|400]]
