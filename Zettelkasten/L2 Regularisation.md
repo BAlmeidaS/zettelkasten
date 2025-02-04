@@ -10,8 +10,12 @@ Basically, it add a penalty on the [[Cost function]] equal to the *square of the
 
 $$\displaystyle \Huge \begin{eqnarray} 
 Loss &=& Pure\_Loss + \lambda\sum\beta_j^2
-
 \end{eqnarray}$$
+
+>[!note] machine learning lingo
+> It is said that L2 regularisation *adds bias* into the model, *reducing the variance*, therefore.
+
+
 
 $\displaystyle \large \lambda$ is a [[Hyperparameters of the model|Hyperparameter]] of the model, it sets how much of the penalty will be given for the coefficients.
 
