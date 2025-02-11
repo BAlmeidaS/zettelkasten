@@ -17,3 +17,5 @@ A way to evaluate [[Clustering]] using [[Hypothesis Test]]
 6. **Interpret Results:**
     - If the p-value is small (typically below a predefined significance level like 0.05), you reject the null hypothesis and conclude that your clustering result is significantly different from random chance.
     - If the p-value is not small, you fail to reject the null hypothesis, indicating that your clustering result is not significantly different from random chance.
+
+	
