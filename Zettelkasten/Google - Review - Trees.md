@@ -18,6 +18,10 @@ look all the nodes in each level before going the deeper levels
 look all the descendants of a node before moving to the next 
 
 
+Concepts:
+- *height* : (of the tree) length of the *longest path to a leaf*
+- *depth* : (of the node) length of the *path to its root* 
+
 # Types
 
 ## Binary Tree
