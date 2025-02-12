@@ -16,8 +16,8 @@
 ### Trie
 [[Google - Review - Trie]]
 
-### Topic
-
+### Stacks and Queues
+[[Google - Review - Stacks and Queues]]
 
 ### Topic
 
