@@ -5,7 +5,7 @@
 
 
 ### linked list
-lookup : $\displaystyle \large O(n)$
+[[Google - Review - Linked List]]
 
 ### Hash map
 [[Google - Review - Hash Tables]]
