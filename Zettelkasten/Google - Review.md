@@ -19,7 +19,8 @@
 ### Stacks and Queues
 [[Google - Review - Stacks and Queues]]
 
-### Topic
+### Heap
+[[Google - Review - Heap]]
 
 
 ### Topic
