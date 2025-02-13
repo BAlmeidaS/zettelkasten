@@ -37,8 +37,40 @@ So, an *array* will be the easiest implementation
 ![[Pasted image 20250213102532.png|400]]
 
 # Python - heapq module
+*heapify* is $\displaystyle \large O(n)$. It guarantees a valid min-heap but not a full sorted array
+
+*heapify is **faster** than n times a heappush* - Tho the results are the same, n times heappush, takes $\displaystyle \large O(n \log n)$.
+
 ```python
 import heapq
 
-arr = [-4, 3, 1, 0, 2, 10, -2, ]
+arr = [0, 3, 1, 3, 2, 10, -2, 9]
+
+# heapify #
+heapq.heapify(arr) # O(n)
+arr # [-2, 2, 0, 3, 3, 10, 1, 9]
+
+# push #
+heapq.heappush(arr, 7) # push 7 - O(log n)
+arr # [-2, 2, 0, 3, 3, 10, 1, 9, 7]
+
+# pop #
+min_v = heapq.heappop(arr)
+min_v, arr # -2,  [0, 2, 1, 3, 3, 10, 7, 9]
+
+# heap sort #
+def heapsort(arr):
+  heapq.heapify(arr)
+  new_arr = [0] * len(arr)
+
+  for i in range(len(arr)):
+    _min = heapq.heapify(arr)
+    new_arr[i] = _min
+  
+  return new_arr
+
+# max heap #
+arr = [-x for x in arr] # invert the signal and do the all the ops
 ```
+
+### heaps with tuples
