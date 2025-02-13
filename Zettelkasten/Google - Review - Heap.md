@@ -5,10 +5,13 @@ Heap can be max or min!
 
 The top of a *min heap* is always the **smallest value**
 
-# insert
+# Insert
 Always insert in the next empty spot, top to bottom, left to right
-![[Pasted image 20250212220436.png|500]]
+![[compressed.gif|500]]
 
-after inserting, and then *bubble it up* until it keeps the properties of the heap (smallest value is on top):
-![[Kooha-2025-02-12-22-29-29.gif|500]]
+after inserting, it *bubbles data up* until it keeps the properties of the heap (smallest value is on top)
+*In this example a 3 was added in the first space available and bubbled up*:
+
+![[compKooha-2025-02-12-22-29-29.gif|500]]
+
 
