@@ -20,7 +20,7 @@
 [[Google - Review - Stacks and Queues]]
 
 ### Heap
-[[Google - Review - Heap or Priority Queu]]
+[[Google - Review - Heap or Priority Queue]]
 
 
 ### Topic

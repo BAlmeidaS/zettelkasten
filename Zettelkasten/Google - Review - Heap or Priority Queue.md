@@ -1,5 +1,10 @@
 Heap can be max or min!
 
+They are a type of [[Google - Review - Trees|binary tree]] where the top has a special property and it's always complete!
+![[Pasted image 20250213153909.png|450]]
+
+
+
 ### focusing all min because python is like this
 - building a max heap using a min is just inverting the values
 
@@ -70,7 +75,9 @@ def heapsort(arr):
   return new_arr
 
 # max heap #
-arr = [-x for x in arr] # invert the signal and do the all the ops
+arr = [-x for x in arr] # invert the signal and do all the the ops considering the neg input
 ```
 
 ### heaps with tuples
+
+in *python*, you can push tuples inside the heap. In this case, the first value of the tuple will be used to sort!
