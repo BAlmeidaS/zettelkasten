@@ -28,7 +28,9 @@
 ### Recursion
 [[Google - Review - Recursion]]
 
-### Topic
+### Some algorithms
+[[leetcode - khan algorithm]] : Validate if a graph is a DAG
+[[leetcode - disjoint sets]] : Useful to see if nodes are connected in a graph and keeping track after unions
 
 
 ### Topic
