@@ -12,7 +12,11 @@ $\Large f(n) = path\_cost(n) + heuristic(n)$
 
 $\Large path\_cost(n)$ is the total cost from the $\Large initial\ node$ until the node $\Large n$
 
-It uses [[Priority Queue]] in its implementation
+It uses [[Priority Queue]] in its implementation.
+
+>[!note]
+>The algorithm uses two lists to be implemented, often called *closed* and *open*. Being the closed all the nodes already explored, while the open is the remaining nodes
+>![[Pasted image 20250214154812.png|400]]
 
 | Criterion | BFS |
 | --------- | --- |
