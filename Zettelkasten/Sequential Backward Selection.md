@@ -1,8 +1,7 @@
 ---
 tags:
   - machine-learning
-aliases:
-  - BFS
+aliases: []
 ---
 A type of [[feature selection - wrapper methods]]
 
