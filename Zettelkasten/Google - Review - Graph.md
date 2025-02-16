@@ -9,3 +9,4 @@ The graph might be weighted or unweighted. It differs basically by the fact that
 two types of search are the most common one:
 - [[Google - Review - DFS]]
 - [[Google - Review - BFS]]
+- [[Google - Review - Spanning Tree]]
