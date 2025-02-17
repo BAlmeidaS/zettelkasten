@@ -34,7 +34,7 @@
 [[Kruskal's algorithm]] : find the [[Minimum Spanning Tree|MST]] using UnionFind
 [[Prim's algorithm]] : find the [[Minimum Spanning Tree|MST]] using [[Google - Review - Heap or Priority Queue|heaps]]
 [[leetcode - dijkstra's algorithm]] : find the shortest path in a weighted graph using [[Google - Review - Heap or Priority Queue|heaps]]
-
+[[leet code - Bellman-Ford Algorithm]] : finf the shortest path in a weighted graph with negative weights
 
 
 ### Topic
