@@ -1,0 +1,1 @@
+*Kruskal's Algorithm* is an algorithm to find

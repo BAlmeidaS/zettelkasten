@@ -17,6 +17,8 @@ Given a *[[Weighted Graphs|Weighted]] Undirected Graph*, we can define as *Minim
 
 ![[Pasted image 20250216184438.png]]
 
+*How to construct MST? [[Kruskal's algorithm]]*
+
 MST are connected with the **Cut Property**:
 
 A *Cut* in a graph is **a partitition of vertices of a graph into 2 disjoint subsets**:
@@ -39,5 +41,6 @@ A *Cut* in a graph is **a partitition of vertices of a graph into 2 disjoint sub
 >(b,c) \rightarrow W(b,c) < \min (W(a,c), W(a,d), W(e,d))
 >\end{eqnarray}$$
 >Thus, $\displaystyle \large (b,c)$ will be in all MSTs from this graph.
+
 
 
