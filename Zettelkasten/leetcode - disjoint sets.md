@@ -1,3 +1,8 @@
+---
+aliases:
+  - union find
+---
+
 Given a set of nodes, and a previous graph configuration, we want to know if a pair of nodes are connected (directly or indirectly).
 
 >[!hint]
