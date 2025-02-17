@@ -31,6 +31,10 @@
 ### Some algorithms
 [[leetcode - khan algorithm]] : Validate if a graph is a DAG
 [[leetcode - disjoint sets]] : Useful to see if nodes are connected in a graph and keeping track after unions
+[[Kruskal's algorithm]] : find the [[Minimum Spanning Tree|MST]] using UnionFind
+[[Prim's algorithm]] : find the [[Minimum Spanning Tree|MST]] using [[Google - Review - Heap or Priority Queue|heaps]]
+[[leetcode - dijkstra's algorithm]] : find the shortest path in a weighted graph using [[Google - Review - Heap or Priority Queue|heaps]]
+
 
 
 ### Topic

@@ -1,5 +1,6 @@
 ---
-tags:
+aliases:
+  - greedy approach
 ---
 The principle behind a greedy algorithm is to make the *locally optimal choice at each stage with the hope of finding the global optimum*. 
 
