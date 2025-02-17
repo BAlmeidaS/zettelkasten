@@ -1,0 +1,1 @@
+*Prim's Algorithm* is an algorithm to produces [[Minimum Spanning Tree]] of a [[Weighted Graphs|Weighted Undirected Graph]]

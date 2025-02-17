@@ -17,7 +17,7 @@ Given a *[[Weighted Graphs|Weighted]] Undirected Graph*, we can define as *Minim
 
 ![[Pasted image 20250216184438.png]]
 
-*How to construct MST? [[Kruskal's algorithm]]*
+*How to construct MST? [[Kruskal's algorithm]] or [[Prim's algorithm]]*
 
 MST are connected with the **Cut Property**:
 

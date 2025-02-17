@@ -1,4 +1,4 @@
-*Kruskal's Algorithm* is an algorithm to produces [[Minimum Spanning Tree]]
+*Kruskal's Algorithm* is an algorithm to produces [[Minimum Spanning Tree]] of a [[Weighted Graphs|Weighted Undirected Graph]]
 
 The algorithm goes as follows:
 1. *Sort Ascending* all the edges by their weight

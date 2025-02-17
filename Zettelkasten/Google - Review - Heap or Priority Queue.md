@@ -1,3 +1,9 @@
+---
+aliases:
+  - heap
+  - priority queue
+---
+
 Heap can be max or min!
 
 They are a type of [[Google - Review - Trees|binary tree]] where the top has a special property and it's always complete!
