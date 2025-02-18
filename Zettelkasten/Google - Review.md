@@ -26,7 +26,7 @@
 [[Google - Review - Graph]]
 
 ### Recursion
-[[Google - Review - Recursion]]
+[[Recursion]]
 
 ### Some algorithms
 [[leetcode - khan algorithm]] : Validate if a graph is a DAG

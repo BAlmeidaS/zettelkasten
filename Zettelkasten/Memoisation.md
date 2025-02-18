@@ -1,4 +1,4 @@
-*Memorisation* is an optimisation technique used primarily to **speed up** [[Google - Review - Recursion|recursion]] by **storing** the results of expensive function calls and returning the cached result when the same inputs occur again.
+*Memorisation* is an optimisation technique used primarily to **speed up** [[Recursion|recursion]] by **storing** the results of expensive function calls and returning the cached result when the same inputs occur again.
 
 Fibonnaci with memoisation
 
