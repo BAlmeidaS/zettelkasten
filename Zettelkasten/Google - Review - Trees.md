@@ -38,11 +38,11 @@ Concepts:
 
 ![[Pasted image 20250212150511.png|300]]
 ## Other trees
-maybe looking before [https://www.thecrazyprogrammer.com/2019/09/types-of-trees-in-data-structure.html]
+[maybe looking before](https://www.thecrazyprogrammer.com/2019/09/types-of-trees-in-data-structure.html)
 
 - AVL Tree
-- Ref-black tree
-- N-ary tree (binary tree is when n = 2)
+- Red-Black tree
+- *N-ary tree* (binary tree is when n = 2)
 
 # balanced vs unbalanced
 ![[Pasted image 20250212151046.png]]
