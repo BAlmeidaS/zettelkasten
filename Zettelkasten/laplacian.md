@@ -4,6 +4,7 @@ tags:
 aliases:
   - laplacian
   - laplacian operator
+  - harmonic function
 ---
 The *laplace operator* is basically the double [[partial derivatives]] for each variable. Can be defined in two ways using [[Vector nabla|nabla]] and [[dot product]]
 
@@ -22,3 +23,4 @@ $$\displaystyle \Huge \begin{eqnarray}
 >$\displaystyle \large \Delta f > 0$, means that, on average, the neighbour points are *greater than* the point itself
 >$\displaystyle \large \Delta f < 0$, means that, on average, the neighbour points are *lesser than* the point itself
 
+*if $\displaystyle \large \Delta f = 0$ then the **function is named harmonic***.
