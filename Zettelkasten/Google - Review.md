@@ -37,11 +37,7 @@
 [[leet code - Bellman-Ford Algorithm]] : finf the shortest path in a weighted graph with negative weights
 
 
-### Topic
-
-
-### Topic
-
-
-### Topic
+### Bitwise
+[[Brian Kernighan's Algorithm]]
+[[swap two variables without a third variable]]
 
