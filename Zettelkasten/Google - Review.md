@@ -36,6 +36,7 @@
 [[leetcode - dijkstra's algorithm]] : find the shortest path in a weighted graph using [[Google - Review - Heap or Priority Queue|heaps]]
 [[leet code - Bellman-Ford Algorithm]] : finf the shortest path in a weighted graph with negative weights
 
+[[Kadane's algorithm]] : Greedy algorithm to calculate the subarray with the largest sum
 
 ### Bitwise
 [[Brian Kernighan's Algorithm]]
