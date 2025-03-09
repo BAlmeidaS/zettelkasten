@@ -27,5 +27,15 @@ being $\displaystyle \large v_3$ the component on the $\displaystyle \large z$ d
 
 ![[Pasted image 20240129164248.png|500]]
 
-
 *curl and cross-product start with C*
+
+---
+
+$$\displaystyle \Huge \begin{eqnarray} 
+det \left(\begin{bmatrix}
+\hat{i} & \hat{j} & \hat{k} \\ 
+dx & dy & dz \\ 
+x & y & z \\ 
+\end{bmatrix}
+\right) = cross\ product
+\end{eqnarray}$$
