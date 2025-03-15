@@ -4,7 +4,7 @@ tags:
 aliases:
   - non-functional requirement
 ---
-*Functional requirements* define the **qualities** of the system.
+*Non-functional requirements* define the **qualities** of the system.
 
 How a system is supposed to be
 
@@ -14,6 +14,9 @@ How a system is supposed to be
 *Main* non-functional requirements:
 - [[high availability]]
 - [[fault tolerance]]
+- [[resilience]]
+- [[reliability]]
+- [[scalability]]
 
 ---
 

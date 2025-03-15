@@ -6,7 +6,14 @@ aliases:
   - slo
   - sla
 ---
-*High availability* is a [[non-functional requirements|non-functional requirement]], it is usually *measure in percentage* and has two main meanings:
+*High availability* is a [[non-functional requirements|non-functional requirement]].
+
+>[!summary]
+> ***Small downtime***.
+>
+> System knows how to handle **expected failures** (server crash, network problems, power outage) 
+
+It is usually *measure in percentage* and has two main meanings:
 - system **uptime**, the percentage the sys has been available. 99% means unavailable about 3.65 days a year
 - **success ratio** of requests. 99% means 1 request out of 100.
 
