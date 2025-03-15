@@ -16,7 +16,7 @@ How a system is supposed to be
 - [[fault tolerance]]
 - [[resilience]]
 - [[reliability]]
-- [[scalability]]
+- [[Scalability]]
 
 ---
 

@@ -3,7 +3,7 @@ tags:
   - computer-science
 ---
 
- **Horizontal scaling** (Scaling out) is a type of [[scalability]]
+ **Horizontal scaling** (Scaling out) is a type of [[Scalability]]
  - adding more servers
  ![[Pasted image 20250315161844.png|400]]
 

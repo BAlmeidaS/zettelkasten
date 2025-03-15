@@ -2,7 +2,7 @@
 tags:
   - computer-science
 ---
-**Vertical scaling** (Scaling up) is a type of [[scalability]]
+**Vertical scaling** (Scaling up) is a type of [[Scalability]]
  - Making a bigger server
  ![[Pasted image 20250315161802.png|400]]
 
