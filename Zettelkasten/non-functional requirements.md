@@ -9,6 +9,11 @@ How a system is supposed to be
 >[!example]
 > *The system should be scalable, highly available, fast*
 
+*Main* non-functional requirements:
+- [[high availability]]
+- *High availability*
+- 
+
 ---
 
 see also: [[functional requirements]]

@@ -18,6 +18,7 @@ What a system is supposed to do. They have a form of *use cases*:
 
 Starts with the *customer* and *work backwards*:
 ![[Pasted image 20250315004328.png]]
+
 ---
 
 see also: [[non-functional requirements]]
