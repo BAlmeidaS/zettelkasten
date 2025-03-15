@@ -19,6 +19,7 @@ How a system is supposed to be
 - [[Scalability]]
 - [[Performance]]
 - [[Durability]]
+- [[Consistency]]
 
 ---
 
