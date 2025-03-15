@@ -1,6 +1,8 @@
 ---
 tags:
   - computer-science
+aliases:
+  - non-functional requirement
 ---
 *Functional requirements* define the **qualities** of the system.
 
@@ -11,8 +13,7 @@ How a system is supposed to be
 
 *Main* non-functional requirements:
 - [[high availability]]
-- *High availability*
-- 
+- [[fault tolerance]]
 
 ---
 
