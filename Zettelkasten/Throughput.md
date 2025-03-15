@@ -15,4 +15,4 @@ Examples of throughput are:
 - decrease [[Latency]]
 - by using [[Scalability]]
 
-One approach to using scalability is using [[MapReduce]]
+Throughput is closely related to the concept of [[bandwidth]]

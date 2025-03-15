@@ -15,5 +15,5 @@ aliases:
 >[!note]
 >Systems that in face of faults can provide and maintain an acceptable level of service are called *resilient systems*.
 
-*resilience* is closely related to [[fault tolerance]]
+*resilience* is closely related to [[Fault Tolerance]]
 

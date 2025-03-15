@@ -10,7 +10,7 @@ tags:
 > System knows how to handle **expected failures** (server crash, network problems, power outage) 
 
 The concept might be defined as, the combination of:
-	[[high availability]] + *correctness* + *time*
+	[[High Availability]] + *correctness* + *time*
 
 *correctness* : system returns the correct result
 *time* : replies back in time

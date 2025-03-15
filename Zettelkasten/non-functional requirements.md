@@ -12,12 +12,13 @@ How a system is supposed to be
 > *The system should be scalable, highly available, fast*
 
 *Main* non-functional requirements:
-- [[high availability]]
-- [[fault tolerance]]
-- [[resilience]]
-- [[reliability]]
+- [[High Availability]]
+- [[Fault Tolerance]]
+- [[Resilience]]
+- [[Reliability]]
 - [[Scalability]]
 - [[Performance]]
+- [[Durability]]
 
 ---
 

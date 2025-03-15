@@ -5,6 +5,7 @@ aliases:
   - service-level objective
   - slo
   - sla
+  - availability
 ---
 *High availability* is a [[non-functional requirements|non-functional requirement]].
 
