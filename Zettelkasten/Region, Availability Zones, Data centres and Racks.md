@@ -13,3 +13,4 @@ From the big-picture to the small, we have:
 4. that have many *racks*
 5. that have many *servers*
 
+![[Pasted image 20250316163114.png]]
