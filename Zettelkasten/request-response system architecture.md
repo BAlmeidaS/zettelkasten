@@ -18,3 +18,14 @@ Though some problems with this architecture:
 >An *asynchronous* example not necessarily involves a callback, rather is *more common* to see a *client that fires a bunch of async calls* and builds the needed object when all of them return.
 >
 >![[Pasted image 20250316185053.png|600]]
+
+## Network Protocols
+
+There are **two main network protocols** that request-response may use:
+- [[TCP]]
+- [[UDP]]
+
+## Request-Response Protocol
+
+Higher on the OSI model than Network Protocol
+- [[HTTP]]

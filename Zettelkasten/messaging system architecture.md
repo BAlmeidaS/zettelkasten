@@ -21,4 +21,4 @@ We usually call the *client* as the **Producer** and the server as the **Consume
 
 There are two main patterns:
 - [[messaging queuing]]
-- [[publish/subscribe]]
+- [[Publish Subscribe]]
