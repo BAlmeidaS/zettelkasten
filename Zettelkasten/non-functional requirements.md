@@ -20,6 +20,9 @@ How a system is supposed to be
 - [[Performance]]
 - [[Durability]]
 - [[Consistency]]
+- [[Maintainability]]
+- [[Security]]
+- [[Cost]]
 
 ---
 
