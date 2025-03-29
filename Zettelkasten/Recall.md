@@ -5,7 +5,7 @@ tags:
 Useful on [[classification learning|classification]]:
 
 $$\displaystyle \Huge \begin{eqnarray} 
-Precision = \dfrac{TP}{TP+FP}
+Recall = \dfrac{TP}{TP+FN}
 \end{eqnarray}$$
 
-See also [[Recall]]
+See also [[Precision]]
