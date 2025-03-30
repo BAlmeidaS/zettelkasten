@@ -83,4 +83,3 @@ B^TB = I, \text{ so in this case,}
 \end{eqnarray}$$
 
 Both, the basis $\displaystyle \large B$ (by extension, the subspace $\displaystyle \large U$) and the vector $\displaystyle \large x$, are elements of the [[vector space]] $\displaystyle \large \mathbb{R}^{n+1}$, but the projection, needs only $\displaystyle \large n$ elements to be described, since *its the [[linear combination]] of the vectors that define $\displaystyle \large U$*.
-

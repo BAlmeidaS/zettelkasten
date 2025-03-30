@@ -7,6 +7,7 @@ aliases:
   - rank
 ---
 Given a [[matrix]] $\displaystyle \large A$ $\displaystyle \large (m \times n)$,
+k
 - the *row rank* of $\displaystyle \large A$ is the dimension of the span of the rows of A. *It is the maximum number of [[linear independence|linearly independent]] rows*.
 - the *column rank* of $\displaystyle \large A$ is the dimension of the span of the columns of $\displaystyle \large A$. *it is the maximum number of [[linear independence|linearly independent]] columns*
 
