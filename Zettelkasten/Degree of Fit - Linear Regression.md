@@ -29,9 +29,9 @@ r^2
 Being, $\displaystyle \large Var(mean)$ as *the variance around the mean* and $\displaystyle \large Var(fit)$ the *variance around the fit*:
 $$\displaystyle \Huge \begin{eqnarray} 
 r^2 &=& 
-\dfrac{ \sum{(y_i- \bar{y})} - \sum{(y_i- \hat{y}_i)} }{\sum{(y_i- \bar{y})} }
+\dfrac{ \sum{(y_i- \bar{y})^2} - \sum{(y_i- \hat{y}_i)^2} }{\sum{(y_i- \bar{y})^2} }
 \\\\&=&
-1 - \dfrac{ \sum{(y_i- \hat{y}_i)} }{\sum{(y_i- \bar{y})} }
+1 - \dfrac{ \sum{(y_i- \hat{y}_i)^2} }{\sum{(y_i- \bar{y})^2} }
 \end{eqnarray}$$
 
 ---
